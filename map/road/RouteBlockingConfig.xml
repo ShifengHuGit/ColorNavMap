@@ -1,0 +1,33 @@
+﻿<RouteBlockingConfig version="1">   
+   <!--
+      Description:
+      This file describes the appearance of the line shaped route blocking marker.
+      Layer priority will be relative to road netwerk in RoadConfig.xml
+   -->
+   <LineStyle type="normal">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  29000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 28000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+         <LayerPattern layer="0" type="uni-fill">
+            <!--inline-->
+            <Color mode="day"  >#CC1616FF</Color>
+            <Color mode="night">#CC1616FF</Color>
+            <Thickness func="100" unit="px">25.0</Thickness>
+            <Priority>10001</Priority>
+         </LayerPattern>
+
+         <LayerPattern layer="1" type="uni-fill">
+            <!--outline-->
+            <Color mode="day"  >#CC1616FF</Color>
+            <Color mode="night">#CC1616FF</Color>
+            <Thickness func="100" unit="px">25.0</Thickness>
+            <Priority>10000</Priority>
+         </LayerPattern>
+      </LayerSet>
+   </LineStyle>
+   
+ </RouteBlockingConfig>

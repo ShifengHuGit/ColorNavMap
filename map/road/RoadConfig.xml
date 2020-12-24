@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<RoadConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1">
+    <!--
+      Description:
+      
+      This file describes the appearance of line-shape representing roads. Database-wise
+      there are 16 different functional road classes (FRC_0_UNNAMED.. FRC_15_UNNAMED) where
+      FRC_0 represent the most important road class.
+      
+      Multiple database road class can be combined to a common visual style (RoadStyle) and
+      wont be distingushable anymore. 
+      
+      <RoadStyle>
+         The RoadStyle tag represents one visual roadstyle and contains multiple sub tags.
+         
+         attribute "id":    must be unique over all RoadStyles defined in this file. !!! will be obsolete in a future version
+         attribute "desc":  optional, will contain a human readable name for this group of road lines
+         
+         <LineStyle>
+            Each road class will be drawn at least in a normal manner. But there are also additional
+            drawings for the same road class thinkable: a special bridge pattern, or tunnel, or seasonal
+            restriction or a pattern for one-way-arrows, special truck-navigation.. and so on.
+            
+            A RoadStyle defines such visual instances as <LineStyle> sub tags.
+            
+            attribute "type" - names the type of the LineStyle. Until now only two types are supported:
+               "normal"         - the base rendering of the road
+               "bridge"
+               "tollway"
+               "tunnel"
+               "one-way-arrow"  - additional one way arrow rendering if the one way attribute was found on links
+                                  of this road class. Note: for instance the "Highway" road class doesn't specific
+                                  a one-way-arrow LineStyle
+            
+            All sub tags defined for the line style will be only valid for the particular LineStyle.
+      
+            <ScaleLevelVisibility>
+               <ScaleLevelValue type="min">         0</ScaleLevelValue>
+               <ScaleLevelValue type="max">  29000000</ScaleLevelValue>
+               <ScaleLevelValue type="fade"> 28000000</ScaleLevelValue>   
+            </ScaleLevelVisibility>
+            
+            The <ScaleLevelValue> sub tags describe the visibility of the LineStyle depending on the zoom level.
+            The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads 
+            "world centimeter per display centimeter". The "fade" value indicates the zoom level at which the
+            visual element starts to fade out until it is completely invisible at "max". To prevent an element
+            from fading set both to the same value.
+            
+            Note: it is possible to specify different ScaleLevelVisisbility for different LineStyle for instance to
+            let the one-way-arrows fade out earlier than the normal road drawing
+         
+            
+            <LayerSet>
+               Each line style contains of at least one LayerPattern. A LayerPattern will be refined by its type. To
+               construct a simple outlined road, simply specific 2 LayerPatterns, give them a different thickness and
+               a different color and make the thicker one have a less priority than the thinner one, so it will be drawn
+               underneath it.
+         
+               <LayerPattern>
+                  attribute "id"    -  must be unique over all LayerPatterns of a LayerSet at the moment !!!! will be removed later
+                  attribute "type"  -  Currently three pattern types are supported.
+                                       "uni-fill" - The fill pattern consists of a single color.
+                                                    Works for areas and lines.
+
+                                       "dashed"   - Creates a dashed pattern by alternating between to
+                                                    colors.  Works with lines only.
+
+                                       "slashed"  - Same as "dashed" but supports a pattern rotation angle.
+
+                                       "textured" - Uses a texture image as a pattern.
+                                                    Works with lines only.
+                                                    The image is assumed to be a grayscale image with power-of-2
+                                                    dimensions (e.g. 64 x 16).  The grayscale values in the image
+                                                    are used to blend between two colors.  This allows creating line
+                                                    abitrary line patterns with two colors, where one color is
+                                                    usually set to be completely transparent.
+
+                  <Color mode="day"  > - specifies the color for the day color scheme
+                  <Color mode="night"> - specifies the color for the night color scheme
+
+                  <AlternateColor mode="day"  > - specifies the alternate color for the day color scheme.
+                                                  used with pattern types that support alternating colors.
+                  <AlternateColor mode="night"> - specifies the alternate color for the night color scheme.
+                                                  used with pattern types that support alternating colors.
+  
+                  <Priority>            - specifies the level of this layer. The particular value doesn't mean something, only the order is
+                                          important, so make sure all LayerPattern's defined in this file will have a different priority. For instance
+                                          all outline priorities were defined to be below their corresponding inline priorities
+
+                  <Thickness>           - defines the strength or thickness of the road line.
+                     attribute "unit"   - must be "px" which means that the specified numeral will be the width of 
+                                          the line on the screen in pixels
+                     
+                     attribute "func"   - this is important for the appearance of the line over multiple zoom levels
+                                          You can specify a reference value to a so called ScaleLevelFunction (from B8 in zoom/ScaleLevelFunctionConfiguration.xml)
+                                          This ScaleLevelFunction will be used to define the scale behavior of this particular
+                                          LayerPattern. You can define different scale behavior for each LayerPattern causing every line
+                                          drawn on the screen scale differently or you can define all of the to behave equally.
+
+                  <PatternTexture>      - A string that specifies the filename of the texture image to be used
+                                          for textured pattern types.
+
+                  <Aspect>              - Optional scale value which can be used to adjust the default pattern aspect
+                                          ratio.  The default value is 1.0.
+                                          Values < 1 will stretch the pattern.
+                                          Values > 1 will shrink the pattern.
+                                          Supported by "textured", "dashed" and "slashed" types.
+
+                  <Density>             - Optional value which defines the ratio of color and alternate color
+                                          lengths.  The default value is 0.5.
+                                          Supported by "dashed" and "slashed" types.
+
+                  <SlashAngle>          - Optional value which defines the pattern rotation angle in degrees.
+                                          Supported by "slashed" types.  The default value is 0.0.
+         </LineStyle>
+        
+         NEW:
+         <RoadClassGroupId>
+            Reference to RoadClassGroup defined in  RoadClassGroupConfiguration.xml
+            Since version: 1 ( 2012-10-16 )
+         </RoadClassGroupId>
+         OLD:
+         <FunctionalRoadClassReferences>
+            List all functional road classes within this tag that shall be visible under this road style.
+            Note: a functional road class is NOT allowed to be defined in more than one RoadStyle definition,
+            but is allowed to remain undefined.
+         </FunctionalRoadClassReferences>
+    
+    </RoadStyle>
+   -->
+
+  <RoadStyle desc="Highway" id="0">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  30000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 21000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#D5DDE3FF</Color>
+          <Color mode="night">#FFE8FCFF</Color>
+          <Thickness func="105" unit="px">8.0</Thickness>
+          <Priority>1300</Priority>
+        </LayerPattern>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#0CB6FFFF</Color>
+          <Color mode="night">#FF173AFF</Color>
+          <Thickness func="105" unit="px">10.0</Thickness>
+          <Priority>1200</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="bridge">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#D5DDE3FF</Color>
+          <Color mode="night">#9A9EC0FF</Color>
+          <Thickness func="133" unit="px">8.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1301</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="tunnel">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  250000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 250000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#2F488EFF</Color>
+          <Color mode="night">#74778CFF</Color>
+          <Thickness func="133" unit="px">9.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1302</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="tollway">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#D5DDE3FF</Color>
+          <Color mode="night">#9A9EC0FF</Color>
+          <Thickness func="133" unit="px">8.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1303</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="cartrans_ferry">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="133" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>53</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <LineStyle type="cartrans_rail">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="133" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    <RoadClassGroupId>0</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+  
+  
+  <RoadStyle desc="Motorway" id="1">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  30000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 21000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LabelStyle>84</LabelStyle>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#EBE148FF</Color>
+          <Color mode="night">#424455FF</Color>
+          <Thickness func="104" unit="px">10.0</Thickness><!--8-->
+          <Priority>1000</Priority>
+        </LayerPattern>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#61A469FF</Color>
+          <Color mode="night">#263CFFFF</Color>
+          <Thickness func="104" unit="px">14.0</Thickness><!--15-->
+          <Priority>90</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="bridge">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#EBE148FF</Color>
+          <Color mode="night">#999354FF</Color>
+          <Thickness func="100" unit="px">8.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1001</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="tunnel">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  250000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 250000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#BCAF83FF</Color>
+          <Color mode="night">#999354FF</Color>
+          <Thickness func="100" unit="px">10.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1002</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="tollway">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  30000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 30000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#F7E148FF</Color>
+          <Color mode="night">#999354FF</Color>
+          <Thickness func="100" unit="px">8.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1003</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+   
+    <LineStyle type="cartrans_ferry">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>52</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <LineStyle type="cartrans_rail">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    <RoadClassGroupId>1</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+  
+  
+  <RoadStyle desc="Major" id="2">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LabelStyle>84</LabelStyle>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">  #6F7084FF</Color>
+          <Color mode="night">#424447FF</Color>
+          <Thickness func="103" unit="px">10.0</Thickness><!--8-->
+          <Priority>900</Priority>
+        </LayerPattern>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">  #A1A2BFFF</Color>
+          <Color mode="night">#23A56CFF</Color>
+          <Thickness func="103" unit="px">12.0</Thickness><!--14-->
+          <Priority>80</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="bridge">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 39000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#F1E8A3FF</Color>
+          <Color mode="night">#726D50FF</Color>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>901</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="tunnel">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 39000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#B5AD86FF</Color>
+          <Color mode="night">#716F62FF</Color>
+          <Thickness func="100" unit="px">10.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>902</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="tollway">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 39000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#F1E8A3FF</Color>
+          <Color mode="night">#726D50FF</Color>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>903</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="seasonal-restricted">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  40000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 39000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#B5AD86FF</Color>
+          <Color mode="night">#716F62FF</Color>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>904</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="one-way-arrow">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#6C797DFF</Color>
+          <Color mode="night">#4A4A4AFF</Color>
+          <Thickness func="100" unit="px">15.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1107</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="cartrans_ferry">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>51</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <LineStyle type="cartrans_rail">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    <RoadClassGroupId>2</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+  
+  
+  <RoadStyle desc="Minor" id="3">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    47500</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LabelStyle>99</LabelStyle>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">  #6F7084FF</Color>
+          <Color mode="night">#424455FF</Color>
+          <Thickness func="102" unit="px">8.0</Thickness><!--5.0-->
+          <Priority>700</Priority>
+        </LayerPattern>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">  #77788DFF</Color>
+          <Color mode="night">#238F80FF</Color>
+          <Thickness func="102" unit="px">11.0</Thickness><!--12.0-->
+          <Priority>60</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+   
+   <!--<LineStyle type="bridge">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    45000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   40100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#E8E8E8FF</Color>
+          <Color mode="night">#494948FF</Color>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>701</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="tunnel">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    45000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   40100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#D7D7D7FF</Color>
+          <Color mode="night">#494948FF</Color>
+          <Thickness func="100" unit="px">10.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>702</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+   
+   <!--<LineStyle type="tollway">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    45000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   40100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#E8E8E8FF</Color>
+          <Color mode="night">#494948FF</Color>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>703</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+   
+    <LineStyle type="one-way-arrow">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    13000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   10100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#FF0000FF</Color>
+          <Color mode="night">#4A4A4AFF</Color>
+          <Thickness func="100" unit="px">7</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1105</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <LineStyle type="cartrans_ferry">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <LineStyle type="cartrans_rail">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    <RoadClassGroupId>3</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+  
+  
+  <RoadStyle desc="Side Road" id="4">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    47500</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LabelStyle>99</LabelStyle>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#B9B9B9FF</Color><!--B9B9B9FF-->
+          <Color mode="night">#424445FF</Color><!--202222FF-->
+          <Thickness func="100" unit="px">6</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>600</Priority>
+        </LayerPattern>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#747474FF</Color><!--747474FF-->
+          <Color mode="night">#23A56CFF</Color><!--4C4B4AFF-->
+          <Thickness func="100" unit="px">9</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    
+    <!--<LineStyle type="bridge">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#E8E8E8FF</Color>
+          <Color mode="night">#494948FF</Color>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>601</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>-->
+    
+    <LineStyle type="one-way-arrow">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    13000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   10100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#6C797DFF</Color>
+          <Color mode="night">#4A4A4AFF</Color>
+          <Thickness func="100" unit="px">7.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1104</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+    <RoadClassGroupId>4</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+  
+  
+  <RoadStyle desc="Pedestrian" id="5">
+    <LineStyle type="normal">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">      0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  47500</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LabelStyle>99</LabelStyle>
+      <LayerSet>
+        <LayerPattern desc="inline" type="uni-fill" layer="0">
+          <Color mode="day">#B9B9B9FF</Color><!--B9B9B9FF-->
+          <Color mode="night">#202222FF</Color><!--202222FF-->
+          <Thickness func="100" unit="px">6</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>500</Priority>
+        </LayerPattern>
+        <LayerPattern desc="outline" type="uni-fill" layer="1">
+          <Color mode="day">#747474FF</Color><!--747474FF-->
+          <Color mode="night">#4C4B4AFF</Color><!--4C4B4AFF-->
+          <Thickness func="100" unit="px">9</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>40</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+  
+    <LineStyle type="cartrans_ferry">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="1">
+          <Color mode="day">#7790A5FF</Color>
+          <Color mode="night">#385060FF</Color>
+          <AlternateColor mode="day">#00000000</AlternateColor>
+          <AlternateColor mode="night">#00000000</AlternateColor>
+          <Thickness func="100" unit="px">5</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>50</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+	
+	    <LineStyle type="one-way-arrow">
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">        0</ScaleLevelValue>
+        <ScaleLevelValue type="max">    13000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">   10100</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#6C797DFF</Color>
+          <Color mode="night">#4A4A4AFF</Color>
+          <Thickness func="100" unit="px">7.0</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+          <Priority>1104</Priority>
+        </LayerPattern>
+      </LayerSet>
+    </LineStyle>
+	
+    <RoadClassGroupId>5</RoadClassGroupId>
+    <NonRoadLineTypeReferences />
+  </RoadStyle>
+</RoadConfiguration>

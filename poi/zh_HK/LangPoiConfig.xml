@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1">
+  <SetupCategoryDefinition>
+    <PoiCategoryMapping type="setup" fueltype="default">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="gasoline">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="diesel">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="cng">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="lpg">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="bev">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup" fueltype="phev">
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>202</PoiCategoryRef>
+      <PoiCategoryRef>203</PoiCategoryRef>
+      <PoiCategoryRef>204</PoiCategoryRef>
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+      <PoiCategoryRef>212</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>302</PoiCategoryRef>
+      <PoiCategoryRef>303</PoiCategoryRef>
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>132</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>402</PoiCategoryRef>
+      <PoiCategoryRef>403</PoiCategoryRef>
+      <PoiCategoryRef>404</PoiCategoryRef>
+      <PoiCategoryRef>405</PoiCategoryRef>
+      <PoiCategoryRef>406</PoiCategoryRef>
+      <PoiCategoryRef>407</PoiCategoryRef>
+      <PoiCategoryRef>408</PoiCategoryRef>
+      <PoiCategoryRef>409</PoiCategoryRef>
+      <PoiCategoryRef>410</PoiCategoryRef>
+      <PoiCategoryRef>501</PoiCategoryRef>
+      <PoiCategoryRef>502</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>504</PoiCategoryRef>
+      <PoiCategoryRef>505</PoiCategoryRef>
+      <PoiCategoryRef>601</PoiCategoryRef>
+      <PoiCategoryRef>602</PoiCategoryRef>
+      <PoiCategoryRef>603</PoiCategoryRef>
+      <PoiCategoryRef>604</PoiCategoryRef>
+      <PoiCategoryRef>605</PoiCategoryRef>
+      <PoiCategoryRef>606</PoiCategoryRef>
+      <PoiCategoryRef>607</PoiCategoryRef>
+      <PoiCategoryRef>608</PoiCategoryRef>
+      <PoiCategoryRef>609</PoiCategoryRef>
+      <PoiCategoryRef>610</PoiCategoryRef>
+      <PoiCategoryRef>611</PoiCategoryRef>
+      <PoiCategoryRef>612</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>703</PoiCategoryRef>
+      <PoiCategoryRef>704</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+      <PoiCategoryRef>706</PoiCategoryRef>
+      <PoiCategoryRef>707</PoiCategoryRef>
+      <PoiCategoryRef>708</PoiCategoryRef>
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+      <PoiCategoryRef>803</PoiCategoryRef>
+      <PoiCategoryRef>804</PoiCategoryRef>
+      <PoiCategoryRef>805</PoiCategoryRef>
+      <PoiCategoryRef>806</PoiCategoryRef>
+      <PoiCategoryRef>807</PoiCategoryRef>
+      <PoiCategoryRef>808</PoiCategoryRef>
+      <PoiCategoryRef>809</PoiCategoryRef>
+      <PoiCategoryRef>810</PoiCategoryRef>
+      <PoiCategoryRef>811</PoiCategoryRef>
+      <PoiCategoryRef>812</PoiCategoryRef>
+      <PoiCategoryRef>813</PoiCategoryRef>
+      <PoiCategoryRef>901</PoiCategoryRef>
+      <PoiCategoryRef>902</PoiCategoryRef>
+      <PoiCategoryRef>903</PoiCategoryRef>
+      <PoiCategoryRef>904</PoiCategoryRef>
+      <PoiCategoryRef>905</PoiCategoryRef>
+      <PoiCategoryRef>906</PoiCategoryRef>
+      <PoiCategoryRef>907</PoiCategoryRef>
+      <PoiCategoryRef>908</PoiCategoryRef>
+      <PoiCategoryRef>909</PoiCategoryRef>
+      <PoiCategoryRef>910</PoiCategoryRef>
+    </PoiCategoryMapping>
+  </SetupCategoryDefinition>
+
+  <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="2" type="local">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- mapping for category tree in target -->
+        <PoiCategoryRef>102</PoiCategoryRef>
+        <!-- Parking -->
+        <PoiCategoryRef>202</PoiCategoryRef>
+        <!-- Rest Stops -->
+        <PoiCategoryRef>203</PoiCategoryRef>
+        <!-- Freeway Exits/On-Ramps -->
+        <PoiCategoryRef>204</PoiCategoryRef>
+        <!-- Freeway Interchanges -->
+        <PoiCategoryRef>205</PoiCategoryRef>
+        <!-- Tollgates -->
+        <PoiCategoryRef>206</PoiCategoryRef>
+        <!-- VW Dealers -->
+        <PoiCategoryRef>207</PoiCategoryRef>
+        <!-- Volkswagen Service -->
+        <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+        <!-- Shanghai Volkswagen Dealers -->
+        <!-- <PoiCategoryRef>209</PoiCategoryRef> -->
+        <!-- Shanghai Volkswagen Service -->
+        <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+        <!-- FAW-Volkswagen Dealers -->
+        <!--<PoiCategoryRef>211</PoiCategoryRef> -->
+        <!-- FAW-Volkswagen Service -->
+        <PoiCategoryRef>909</PoiCategoryRef>
+        <!-- Speed Cameras -->
+        <PoiCategoryRef>910</PoiCategoryRef>
+        <!-- Speed Cameras, other -->
+        <PoiCategoryRef>212</PoiCategoryRef>
+        <!-- More Cars POIs -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="3" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>101</PoiCategoryRef>
+        <!-- Gas Stations -->
+        <PoiCategoryRef>302</PoiCategoryRef>
+        <!-- "High Octane Gas Stations" -->
+        <PoiCategoryRef>303</PoiCategoryRef>
+        <!-- "Mixed Gas Stations" -->
+        <PoiCategoryRef>121</PoiCategoryRef>
+        <!-- "Diesel Stations" -->
+        <PoiCategoryRef>135</PoiCategoryRef>
+        <!-- "CNG Gas Stations" -->
+        <PoiCategoryRef>136</PoiCategoryRef>
+        <!-- "LPG Gas Stations" -->
+        <PoiCategoryRef>134</PoiCategoryRef>
+        <!-- "Charging Stations" -->
+        <PoiCategoryRef>132</PoiCategoryRef>
+        <!-- "Charging Stations, fast" -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="4" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>104</PoiCategoryRef>
+        <!-- Chinese Restaurants -->
+        <PoiCategoryRef>402</PoiCategoryRef>
+        <!-- Fast Food -->
+        <PoiCategoryRef>403</PoiCategoryRef>
+        <!-- Western Food -->
+        <PoiCategoryRef>404</PoiCategoryRef>
+        <!-- Fondue -->
+        <PoiCategoryRef>405</PoiCategoryRef>
+        <!-- Seafood -->
+        <PoiCategoryRef>406</PoiCategoryRef>
+        <!-- More Asian Food -->
+        <PoiCategoryRef>407</PoiCategoryRef>
+        <!-- Barbecue -->
+        <PoiCategoryRef>408</PoiCategoryRef>
+        <!-- Coffee and Tea -->
+        <PoiCategoryRef>409</PoiCategoryRef>
+        <!-- Dessert and Bread -->
+        <PoiCategoryRef>410</PoiCategoryRef>
+        <!-- More Restaurants -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="5" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>501</PoiCategoryRef>
+        <!-- Economy Motels -->
+        <PoiCategoryRef>502</PoiCategoryRef>
+        <!-- 4 Star Hotels -->
+        <PoiCategoryRef>503</PoiCategoryRef>
+        <!-- 5 Star Hotels -->
+        <PoiCategoryRef>504</PoiCategoryRef>
+        <!-- Resort Hotels -->
+        <PoiCategoryRef>505</PoiCategoryRef>
+        <!-- More Hotels -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="6" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>601</PoiCategoryRef>
+        <!-- Shopping Centers -->
+        <PoiCategoryRef>602</PoiCategoryRef>
+        <!-- Supermarkets -->
+        <PoiCategoryRef>603</PoiCategoryRef>
+        <!-- Computers and Electronics -->
+        <PoiCategoryRef>604</PoiCategoryRef>
+        <!-- Drugstores and Pharmacies -->
+        <PoiCategoryRef>605</PoiCategoryRef>
+        <!-- Delis and Markets -->
+        <PoiCategoryRef>606</PoiCategoryRef>
+        <!-- Bookstores -->
+        <PoiCategoryRef>607</PoiCategoryRef>
+        <!-- Optical -->
+        <PoiCategoryRef>608</PoiCategoryRef>
+        <!-- Furniture Stores -->
+        <PoiCategoryRef>609</PoiCategoryRef>
+        <!-- Alcohol and Tobacco -->
+        <PoiCategoryRef>610</PoiCategoryRef>
+        <!-- Music Stores -->
+        <PoiCategoryRef>611</PoiCategoryRef>
+        <!-- Laundromats -->
+        <PoiCategoryRef>612</PoiCategoryRef>
+        <!-- More Shopping POIs -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="7" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>701</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>702</PoiCategoryRef>
+        <!-- Train Stations -->
+        <PoiCategoryRef>703</PoiCategoryRef>
+        <!-- Bus Stations -->
+        <PoiCategoryRef>704</PoiCategoryRef>
+        <!-- Public Transit -->
+        <PoiCategoryRef>705</PoiCategoryRef>
+        <!-- Harbors and Ferries -->
+        <PoiCategoryRef>706</PoiCategoryRef>
+        <!-- Travel Agencies and Ticket Offices -->
+        <PoiCategoryRef>707</PoiCategoryRef>
+        <!-- Car Rentals -->
+        <PoiCategoryRef>708</PoiCategoryRef>
+        <!-- Park and Ride -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="8" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>801</PoiCategoryRef>
+        <!-- Residential Areas -->
+        <PoiCategoryRef>802</PoiCategoryRef>
+        <!-- Buildings -->
+        <PoiCategoryRef>803</PoiCategoryRef>
+        <!-- Banks and ATMs -->
+        <PoiCategoryRef>804</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>805</PoiCategoryRef>
+        <!-- Police -->
+        <PoiCategoryRef>806</PoiCategoryRef>
+        <!-- Business facilities -->
+        <PoiCategoryRef>807</PoiCategoryRef>
+        <!-- Universities and institutes -->
+        <PoiCategoryRef>808</PoiCategoryRef>
+        <!-- Schools and Kindergartens -->
+        <PoiCategoryRef>809</PoiCategoryRef>
+        <!-- Government and Administration -->
+        <PoiCategoryRef>810</PoiCategoryRef>
+        <!-- Mail and Logistics -->
+        <PoiCategoryRef>811</PoiCategoryRef>
+        <!-- Salon and Spa -->
+        <PoiCategoryRef>812</PoiCategoryRef>
+        <!-- Public Restrooms -->
+        <PoiCategoryRef>813</PoiCategoryRef>
+        <!-- More Public Facilities -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="9" type="local">
+      <Priority>8</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>901</PoiCategoryRef>
+        <!-- Zoos and Parks -->
+        <PoiCategoryRef>902</PoiCategoryRef>
+        <!-- Movies and Theater -->
+        <PoiCategoryRef>903</PoiCategoryRef>
+        <!-- Nightlife and Bars -->
+        <PoiCategoryRef>904</PoiCategoryRef>
+        <!-- Sports -->
+        <PoiCategoryRef>905</PoiCategoryRef>
+        <!-- Points of Interest -->
+        <PoiCategoryRef>906</PoiCategoryRef>
+        <!-- Landmarks -->
+        <PoiCategoryRef>907</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>908</PoiCategoryRef>
+        <!-- More Entertainment and Sports -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <!--<PoiCategoryGroup id="10" type="dynamic">
+      <Priority>7</Priority>
+      <PoiCategoryMapping> -->
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      <!--</PoiCategoryMapping>
+    </PoiCategoryGroup> -->
+  </PoiCategoryGroupDefinition>
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="2">所有汽車相關</Name>
+    <Name category_group_ref="3">加油站</Name>
+    <Name category_group_ref="4">餐廳</Name>
+    <Name category_group_ref="5">酒店</Name>
+    <Name category_group_ref="6">購物</Name>
+    <Name category_group_ref="7">公共交通</Name>
+    <Name category_group_ref="8">公共設施和大樓</Name>
+    <Name category_group_ref="9">休閑和體育</Name>
+    <!--<Name category_group_ref="10">!! P-Poi</Name> -->
+  </PoiCategoryGroupNameDefinition>
+
+  <PoiCategoryNameDefinition>
+    <Name category_ref="101">油站</Name>
+    <Name category_ref="121">柴油站</Name>
+    <Name category_ref="134">充電站</Name>
+    <Name category_ref="132">快速充電站</Name>
+    <Name category_ref="135">加氣站</Name>
+    <Name category_ref="136">液化石油氣站</Name>
+    <Name category_ref="102">停車場</Name>
+    <Name category_ref="202">服務區</Name>
+    <Name category_ref="203">高速公路出口</Name>
+    <Name category_ref="204">高速公路樞紐/立交橋</Name>
+    <Name category_ref="205">收費站</Name>
+    <Name category_ref="206">福士進口經銷商</Name>
+    <Name category_ref="207">福士進口4S店</Name>
+    <!-- <Name category_ref="208">上海大众经销商</Name> -->
+    <!-- <Name category_ref="209">上海大众4S店</Name> -->
+    <!--<Name category_ref="210">一汽-大众经销商</Name> -->
+    <!--<Name category_ref="211">一汽-大众4S店</Name> -->
+    <Name category_ref="212">其他汽車興趣點</Name>
+    <Name category_ref="302">高品質燃油油站</Name>
+    <Name category_ref="303">混合燃油油站</Name>
+    <Name category_ref="104">中餐館</Name>
+    <Name category_ref="402">快餐店</Name>
+    <Name category_ref="403">西餐廳</Name>
+    <Name category_ref="404">火鍋</Name>
+    <Name category_ref="405">海鮮</Name>
+    <Name category_ref="406">其他亞洲菜</Name>
+    <Name category_ref="407">烧烤</Name>
+    <Name category_ref="408">啡廳茶室</Name>
+    <Name category_ref="409">甜品/麵包</Name>
+    <Name category_ref="410">其他</Name>
+    <Name category_ref="501">經濟型酒店</Name>
+    <Name category_ref="502">4星級酒店</Name>
+    <Name category_ref="503">5星級酒店</Name>
+    <Name category_ref="504">度假村</Name>
+    <Name category_ref="505">其他</Name>
+    <Name category_ref="601">購物中心</Name>
+    <Name category_ref="602">超市</Name>
+    <Name category_ref="603">數碼/電器</Name>
+    <Name category_ref="604">便利店/藥房</Name>
+    <Name category_ref="605">市場</Name>
+    <Name category_ref="606">書店</Name>
+    <Name category_ref="607">眼鏡店</Name>
+    <Name category_ref="608">家具城</Name>
+    <Name category_ref="609">煙酒專賣店</Name>
+    <Name category_ref="610">音像/樂器</Name>
+    <Name category_ref="611">洗衣店</Name>
+    <Name category_ref="612">其他購物興趣點</Name>
+    <Name category_ref="701">機場</Name>
+    <Name category_ref="702">火車站</Name>
+    <Name category_ref="703">巴士站</Name>
+    <Name category_ref="704">地鐵/軌道交通</Name>
+    <Name category_ref="705">碼頭/渡口</Name>
+    <Name category_ref="706">旅行社/售票點</Name>
+    <Name category_ref="707">汽車租賃</Name>
+    <Name category_ref="708">停車換乘</Name>
+    <Name category_ref="801">樓盤</Name>
+    <Name category_ref="802">樓宇</Name>
+    <Name category_ref="803">銀行/ATM</Name>
+    <Name category_ref="804">醫院</Name>
+    <Name category_ref="805">警署</Name>
+    <Name category_ref="806">商業設施</Name>
+    <Name category_ref="807">大學/科研機構</Name>
+    <Name category_ref="808">中小學/幼稚園</Name>
+    <Name category_ref="809">政府機構</Name>
+    <Name category_ref="810">郵局/物流</Name>
+    <Name category_ref="811">美容/美髮</Name>
+    <Name category_ref="812">公共廁所</Name>
+    <Name category_ref="813">其他公共設施</Name>
+    <Name category_ref="901">公園/動植物園</Name>
+    <Name category_ref="902">電影院/劇院</Name>
+    <Name category_ref="903">酒吧/卡拉ok</Name>
+    <Name category_ref="904">健身設施</Name>
+    <Name category_ref="905">風景名勝</Name>
+    <Name category_ref="906">5A級/4A級/3A級景點</Name>
+    <Name category_ref="907">博物館</Name>
+    <Name category_ref="908">其他休閑和體育</Name>
+    <Name category_ref="909">超速攝像頭</Name>
+    <Name category_ref="910">交通違規攝像頭</Name>
+  </PoiCategoryNameDefinition>
+</LanguagePoiConfiguration>

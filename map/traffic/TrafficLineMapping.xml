@@ -1,0 +1,244 @@
+<!--
+   TrafficLineMapping
+   is the interface between the tmc/traffic config and the map display related TrafficLineStyleConfig.xml.
+   Each traffic event can be classified as incident or flow event. The current use case is, that all incidents are
+   drawn with the same line style (0) and flow events will be subclassified by their level of service value (los).
+
+   While flow events are not sub dividable further each incident category might get its own traffic line styl include
+   los subdivision. Both los subdivisions will be configured with the LevelOfServiceRange. The number within the
+   LevelOfServiceRange is the TrafficLineStyle identification
+
+   Every los range of an incident or flow event that is not explicitly configured will not be visible. In order to
+   have a chance of debugging misconfiguration you can do the following:
+      *create a prominently visible TrafficLineStlye in TrafficLineStyleConfig.xml
+      *reference its identifier via the <FallbackLineStyle> tag.
+      *it would also be possible to skip all incident mapping and map the holes within the flow's los range explictly to -1
+   -->
+<TrafficLineMapping version="1" >
+
+   <!-- The value -1 will be interpreted as "invalid TrafficLineStylReference" and will prevent all not-configured event
+        mapping from being rendered. -->
+   <FallbackLineStyle>-1</FallbackLineStyle>
+
+   <Incident type="speedAndFlow" catId="irrelevant" >
+      <!-- LevelOfServiceRange from="0" to="0" > -1 </LevelOfServiceRange -->
+      <LevelOfServiceRange from="1" to="1" >  2 </LevelOfServiceRange>
+      <LevelOfServiceRange from="2" to="3" >  3 </LevelOfServiceRange>
+      <LevelOfServiceRange from="4" to="4" >  4 </LevelOfServiceRange>
+      <LevelOfServiceRange from="5" to="6" >  5 </LevelOfServiceRange>
+      <!-- LevelOfServiceRange from="7" to="63"> -1 </LevelOfServiceRange -->
+   </Incident>
+
+   <Incident type="incident" catId="1" >
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="2">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="3">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="4">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="5">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="6">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="7">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="8">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="9">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="10">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="11">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="12">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="13">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="14">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="15">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="16">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="17">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="18">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="19">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="20">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="21">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="22">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="23">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="24">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="25">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="26">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="27">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="28">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="29">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="30">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="31">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="32">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="33">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="34">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="35">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="36">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="37">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="38">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="39">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="40">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="41">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="42">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="43">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="44">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="45">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="46">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="47">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="48">
+      <LevelOfServiceRange from="0" to="63"> 33 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="49">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="50">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="51">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="52">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+   <Incident type="incident" catId="53">
+      <LevelOfServiceRange from="0" to="63"> 0 </LevelOfServiceRange>
+   </Incident>
+
+</TrafficLineMapping>

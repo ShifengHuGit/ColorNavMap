@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<SiriusConfig>
+	<MarketPools>
+		<CurrentMarketPoolSize>4000</CurrentMarketPoolSize>
+		<AdditionalMarket1PoolSize>2000</AdditionalMarket1PoolSize>
+		<AdditionalMarket2PoolSize>2000</AdditionalMarket2PoolSize>
+		<AdditionalMarket3PoolSize>2000</AdditionalMarket3PoolSize>
+	</MarketPools>
+	<LoadBalancing>
+		<MaximumHorizon>200</MaximumHorizon>					<!-- MaximumHorizon in kilometers. The horizon can't become greater than this value -->
+		<DecodingTime>20</DecodingTime>							<!-- DecodingTime in minutes. If the decoder needed more time, the horizon will be decreased, vice versa. -->
+	</LoadBalancing>
+	<SiriusFilter>
+		<ReactionKilometers>20</ReactionKilometers>				<!-- The minimum of kilometers after which a new Market-Filter update will be triggered -->
+		<MinRouteLocationDistance>35</MinRouteLocationDistance> <!-- The minimum distance (in kilometers) between two geopositions of the reduced route position list -->
+		<MaxRouteLocationDistance>60</MaxRouteLocationDistance> <!-- The maximum distance (in kilometers) between two geopositions of the reduced route position list -->
+																<!-- Has a higher priority than m_MinRouteLocationDistance -->
+																<!-- The radius around the route positions == shape around the route for choosing the markets -->
+	</SiriusFilter>
+</SiriusConfig>

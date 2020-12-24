@@ -1,0 +1,27 @@
+<ManeuverViewConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1">
+    <!--
+         Description:
+            Configurations concerning the connection between the view and the maneuver
+
+            <ManeuverAlignmentType>
+               Centered:
+                  Detail view look at point matches maneuver center.
+                  Maneuver alignment in the center, no extension in any direction
+               Bottom:
+                  Detail view look at point matches maneuver center.
+                  Maneuver extends to the bottom of the detail view.
+
+            <MaxDistanceBetweenMultiManeuver>
+               Maximal distance to combine the first maneuver with the second maneuver in a multimaneuver case.
+
+            <NightOverlay>
+               Path to night overlay image, root folder is resources
+    -->
+
+    <ManeuverAlignmentType>Bottom</ManeuverAlignmentType>
+
+    <MaxDistanceBetweenMultiManeuver unit="Meters">50</MaxDistanceBetweenMultiManeuver>
+
+    <NightOverlay>image_overlay/Exitview_Night_Overlay.png</NightOverlay>
+
+</ManeuverViewConfig>

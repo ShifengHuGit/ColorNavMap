@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- psd_traffic_category as in Enum ETraffic_Category -->
+<!-- category_id as in tsd.common.config/data/xml/default/traffic/tmc/TmcCategories/TmcCategories.xml -->
+<!-- strings are not used -->
+<psd_traffic_category_mapping>
+   <!-- PSD_Att_TMC_Ereignis -->
+   <psd_traffic_category id="1" desc="Closed_Road">
+      <category_id desc="Closed Road" >4</category_id>
+      <category_id desc="Impassable Road" >7</category_id>
+   </psd_traffic_category>
+   <psd_traffic_category id="2" desc="Closed_EntryExit">
+      <category_id desc="Exit Closed" >5</category_id>
+      <category_id desc="Entry Closed" >6</category_id>
+   </psd_traffic_category>
+   <psd_traffic_category id="3" desc="Accidents">
+      <category_id desc="Accidents" >3</category_id>
+   </psd_traffic_category>
+   <psd_traffic_category id="4" desc="Danger">
+      <category_id desc="Dangerous Events (People)" >44</category_id>
+      <category_id desc="Dangerous Events (Biker)" >42</category_id>
+      <category_id desc="Dangerous Events (Animals)" >12</category_id>
+      <category_id desc="Dangerous Events (Rockfall)" >46</category_id>
+      <category_id desc="Dangerous Events (Vehicles)" >47</category_id>
+   </psd_traffic_category>
+
+   <!-- PSD_Att_TMC_Stau -->
+   <psd_traffic_category id="5" desc="Stationary_Traffic">
+      <category_id desc="Stationary Traffic" >1</category_id>
+      <category_id desc="S&amp;F Red" >50</category_id>
+   </psd_traffic_category>
+   <psd_traffic_category id="6" desc="Queuing_Traffic">
+      <category_id desc="Queuing Traffic" >49</category_id>
+      <category_id desc="S&amp;F Orange" >51</category_id>
+   </psd_traffic_category>
+   <psd_traffic_category id="7" desc="Slow_Traffic">
+      <category_id desc="Slow Traffic" >2</category_id>
+      <category_id desc="S&amp;F Yellow" >52</category_id>
+   </psd_traffic_category>
+
+   <!-- PSD_Att_TMC_Baustelle -->
+   <psd_traffic_category id="8" desc="Road_Works">
+      <category_id desc="Road Works" >8</category_id>
+      <category_id desc="Road Reduced" >9</category_id>
+   </psd_traffic_category>
+</psd_traffic_category_mapping>

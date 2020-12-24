@@ -1,0 +1,55 @@
+<!--
+   Description:
+   
+      Each zoom level is represented by a <ZoomLevel> tag.
+      
+      <ZoomLevel>
+         The "ndslayer" attribute specifies the database layer which should be used by this zoom level. 
+         Valid numbers are 13 (more detailed), 11, 9, 7, 5 (less details).
+         
+         The value embedded in the <ZoomLevel> tag is the map scale in centimeters.
+      
+-->
+
+<ZoomLevelConfiguration version="8">
+   <ZoomLevel ndslayer="13">     2000</ZoomLevel>
+   <ZoomLevel ndslayer="13">     3000</ZoomLevel>
+   <ZoomLevel ndslayer="13">     5000</ZoomLevel>
+   <ZoomLevel ndslayer="13">     7500</ZoomLevel>
+   <ZoomLevel ndslayer="13">    10000</ZoomLevel>
+   <ZoomLevel ndslayer="13">    15000</ZoomLevel>
+   <ZoomLevel ndslayer="13">    20000</ZoomLevel>
+   <ZoomLevel ndslayer="13">    30000</ZoomLevel>
+   <ZoomLevel ndslayer="13">    40000</ZoomLevel>
+   <ZoomLevel ndslayer="13">    50000</ZoomLevel>
+   <ZoomLevel ndslayer="11">    75000</ZoomLevel>
+   <ZoomLevel ndslayer="11">   100000</ZoomLevel>
+   <ZoomLevel ndslayer="11">   150000</ZoomLevel>
+   <ZoomLevel ndslayer="11">   200000</ZoomLevel>
+   <ZoomLevel ndslayer= "9">   300000</ZoomLevel>
+   <ZoomLevel ndslayer= "9">   400000</ZoomLevel>
+   <ZoomLevel ndslayer= "9">   500000</ZoomLevel>
+   <ZoomLevel ndslayer= "7">   600000</ZoomLevel>
+   <ZoomLevel ndslayer= "7">   800000</ZoomLevel>
+   <ZoomLevel ndslayer= "7">  1000000</ZoomLevel>
+   <ZoomLevel ndslayer= "7">  1500000</ZoomLevel>
+   <ZoomLevel ndslayer= "7">  2000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5">  3000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5">  4000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5">  5000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5">  6000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5">  8000000</ZoomLevel>
+   <ZoomLevel ndslayer= "5"> 10000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 12500000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 15000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 17500000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 20000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 30000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 40000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 50000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 60000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 70000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3"> 80000000</ZoomLevel>
+   <ZoomLevel ndslayer= "3">110000000</ZoomLevel>
+</ZoomLevelConfiguration>
+

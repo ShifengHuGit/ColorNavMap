@@ -1,0 +1,44 @@
+﻿<SignPostConfig version="22">
+
+   <!--
+      The SignPost width and height should fit, together with the outline and contrast borders,
+      into the ISM view port, whose dimensions are defined in IsmViewConfig.xml This file is
+      currently located in tsd.mibstd2.nav.config.data/<region>/<model>/nav/map/view/,
+      that is, for example tsd.mibstd2.nav.config.data/EU/default/nav/map/view/IsmViewConfig.xml.
+
+      The current view port size is set to 284 x 275 pixels.
+      If the SignPost is to have no space between its outline and contrast border and the
+      view port border, then its width would be
+
+         SignPost width = viewport width - 2 x Outline thickness - 2 x Contrast thickness,
+         here SignPost width = 284 - 2 x 2 - 2 x 2 = 276,
+         and so on...
+
+      The RoadIcon, whose exact dimensions are only known at run time, is VERTICALLY CENTERED.
+      The parameters "x" and "y" denote NOT the position of its center, but rather the space
+      desired to the left and to the right of the icon within the SignPost.
+
+      The Road Sign text, whose exact dimensions are only known at run time, is VERTICALLY CENTERED.
+      The parameters "x" and "y" denote NOT the position of its center, but rather the space
+      desired to the left and to the right of the text within the SignPost.
+      Note: The "x" parameter adds to the "y" parameter of the road icon.
+
+      The Contrast thickness will, for the time being, be equivalent to the Outline thickness.
+
+   -->
+
+
+   <Positions>
+      <SignPostPos x="3" y="50" />
+      <RoadIcon x="10" y="10" />
+      <SignPostTxt x="0" y="10" />
+   </Positions>
+
+   <Geometry>
+      <Backplate width="270" height="45" />
+      <Outline width="2" />
+      <Corner radius="3" smoothness="0.1" />
+   </Geometry>
+
+</SignPostConfig>
+

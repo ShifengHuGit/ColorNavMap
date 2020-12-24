@@ -1,0 +1,277 @@
+﻿<RoadConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1">
+   <!--
+      Description:
+
+      This file describes the appearance of line-shape representing roads in the Ism-View.
+
+      Multiple database road class can be combined to a common visual style (RoadStyle) via
+      RoadClassID and wont be distingushable anymore.
+
+      <RoadStyle>
+         The RoadStyle tag represents one visual roadstyle and contains multiple sub tags.
+
+         attribute "id":    must be unique over all RoadStyles defined in this file. !!! will be obsolete in a future version
+         attribute "desc":  optional, will contain a human readable name for this group of road lines
+
+         <LineStyle>
+            SEE RoadConfiguration.xml
+         </LineStyle>
+
+         <RoadClassGroupId>
+            Referencing the RoadStyle-Id in RoadConfiguration.xml to use FunctionalRoadclassMapping.
+         </RoadClassGroupId>
+
+    </RoadStyle>
+   -->
+
+
+   
+   <RoadStyle id="0" desc="Highway">
+      <LineStyle type="normal">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  29000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 28000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!--inline-->
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>1300</Priority>
+            </LayerPattern>
+
+            <LayerPattern layer="1" type="uni-fill">
+               <!--outline-->
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>1200</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+
+      <RoadClassGroupId>0</RoadClassGroupId>
+
+   </RoadStyle>
+   
+   
+   
+   <RoadStyle id="1" desc="Motorway">
+      <LineStyle type="normal">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  30000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 30000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!--inline-->
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>1000</Priority>
+            </LayerPattern>
+
+            <LayerPattern layer="1" type="uni-fill">
+               <!--outline-->
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>90</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+      
+
+
+      <RoadClassGroupId>1</RoadClassGroupId>
+
+   </RoadStyle>
+   
+   
+   
+   <RoadStyle id="2" desc="Major">
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!--inline-->
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>900</Priority>
+            </LayerPattern>
+            <LayerPattern layer="1" type="uni-fill">
+               <!--outline-->
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>80</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+
+      
+      <!--
+      <LineStyle type="one-way-arrow">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  10000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 10000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">0</Thickness>
+               <Priority>1107</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+      -->
+      <RoadClassGroupId>2</RoadClassGroupId>
+   </RoadStyle>   
+ 
+   <RoadStyle id="3" desc="Minor">
+      <LineStyle type="normal">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  2000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 2000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!--inline-->
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>700</Priority>
+            </LayerPattern>
+
+            <LayerPattern layer="1" type="uni-fill">
+               <!--outline-->
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>60</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+      <!--
+      <LineStyle type="one-way-arrow">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  2000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 2000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">0</Thickness>
+               <Priority>1105</Priority>
+            </LayerPattern>
+         </LayerSet>
+         
+      </LineStyle>-->
+      <RoadClassGroupId>3</RoadClassGroupId>
+   </RoadStyle>
+   
+   
+   <RoadStyle id="4" desc="Side Roads">
+      <LineStyle type="normal">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">        0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  1000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!--inline-->
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>600</Priority>
+            </LayerPattern>
+
+            <LayerPattern layer="1" type="uni-fill">
+               <!--outline-->
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>50</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+      <!--
+	  <LineStyle type="one-way-arrow">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  1000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">0</Thickness>
+               <Priority>1104</Priority>
+            </LayerPattern>
+         </LayerSet>
+         
+      </LineStyle>
+      -->
+      <RoadClassGroupId>4</RoadClassGroupId>
+
+   </RoadStyle>
+   
+   <RoadStyle id="5" desc="Pedestrian">
+      <LineStyle type="normal">
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  25000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 24000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+         
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill" desc="inline">
+               <Color mode="night">#6E6E6EFF</Color>
+               <Color mode="day">#6E6E6EFF</Color>
+               <Thickness func="100" unit="px">7.0</Thickness>
+               <Priority>500</Priority>
+            </LayerPattern>
+
+            <LayerPattern layer="1" type="uni-fill" desc="outline">
+               <Color mode="night">#B8B8B8FF</Color>
+               <Color mode="day">#B8B8B8FF</Color>
+               <Thickness func="100" unit="px">10.0</Thickness>
+               <Priority>40</Priority>
+            </LayerPattern>
+         </LayerSet>
+      </LineStyle>
+      
+      <RoadClassGroupId>5</RoadClassGroupId>
+
+   </RoadStyle> 
+   
+   
+ </RoadConfiguration>

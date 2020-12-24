@@ -1,0 +1,53 @@
+<RoadClassGroupConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../../../xsd/nav/road/RoadClassGroupConfiguration.xsd " version="1">
+    <!--
+    Description: Grouping Functional-Road-Classes ( FRC )
+    
+    <FunctionalRoadClassReferences>
+        The id's have to be numbered consecutively!
+        List all functional road classes within this tag that shall be visible under this road style.
+        Note: a functional road class is NOT allowed to be defined in more than one RoadStyle definition,
+        but is allowed to remain undefined.
+    </FunctionalRoadClassReferences>
+    -->
+    
+    <!-- Highway -->
+    <FunctionalRoadClassReferences id="0">
+        <FRC>FRC_0_UNNAMED</FRC>
+        <FRC>FRC_1_UNNAMED</FRC>
+        <FRC>FRC_2_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+    
+    <!-- Motorway -->
+    <FunctionalRoadClassReferences id="1">
+        <FRC>FRC_3_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+    
+    <!-- Major Road -->
+    <FunctionalRoadClassReferences id="2">
+        <FRC>FRC_4_UNNAMED</FRC>
+        <FRC>FRC_5_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+
+    <!-- Minor Road-->
+    <FunctionalRoadClassReferences id="3">
+        <FRC>FRC_6_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+    
+    <!-- Side Road -->
+    <FunctionalRoadClassReferences id="4">
+        <FRC>FRC_7_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+    
+    <!-- Pedestrian -->
+    <FunctionalRoadClassReferences id="5">
+        <FRC>FRC_8_UNNAMED</FRC>
+        <FRC>FRC_9_UNNAMED</FRC>
+        <FRC>FRC_10_UNNAMED</FRC>
+        <FRC>FRC_11_UNNAMED</FRC>
+        <FRC>FRC_12_UNNAMED</FRC>
+        <FRC>FRC_13_UNNAMED</FRC>
+        <FRC>FRC_14_UNNAMED</FRC>
+        <FRC>FRC_15_UNNAMED</FRC>
+    </FunctionalRoadClassReferences>
+    
+</RoadClassGroupConfiguration>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TmcConfig>
+  <locale code="zh_CN" unit_system="UNITS_IMPERIAL">
+    <tmc_event event_code="1">
+      <short_text>交通问题</short_text>
+      <long_text>交通问题</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>突发事件</short_text>
+      <long_text>超高警告系统已启动</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>道路异物</short_text>
+      <long_text>车道上有物体（某些物体并非必然阻塞道路或部分道路）</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>管道破裂</short_text>
+      <long_text>管道破裂</long_text>
+    </tmc_event>
+    <tmc_event event_code="101">
+      <short_text>交通拥堵</short_text>
+      <long_text>交通拥堵</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>交通缓慢</short_text>
+      <long_text>交通缓慢</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>交通畅通</short_text>
+      <long_text>交通畅通</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>拥堵交通</short_text>
+      <long_text>拥堵交通，小心接近</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>事故</short_text>
+      <long_text>(起)事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>严重事故</short_text>
+      <long_text>严重事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>事故</short_text>
+      <long_text>(起)化学制品溢出事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>货物散落</short_text>
+      <long_text>货物散落事件</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>抛锚车辆</short_text>
+      <long_text>抛锚车辆</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>事故</short_text>
+      <long_text>(起)车辆着火</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>突发事件</short_text>
+      <long_text>营救和恢复工作进行中</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>入口限制</short_text>
+      <long_text>(第)入口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>出口限制</short_text>
+      <long_text>(第)出口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>匝道限制</short_text>
+      <long_text>匝道限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>无机动车</short_text>
+      <long_text>禁止机动车通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>限制</short_text>
+      <long_text>限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>车道限制</short_text>
+      <long_text>车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>车道限制</short_text>
+      <long_text>右侧车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>车道限制</short_text>
+      <long_text>左侧车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>车道限制</short_text>
+      <long_text>2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>车道限制</short_text>
+      <long_text>3 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>单侧通行</short_text>
+      <long_text>道路单侧通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>车道变窄</short_text>
+      <long_text>车道变窄</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>车道限制</short_text>
+      <long_text>1 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>道路施工</short_text>
+      <long_text>(组)道路施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>道路施工</short_text>
+      <long_text>主要道路施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>道路施工</short_text>
+      <long_text>(组)道路养护</long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>道路施工</short_text>
+      <long_text>(座)桥梁养护施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>道路关闭</short_text>
+      <long_text>因(起)道路施工关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>道路施工</short_text>
+      <long_text>(组)道路施工。2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>道路施工</short_text>
+      <long_text>道路养护车辆，行驶缓慢</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>道路施工</short_text>
+      <long_text>(组)总水管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>道路施工</short_text>
+      <long_text>(组)煤气总管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>洪水</short_text>
+      <long_text>洪水</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>岩崩</short_text>
+      <long_text>岩崩</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>山体滑坡</short_text>
+      <long_text>塌方</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>地震破坏</short_text>
+      <long_text>地震破坏</long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>沉陷</short_text>
+      <long_text>沉陷</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>煤气泄漏</short_text>
+      <long_text>煤气泄漏</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>严重火灾</short_text>
+      <long_text>严重火灾</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>危险</short_text>
+      <long_text>车行道上有动物</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>道路禁行</short_text>
+      <long_text>因洪水而关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>道路禁行</short_text>
+      <long_text>道路因坍塌而关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>积冰</short_text>
+      <long_text>积冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>泥石流</short_text>
+      <long_text>泥石流</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>散落物</short_text>
+      <long_text>受道路上障碍物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>散落物</short_text>
+      <long_text>受道路上散落物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>危险行车状况</short_text>
+      <long_text>危险行车状况</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>路滑</short_text>
+      <long_text>危险漂滑现象</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>路滑</short_text>
+      <long_text>路滑</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>积雪</short_text>
+      <long_text>积雪(百米以上)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>路滑</short_text>
+      <long_text>因雪而路滑</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>严重火灾</short_text>
+      <long_text>严重火灾，危险</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>不能通行</short_text>
+      <long_text>不能通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>危险</short_text>
+      <long_text>路上有机油</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>易滑道路</short_text>
+      <long_text>碎屑。危险</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>强降雪</short_text>
+      <long_text>强降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>降雪</short_text>
+      <long_text>降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>雷雨</short_text>
+      <long_text>冰雹(能见度减至)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>雷雨</short_text>
+      <long_text>雷雨(能见度减至)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>强降雨</short_text>
+      <long_text>强降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>降雨</short_text>
+      <long_text>降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>能见度降低</short_text>
+      <long_text>暴风雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>能见度降低</short_text>
+      <long_text>破坏性冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>大雨</short_text>
+      <long_text>大雨(可能性)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>飓风</short_text>
+      <long_text>飓风</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>大风</short_text>
+      <long_text>大风</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>强风</short_text>
+      <long_text>强风</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>雾</short_text>
+      <long_text>雾(能见度减至)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>风尘</short_text>
+      <long_text>风尘(能见度减至)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>能见度降低</short_text>
+      <long_text>能见度降低(至Q)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>沙暴</short_text>
+      <long_text>沙暴(能见度减至)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>烟雾警告</short_text>
+      <long_text>烟雾警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>车道有人</short_text>
+      <long_text>车道上有人</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>警察检查站</short_text>
+      <long_text>警察检查站</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>重大事件</short_text>
+      <long_text>重大事件</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>重大事件</short_text>
+      <long_text>运动会</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>节日</short_text>
+      <long_text>节日</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>展览</short_text>
+      <long_text>展览</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>集市</short_text>
+      <long_text>集市</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>安全警告</short_text>
+      <long_text>安全警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>音乐会</short_text>
+      <long_text>音乐会</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>延误</short_text>
+      <long_text>延误</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>其他</short_text>
+      <long_text>不提供正常服务</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>注意</short_text>
+      <long_text>慢行维护车辆</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>车辆在错误的车道上</short_text>
+      <long_text>车辆在错误的车道上</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>散落物</short_text>
+      <long_text>从行驶车辆上泄漏散落物</long_text>
+    </tmc_event>
+  </locale>
+</TmcConfig>

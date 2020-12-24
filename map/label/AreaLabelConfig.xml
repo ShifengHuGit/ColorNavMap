@@ -1,0 +1,29 @@
+﻿<AreaLabelConfig version="1">
+
+   <AreaLabelClass id="23" desc="water labels">
+      <Priority>1</Priority> <!-- The priority of this label class. A strict ordering between all AreaLabelClasses must be possible. -->
+      <FontVariantRef mode="day">34</FontVariantRef> <!-- A reference to a FontVariant as defined in FontConfig.xml-->
+      <FontVariantRef mode="night">35</FontVariantRef> <!-- A reference to a FontVariant as defined in FontConfig.xml-->
+      <ScaleLevelVisibility> <!-- The visibility bounds of this LabelClass. -->
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  200000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 200000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      <BoundingVolumeInc type="normal">0.0f</BoundingVolumeInc> <!-- The value that gets added to a tight bounding box.-->
+      <BoundingVolumeInc type="extended">15.0f</BoundingVolumeInc> <!-- The value that gets added to a extended bounding box.-->
+   </AreaLabelClass>
+
+   <AreaLabelClass id="24" desc="island labels">
+      <Priority>1</Priority> <!-- The priority of this label class. A strict ordering between all AreaLabelClasses must be possible. -->
+      <FontVariantRef mode="day">7</FontVariantRef> <!-- A reference to a FontVariant as defined in FontConfig.xml-->
+      <FontVariantRef mode="night">6</FontVariantRef> <!-- A reference to a FontVariant as defined in FontConfig.xml-->
+      <ScaleLevelVisibility> <!-- The visibility bounds of this LabelClass. -->
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      <BoundingVolumeInc type="normal">0.0f</BoundingVolumeInc> <!-- The value that gets added to a tight bounding box.-->
+      <BoundingVolumeInc type="extended">15.0f</BoundingVolumeInc> <!-- The value that gets added to a extended bounding box.-->
+   </AreaLabelClass>
+
+</AreaLabelConfig>

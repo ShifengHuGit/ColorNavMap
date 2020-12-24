@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<RoadDirectionConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="21">
+  <Country desc="USA" isocode="US">
+    <SuffixToDir suffix='N' direction='1'/>
+	<SuffixToDir suffix='NE' direction='2'/>
+	<SuffixToDir suffix='E' direction='3'/>
+	<SuffixToDir suffix='SE' direction='4'/>
+	<SuffixToDir suffix='S' direction='5'/>
+	<SuffixToDir suffix='SW' direction='6'/>
+	<SuffixToDir suffix='W' direction='7'/>
+	<SuffixToDir suffix='NW' direction='8'/>
+  </Country>  
+</RoadDirectionConfig>

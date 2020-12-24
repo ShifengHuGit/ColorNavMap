@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<OnlineConfig>
+   <MaxLocationRadius kilometres="-1"/>      <!-- the cutoff radius of the locations on route -->
+   <Configuration>
+      <TimeOut>220</TimeOut>                 <!-- default value for session timeout (max. time between two getMessges() -->
+      <SessionExpiration>36000</SessionExpiration> <!-- maximum duration of a session due to privacy protection -->
+      <Radius1>30</Radius1>                  <!-- default value for the radius for traffic horizon. if it is 0 the horizon in the system will be used -->
+      <Radius2>100</Radius2>                 <!-- default value for the radius for traffic horizon. if it is 0 the horizon in the system will be used -->
+      <Radius3>200</Radius3>                 <!-- default value for the radius for traffic horizon. if it is 0 the horizon in the system will be used -->
+      <Frequency>5</Frequency>               <!-- default value for the proposed request time in unguided mode -->
+      <FrequencyShort>5</FrequencyShort>     <!-- default value for the proposed request time in guided mode -->
+      <Encryption>True</Encryption>          <!-- indicates the encryption of the data session -->
+   </Configuration>
+   <Inventory>
+      <MessageSize bytes="50000"/>           <!-- Max size (payload) in bytes per zipped and encrypted getMessage response (default: 50000 bytes) -->
+      <MaxExtend number="31"/>               <!-- Max number of extensions, a chain of steps through adjacent point locations, e.g. used for TMC locations (1 ... 31) -->
+   </Inventory>
+   <ApplicationDecoder StandardExpiration="36000" StandardSpatialResolution="0" StandardSessionSize="1000">
+      <Decoder id="TEC">                     <!-- TPEG_LRC_TYPE or TPEG_APPLICATION_TYPE in tpeg_decoder.h and tpeg_lrc_container.h -->
+         <AppExpiration>36000</AppExpiration>      <!-- Service Configuration: maximum duration (seconds) of an application service session due to data privacy protection -->
+         <SpatialResolution>0</SpatialResolution>  <!-- Resolution of TFP locationinformation according to TISA TPEG-TFP “tfp004” specification (0 ... 6) -->
+         <SessionSize>500</SessionSize>     <!-- Max number of TPEG messages per session and TPEG application (default 1000) -->
+      </Decoder>
+      <Decoder id="TFP">
+         <AppExpiration>36000</AppExpiration>      <!-- Service Configuration: maximum duration (seconds) of an application service session due to data privacy protection -->
+         <SpatialResolution>0</SpatialResolution>  <!-- Resolution of TFP locationinformation according to TISA TPEG-TFP “tfp004” specification (0 ... 6) -->
+         <SessionSize>2500</SessionSize>     <!-- Max number of TPEG messages per session and TPEG application (default 1000) -->
+      </Decoder>
+   </ApplicationDecoder>
+   <ThttpConfiguration>
+      <FcdInterval>30</FcdInterval>          <!-- interval in seconds -->
+      <FcdMaxHistorySize>30</FcdMaxHistorySize>    <!-- how many entries are stored in history -->
+   </ThttpConfiguration>
+</OnlineConfig>

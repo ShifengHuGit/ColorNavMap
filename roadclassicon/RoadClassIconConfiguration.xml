@@ -1,0 +1,1638 @@
+<RoadClassIconConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../../xsd/nav/roadclassicon/RoadClassIconConfiguration.xsd" version="1">
+	
+	<!-- listing of all countries and all their icons for speed limit information icons for different road-signs -->
+
+	<Countries>    
+	<!-- Albania -->
+    <Country isocode="ALB" desc="Albania">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Andorra -->
+    <Country isocode="AND" desc="Andorra">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Argentina -->
+	<Country isocode="ARG" desc="Argentina">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Australia -->
+	<Country isocode="AUS" desc="Australia">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Austria -->
+    <Country isocode="AUT" desc="Austria">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Azerbaijan -->
+    <Country isocode="AZE" desc="Azerbaijan">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Bahamas -->
+	<Country isocode="BHS" desc="Bahamas">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Bahrain -->
+	<Country isocode="BHR" desc="Bahrain">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Belarus -->
+    <Country isocode="BLR" desc="Belarus">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Belgium -->
+    <Country isocode="BEL" desc="Belgium">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Bosnia And Herzegowina -->
+    <Country isocode="BIH" desc="Bosnia and Herzegowina">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Botswana -->
+	<Country isocode="BWA" desc="Botswana">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Brazil -->
+	<Country isocode="BRA" desc="Brazil">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Bulgaria -->
+    <Country isocode="BGR" desc="Bulgaria">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Canada -->
+	<Country isocode="CAN" desc="Canada">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Chile -->
+	<Country isocode="CHL" desc="Chile">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- China -->
+	<Country isocode="CHN" desc="China">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Croatia -->
+    <Country isocode="HRV" desc="Croatia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Czech Republic -->
+    <Country isocode="CZE" desc="Czech Republic">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Cyprus -->
+    <Country isocode="CYP" desc="Cyprus">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Denmark -->
+    <Country isocode="DNK" desc="Denmark">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Estonia -->
+    <Country isocode="EST" desc="Estonia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Faroe Islands -->
+    <Country isocode="FRO" desc="Faroe Islands">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Finland -->
+    <Country isocode="FIN" desc="Finland">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- France -->
+    <Country isocode="FRA" desc="France">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Georgia -->
+    <Country isocode="GEO" desc="Georgia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	
+	<!-- Germany -->
+	<Country isocode="DEU" desc="Germany">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	
+	<!-- Gibraltar -->
+    <Country isocode="GIB" desc="Gibraltar">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Greece -->
+    <Country isocode="GRC" desc="Greece">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Hong Kong -->
+	<Country isocode="HKG" desc="Hong Kong">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Hungary -->
+    <Country isocode="HUN" desc="Hungary">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Iceland -->
+    <Country isocode="ISL" desc="Iceland">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- India -->
+	<Country isocode="IND" desc="India">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Indonesia -->
+	<Country isocode="IDN" desc="Indonesia">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Ireland -->
+    <Country isocode="IRL" desc="Ireland">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Israel -->
+	<Country isocode="ISR" desc="Israel">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Italy -->
+    <Country isocode="ITA" desc="Italy">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>		
+	<!-- Japan -->
+	<Country isocode="JPN" desc="Japan">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Kazakhstan -->
+    <Country isocode="KAZ" desc="Kazakhstan">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Kuwait -->
+	<Country isocode="KWT" desc="Kuwait">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Latvia -->
+    <Country isocode="LVA" desc="Latvia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Lesotho -->
+	<Country isocode="LSO" desc="Lesotho">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Lichtenstein -->
+    <Country isocode="LIE" desc="Lichtenstein">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Lithuania -->
+    <Country isocode="LTU" desc="Lithuania">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Luxembourg -->
+    <Country isocode="LUX" desc="Luxembourg">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Macao -->
+	<Country isocode="MAC" desc="Macao">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Macedonia -->
+    <Country isocode="MKD" desc="Macedonia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Malaysia -->
+	<Country isocode="MYS" desc="Malaysia">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Malta -->
+    <Country isocode="MLT" desc="Malta">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Mexico -->
+	<Country isocode="MEX" desc="Mexico">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Moldavia -->
+    <Country isocode="MDA" desc="Moldavia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Monaco -->
+    <Country isocode="MCO" desc="Monaco">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Montenegro -->
+    <Country isocode="MNE" desc="Montenegro">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Mozambique -->
+	<Country isocode="MOZ" desc="Mozambique">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Namibia -->
+	<Country isocode="NAM" desc="Namibia">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Netherlands -->
+    <Country isocode="NLD" desc="Netherlands">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- New Zealand -->
+	<Country isocode="NZL" desc="New Zealand">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Norway -->
+    <Country isocode="NOR" desc="Norway">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Oman -->
+	<Country isocode="OMN" desc="Oman">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Philippines -->
+	<Country isocode="PHL" desc="Philippines">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Poland -->
+    <Country isocode="POL" desc="Poland">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Portugal -->
+    <Country isocode="PRT" desc="Portugal">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Puerto Rico -->
+	<Country isocode="PRI" desc="Puerto Rico">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Qatar -->
+	<Country isocode="QAT" desc="Qatar">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Romania -->
+    <Country isocode="ROU" desc="Romania">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Russia -->
+    <Country isocode="RUS" desc="Russia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- San Marino -->
+    <Country isocode="SMR" desc="San Marino">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Saudi Arabia -->
+	<Country isocode="SAU" desc="Saudi Arabia">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Serbia and Montenegro -->
+    <Country isocode="SCG" desc="Serbia and Montenegro">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Serbia-->
+    <Country isocode="SRB" desc="Serbia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Singapore -->
+	<Country isocode="SGP" desc="Singapore">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Slovakia -->
+    <Country isocode="SVK" desc="Slovakia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Slovenia -->
+    <Country isocode="SVN" desc="Slovenia">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- South Africa -->
+	<Country isocode="ZAF" desc="South Africa">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- South Korea -->
+	<Country isocode="KOR" desc="South Korea">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Spain -->
+    <Country isocode="ESP" desc="Spain">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Swaziland -->
+	<Country isocode="SWZ" desc="Swaziland">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Sweden -->
+    <Country isocode="SWE" desc="Sweden">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Switzerland -->
+    <Country isocode="CHE" desc="Switzerland">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Taiwan -->
+	<Country isocode="TWN" desc="Taiwan">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Thailand -->
+	<Country isocode="THA" desc="Thailand">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Turkey -->
+    <Country isocode="TUR" desc="Turkey">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Ukraine -->
+    <Country isocode="UKR" desc="Ukraine">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- United Arab Emirates -->
+	<Country isocode="ARE" desc="United Arab Emirates">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- United Kingdom -->
+    <Country isocode="GBR" desc="United Kingdom">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- USA -->
+	<Country isocode="USA" desc="USA">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- US Virgin Islands -->
+	<Country isocode="VIR" desc="US Virgin Islands">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>
+	<!-- Uzbekistan -->
+    <Country isocode="UZB" desc="Uzbekistan">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>
+	<!-- Vatican city State -->
+    <Country isocode="VAT" desc="Vatican City State">
+      <!-- Road Classes-->
+      <RoadClasses>
+        <RoadClass class="1" desc="Inner City">
+          <IconRefId>1</IconRefId>
+        </RoadClass>
+        <RoadClass class="2" desc="Outer City">
+          <IconRefId>2</IconRefId>
+        </RoadClass>
+        <RoadClass class="3" desc="Rural Road">
+          <IconRefId>3</IconRefId>
+        </RoadClass>
+        <RoadClass class="4" desc="Motorway">
+          <IconRefId>4</IconRefId>
+        </RoadClass>
+      </RoadClasses>
+    </Country>	
+	<!-- Zimbabwe -->
+	<Country isocode="ZWE" desc="Zimbabwe">			
+		<!-- Road Classes-->
+		<RoadClasses>
+			<RoadClass class="1" desc="Inner City">					
+				<IconRefId>1</IconRefId>					
+			</RoadClass>
+			<RoadClass class="2" desc="Outer City">
+				<IconRefId>2</IconRefId>
+			</RoadClass>
+			<RoadClass class="3" desc="Rural Road">
+				<IconRefId>3</IconRefId>
+			</RoadClass>
+			<RoadClass class="4" desc="Motorway">
+				<IconRefId>4</IconRefId>
+			</RoadClass>				
+		</RoadClasses>	
+	</Country>	
+  </Countries>
+  
+	
+	<Icons>
+		<Icon id="1">icons_roadclass/In_Town.png</Icon>
+		<Icon id="2">icons_roadclass/Out_Of_Town.png</Icon>
+		<Icon id="3">icons_roadclass/Speedway.png</Icon>
+		<Icon id="4">icons_roadclass/Highway.png</Icon>
+	</Icons>	
+</RoadClassIconConfiguration>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DestinationFlagConfig version="2">
+   
+	<!-- Animate destination and stopover flags -->
+	<UseAnimatedFlags>true</UseAnimatedFlags>
+	
+	<!-- The animation duration in milliseconds -->
+	<AnimationDuration>1200</AnimationDuration>
+	
+	<!-- The number of frames in an animation sequence -->
+	<AnimationFrames>12</AnimationFrames>
+	
+	<!-- Width and height of one single animation frame in pixel -->
+	<AnimationFrameWidth> 72</AnimationFrameWidth>
+	<AnimationFrameHeight>90</AnimationFrameHeight>
+   
+	<!-- The last destination is a special case -->
+	<DestinationFlag type="final_destination">
+	
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<!-- The image(s) used for static flag rendering -->
+		<!-- The anchor defines where the origin of the icon is placed -->
+		<!-- i.e. anchor = Vector2f(22.0f/72.0f, 62.0f/90.0f) -->
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Destination.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Destination_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Destination_Shadow3D.png</Image>
+
+		<!-- The image sequence(s) used or animated flag rendering -->
+		<!-- anchor in pixels, duration in ms, frame size in pixels -->
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Destination.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+      
+	</DestinationFlag>
+
+	<!-- The stopover flags -->
+	<DestinationFlag type="stopover_destination" number="0">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_0.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_0.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="1">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_1.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_1.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="2">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_2.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_2.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="3">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_3.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_3.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="4">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_4.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_4.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="5">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_5.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_5.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="6">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_6.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_6.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="7">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_7.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_7.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="8">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_8.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_8.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="9">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_9.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_9.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="10">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_10.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_10.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="11">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_11.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_11.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="12">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_12.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_12.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="13">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_13.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_13.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="14">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_14.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_14.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="15">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_15.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_15.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="16">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_16.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_16.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="17">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_17.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_17.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="18">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_18.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_18.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="19">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_19.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_19.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+	
+	<DestinationFlag type="stopover_destination" number="20">
+   
+		<ScaleLevelVisibility>
+			<ScaleLevelValue type="min">        0</ScaleLevelValue>
+			<ScaleLevelValue type="max"> 110000000</ScaleLevelValue>
+			<ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+		</ScaleLevelVisibility>
+      
+		<Image usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/Stopover_20.png</Image>
+		<Image usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow2D/Stopover_Shadow2D.png</Image>
+		<Image usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889">icons_flags/Shadow3D/Stopover_Shadow3D.png</Image>
+
+		<SequencedImage usage="base"     anchor_x="0.3056" anchor_y="0.6889">icons_flags/animation/Stopover_20.png</SequencedImage>
+		<!--
+		<SequencedImage usage="shadow2D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		<SequencedImage usage="shadow3D" anchor_x="0.3056" anchor_y="0.6889"></SequencedImage>
+		-->
+   
+	</DestinationFlag>
+
+</DestinationFlagConfig>

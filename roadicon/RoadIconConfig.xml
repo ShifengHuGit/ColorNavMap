@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<RoadIconConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="22">
+  <IconSet desc="CHN - R1a" id="90">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1a_C2_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C2_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C2_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1a_C2_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1a_C3_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.46" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C3_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.396552" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C3_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1a_C3_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1a_C5_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.470588" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C5_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.421053" anchor_y="0.532258">icons_road/CHN/CHN_R1a_C5_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>5</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1a_C5_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>5</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="CHN - R2" id="91">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R2_C4_Y0_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.466667" anchor_y="0.42">icons_road/CHN/CHN_R2_C4_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.411765" anchor_y="0.42">icons_road/CHN/CHN_R2_C4_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.5</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R2_C4_Y0_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="CHN - R3" id="92">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R3_C4_Y0_X0_BK-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.465517" anchor_y="0.42">icons_road/CHN/CHN_R3_C4_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.409091" anchor_y="0.42">icons_road/CHN/CHN_R3_C4_Shadow3D-06.png</Image>
+        <IconFontVariantRef>23</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.5</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R3_C4_Y0_X0_BK-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000FF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="CHN - R4" id="93">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R4_C4_Y0_X0_BK-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.465517" anchor_y="0.42">icons_road/CHN/CHN_R4_C4_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.409091" anchor_y="0.42">icons_road/CHN/CHN_R4_C4_Shadow3D-06.png</Image>
+        <IconFontVariantRef>23</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.5</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R4_C4_Y0_X0_BK-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000FF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R4_C5_Y0_X0_BK-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.472222" anchor_y="0.42">icons_road/CHN/CHN_R4_C5_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.425" anchor_y="0.42">icons_road/CHN/CHN_R4_C5_Shadow3D-06.png</Image>
+        <IconFontVariantRef>23</IconFontVariantRef>
+        <TextCharacterSpace>5</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.5</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R4_C5_Y0_X0_BK-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000FF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>5</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="CHN - R1b" id="180">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1b_C2_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.45" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C2_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.375" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C2_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1b_C2_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1b_C3_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.458333" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C3_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.392857" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C3_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1b_C3_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/CHN_R1b_C5_Y3_X0_WE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.469697" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C5_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.418919" anchor_y="0.532258">icons_road/CHN/CHN_R1b_C5_Shadow3D-06.png</Image>
+        <IconFontVariantRef>22</IconFontVariantRef>
+        <TextCharacterSpace>5</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.611</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/CHN_R1b_C5_Y3_X0_WE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>3</DeltaY>
+        <FontColor>#FFFFFFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>5</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="HKG - R1" id="181">
+    <Icon id="1">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/HKG_R1_C1_Y-1_X0_BE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.423077" anchor_y="0.42">icons_road/CHN/HKG_R1_C1_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.323529" anchor_y="0.42">icons_road/CHN/HKG_R1_C1_Shadow3D-06.png</Image>
+        <IconFontVariantRef>24</IconFontVariantRef>
+        <TextCharacterSpace>1</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.452381</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/HKG_R1_C1_Y-1_X0_BE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>-1</DeltaY>
+        <FontColor>#1E52AFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>1</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base" anchor_x="0.5" anchor_y="0.5">icons_road/CHN/HKG_R1_C2_Y-1_X0_BE-06.png</Image>
+        <Image usage="shadow2D" anchor_x="0.428571" anchor_y="0.42">icons_road/CHN/HKG_R1_C2_Shadow2D-06.png</Image>
+        <Image usage="shadow3D" anchor_x="0.333333" anchor_y="0.42">icons_road/CHN/HKG_R1_C2_Shadow3D-06.png</Image>
+        <IconFontVariantRef>24</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+        <TextAnchorX>0.5</TextAnchorX>
+        <TextAnchorY>0.452381</TextAnchorY>
+        <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">      0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  9900000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 9500000</ScaleLevelValue>
+       </ScaleLevelVisibility>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/CHN/HKG_R1_C2_Y-1_X0_BE-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>-1</DeltaY>
+        <FontColor>#1E52AFFF</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>17</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+</RoadIconConfiguration>

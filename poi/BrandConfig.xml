@@ -1,0 +1,1275 @@
+<?xml version="1.0"?>
+<BrandConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3">
+  <FuelBrandsCategories>
+    <BrandCategoryDefinitionId>1</BrandCategoryDefinitionId>
+  </FuelBrandsCategories>
+  <BrandMappingDefinition>
+    <BrandMapping fueltype="default">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="gasoline">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="diesel">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="cng">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="lpg">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="bev">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+    <BrandMapping fueltype="phev">
+      <BrandCategoryDefinition id="1" type="petrol_station">
+        <BrandsCategoryId>101</BrandsCategoryId>
+        <BrandsCategoryId>302</BrandsCategoryId>
+        <BrandsCategoryId>303</BrandsCategoryId>
+        <BrandsCategoryId>121</BrandsCategoryId>
+        <BrandsCategoryId>135</BrandsCategoryId>
+        <BrandsCategoryId>136</BrandsCategoryId>
+        <BrandReferenceIds>
+          <BrandRef>0</BrandRef>
+          <BrandRef>1</BrandRef>
+          <BrandRef>2</BrandRef>
+          <BrandRef>3</BrandRef>
+          <BrandRef>4</BrandRef>
+          <BrandRef>5</BrandRef>
+          <BrandRef>6</BrandRef>
+        </BrandReferenceIds>
+      </BrandCategoryDefinition>
+    </BrandMapping>
+  </BrandMappingDefinition>
+  <BrandNameDefinition>
+    <Name brand_ref="1">dont use</Name>
+    <Name brand_ref="2">dont use</Name>
+    <Name brand_ref="3">dont use</Name>
+    <Name brand_ref="4">dont use</Name>
+    <Name brand_ref="5">dont use</Name>
+    <Name brand_ref="6">dont use</Name>
+    <Name brand_ref="7">dont use</Name>
+    <Name brand_ref="8">dont use</Name>
+    <Name brand_ref="9">dont use</Name>
+    <Name brand_ref="10">dont use</Name>
+    <Name brand_ref="11">dont use</Name>
+    <Name brand_ref="12">dont use</Name>
+    <Name brand_ref="13">dont use</Name>
+    <Name brand_ref="14">dont use</Name>
+    <Name brand_ref="15">dont use</Name>
+    <Name brand_ref="16">dont use</Name>
+    <Name brand_ref="17">dont use</Name>
+    <Name brand_ref="18">dont use</Name>
+    <Name brand_ref="19">dont use</Name>
+    <Name brand_ref="20">dont use</Name>
+    <Name brand_ref="21">dont use</Name>
+    <Name brand_ref="22">dont use</Name>
+    <Name brand_ref="23">dont use</Name>
+    <Name brand_ref="24">dont use</Name>
+    <Name brand_ref="25">dont use</Name>
+    <Name brand_ref="26">dont use</Name>
+    <Name brand_ref="27">dont use</Name>
+    <Name brand_ref="28">dont use</Name>
+    <Name brand_ref="29">dont use</Name>
+    <Name brand_ref="30">dont use</Name>
+    <Name brand_ref="31">dont use</Name>
+    <Name brand_ref="32">dont use</Name>
+    <Name brand_ref="33">dont use</Name>
+    <Name brand_ref="34">dont use</Name>
+    <Name brand_ref="35">dont use</Name>
+    <Name brand_ref="36">dont use</Name>
+    <Name brand_ref="37">dont use</Name>
+    <Name brand_ref="38">dont use</Name>
+  </BrandNameDefinition>
+  <BrandDefinition>
+    <Brand desc_mct="BP(Petrol) - Brand" id="0">
+      <Name>BP (BP)</Name>
+      <Image usage="hmi">icons_brands/BP-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/BP-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/BP-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/BP-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10016</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Caltex(Petrol) - Brand" id="1">
+      <Name>加德士 (Caltex)</Name>
+      <Image usage="hmi">icons_brands/Caltex-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Caltex-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Caltex-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Caltex-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10018</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Esso(Petrol) - Brand" id="2">
+      <Name>埃索 (Esso)</Name>
+      <Image usage="hmi">icons_brands/Esso-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Esso-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Esso-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Esso-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10029</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Mobil(Petrol) - Brand" id="3">
+      <Name>美孚 (Mobil)</Name>
+      <Image usage="hmi">icons_brands/Mobil-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Mobil-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Mobil-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Mobil-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10043</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Shell(Petrol) - Brand" id="4">
+      <Name>壳牌 (Shell)</Name>
+      <Image usage="hmi">icons_brands/Shell-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Shell-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Shell-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Shell-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10068</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Sinopec(Petrol) - Brand" id="5">
+      <Name>中国石化 (Sinopec)</Name>
+      <Image usage="hmi">icons_brands/Sinopec-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Sinopec-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Sinopec-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Sinopec-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10082</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="PetroChina(Petrol) - Brand" id="6">
+      <Name>中国石油 (PetroChina)</Name>
+      <Image usage="hmi">icons_brands/Petrochina-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Petrochina-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Petrochina-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Petrochina-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10083</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="21 CENTURY (Supermarkets) - Brand" id="7">
+      <Name>21 CENTURY</Name>
+      <Image usage="hmi">icons_brands/21_Century-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/21_Century-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/21_Century-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/21_Century-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16001</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Alldays(Supermarkets) - Brand" id="8">
+      <Name>Alldays</Name>
+      <Image usage="hmi">icons_brands/Alldays-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Alldays-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Alldays-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Alldays-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16002</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Carrefour(Supermarkets) - Brand" id="9">
+      <Name>Carrefour</Name>
+      <Image usage="hmi">icons_brands/Carrefour-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Carrefour-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Carrefour-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Carrefour-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16003</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="C-Store(Supermarkets) - Brand" id="10">
+      <Name>C-Store</Name>
+      <Image usage="hmi">icons_brands/C-Store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/C-Store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/C-Store-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/C-Store-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16004</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Guangming(Supermarkets) - Brand" id="11">
+      <Name>Guangming</Name>
+      <Image usage="hmi">icons_brands/Guangming-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Guangming-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Guangming-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Guangming-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16005</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hualian(Beijing)_Supermarket(Supermarkets) - Brand" id="12">
+      <Name>Hualian(Beijing)_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Hualian(Beijing)_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hualian(Beijing)_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hualian(Beijing)_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hualian(Beijing)_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16006</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hualian_Shanghaihualian_Supermarket(Supermarkets) - Brand" id="13">
+      <Name>Hualian_Shanghaihualian_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Hualian_Shanghaihualian_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hualian_Shanghaihualian_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hualian_Shanghaihualian_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hualian_Shanghaihualian_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16007</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Huarun_Supermarket(Supermarkets) - Brand" id="14">
+      <Name>Huarun_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Huarun_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Huarun_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Huarun_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Huarun_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16008</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Jiadeli_Supermarket(Supermarkets) - Brand" id="15">
+      <Name>Jiadeli_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Jiadeli_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Jiadeli_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Jiadeli_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Jiadeli_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16009</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Kedi(Supermarkets) - Brand" id="16">
+      <Name>Kedi</Name>
+      <Image usage="hmi">icons_brands/Kedi-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Kedi-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Kedi-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Kedi-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16010</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Lawson(Supermarkets) - Brand" id="17">
+      <Name>Lawson</Name>
+      <Image usage="hmi">icons_brands/Lawson-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Lawson-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Lawson-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Lawson-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16011</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Lianhua_Shijihualian_Supermarket(Supermarkets) - Brand" id="18">
+      <Name>Lianhua_Shijihualian_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Lianhua_Shijihualian_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Lianhua_Shijihualian_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Lianhua_Shijihualian_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Lianhua_Shijihualian_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16012</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Lotus_Supermarket(Supermarkets) - Brand" id="19">
+      <Name>Lotus_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Lotus_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Lotus_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Lotus_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Lotus_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16013</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Quik(Supermarkets) - Brand" id="20">
+      <Name>Quik</Name>
+      <Image usage="hmi">icons_brands/Quik-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Quik-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Quik-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Quik-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16014</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Seven_Eleven(Supermarkets) - Brand" id="21">
+      <Name>Seven_Eleven</Name>
+      <Image usage="hmi">icons_brands/Seven_Eleven-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Seven_Eleven-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Seven_Eleven-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Seven_Eleven-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>10001</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Trust-Mart(Supermarkets) - Brand" id="22">
+      <Name>Trust-Mart</Name>
+      <Image usage="hmi">icons_brands/Trust-Mart-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Trust-Mart-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Trust-Mart-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Trust-Mart-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16016</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Wal-Mart(Supermarkets) - Brand" id="23">
+      <Name>Wal-Mart</Name>
+      <Image usage="hmi">icons_brands/Wal-Mart-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Wal-Mart-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Wal-Mart-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Wal-Mart-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16017</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Zhongbai_Supermarket(Supermarkets) - Brand" id="24">
+      <Name>Zhongbai_Supermarket</Name>
+      <Image usage="hmi">icons_brands/Zhongbai_Supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Zhongbai_Supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Zhongbai_Supermarket-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Zhongbai_Supermarket-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>16018</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Ajisen_Ramen(Restaurants Fast Food) - Brand" id="25">
+      <Name>Ajisen_Ramen</Name>
+      <Image usage="hmi">icons_brands/Ajisen_Ramen-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Ajisen_Ramen-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Ajisen_Ramen-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Ajisen_Ramen-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13007</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Dico's(Restaurants Fast Food) - Brand" id="26">
+      <Name>Dico's</Name>
+      <Image usage="hmi">icons_brands/Dico's-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Dico's-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Dico's-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Dico's-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13008</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Domino's(Restaurants Fast Food) - Brand" id="27">
+      <Name>Domino's</Name>
+      <Image usage="hmi">icons_brands/Domino's-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Domino's-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Domino's-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Domino's-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13009</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Kfc(Restaurants Fast Food) - Brand" id="28">
+      <Name>Kfc</Name>
+      <Image usage="hmi">icons_brands/Kfc-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Kfc-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Kfc-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Kfc-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13010</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Laojia_Bakemeat(Restaurants Fast Food) - Brand" id="29">
+      <Name>Laojia_Bakemeat</Name>
+      <Image usage="hmi">icons_brands/Laojia_Bakemeat-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Laojia_Bakemeat-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Laojia_Bakemeat-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Laojia_Bakemeat-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13011</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Malan_Noodle(Restaurants Fast Food) - Brand" id="30">
+      <Name>Malan_Noodle</Name>
+      <Image usage="hmi">icons_brands/Malan_Noodle-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Malan_Noodle-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Malan_Noodle-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Malan_Noodle-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13012</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Mcdonald's(Restaurants Fast Food) - Brand" id="31">
+      <Name>Mcdonald's</Name>
+      <Image usage="hmi">icons_brands/Mcdonald's-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Mcdonald's-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Mcdonald's-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Mcdonald's-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13001</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Origus(Restaurants Fast Food) - Brand" id="32">
+      <Name>Origus</Name>
+      <Image usage="hmi">icons_brands/Origus-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Origus-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Origus-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Origus-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13013</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Pizza_Hut(Restaurants Fast Food) - Brand" id="33">
+      <Name>Pizza_Hut</Name>
+      <Image usage="hmi">icons_brands/Pizza_Hut-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Pizza_Hut-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Pizza_Hut-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Pizza_Hut-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13003</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Subway(Restaurants Fast Food) - Brand" id="34">
+      <Name>Subway</Name>
+      <Image usage="hmi">icons_brands/Subway-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Subway-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Subway-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Subway-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13014</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Yonghe_Soybean_Milk_King(Restaurants Fast Food) - Brand" id="35">
+      <Name>Yonghe_Soybean_Milk_King</Name>
+      <Image usage="hmi">icons_brands/Yonghe_Soybean_Milk_King-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Yonghe_Soybean_Milk_King-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Yonghe_Soybean_Milk_King-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Yonghe_Soybean_Milk_King-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13015</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Starbucks(Coffee and Tea) - Brand" id="36">
+      <Name>Starbucks</Name>
+      <Image usage="hmi">icons_brands/Starbucks-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Starbucks-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Starbucks-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Starbucks-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13016</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="U.B.C.Coffee(Coffee and Tea) - Brand" id="37">
+      <Name>U.B.C.Coffee</Name>
+      <Image usage="hmi">icons_brands/U.B.C.Coffee-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/U.B.C.Coffee-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/U.B.C.Coffee-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/U.B.C.Coffee-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>13017</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Agricultural_Bank_Of_China(Bank) - Brand" id="38">
+      <Name>Agricultural_Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Agricultural_Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14011</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Bank_Of_China(Bank) - Brand" id="39">
+      <Name>Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14012</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Bank_Of_Communications(Bank) - Brand" id="40">
+      <Name>Bank_Of_Communications</Name>
+      <Image usage="hmi">icons_brands/Bank_Of_Communications-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Bank_Of_Communications-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Bank_Of_Communications-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Bank_Of_Communications-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14013</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Chartered(Bank) - Brand" id="41">
+      <Name>Chartered</Name>
+      <Image usage="hmi">icons_brands/Chartered-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Chartered-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Chartered-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Chartered-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14015</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Construction_Bank(Bank) - Brand" id="42">
+      <Name>China_Construction_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Construction_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Construction_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Construction_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Construction_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14016</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Everbright_Bank(Bank) - Brand" id="43">
+      <Name>China_Everbright_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Everbright_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Everbright_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Everbright_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Everbright_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14017</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Merchants_Bank(Bank) - Brand" id="44">
+      <Name>China_Merchants_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Merchants_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Merchants_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Merchants_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Merchants_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14018</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Minsheng_Banking_Corp(Bank) - Brand" id="45">
+      <Name>China_Minsheng_Banking_Corp</Name>
+      <Image usage="hmi">icons_brands/China_Minsheng_Banking_Corp-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14019</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Citibank(Bank) - Brand" id="46">
+      <Name>Citibank</Name>
+      <Image usage="hmi">icons_brands/Citibank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Citibank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Citibank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Citibank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14020</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Citic_Industrial_Bank(Bank) - Brand" id="47">
+      <Name>Citic_Industrial_Bank</Name>
+      <Image usage="hmi">icons_brands/Citic_Industrial_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14021</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Dbs(Bank) - Brand" id="48">
+      <Name>Dbs</Name>
+      <Image usage="hmi">icons_brands/Dbs-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Dbs-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Dbs-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Dbs-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14022</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Guangdong_Development_Bank(Bank) - Brand" id="49">
+      <Name>Guangdong_Development_Bank</Name>
+      <Image usage="hmi">icons_brands/Guangdong_Development_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14024</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hang_Seng(Bank) - Brand" id="50">
+      <Name>Hang_Seng</Name>
+      <Image usage="hmi">icons_brands/Hang_Seng-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hang_Seng-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hang_Seng-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hang_Seng-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14025</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hsbc(Bank) - Brand" id="51">
+      <Name>Hsbc</Name>
+      <Image usage="hmi">icons_brands/Hsbc-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hsbc-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hsbc-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hsbc-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14026</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Huaxia_Bank(Bank) - Brand" id="52">
+      <Name>Huaxia_Bank</Name>
+      <Image usage="hmi">icons_brands/Huaxia_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Huaxia_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Huaxia_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Huaxia_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14027</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Industrial_And_Commercial_Bank_Of_China(Bank) - Brand" id="53">
+      <Name>Industrial_And_Commercial_Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Industrial_And_Commercial_Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14028</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Shanghai_Pudong_Development_Bank(Bank) - Brand" id="54">
+      <Name>Shanghai_Pudong_Development_Bank</Name>
+      <Image usage="hmi">icons_brands/Shanghai_Pudong_Development_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14029</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Shenzhen_Development_Bank_Co.Ltd(Bank) - Brand" id="55">
+      <Name>Shenzhen_Development_Bank_Co.Ltd</Name>
+      <Image usage="hmi">icons_brands/Shenzhen_Development_Bank_Co.Ltd-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14030</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="The_Bank_Of_East_Asia(Bank) - Brand" id="56">
+      <Name>The_Bank_Of_East_Asia</Name>
+      <Image usage="hmi">icons_brands/The_Bank_Of_East_Asia-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14031</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Xingye_Bank(Bank) - Brand" id="57">
+      <Name>Xingye_Bank</Name>
+      <Image usage="hmi">icons_brands/Xingye_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Xingye_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Xingye_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Xingye_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>14032</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Agricultural_Bank_Of_China(ATM) - Brand" id="58">
+      <Name>Agricultural_Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Agricultural_Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Agricultural_Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15011</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Bank_Of_China(ATM) - Brand" id="59">
+      <Name>Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15012</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Bank_Of_Communications(ATM) - Brand" id="60">
+      <Name>Bank_Of_Communications</Name>
+      <Image usage="hmi">icons_brands/Bank_Of_Communications-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Bank_Of_Communications-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Bank_Of_Communications-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Bank_Of_Communications-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15013</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Chartered(ATM) - Brand" id="61">
+      <Name>Chartered</Name>
+      <Image usage="hmi">icons_brands/Chartered-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Chartered-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Chartered-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Chartered-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15015</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Construction_Bank(ATM) - Brand" id="62">
+      <Name>China_Construction_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Construction_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Construction_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Construction_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Construction_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15016</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Everbright_Bank(ATM) - Brand" id="63">
+      <Name>China_Everbright_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Everbright_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Everbright_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Everbright_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Everbright_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15017</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Merchants_Bank(ATM) - Brand" id="64">
+      <Name>China_Merchants_Bank</Name>
+      <Image usage="hmi">icons_brands/China_Merchants_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Merchants_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Merchants_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Merchants_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15018</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Minsheng_Banking_Corp(ATM) - Brand" id="65">
+      <Name>China_Minsheng_Banking_Corp</Name>
+      <Image usage="hmi">icons_brands/China_Minsheng_Banking_Corp-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Minsheng_Banking_Corp-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15019</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Citibank(ATM) - Brand" id="66">
+      <Name>Citibank</Name>
+      <Image usage="hmi">icons_brands/Citibank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Citibank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Citibank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Citibank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15020</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Citic_Industrial_Bank(ATM) - Brand" id="67">
+      <Name>Citic_Industrial_Bank</Name>
+      <Image usage="hmi">icons_brands/Citic_Industrial_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Citic_Industrial_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15021</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Dbs(ATM) - Brand" id="68">
+      <Name>Dbs</Name>
+      <Image usage="hmi">icons_brands/Dbs-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Dbs-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Dbs-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Dbs-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15022</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Guangdong_Development_Bank(ATM) - Brand" id="69">
+      <Name>Guangdong_Development_Bank</Name>
+      <Image usage="hmi">icons_brands/Guangdong_Development_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Guangdong_Development_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15024</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hang_Seng(ATM) - Brand" id="70">
+      <Name>Hang_Seng</Name>
+      <Image usage="hmi">icons_brands/Hang_Seng-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hang_Seng-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hang_Seng-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hang_Seng-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15025</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Hsbc(ATM) - Brand" id="71">
+      <Name>Hsbc</Name>
+      <Image usage="hmi">icons_brands/Hsbc-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Hsbc-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Hsbc-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Hsbc-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15026</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Huaxia_Bank(ATM) - Brand" id="72">
+      <Name>Huaxia_Bank</Name>
+      <Image usage="hmi">icons_brands/Huaxia_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Huaxia_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Huaxia_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Huaxia_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15027</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Industrial_And_Commercial_Bank_Of_China(ATM) - Brand" id="73">
+      <Name>Industrial_And_Commercial_Bank_Of_China</Name>
+      <Image usage="hmi">icons_brands/Industrial_And_Commercial_Bank_Of_China-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Industrial_And_Commercial_Bank_Of_China-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15028</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Shanghai_Pudong_Development_Bank(ATM) - Brand" id="74">
+      <Name>Shanghai_Pudong_Development_Bank</Name>
+      <Image usage="hmi">icons_brands/Shanghai_Pudong_Development_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Shanghai_Pudong_Development_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15029</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Shenzhen_Development_Bank_Co.Ltd(ATM) - Brand" id="75">
+      <Name>Shenzhen_Development_Bank_Co.Ltd</Name>
+      <Image usage="hmi">icons_brands/Shenzhen_Development_Bank_Co.Ltd-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Shenzhen_Development_Bank_Co.Ltd-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15030</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="The_Bank_Of_East_Asia(ATM) - Brand" id="76">
+      <Name>The_Bank_Of_East_Asia</Name>
+      <Image usage="hmi">icons_brands/The_Bank_Of_East_Asia-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/The_Bank_Of_East_Asia-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15031</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Xingye_Bank(ATM) - Brand" id="77">
+      <Name>Xingye_Bank</Name>
+      <Image usage="hmi">icons_brands/Xingye_Bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Xingye_Bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Xingye_Bank-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Xingye_Bank-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>15032</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="New_China_Life(Insurance) - Brand" id="78">
+      <Name>New_China_Life</Name>
+      <Image usage="hmi">icons_brands/New_China_Life-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/New_China_Life-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/New_China_Life-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/New_China_Life-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>18001</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Picc(Insurance) - Brand" id="79">
+      <Name>Picc</Name>
+      <Image usage="hmi">icons_brands/Picc-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Picc-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Picc-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Picc-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>18002</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Unicom(More Public Facilities) - Brand" id="80">
+      <Name>China_Unicom</Name>
+      <Image usage="hmi">icons_brands/China_Unicom-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Unicom-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Unicom-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Unicom-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>17001</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="Cnc(More Public Facilities) - Brand" id="81">
+      <Name>Cnc</Name>
+      <Image usage="hmi">icons_brands/Cnc-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/Cnc-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/Cnc-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/Cnc-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>17002</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Mobile(More Public Facilities) - Brand" id="82">
+      <Name>China_Mobile</Name>
+      <Image usage="hmi">icons_brands/China_Mobile-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Mobile-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Mobile-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Mobile-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>17003</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+    <Brand desc_mct="China_Telecom (More Public Facilities) - Brand" id="83">
+      <Name>China_Telecom</Name>
+      <Image usage="hmi">icons_brands/China_Telecom-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_brands/China_Telecom-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.891892">icons_brands/Shadow2D/China_Telecom-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.38" anchor_y="0.891892">icons_brands/Shadow3D/China_Telecom-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="1">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.39" anchor_y="0.92">icons_brands/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <BrandIconSetId>17004</BrandIconSetId>
+      </DatabaseMapping>
+    </Brand>
+  </BrandDefinition>
+</BrandConfiguration>

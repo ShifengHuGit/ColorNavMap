@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TmcConfig>
+  <locale code="en_US" unit_system="UNITS_IMPERIAL">
+    <tmc_event event_code="1">
+      <short_text>traffic problem</short_text>
+      <long_text>traffic problem</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>incident</short_text>
+      <long_text>overheight warning system triggered</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>object on roadway</short_text>
+      <long_text>object on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>burst pipe</short_text>
+      <long_text>burst pipe</long_text>
+    </tmc_event>
+    <tmc_event event_code="101">
+      <short_text>%lstopped traffic</short_text>
+      <long_text>stopped traffic</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%lstop &amp; go</short_text>
+      <long_text>%lstop &amp; go</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>traffic flowing freely</short_text>
+      <long_text>traffic flowing freely</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>%lstop &amp; go</short_text>
+      <long_text>stop &amp; go . Approach with care</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>accident</short_text>
+      <long_text>accident</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>serious accident</short_text>
+      <long_text>serious accident</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>accident</short_text>
+      <long_text>chemical spill accident</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>spilled load</short_text>
+      <long_text>spilled load</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>disabled vehicle</short_text>
+      <long_text>disabled vehicle</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>vehicle on fire</short_text>
+      <long_text>vehicle on fire</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>incident</short_text>
+      <long_text>rescue and recovery work in progress</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>on-ramp closed</short_text>
+      <long_text>on-ramp closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>off-ramp closed</short_text>
+      <long_text>off-ramp closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>ramp restrictions</short_text>
+      <long_text>ramp restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>no motor vehicles</short_text>
+      <long_text>no motor vehicles</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>restrictions</short_text>
+      <long_text>restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>lane closed</short_text>
+      <long_text>lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>right lane closed</short_text>
+      <long_text>right lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>left lane closed</short_text>
+      <long_text>left lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>two lanes closed</short_text>
+      <long_text>two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>narrow lanes</short_text>
+      <long_text>three lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>two-way traffic</short_text>
+      <long_text>two-way traffic</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>narrow lanes</short_text>
+      <long_text>narrow lanes</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>one lane closed</short_text>
+      <long_text>one lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>road construction</short_text>
+      <long_text>road construction</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>roadworks</short_text>
+      <long_text>major road construction</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>roadworks</short_text>
+      <long_text>road maintenance operations</long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>roadworks</short_text>
+      <long_text>bridge maintenance operations</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>closures</short_text>
+      <long_text>closed due to road construction</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>narrow lanes</short_text>
+      <long_text>road construction. Two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>roadworks</short_text>
+      <long_text>slow moving maintenance vehicle</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>water main work</short_text>
+      <long_text>water main work</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>gas main work</short_text>
+      <long_text>gas main work</long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>flooding</short_text>
+      <long_text>flooding</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>falling rocks</short_text>
+      <long_text>falling rocks</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>land slides</short_text>
+      <long_text>land slides</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>earthquake damage</short_text>
+      <long_text>earthquake damage</long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>obstruction hazard</short_text>
+      <long_text>road surface collapse</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>gas leak</short_text>
+      <long_text>gas leak</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>serious fire</short_text>
+      <long_text>serious fire</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>dangerous situation</short_text>
+      <long_text>animals on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>closures</short_text>
+      <long_text>closed due to flooding</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>closures</short_text>
+      <long_text>closed due to land slides</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>ice build-up</short_text>
+      <long_text>ice build-up</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>mud slide</short_text>
+      <long_text>mud slide</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>closures</short_text>
+      <long_text>blocked due to obstruction on road</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>closures</short_text>
+      <long_text>blocked due to spilled load on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>hazardous driving conditions</short_text>
+      <long_text>hazardous driving conditions</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>slippery road</short_text>
+      <long_text>possible hydroplaning</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>slippery road</short_text>
+      <long_text>slippery road</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>packed snow</short_text>
+      <long_text>packed snow</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>slippery road</short_text>
+      <long_text>slippery due to snow on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>obstruction hazard</short_text>
+      <long_text>serious fire. Caution</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>impassable</short_text>
+      <long_text>impassable</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>oil on road</short_text>
+      <long_text>oil on road</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>slippery road</short_text>
+      <long_text>loose gravel. Caution</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>heavy snow</short_text>
+      <long_text>heavy snow</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>snow</short_text>
+      <long_text>snow</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>hail</short_text>
+      <long_text>hail</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>thunderstorms</short_text>
+      <long_text>thunderstorms</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>heavy rain</short_text>
+      <long_text>heavy rain</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>rain</short_text>
+      <long_text>rain</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>blizzard</short_text>
+      <long_text>blizzard</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>damaging hail</short_text>
+      <long_text>damaging hail</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>heavy rain</short_text>
+      <long_text>heavy rain</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>strong winds</short_text>
+      <long_text>hurricane force winds</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>gales</short_text>
+      <long_text>gales</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>strong winds</short_text>
+      <long_text>strong winds</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>fog</short_text>
+      <long_text>fog</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>blowing dust</short_text>
+      <long_text>blowing dust</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>visibility reduced</short_text>
+      <long_text>visibility reduced</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>sandstorms</short_text>
+      <long_text>sandstorms</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>smog alert</short_text>
+      <long_text>smog alert</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>people on roadway</short_text>
+      <long_text>people on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>police checkpoint</short_text>
+      <long_text>police checkpoint</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>major event</short_text>
+      <long_text>major event</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>sports event</short_text>
+      <long_text>sports event</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>festival</short_text>
+      <long_text>festival</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>exhibition</short_text>
+      <long_text>exhibition</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>fair</short_text>
+      <long_text>fair</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>security alert</short_text>
+      <long_text>security alert</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>concert</short_text>
+      <long_text>concert</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>delays</short_text>
+      <long_text>delays %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>others</short_text>
+      <long_text>normal services not operating</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>obstruction hazard</short_text>
+      <long_text>slow moving maintenance vehicle</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>driver on wrong carriageway</short_text>
+      <long_text>vehicle traveling in the wrong direction</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>obstruction hazard</short_text>
+      <long_text>spillage occuring from moving vehicle</long_text>
+    </tmc_event>
+  </locale>
+</TmcConfig>

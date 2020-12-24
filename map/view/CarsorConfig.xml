@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarsorConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../../../xsd/nav/carsor/CarsorConfiguration.xsd " version="9">
+    <!--
+        Description: Configuration of the carsor appearance.
+        
+        <Variant>
+            attribute "Name": Usage description of the given carsor configuration.
+                              Valid values: day, night
+                              Varient with the name day will be shown in day mode.
+                              Varient with the name night will be shown in night mode.
+            
+            <Transformation>
+                Transformation on local carsor coordinate system.
+                
+                <Position>
+                   Offset of the mesh orgin position in normalized object space ( range: -1, +1 ).
+                   Offset x - speed in km/h where no offset is going to be applied
+                   Offset y - value interpretation in meters
+                </Position>
+                
+                <Rotation>
+                    Mesh orientation in degree 0..365 for every axis.
+                    The rotation is applied in the following order:
+                    first rotation around the X-axis, 
+                    than around the Y-axis 
+                    and at least aroud the Z-axis.
+                </Rotation>
+                
+                <Scale>
+                    Uniform scale value for the whole mesh.
+                </Scale>
+            </Transformation>
+            
+            <MeshAssetPath>
+               Points to the file where the carsor mesh is stored. Relative to the resource directory. Case-sensitive.
+            </MeshAssetPath>
+
+            <MeshBinaryAssetPath>
+               Points to the file where the carsor mesh is stored in a binary format. Relative to the resource directory. Case-sensitive.
+               If MeshAssetPath and MeshBinaryAssetPath are both specified the binary mesh will be preferred. It is your responsibility to
+               keep the data content of both files in sync.
+            </MeshBinaryAssetPath>
+            
+            <Color>
+                Overall color of the carsor mesh. 
+                Eventually predefined colors in the mesh data file are ignored.
+            </Color>
+            
+            <Illumination>
+                Directional lighting properties.
+                
+                <Position>
+                    Position of the light source in normalized world space ( range: -1, +1 ).
+                    Example: 
+                    .top right means XYZ( 1, 1, 1 )
+                    .bottom left means XYZ( -1, -1, -1 )
+                </Position>
+                
+                <Intensity>
+                    Intensity ot the light source.
+                </Intensity>
+                
+                <Color>
+                     RGBA Color of the light source.
+                </Color>
+            </Illumination>
+        
+        </Variant>
+    -->
+    
+    <Variant Name="day">
+        <Transformation>
+            <Position>
+                <X>0.0</X>
+                <Y>0.0</Y>
+                <Z>0.15</Z>
+            </Position>
+            <Rotation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+            </Rotation>
+            <Scale>1.3</Scale>
+        </Transformation>
+        <MeshAssetPath>mesh/Carsor_day.obj</MeshAssetPath>
+        <MeshBinaryAssetPath>mesh/Carsor_day.MeshData</MeshBinaryAssetPath>
+        <Color>#EF000AFF</Color>
+        <Illumination>
+            <Position>
+                <X>-1.0</X>
+                <Y>1.0</Y>
+                <Z>1.0</Z>
+            </Position>
+            <Intensity>1.0</Intensity>
+            <Color>#FFFFFFFF</Color>
+        </Illumination>
+    </Variant>
+    
+    <Variant Name="night">
+        <Transformation>
+            <Position>
+                <X>0.0</X>
+                <Y>0.0</Y>
+                <Z>0.15</Z>
+            </Position>
+            <Rotation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+            </Rotation>
+            <Scale>1.0</Scale>
+        </Transformation>
+        <MeshAssetPath>mesh/Carsor_day.obj</MeshAssetPath>
+        <MeshBinaryAssetPath>mesh/Carsor_day.MeshData</MeshBinaryAssetPath>
+        <Color>#0E86FFFF</Color>
+        <Illumination>
+            <Position>
+                <X>-1.0</X>
+                <Y>1.0</Y>
+                <Z>1.0</Z>
+            </Position>
+            <Intensity>1.0</Intensity>
+            <Color>#FFFFFFFF</Color>
+        </Illumination>
+    </Variant>
+    
+</CarsorConfiguration>

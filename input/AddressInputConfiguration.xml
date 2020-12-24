@@ -1,0 +1,886 @@
+﻿<AddressInputConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/nav/input/AddressInputConfiguration.xsd" version="1">
+<!-- listing of countries and some country specific configuration-->
+
+<!-- id = unique identifier -->
+<!-- name = name of country -->
+<!-- code = iso country code -->
+<!-- image = path to flag icons -->
+<!-- tranliterations = 0/1 disable or enable use of transliterations in destination input -->
+<!-- prefered abbreviation = country abbreviation to be displayed by HMI (if empty the iso country code is used) -->
+<!-- national languages = list of country specific languages to be used by destination input -->
+<!-- prefered housenumber speller = speller used for housenumber input  0 = freetext 1 = nvc -->
+
+<States>
+   <State id="0"> <!-- DEFAULT -->
+      <Name>DEFAULT</Name>
+      <Code>DEFAULT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <NationalLanguages>
+         <Language>en_GB</Language>  
+      </NationalLanguages>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="1">
+      <Name>United States of America</Name>
+      <Code>USA</Code>
+      <Image usage="base">icons_country/NAR/NAR_USA.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="2">
+      <Name>Mexico</Name>
+      <Code>MEX</Code>
+      <Image usage="base">icons_country/NAR/NAR_Mexico.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="3">
+      <Name>Canada</Name>
+      <Code>CAN</Code>
+      <Image usage="base">icons_country/NAR/NAR_Canada.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>CDN</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="4">
+      <Name>Bahamas</Name>
+      <Code>BHS</Code>
+      <Image usage="base">icons_country/NAR/NAR_Bahamas.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>BS</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="5">
+      <Name>Cayman Islands</Name>
+      <Code>CYM</Code>
+      <Image usage="base">icons_country/NAR/NAR_Cayman_Islands.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="6">
+      <Name>Guadeloupe</Name>
+      <Code>GLP</Code>
+      <Image usage="base">icons_country/NAR/NAR_Guadeloupe.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="7">
+      <Name>Martinique</Name>
+      <Code>MTQ</Code>
+      <Image usage="base">icons_country/NAR/NAR_Martinique.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="8">
+      <Name>Puerto Rico</Name>
+      <Code>PRI</Code>
+      <Image usage="base">icons_country/NAR/NAR_Puerto_Rico.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="9">
+      <Name>Saint Barthélemy</Name>
+      <Code>BLM</Code>
+      <Image usage="base">icons_country/NAR/NAR_Saint-Barthelemy.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="10">
+      <Name>U.S. Virgin Islands</Name>
+      <Code>VIR</Code>
+      <Image usage="base">icons_country/NAR/NAR-U.S._Virgin_Islands.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>VI</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="11">
+      <Name>Albanien</Name>
+      <Code>ALB</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>AL</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sq_AL</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="12">
+      <Name>Andorra</Name>
+      <Code>AND</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>ca_AD</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="13">
+      <Name>Belarus</Name>
+      <Code>BLR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>BY</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>be_BY</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="14">
+      <Name>Belgien</Name>
+      <Code>BEL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>B</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>de_DE</Language>  
+         <Language>fr_FR</Language>
+         <Language>nl_NL</Language>
+      </NationalLanguages>
+   </State>
+   <State id="15">
+      <Name>Bosnien und Herzegowina</Name>
+      <Code>BIH</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>bs_BA</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="16">
+      <Name>Bulgarien</Name>
+      <Code>BGR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>BG</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>bg_BG</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="17">
+      <Name>Dänemark</Name>
+      <Code>DNK</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>DK</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>da_DK</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="18">
+      <Name>Deutschland</Name>
+      <Code>DEU</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>D</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>de_DE</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="19">
+      <Name>Estland</Name>
+      <Code>EST</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>et_EE</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="20">
+      <Name>Finnland</Name>
+      <Code>FIN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>fi_FI</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="21">
+      <Name>Frankreich</Name>
+      <Code>FRA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>F</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>fr_FR</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="22">
+      <Name>Gibraltar</Name>
+      <Code>GIB</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>en_GB</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="23">
+      <Name>Griechenland</Name>
+      <Code>GRC</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>GR</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>el_GR</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="24">
+      <Name>Irland</Name>
+      <Code>IRL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>ga_IE</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="25">
+      <Name>Island</Name>
+      <Code>ISL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>is_IS</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="26">
+      <Name>Italien</Name>
+      <Code>ITA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>I</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>it_IT</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="27">
+      <Name>Kroatien</Name>
+      <Code>HRV</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>HR</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>hr_HR</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="28">
+      <Name>Lettland</Name>
+      <Code>LVA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>LV</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>lv_LV</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="29">
+      <Name>Liechtenstein</Name>
+      <Code>LIE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>FL</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>de_DE</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="30">
+      <Name>Litauen</Name>
+      <Code>LTU</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>LT</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>lt_LT</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="31">
+      <Name>Luxemburg</Name>
+      <Code>LUX</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>L</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>lb_LU</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="32">
+      <Name>Malta</Name>
+      <Code>MLT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>M</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>mt_MT</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="33">
+      <Name>Mazedonien</Name>
+      <Code>MKD</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>MK</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>mk_MK</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="34">
+      <Name>Moldawien</Name>
+      <Code>MDA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>ro_MD</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="35">
+      <Name>Monaco</Name>
+      <Code>MCO</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>MC</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>fr_MC</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="36">
+      <Name>Montenegro</Name>
+      <Code>MNE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>st_ME</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="37">
+      <Name>Niederlande</Name>
+      <Code>NLD</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>NL</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>nl_NL</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="38">
+      <Name>Norwegen</Name>
+      <Code>NOR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>N</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>nb_NO</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="39">
+      <Name>Österreich</Name>
+      <Code>AUT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>AU</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>de_AT</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="40">
+      <Name>Polen</Name>
+      <Code>POL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>PL</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>pl_PL</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="41">
+      <Name>Portugal</Name>
+      <Code>PRT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>P</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>pt_PT</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="42">
+      <Name>Rumänien</Name>
+      <Code>ROU</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RO</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>ro_RO</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="43">
+      <Name>Russland</Name>
+      <Code>RUS</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>ru_RU</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="44">
+      <Name>San Marino</Name>
+      <Code>SMR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RSM</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>it_SM</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="45">
+      <Name>Schweden</Name>
+      <Code>SWE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>S</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sv_SE</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="46">
+      <Name>Schweiz</Name>
+      <Code>CHE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>CH</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>de_DE</Language>  
+         <Language>fr_FR</Language>
+         <Language>it_IT</Language>
+      </NationalLanguages>
+   </State>
+   <State id="47">
+      <Name>Serbien</Name>
+      <Code>SRB</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sr_RS</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="48">
+      <Name>Slowakei</Name>
+      <Code>SVK</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>SK</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sk_SK</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="49">
+      <Name>Slowenien</Name>
+      <Code>SVN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>SLO</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sl_SI</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="50">
+      <Name>Spanien</Name>
+      <Code>ESP</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>E</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>es_ES</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="51">
+      <Name>Tschechische Republik</Name>
+      <Code>CZE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>CZ</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>cs_CZ</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="52">
+      <Name>Türkei</Name>
+      <Code>TUR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>TR</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>tr_TR</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="53">
+      <Name>Ukraine</Name>
+      <Code>UKR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>UA</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>uk_UA</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="54">
+      <Name>Ungarn</Name>
+      <Code>HUN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>H</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>hu_HU</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="55">
+      <Name>Vatikanstadt</Name>
+      <Code>VAT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>V</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>it_VA</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="56">
+      <Name>Vereinigtes Königreich</Name>
+      <Code>GBR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>GB</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>en_GB</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="57">
+      <Name>Kosovo</Name>
+      <Code>RKS</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>sq_AL</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="58">
+      <Name>Zypern</Name>
+      <Code>CYP</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>CY</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+      <NationalLanguages>
+         <Language>el_CY</Language>  
+      </NationalLanguages>
+   </State>
+   <State id="59">
+      <Name>Argentinien</Name>
+      <Code>ARG</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RA</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="60">
+      <Name>Brasilien</Name>
+      <Code>BRA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>BR</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="61">
+      <Name>Chile</Name>
+      <Code>CHL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RCH</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="62">
+      <Name>Südafrika</Name>
+      <Code>ZAF</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>ZA</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="63">
+      <Name>Lesotho</Name>
+      <Code>LSO</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>LS</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="64">
+      <Name>Botswana</Name>
+      <Code>BWA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RB</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="65">
+      <Name>Swasiland</Name>
+      <Code>SWZ</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>SD</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="66">
+      <Name>Namibia</Name>
+      <Code>NAM</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="67">
+      <Name>Mosambik</Name>
+      <Code>MOZ</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>MOC</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="68">
+      <Name>Simbabwe</Name>
+      <Code>ZWE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>ZW</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="69">
+      <Name>Israel</Name>
+      <Code>ISR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>M</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="70">
+      <Name>Indien</Name>
+      <Code>IND</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="71">
+      <Name>Malaysia</Name>
+      <Code>MAL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>MYS</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="72">
+      <Name>Singapur</Name>
+      <Code>SGP</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+   </State>
+   <State id="73">
+      <Name>Thailand</Name>
+      <Code>THA</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>T</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="74">
+      <Name>Indonesien</Name>
+      <Code>IDN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>IN</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="75">
+      <Name>Philippinen</Name>
+      <Code>PHL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RP</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="76">
+      <Name>Bahrain</Name>
+      <Code>BHR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>BRN</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="77">
+      <Name>Kuwait</Name>
+      <Code>KWT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="78">
+      <Name>Oman</Name>
+      <Code>OMN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>OM</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="79">
+      <Name>Katar</Name>
+      <Code>QAT</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>Q</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="80">
+      <Name>Saudi Arabien</Name>
+      <Code>SAU</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>KSA</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="81">
+      <Name>Vereinigte Arabische Emirate</Name>
+      <Code>ARE</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>UAE</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="82">
+      <Name>Australien</Name>
+      <Code>AUS</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="83">
+      <Name>Neuseeland</Name>
+      <Code>NZL</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>NZ</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="84">
+      <Name>Japan</Name>
+      <Code>JPN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>J</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="85">
+      <Name>China</Name>
+      <Code>CHN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation></PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+   </State>
+   <State id="86">
+      <Name>Hong Kong</Name>
+      <Code>HKG</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>HK</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+   </State>
+   <State id="87">
+      <Name>Macao</Name>
+      <Code>MAC</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>1</Transliterations>
+      <PreferedAbbreviation>MO</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>1</PreferedHouseNumberSpeller>
+   </State>
+   <State id="88">
+      <Name>Korea</Name>
+      <Code>KOR</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>ROK</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+   <State id="89">
+      <Name>Taiwan</Name>
+      <Code>TWN</Code>
+      <Image usage="base">icons_country/Default.png</Image>
+      <Transliterations>0</Transliterations>
+      <PreferedAbbreviation>RC</PreferedAbbreviation>
+      <PreferedHouseNumberSpeller>0</PreferedHouseNumberSpeller>
+   </State>
+</States>
+</AddressInputConfiguration>

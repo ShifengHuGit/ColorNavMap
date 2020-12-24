@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<CityCenterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="9">
+<!--
+      Description:
+
+      The city centers contained within the database as points will be groupable to visual identically
+      city center classes. Each city center class will be described by one <CityCenterClass> tag.
+
+      <CityCenterClass>
+         The "desc" attribute is optional for better readablity.
+         The "id" attribute is currently not evaluated.
+
+         <Priority>
+            Defines the priority of the city center class. This will later be used to calculate the visibility of labels
+            in case of overlap with other labels. Currently, this value is ignored.
+         </Priority>
+
+         <FontVariantRef>
+            This references to the FontConfiguration.xml to define the font variant which will be used to draw the names
+            of the city centers of this class.
+            Non-functional at the moment - currently city names use always font variant 0 .
+         </FontVariantRef>
+
+         <Anchor>
+            Specifies the anchor of the text plate. Currently non-functional. The text will always be placed 10 pixels above the
+            middle of the marker with a bottom center alignement.
+         </Anchor>
+
+         <TextOffset>
+            The vertical offset between the marker and the text. Currently non-functional. Will always be 10 pixels.
+         </TextOffset>
+
+         <Marker>
+
+            The marker section defines everything related to the marker icon of the city center class.
+
+            <ScaleLevelVisibility>
+
+            The <ScaleLevelValue> sub tags describe the visibility of the Markers depending on the zoom level.
+            The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads
+            "world centimeter per display centimeter". Currently, only the max value is evaluated.
+            The marker will be visible in all zoom levels < max.
+
+               <ScaleLevelValue type="min">10</ScaleLevelValue>
+               <ScaleLevelValue type="max">15000</ScaleLevelValue>
+               <ScaleLevelValue type="fade">10000</ScaleLevelValue>
+            </ScaleLevelVisibility>
+
+            The image tags define the available images for the marker of this class.
+
+            <Image usage="base">
+
+            The "usage" attribute defines the purpose of the image. Valid values are "base", "shadow2D" and "shadow3D".
+            Only the "base"-usage will be evaluated for now.
+            The <AssetRef> is the id of the asset which should be used.
+            The <Rect> defines the part of the asset that contains the image. This can be used to combine multiple images
+            into one big file. The syntax for this tag is "bottom.x|bottom.y|extent.x|extent.y".
+
+               <AssetRef>5</AssetRef>
+               <Rect>0|0|14|13</Rect>
+            </Image>
+
+            <Image usage="shadow2D">
+               <AssetRef>1</AssetRef>
+               <Rect>0|0|4|4</Rect>
+            </Image>
+
+            <Image usage="shadow3D">
+               <AssetRef>1</AssetRef>
+               <Rect>0|0|4|4</Rect>
+            </Image>
+         </Marker>
+
+         <ScaleLevelVisibility>
+
+         The <ScaleLevelValue> sub tags describe the visibility of the text depending on the zoom level.
+         The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads
+         "world centimeter per display centimeter". Currently, these values will not be evaluated.
+
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <ClassReferences>
+
+         The <ClassReference> contains the point classes that are assigned to that city center class.
+
+            <Class>POINTTYPE_CITY_CENTER_CAPITAL</Class>
+         </ClassReferences>
+
+         <PopulationReference>
+
+         The <PopulationReference> contains the population categories that are assigned to that city center class.
+         It must be ensured that each combination of point class and population category is only assigned to one city center class.
+
+            <Population>POPULATION_SMALL</Population>
+            <Population>POPULATION_5K</Population>
+            <Population>POPULATION_10K</Population>
+            <Population>POPULATION_50K</Population>
+            <Population>POPULATION_100K</Population>
+            <Population>POPULATION_500K</Population>
+            <Population>POPULATION_1M</Population>
+            <Population>POPULATION_5M</Population>
+         </PopulationReference>
+
+      <CityCenterClass>
+   -->
+
+  <CityCenterClass desc="Capital" id="1">
+    <Priority>10</Priority>
+    <FontVariantRef mode="day">32</FontVariantRef>
+    <FontVariantRef mode="night">33</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Beijing.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Beijing_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Beijing_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">110000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER_CAPITAL</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_5K</Population>
+      <Population>POPULATION_10K</Population>
+      <Population>POPULATION_50K</Population>
+      <Population>POPULATION_100K</Population>
+      <Population>POPULATION_500K</Population>
+      <Population>POPULATION_1M</Population>
+      <Population>POPULATION_5M</Population>
+      <Population>POPULATION_UNKNOWN</Population>
+    </PopulationReference>
+  </CityCenterClass>
+
+  <CityCenterClass desc="Province Capitals" id="2">
+    <Priority>9</Priority>
+    <FontVariantRef mode="day">28</FontVariantRef>
+    <FontVariantRef mode="night">31</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Capitol.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Capitol_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Capitol_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">110000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_1M</Population>
+    </PopulationReference>
+  </CityCenterClass>
+<!--  <CityCenterClass desc="Cities_2" id="3">
+    <Priority>8</Priority>
+    <FontVariantRef mode="day">28</FontVariantRef>
+    <FontVariantRef mode="night">31</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">110000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">110000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER</Class>
+      <Class>POINTTYPE_HAMLET</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_500K</Population>
+    </PopulationReference>
+  </CityCenterClass>-->
+  <CityCenterClass desc="Cities" id="3">
+    <Priority>7</Priority>
+    <FontVariantRef mode="day">27</FontVariantRef>
+    <FontVariantRef mode="night">30</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">5900000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">5000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER</Class>
+      <Class>POINTTYPE_HAMLET</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_50K</Population>
+      <Population>POPULATION_100K</Population>
+      <Population>POPULATION_500K</Population>
+    </PopulationReference>
+  </CityCenterClass>
+  <CityCenterClass desc="Small Cities" id="4">
+    <Priority>6</Priority>
+    <FontVariantRef mode="day">26</FontVariantRef>
+    <FontVariantRef mode="night">29</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Small.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Small_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Small_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">2900000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">2000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER</Class>
+      <Class>POINTTYPE_HAMLET</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_5K</Population>
+      <Population>POPULATION_10K</Population>
+    </PopulationReference>
+  </CityCenterClass>
+  <CityCenterClass desc="Smaller Cities" id="5">
+    <Priority>5</Priority>
+    <FontVariantRef mode="day">26</FontVariantRef>
+    <FontVariantRef mode="night">29</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Smaller.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Smaller_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Smaller_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">21</ScaleLevelValue>
+      <ScaleLevelValue type="fade">21</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_CENTER</Class>
+      <Class>POINTTYPE_HAMLET</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_SMALL</Population>
+    </PopulationReference>
+  </CityCenterClass>
+  <CityCenterClass desc="POINTTYPE_HAMLET" id="6">
+    <Priority>4</Priority>
+    <FontVariantRef mode="day">7</FontVariantRef>
+    <FontVariantRef mode="night">6</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Smaller.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Smaller_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Smaller_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">100000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">100000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_HAMLET</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_UNKNOWN</Population>
+    </PopulationReference>
+  </CityCenterClass>
+  <CityCenterClass desc="POINT_CITY_DISTRICT_CENTRE" id="7">
+    <Priority>3</Priority>
+    <FontVariantRef mode="day">7</FontVariantRef>
+    <FontVariantRef mode="night">6</FontVariantRef>
+    <Anchor>0.5|0</Anchor>
+    <TextOffset>0.040</TextOffset>
+    <Marker>
+      <Image usage="base">icons_citymarker/City_Center_Smaller.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Smaller_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Smaller_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">100000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">100000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <ClassReferences>
+      <Class>POINTTYPE_CITY_DISTRICT_CENTER</Class>
+    </ClassReferences>
+    <PopulationReference>
+      <Population>POPULATION_5K</Population>
+      <Population>POPULATION_10K</Population>
+      <Population>POPULATION_50K</Population>
+      <Population>POPULATION_100K</Population>
+      <Population>POPULATION_500K</Population>
+      <Population>POPULATION_1M</Population>
+      <Population>POPULATION_5M</Population>
+      <Population>POPULATION_UNKNOWN</Population>
+    </PopulationReference>
+  </CityCenterClass>
+</CityCenterConfig>

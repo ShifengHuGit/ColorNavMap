@@ -1,0 +1,4793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TmcConfig>
+  <locale code="zh_HK" unit_system="UNITS_METRIC">
+    <tmc_event event_code="1">
+      <short_text>交通阻塞</short_text>
+      <long_text>交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="2">
+      <short_text>%l交通停滯</short_text>
+      <long_text>%l交通停滯，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>交通阻塞</short_text>
+      <long_text>已觸發流量控制</long_text>
+    </tmc_event>
+    <tmc_event event_code="12">
+      <short_text>事故</short_text>
+      <long_text>發生事故，車流被從事發地點旁引導開</long_text>
+    </tmc_event>
+    <tmc_event event_code="16">
+      <short_text>封鎖</short_text>
+      <long_text>因救援工作而遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="20">
+      <short_text>停車場已佔用</short_text>
+      <long_text>加油站和休息區已滿，請前往另一個加油站或休息區</long_text>
+    </tmc_event>
+    <tmc_event event_code="22">
+      <short_text>加油站已關閉</short_text>
+      <long_text>加油站和休息區，加油站已關閉</long_text>
+    </tmc_event>
+    <tmc_event event_code="23">
+      <short_text>休息區已關閉</short_text>
+      <long_text>加油站和休息區，休息區已關閉</long_text>
+    </tmc_event>
+    <tmc_event event_code="24">
+      <short_text>橋梁封鎖</short_text>
+      <long_text>橋梁已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="25">
+      <short_text>隧道封鎖</short_text>
+      <long_text>隧道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="26">
+      <short_text>橋梁已遭阻塞</short_text>
+      <long_text>橋梁已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="27">
+      <short_text>隧道已遭阻塞</short_text>
+      <long_text>隧道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="28">
+      <short_text>道路封鎖</short_text>
+      <long_text>道路多處已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="41">
+      <short_text>路面變窄</short_text>
+      <long_text>超車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="42">
+      <short_text>路面變窄</short_text>
+      <long_text>超車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="51">
+      <short_text>工地</short_text>
+      <long_text>超車道正在施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="52">
+      <short_text>工地</short_text>
+      <long_text>應急車道正在施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="53">
+      <short_text>工地</short_text>
+      <long_text>應急車道正在施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="55">
+      <short_text>交通阻塞</short_text>
+      <long_text>預計發生交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="56">
+      <short_text>交通阻塞</short_text>
+      <long_text>預計發生交通不暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>路面物品</short_text>
+      <long_text>路面上有物品導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>管路破裂</short_text>
+      <long_text>管路破裂導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="63">
+      <short_text>路面物品</short_text>
+      <long_text>路面上有物品導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="64">
+      <short_text>管路破裂</short_text>
+      <long_text>管路破裂導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="70">
+      <short_text>%l塞車</short_text>
+      <long_text>交通不暢，平均車速10 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="71">
+      <short_text>%l塞車</short_text>
+      <long_text>交通不暢，平均車速20 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="72">
+      <short_text>%l塞車</short_text>
+      <long_text>交通不暢，平均車速30 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="73">
+      <short_text>%l塞車</short_text>
+      <long_text>交通不暢，平均車速40 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="74">
+      <short_text>%l交通停滯</short_text>
+      <long_text>交通不暢，平均車速50 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="75">
+      <short_text>%l交通停滯</short_text>
+      <long_text>交通不暢，平均車速60 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="76">
+      <short_text>%l交通停滯</short_text>
+      <long_text>交通不暢，平均車速70 mph</long_text>
+    </tmc_event>
+    <tmc_event event_code="80">
+      <short_text>車流密集</short_text>
+      <long_text>預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="81">
+      <short_text>交通不暢</short_text>
+      <long_text>預計發生交通不暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="82">
+      <short_text>工地</short_text>
+      <long_text>工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="83">
+      <short_text>封鎖</short_text>
+      <long_text>封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="84">
+      <short_text>活動</short_text>
+      <long_text>活動</long_text>
+    </tmc_event>
+    <tmc_event event_code="85">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="86">
+      <short_text>展會</short_text>
+      <long_text>正在舉辦展會，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="87">
+      <short_text>撤離</short_text>
+      <long_text>正在撤離人員，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="91">
+      <short_text>時間損失</short_text>
+      <long_text>乘用車時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="101">
+      <short_text>%l塞車</short_text>
+      <long_text>%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="102">
+      <short_text>塞車1 mi</short_text>
+      <long_text>塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="103">
+      <short_text>塞車2 mi</short_text>
+      <long_text>塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="104">
+      <short_text>塞車4 mi</short_text>
+      <long_text>塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="105">
+      <short_text>塞車6 mi</short_text>
+      <long_text>塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="106">
+      <short_text>塞車10 mi</short_text>
+      <long_text>塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="107">
+      <short_text>交通阻塞</short_text>
+      <long_text>預計發生塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%l交通停滯</short_text>
+      <long_text>%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="109">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="110">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="111">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="112">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="113">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="114">
+      <short_text>交通停滯</short_text>
+      <long_text>預計發生交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="115">
+      <short_text>%l車流密集</short_text>
+      <long_text>%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="116">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="117">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="118">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="119">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="120">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="121">
+      <short_text>交通阻塞</short_text>
+      <long_text>預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="122">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="123">
+      <short_text>交通阻塞</short_text>
+      <long_text>預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>交通正常</short_text>
+      <long_text>交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="125">
+      <short_text>%l車流密集</short_text>
+      <long_text>%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="129">
+      <short_text>塞車3 mi</short_text>
+      <long_text>塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="130">
+      <short_text>有塞車危險</short_text>
+      <long_text>有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="131">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="132">
+      <short_text>%l交通停滯</short_text>
+      <long_text>有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="133">
+      <short_text>%l長塞車</short_text>
+      <long_text>長塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="134">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="136">
+      <short_text>交通不暢</short_text>
+      <long_text>交通不暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>%l塞車</short_text>
+      <long_text>%l塞車，請小心駛向塞車末尾</long_text>
+    </tmc_event>
+    <tmc_event event_code="139">
+      <short_text>%l交通停滯</short_text>
+      <long_text>%l塞車末尾位於彎道後方</long_text>
+    </tmc_event>
+    <tmc_event event_code="140">
+      <short_text>%l交通停滯</short_text>
+      <long_text>%l塞車末尾位於山頂後方</long_text>
+    </tmc_event>
+    <tmc_event event_code="142">
+      <short_text>%l車流密集</short_text>
+      <long_text>車流比正常情況密集得多</long_text>
+    </tmc_event>
+    <tmc_event event_code="143">
+      <short_text>%l車流密集</short_text>
+      <long_text>車流比正常情況密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="200">
+      <short_text>事故</short_text>
+      <long_text>多輛車發生事故，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>事故</short_text>
+      <long_text>事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>嚴重事故</short_text>
+      <long_text>嚴重事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="203">
+      <short_text>事故</short_text>
+      <long_text>多輛車發生事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="204">
+      <short_text>貨車事故</short_text>
+      <long_text>貨車事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="205">
+      <short_text>事故</short_text>
+      <long_text>危險品運輸車事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="206">
+      <short_text>事故</short_text>
+      <long_text>發生事故，汽油溢出導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>事故</short_text>
+      <long_text>發生事故，化學品溢出導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="208">
+      <short_text>交通阻塞</short_text>
+      <long_text>圍觀人員導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="212">
+      <short_text>故障貨車</short_text>
+      <long_text>貨車發生故障導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>車輛起火</short_text>
+      <long_text>車輛起火</long_text>
+    </tmc_event>
+    <tmc_event event_code="214">
+      <short_text>交通阻塞</short_text>
+      <long_text>交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="215">
+      <short_text>%l塞車</short_text>
+      <long_text>發生事故，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="216">
+      <short_text>塞車1 mi</short_text>
+      <long_text>發生事故，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="217">
+      <short_text>塞車2 mi</short_text>
+      <long_text>發生事故，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="218">
+      <short_text>塞車4 mi</short_text>
+      <long_text>發生事故，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="219">
+      <short_text>塞車6 mi</short_text>
+      <long_text>發生事故，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="220">
+      <short_text>塞車10 mi</short_text>
+      <long_text>發生事故，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="221">
+      <short_text>事故</short_text>
+      <long_text>發生事故，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="222">
+      <short_text>%l交通停滯</short_text>
+      <long_text>發生事故，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="223">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>發生事故，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="224">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>發生事故，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="225">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>發生事故，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="226">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>發生事故，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="227">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>發生事故，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="228">
+      <short_text>事故</short_text>
+      <long_text>發生事故，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="229">
+      <short_text>%l車流密集</short_text>
+      <long_text>發生事故，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="230">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>發生事故，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="231">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>發生事故，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="232">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>發生事故，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="233">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>發生事故，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="234">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>發生事故，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="235">
+      <short_text>事故</short_text>
+      <long_text>發生事故，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="236">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>發生事故，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="237">
+      <short_text>事故</short_text>
+      <long_text>發生事故，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="238">
+      <short_text>事故</short_text>
+      <long_text>發生事故，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="239">
+      <short_text>%l車流密集</short_text>
+      <long_text>發生事故，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="240">
+      <short_text>事故，封鎖</short_text>
+      <long_text>發生事故，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="241">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，右側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="242">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，中間車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="243">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，左側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="244">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，應急車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="245">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，兩條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="246">
+      <short_text>路面變窄</short_text>
+      <long_text>發生事故，三條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="247">
+      <short_text>事故</short_text>
+      <long_text>發生事故，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="248">
+      <short_text>事故</short_text>
+      <long_text>發生事故，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="249">
+      <short_text>事故</short_text>
+      <long_text>發生事故，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="250">
+      <short_text>%l塞車</short_text>
+      <long_text>圍觀人員導致交通阻塞，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="251">
+      <short_text>塞車1 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="252">
+      <short_text>塞車2 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="253">
+      <short_text>塞車4 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="254">
+      <short_text>塞車6 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="255">
+      <short_text>塞車10 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="256">
+      <short_text>交通阻塞</short_text>
+      <long_text>圍觀人員導致交通阻塞，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="257">
+      <short_text>%l交通停滯</short_text>
+      <long_text>圍觀人員導致交通阻塞，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="258">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="259">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="260">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="261">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="262">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="263">
+      <short_text>交通阻塞</short_text>
+      <long_text>圍觀人員導致交通阻塞，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="264">
+      <short_text>%l車流密集</short_text>
+      <long_text>圍觀人員導致交通阻塞，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="265">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="266">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="267">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="268">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="269">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="271">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>圍觀人員導致交通阻塞，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="274">
+      <short_text>%l車流密集</short_text>
+      <long_text>圍觀人員導致交通阻塞，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="275">
+      <short_text>時間損失</short_text>
+      <long_text>圍觀人員導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="276">
+      <short_text>時間損失</short_text>
+      <long_text>圍觀人員導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="277">
+      <short_text>長時間等待</short_text>
+      <long_text>圍觀人員導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="278">
+      <short_text>%l塞車</short_text>
+      <long_text>貨物丟失，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="279">
+      <short_text>塞車1 mi</short_text>
+      <long_text>貨物丟失，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="280">
+      <short_text>塞車2 mi</short_text>
+      <long_text>貨物丟失，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="281">
+      <short_text>塞車4 mi</short_text>
+      <long_text>貨物丟失，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="282">
+      <short_text>塞車6 mi</short_text>
+      <long_text>貨物丟失，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="283">
+      <short_text>塞車10 mi</short_text>
+      <long_text>貨物丟失，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="284">
+      <short_text>有塞車危險</short_text>
+      <long_text>貨物丟失，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="285">
+      <short_text>%l交通停滯</short_text>
+      <long_text>貨物丟失，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="286">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>貨物丟失，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="287">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>貨物丟失，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="288">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>貨物丟失，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="289">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>貨物丟失，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="290">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>貨物丟失，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="291">
+      <short_text>交通停滯</short_text>
+      <long_text>貨物丟失，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="292">
+      <short_text>%l車流密集</short_text>
+      <long_text>貨物丟失，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="293">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>貨物丟失，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="294">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>貨物丟失，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="295">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>貨物丟失，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="296">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>貨物丟失，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="297">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>貨物丟失，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="298">
+      <short_text>車流密集</short_text>
+      <long_text>貨物丟失，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="299">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>貨物丟失，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="300">
+      <short_text>交通繁忙</short_text>
+      <long_text>貨物丟失，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="301">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="302">
+      <short_text>車流密集</short_text>
+      <long_text>貨物丟失，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="303">
+      <short_text>封鎖</short_text>
+      <long_text>貨物丟失導致遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="304">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，右側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="305">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，中間車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="306">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，左側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="307">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，應急車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="308">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，兩條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="309">
+      <short_text>路面變窄</short_text>
+      <long_text>貨物丟失，三條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="310">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="311">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="312">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="313">
+      <short_text>%l塞車</short_text>
+      <long_text>車輛發生故障導致交通阻塞，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="314">
+      <short_text>交通阻塞</short_text>
+      <long_text>車輛發生故障導致交通阻塞，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="315">
+      <short_text>%l交通停滯</short_text>
+      <long_text>車輛發生故障導致交通阻塞，交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="316">
+      <short_text>交通阻塞</short_text>
+      <long_text>車輛發生故障導致交通阻塞，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="317">
+      <short_text>%l車流密集</short_text>
+      <long_text>車輛發生故障導致交通阻塞，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="318">
+      <short_text>交通阻塞</short_text>
+      <long_text>車輛發生故障導致交通阻塞，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="319">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>車輛發生故障導致交通阻塞，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="320">
+      <short_text>交通阻塞</short_text>
+      <long_text>車輛發生故障導致交通阻塞，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="321">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障，車流暢通</long_text>
+    </tmc_event>
+    <tmc_event event_code="322">
+      <short_text>交通阻塞</short_text>
+      <long_text>車輛發生故障導致交通阻塞，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="323">
+      <short_text>封鎖</short_text>
+      <long_text>車輛發生故障導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="324">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，右側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="325">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，中間車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="326">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，左側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="327">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，應急車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="328">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，兩條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="329">
+      <short_text>路面變窄</short_text>
+      <long_text>車輛發生故障導致交通阻塞，三條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="330">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="331">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="332">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="335">
+      <short_text>公共巴士事故</short_text>
+      <long_text>公共巴士事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="336">
+      <short_text>事故</short_text>
+      <long_text>發生事故，機油溢出導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="337">
+      <short_text>事故</short_text>
+      <long_text>翻車</long_text>
+    </tmc_event>
+    <tmc_event event_code="338">
+      <short_text>事故</short_text>
+      <long_text>貨車翻車導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="339">
+      <short_text>事故</short_text>
+      <long_text>拖車彎折</long_text>
+    </tmc_event>
+    <tmc_event event_code="340">
+      <short_text>事故</short_text>
+      <long_text>房車彎折</long_text>
+    </tmc_event>
+    <tmc_event event_code="341">
+      <short_text>貨車彎折</short_text>
+      <long_text>貨車彎折</long_text>
+    </tmc_event>
+    <tmc_event event_code="342">
+      <short_text>事故</short_text>
+      <long_text>車輛發生事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="343">
+      <short_text>事故</short_text>
+      <long_text>前方發生事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="344">
+      <short_text>事故拍照</short_text>
+      <long_text>事故拍照</long_text>
+    </tmc_event>
+    <tmc_event event_code="345">
+      <short_text>繼發事故</short_text>
+      <long_text>繼發事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="346">
+      <short_text>交通阻塞</short_text>
+      <long_text>故障公共巴士</long_text>
+    </tmc_event>
+    <tmc_event event_code="348">
+      <short_text>發生事故，塞車3 mi</short_text>
+      <long_text>發生事故，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="349">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>發生事故，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="350">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>發生事故，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="351">
+      <short_text>事故</short_text>
+      <long_text>工地區域發生事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="352">
+      <short_text>塞車3 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="353">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="354">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>圍觀人員導致交通阻塞，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="355">
+      <short_text>交通阻塞</short_text>
+      <long_text>圍觀人員導致交通阻塞，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="356">
+      <short_text>塞車3 mi</short_text>
+      <long_text>貨物丟失，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="357">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>貨物丟失，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="358">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>貨物丟失，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="359">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="360">
+      <short_text>%l塞車</short_text>
+      <long_text>翻車，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="361">
+      <short_text>事故</short_text>
+      <long_text>翻車，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="362">
+      <short_text>%l交通停滯</short_text>
+      <long_text>翻車，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="363">
+      <short_text>事故</short_text>
+      <long_text>翻車，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="364">
+      <short_text>%l車流密集</short_text>
+      <long_text>翻車，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="365">
+      <short_text>事故</short_text>
+      <long_text>翻車，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="366">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>翻車，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="367">
+      <short_text>事故</short_text>
+      <long_text>翻車，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="368">
+      <short_text>%l車流密集</short_text>
+      <long_text>翻車，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="369">
+      <short_text>封鎖</short_text>
+      <long_text>翻車導致遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="370">
+      <short_text>路面變窄</short_text>
+      <long_text>翻車，右側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="371">
+      <short_text>路面變窄</short_text>
+      <long_text>翻車，中間車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="372">
+      <short_text>路面變窄</short_text>
+      <long_text>翻車，左側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="373">
+      <short_text>路面變窄</short_text>
+      <long_text>翻車，兩條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="374">
+      <short_text>路面變窄</short_text>
+      <long_text>翻車，三條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="375">
+      <short_text>事故</short_text>
+      <long_text>翻車，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="376">
+      <short_text>事故</short_text>
+      <long_text>翻車，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="377">
+      <short_text>事故</short_text>
+      <long_text>翻車，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="378">
+      <short_text>事故</short_text>
+      <long_text>貨車翻車導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="379">
+      <short_text>%l塞車</short_text>
+      <long_text>%l塞車，事故地點已清理</long_text>
+    </tmc_event>
+    <tmc_event event_code="381">
+      <short_text>%l交通停滯</short_text>
+      <long_text>%l交通停滯，事故地點已清理</long_text>
+    </tmc_event>
+    <tmc_event event_code="382">
+      <short_text>交通阻塞</short_text>
+      <long_text>有交通停滯危險，事故地點已清理</long_text>
+    </tmc_event>
+    <tmc_event event_code="383">
+      <short_text>%l車流密集</short_text>
+      <long_text>%l車流密集，事故地點已清理</long_text>
+    </tmc_event>
+    <tmc_event event_code="387">
+      <short_text>%l車流密集</short_text>
+      <long_text>%l車流密集且不斷增加，事故地點已清理</long_text>
+    </tmc_event>
+    <tmc_event event_code="388">
+      <short_text>事故</short_text>
+      <long_text>之前發生事故，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="390">
+      <short_text>事故</short_text>
+      <long_text>之前發生事故，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="391">
+      <short_text>事故</short_text>
+      <long_text>事故拍照，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="392">
+      <short_text>事故</short_text>
+      <long_text>繼發事故，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="393">
+      <short_text>故障車輛</short_text>
+      <long_text>車輛發生故障導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="394">
+      <short_text>故障貨車</short_text>
+      <long_text>貨車發生故障導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>救援工作</short_text>
+      <long_text>救援工作導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="401">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="402">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>入口已遭封鎖</short_text>
+      <long_text>入口已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>出口已遭封鎖</short_text>
+      <long_text>出口已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="408">
+      <short_text>立交已遭封鎖</short_text>
+      <long_text>立體交叉口已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>交通限制</short_text>
+      <long_text>立體交叉口限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="410">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="411">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="412">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="413">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="414">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="415">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="416">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="417">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="418">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="419">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="420">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="421">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="422">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="423">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="424">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="425">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="426">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="427">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="428">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="429">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="430">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="431">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="432">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="433">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="434">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="435">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="436">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="437">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="438">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="439">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="440">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="441">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="442">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="443">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="444">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="445">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="446">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="447">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="448">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="449">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="450">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="451">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="452">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="453">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="454">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="455">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="456">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="457">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="458">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="459">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="460">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="461">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="462">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="463">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="464">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="465">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="469">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="470">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="471">
+      <short_text>入口已遭封鎖</short_text>
+      <long_text>入口已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="472">
+      <short_text>入口已遭阻塞</short_text>
+      <long_text>入口已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="473">
+      <short_text>入口已遭阻塞</short_text>
+      <long_text>入口已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="474">
+      <short_text>出口已遭封鎖</short_text>
+      <long_text>出口已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="475">
+      <short_text>出口已遭阻塞</short_text>
+      <long_text>出口已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="476">
+      <short_text>出口已遭阻塞</short_text>
+      <long_text>出口已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="477">
+      <short_text>入口/出口封鎖</short_text>
+      <long_text>入口和出口已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="478">
+      <short_text>封鎖連接道路</short_text>
+      <long_text>連接道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="479">
+      <short_text>交通限制</short_text>
+      <long_text>輔路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="480">
+      <short_text>交通限制</short_text>
+      <long_text>右側分向道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="481">
+      <short_text>交通限制</short_text>
+      <long_text>左側分向道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="482">
+      <short_text>路面變窄</short_text>
+      <long_text>超車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="483">
+      <short_text>路面變窄</short_text>
+      <long_text>長途車車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="484">
+      <short_text>路面變窄</short_text>
+      <long_text>短途車車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="485">
+      <short_text>封鎖連接道路</short_text>
+      <long_text>連接道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="486">
+      <short_text>交通限制</short_text>
+      <long_text>輔路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="487">
+      <short_text>交通限制</short_text>
+      <long_text>右側分向道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="488">
+      <short_text>交通限制</short_text>
+      <long_text>左側分向道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="489">
+      <short_text>路面變窄</short_text>
+      <long_text>超車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="490">
+      <short_text>路面變窄</short_text>
+      <long_text>長途車車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="491">
+      <short_text>路面變窄</short_text>
+      <long_text>短途車車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>禁止行駛</short_text>
+      <long_text>禁止行駛</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>限制</short_text>
+      <long_text>限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="495">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="496">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="497">
+      <short_text>封鎖</short_text>
+      <long_text>已遭封鎖，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="498">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="499">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>路面變窄</short_text>
+      <long_text>右側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="502">
+      <short_text>路面變窄</short_text>
+      <long_text>中間車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>路面變窄</short_text>
+      <long_text>左側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="504">
+      <short_text>路面變窄</short_text>
+      <long_text>應急車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>路面變窄</short_text>
+      <long_text>兩條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>路面變窄</short_text>
+      <long_text>三條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="507">
+      <short_text>路面變窄</short_text>
+      <long_text>右側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="508">
+      <short_text>路面變窄</short_text>
+      <long_text>中間車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="509">
+      <short_text>路面變窄</short_text>
+      <long_text>左側車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="510">
+      <short_text>路面變窄</short_text>
+      <long_text>應急車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="511">
+      <short_text>路面變窄</short_text>
+      <long_text>兩條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="512">
+      <short_text>路面變窄</short_text>
+      <long_text>三條車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="513">
+      <short_text>路面變窄</short_text>
+      <long_text>兩個方向各僅有一條車道交替放行</long_text>
+    </tmc_event>
+    <tmc_event event_code="514">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="515">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="516">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>交通限制</short_text>
+      <long_text>透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄</long_text>
+    </tmc_event>
+    <tmc_event event_code="519">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="520">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="521">
+      <short_text>%l塞車</short_text>
+      <long_text>車道已遭封鎖，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="522">
+      <short_text>塞車1 mi</short_text>
+      <long_text>車道已遭封鎖，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="523">
+      <short_text>塞車2 mi</short_text>
+      <long_text>車道已遭封鎖，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="524">
+      <short_text>塞車4 mi</short_text>
+      <long_text>車道已遭封鎖，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="525">
+      <short_text>塞車6 mi</short_text>
+      <long_text>車道已遭封鎖，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="526">
+      <short_text>塞車10 mi</short_text>
+      <long_text>車道已遭封鎖，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="527">
+      <short_text>有塞車危險</short_text>
+      <long_text>車道已遭封鎖，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="528">
+      <short_text>%l交通停滯</short_text>
+      <long_text>車道已遭封鎖，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="529">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="530">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="531">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="532">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="533">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="534">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭封鎖，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="535">
+      <short_text>%l車流密集</short_text>
+      <long_text>車道已遭封鎖，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="536">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="537">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="538">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="539">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="540">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="541">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭封鎖，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="542">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>車道已遭封鎖，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="543">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭封鎖，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="544">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭封鎖，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="545">
+      <short_text>%l車流密集</short_text>
+      <long_text>車道已遭封鎖，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="546">
+      <short_text>%l塞車</short_text>
+      <long_text>路面縮至一條車道，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="547">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="548">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面縮至一條車道，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="549">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="550">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至一條車道，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="551">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="552">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面縮至一條車道，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="553">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="554">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="555">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至一條車道，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="556">
+      <short_text>%l塞車</short_text>
+      <long_text>路面縮至兩條車道，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="557">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="558">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面縮至兩條車道，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="559">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="560">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至兩條車道，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="561">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="562">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面縮至兩條車道，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="563">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="564">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="565">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至兩條車道，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="566">
+      <short_text>%l塞車</short_text>
+      <long_text>路面縮至三條車道，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="567">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="568">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面縮至三條車道，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="569">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="570">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至三條車道，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="571">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="572">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面縮至三條車道，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="573">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="574">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="575">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面縮至三條車道，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="576">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="577">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，預計發生塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="578">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="579">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="580">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="581">
+      <short_text>%l塞車</short_text>
+      <long_text>透過對向道路引導車流，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="583">
+      <short_text>%l交通停滯</short_text>
+      <long_text>透過對向道路引導車流，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="584">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="585">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="586">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="587">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="588">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="590">
+      <short_text>%l車流密集</short_text>
+      <long_text>透過對向道路引導車流，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="591">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="592">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="593">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="594">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="595">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="597">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>透過對向道路引導車流，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="600">
+      <short_text>%l車流密集</short_text>
+      <long_text>透過對向道路引導車流，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="601">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至一條車道，透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="602">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至兩條車道，透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="603">
+      <short_text>路面變窄</short_text>
+      <long_text>路面縮至三條車道，透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="604">
+      <short_text>%l塞車</short_text>
+      <long_text>路面變窄，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="605">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="606">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面變窄，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="607">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="608">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面變窄，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="609">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="610">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面變窄，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="611">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="612">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="613">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面變窄，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="614">
+      <short_text>%l塞車</short_text>
+      <long_text> 路面變窄，透過對向道路引導車流，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="615">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="616">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="617">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="618">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="619">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="620">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="621">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="622">
+      <short_text>路面變窄</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="623">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面變窄，透過對向道路引導車流，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="626">
+      <short_text>封鎖</short_text>
+      <long_text>已遭阻塞，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="628">
+      <short_text>封鎖</short_text>
+      <long_text>已對牌照號為偶數的汽車進行封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="629">
+      <short_text>封鎖</short_text>
+      <long_text>已對牌照號為奇數的汽車進行封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="637">
+      <short_text>路面變窄</short_text>
+      <long_text>掉頭車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="638">
+      <short_text>路面變窄</short_text>
+      <long_text>掉頭車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="639">
+      <short_text>路面變窄</short_text>
+      <long_text>慢車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="640">
+      <short_text>路面變窄</short_text>
+      <long_text>多用途車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>路面變窄</short_text>
+      <long_text>一條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="642">
+      <short_text>路面變窄</short_text>
+      <long_text>應急車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="643">
+      <short_text>路面變窄</short_text>
+      <long_text>掉頭車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="644">
+      <short_text>路面變窄</short_text>
+      <long_text>慢車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="645">
+      <short_text>路面變窄</short_text>
+      <long_text>多用途車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="646">
+      <short_text>路面變窄</short_text>
+      <long_text>車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="647">
+      <short_text>專用車道已開啟</short_text>
+      <long_text>車隊專用車道已開啟</long_text>
+    </tmc_event>
+    <tmc_event event_code="648">
+      <short_text>專用車道已遭封鎖</short_text>
+      <long_text>車隊專用車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="649">
+      <short_text>專用車道已遭阻塞</short_text>
+      <long_text>車隊車道已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="650">
+      <short_text>車隊</short_text>
+      <long_text>車隊條件已變更</long_text>
+    </tmc_event>
+    <tmc_event event_code="651">
+      <short_text>塞車3 mi</short_text>
+      <long_text>車道已遭封鎖，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="652">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>車道已遭封鎖，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="653">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>車道已遭封鎖，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="654">
+      <short_text>塞車3 mi</short_text>
+      <long_text>透過對向道路引導車流，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="655">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>透過對向道路引導車流，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="656">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>透過對向道路引導車流，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="664">
+      <short_text>封鎖</short_text>
+      <long_text>分向道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="665">
+      <short_text>封鎖</short_text>
+      <long_text>兩個行駛方向已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="666">
+      <short_text>封鎖</short_text>
+      <long_text>多處臨時封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="671">
+      <short_text>使用公共巴士車道</short_text>
+      <long_text>車隊允許使用公共巴士車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>工地</short_text>
+      <long_text>工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>大型工地</short_text>
+      <long_text>大型工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>工地</short_text>
+      <long_text>維護施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="704">
+      <short_text>工地</short_text>
+      <long_text>路面翻新</long_text>
+    </tmc_event>
+    <tmc_event event_code="705">
+      <short_text>工地</short_text>
+      <long_text>中間車道正在施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="706">
+      <short_text>劃線施工</short_text>
+      <long_text>劃線施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>橋梁施工</short_text>
+      <long_text>橋梁施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="708">
+      <short_text>工地紅綠燈</short_text>
+      <long_text>用臨時紅綠燈進行臨時管制</long_text>
+    </tmc_event>
+    <tmc_event event_code="709">
+      <short_text>爆破施工</short_text>
+      <long_text>爆破施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="710">
+      <short_text>%l塞車</short_text>
+      <long_text>工地，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="711">
+      <short_text>塞車1 mi</short_text>
+      <long_text>工地，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="712">
+      <short_text>塞車2 mi</short_text>
+      <long_text>工地，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="713">
+      <short_text>塞車4 mi</short_text>
+      <long_text>工地，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="714">
+      <short_text>塞車6 mi</short_text>
+      <long_text>工地，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="715">
+      <short_text>塞車10 mi</short_text>
+      <long_text>工地，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="716">
+      <short_text>工地</short_text>
+      <long_text>工地，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="717">
+      <short_text>%l交通停滯</short_text>
+      <long_text>工地，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="718">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>工地，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="719">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>工地，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="720">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>工地，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="721">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>工地，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="722">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>工地，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="723">
+      <short_text>工地</short_text>
+      <long_text>工地，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="724">
+      <short_text>%l車流密集</short_text>
+      <long_text>工地，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="725">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>工地，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="726">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>工地，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="727">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>工地，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="728">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>工地，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="729">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>工地，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="730">
+      <short_text>工地</short_text>
+      <long_text>工地，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="731">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>工地，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="732">
+      <short_text>工地</short_text>
+      <long_text>工地，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="733">
+      <short_text>工地</short_text>
+      <long_text>工地，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="734">
+      <short_text>%l車流密集</short_text>
+      <long_text>工地，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>封鎖</short_text>
+      <long_text>因施工工作而遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="736">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，右側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="737">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，中間車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="738">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，左側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="739">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，應急車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，兩條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="741">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，三條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="742">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，兩個方向各僅有一條車道交替放行</long_text>
+    </tmc_event>
+    <tmc_event event_code="743">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，路面縮至一條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="744">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，路面縮至兩條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="745">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，路面縮至三條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="746">
+      <short_text>路面變窄</short_text>
+      <long_text>工地，透過對向道路引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="747">
+      <short_text>工地</short_text>
+      <long_text>工地，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="748">
+      <short_text>工地</short_text>
+      <long_text>工地，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="749">
+      <short_text>工地</short_text>
+      <long_text>工地，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="750">
+      <short_text>%l塞車</short_text>
+      <long_text>路面翻新，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="751">
+      <short_text>塞車1 mi</short_text>
+      <long_text>路面翻新，塞車1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="752">
+      <short_text>塞車2 mi</short_text>
+      <long_text>路面翻新，塞車2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="753">
+      <short_text>塞車4 mi</short_text>
+      <long_text>路面翻新，塞車4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="754">
+      <short_text>塞車6 mi</short_text>
+      <long_text>路面翻新，塞車6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="755">
+      <short_text>塞車10 mi</short_text>
+      <long_text>路面翻新，塞車10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="756">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="757">
+      <short_text>%l交通停滯</short_text>
+      <long_text>路面翻新，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="758">
+      <short_text>交通停滯1 mi</short_text>
+      <long_text>路面翻新，交通停滯1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="759">
+      <short_text>交通停滯2 mi</short_text>
+      <long_text>路面翻新，交通停滯2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="760">
+      <short_text>交通停滯4 mi</short_text>
+      <long_text>路面翻新，交通停滯4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="761">
+      <short_text>交通停滯6 mi</short_text>
+      <long_text>路面翻新，交通停滯6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="762">
+      <short_text>交通停滯10 mi</short_text>
+      <long_text>路面翻新，交通停滯10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="763">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="764">
+      <short_text>%l車流密集</short_text>
+      <long_text>路面翻新，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="765">
+      <short_text>車流密集1 mi</short_text>
+      <long_text>路面翻新，車流密集1 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="766">
+      <short_text>車流密集2 mi</short_text>
+      <long_text>路面翻新，車流密集2 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="767">
+      <short_text>車流密集4 mi</short_text>
+      <long_text>路面翻新，車流密集4 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="768">
+      <short_text>車流密集6 mi</short_text>
+      <long_text>路面翻新，車流密集6 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="769">
+      <short_text>車流密集10 mi</short_text>
+      <long_text>路面翻新，車流密集10 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="770">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="771">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>路面翻新，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="772">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="773">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="774">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="775">
+      <short_text>路面變窄</short_text>
+      <long_text>路面翻新，兩個方向各僅有一條車道交替放行</long_text>
+    </tmc_event>
+    <tmc_event event_code="776">
+      <short_text>路面變窄</short_text>
+      <long_text>路面翻新，路面縮至一條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="777">
+      <short_text>路面變窄</short_text>
+      <long_text>路面翻新，路面縮至兩條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="780">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="781">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="782">
+      <short_text>工地</short_text>
+      <long_text>路面翻新，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="783">
+      <short_text>%l塞車</short_text>
+      <long_text>劃線施工，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="785">
+      <short_text>%l交通停滯</short_text>
+      <long_text>劃線施工，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="786">
+      <short_text>交通阻塞</short_text>
+      <long_text>劃線施工，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="787">
+      <short_text>%l車流密集</short_text>
+      <long_text>劃線施工，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="789">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>劃線施工，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="791">
+      <short_text>劃線施工</short_text>
+      <long_text>劃線施工，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="792">
+      <short_text>%l車流密集</short_text>
+      <long_text>劃線施工，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="793">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，右側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="794">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，中間車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="795">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，左側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="796">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，應急車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="797">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，兩條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="798">
+      <short_text>路面變窄</short_text>
+      <long_text>劃線施工，三條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="799">
+      <short_text>封鎖</short_text>
+      <long_text>橋梁拆除，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="802">
+      <short_text>長期施工工地</short_text>
+      <long_text>長期施工工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="803">
+      <short_text>施工</short_text>
+      <long_text>施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="805">
+      <short_text>橋梁拆除</short_text>
+      <long_text>橋梁拆除</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>工地</short_text>
+      <long_text>水管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>工地</short_text>
+      <long_text>天然氣管道施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="808">
+      <short_text>工地</short_text>
+      <long_text>地下電纜施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="809">
+      <short_text>工地</short_text>
+      <long_text>地下施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="810">
+      <short_text>工地</short_text>
+      <long_text>工地區域車流引導發生變化</long_text>
+    </tmc_event>
+    <tmc_event event_code="812">
+      <short_text>塞車3 mi</short_text>
+      <long_text>工地，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="813">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>工地，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="814">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>工地，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="815">
+      <short_text>短期施工工地</short_text>
+      <long_text>短期施工工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="816">
+      <short_text>工地</short_text>
+      <long_text>車流較少時段施工工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="817">
+      <short_text>夜間施工工地</short_text>
+      <long_text>夜間施工工地</long_text>
+    </tmc_event>
+    <tmc_event event_code="818">
+      <short_text>塞車3 mi</short_text>
+      <long_text>路面翻新，塞車3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="819">
+      <short_text>交通停滯3 mi</short_text>
+      <long_text>路面翻新，交通停滯3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="820">
+      <short_text>車流密集3 mi</short_text>
+      <long_text>路面翻新，車流密集3 mi</long_text>
+    </tmc_event>
+    <tmc_event event_code="821">
+      <short_text>工地</short_text>
+      <long_text>日間路面翻新</long_text>
+    </tmc_event>
+    <tmc_event event_code="822">
+      <short_text>工地</short_text>
+      <long_text>車流較少時段路面翻新</long_text>
+    </tmc_event>
+    <tmc_event event_code="823">
+      <short_text>夜間施工工地</short_text>
+      <long_text>夜間路面翻新</long_text>
+    </tmc_event>
+    <tmc_event event_code="824">
+      <short_text>劃線施工</short_text>
+      <long_text>劃線施工，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="825">
+      <short_text>%l塞車</short_text>
+      <long_text>流動施工工地，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="826">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="827">
+      <short_text>%l交通停滯</short_text>
+      <long_text>流動施工工地，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="828">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="829">
+      <short_text>%l車流密集</short_text>
+      <long_text>流動施工工地，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="830">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="831">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>流動施工工地，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="832">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="833">
+      <short_text>流動施工工地</short_text>
+      <long_text>流動施工工地，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="834">
+      <short_text>%l車流密集</short_text>
+      <long_text>流動施工工地，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="835">
+      <short_text>路面變窄</short_text>
+      <long_text>流動施工工地，右側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="836">
+      <short_text>路面變窄</short_text>
+      <long_text>流動施工工地，中間車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="837">
+      <short_text>路面變窄</short_text>
+      <long_text>流動施工工地，左側車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="838">
+      <short_text>路面變窄</short_text>
+      <long_text>流動施工工地，兩條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="839">
+      <short_text>路面變窄</short_text>
+      <long_text>流動施工工地，三條車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="840">
+      <short_text>工地</short_text>
+      <long_text>水管施工，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="841">
+      <short_text>工地</short_text>
+      <long_text>水管施工，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="842">
+      <short_text>工地</short_text>
+      <long_text>水管施工，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="843">
+      <short_text>工地</short_text>
+      <long_text>天然氣管道施工，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="844">
+      <short_text>工地</short_text>
+      <long_text>天然氣管道施工，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="845">
+      <short_text>工地</short_text>
+      <long_text>天然氣管道施工，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="846">
+      <short_text>工地</short_text>
+      <long_text>地下電纜施工，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="847">
+      <short_text>工地</short_text>
+      <long_text>地下電纜施工，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="848">
+      <short_text>工地</short_text>
+      <long_text>地下電纜施工，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="849">
+      <short_text>工地</short_text>
+      <long_text>地下施工，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="850">
+      <short_text>工地</short_text>
+      <long_text>地下施工，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="851">
+      <short_text>工地</short_text>
+      <long_text>地下施工，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="852">
+      <short_text>工地車輛</short_text>
+      <long_text>工地車輛導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="853">
+      <short_text>工地</short_text>
+      <long_text>拆除工地導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="856">
+      <short_text>工地車輛</short_text>
+      <long_text>工地車輛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="857">
+      <short_text>危險情況</short_text>
+      <long_text>事故地點未設保護</long_text>
+    </tmc_event>
+    <tmc_event event_code="858">
+      <short_text>危險情況</short_text>
+      <long_text>事故地點未設保護導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="900">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>預計發生河水泛濫</long_text>
+    </tmc_event>
+    <tmc_event event_code="901">
+      <short_text>交通阻塞</short_text>
+      <long_text>障礙物導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="902">
+      <short_text>交通阻塞</short_text>
+      <long_text>路面上有障礙物導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="903">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="904">
+      <short_text>風暴災害</short_text>
+      <long_text>風暴災害導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="905">
+      <short_text>樹木倒下</short_text>
+      <long_text>樹木倒下導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="906">
+      <short_text>樹木倒下</short_text>
+      <long_text>樹木倒下導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>洪水導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="908">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>洪水導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="909">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>大水泛濫導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="910">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>大水泛濫危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="911">
+      <short_text>雪崩危險</short_text>
+      <long_text>雪崩導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="912">
+      <short_text>雪崩危險</short_text>
+      <long_text>即將雪崩導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>落石危險</short_text>
+      <long_text>落石導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>山體滑坡危險</short_text>
+      <long_text>山體滑坡導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>地震災害</short_text>
+      <long_text>地震災害導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="916">
+      <short_text>道路損傷</short_text>
+      <long_text>道路損傷導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>路面沉降</short_text>
+      <long_text>路面沉降導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="918">
+      <short_text>路面沖蝕</short_text>
+      <long_text>路面沖蝕導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="919">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>水管爆裂導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>危險情況</short_text>
+      <long_text>天然氣泄漏導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>大火</short_text>
+      <long_text>大火導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>路面動物</short_text>
+      <long_text>路面上有動物導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="923">
+      <short_text>路面動物</short_text>
+      <long_text>路面上有動物導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="924">
+      <short_text>交通阻塞</short_text>
+      <long_text>清理工作導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="925">
+      <short_text>封鎖</short_text>
+      <long_text>風暴災害導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="926">
+      <short_text>封鎖</short_text>
+      <long_text>樹木倒下導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="927">
+      <short_text>樹木倒下</short_text>
+      <long_text>樹木倒下導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="928">
+      <short_text>%l塞車</short_text>
+      <long_text>洪水導致交通阻塞，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="929">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>洪水導致交通阻塞，有塞車危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="930">
+      <short_text>%l交通停滯</short_text>
+      <long_text>洪水導致交通阻塞，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="931">
+      <short_text>交通阻塞</short_text>
+      <long_text>洪水導致交通阻塞，有交通停滯危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="932">
+      <short_text>%l車流密集</short_text>
+      <long_text>洪水導致交通阻塞，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="934">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>洪水導致交通阻塞，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="936">
+      <short_text>洪水</short_text>
+      <long_text>洪水，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="937">
+      <short_text>%l車流密集</short_text>
+      <long_text>交通繁忙導致交通阻塞，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>封鎖</short_text>
+      <long_text>洪水導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="939">
+      <short_text>洪水</short_text>
+      <long_text>洪水導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="940">
+      <short_text>洪水</short_text>
+      <long_text>洪水導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="941">
+      <short_text>洪水</short_text>
+      <long_text>洪水導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="942">
+      <short_text>洪水</short_text>
+      <long_text>洪水導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="943">
+      <short_text>封鎖</short_text>
+      <long_text>雪崩導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="944">
+      <short_text>雪崩</short_text>
+      <long_text>雪崩洪水導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="945">
+      <short_text>封鎖</short_text>
+      <long_text>落石導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="946">
+      <short_text>落石</short_text>
+      <long_text>落石導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>封鎖</short_text>
+      <long_text>山體滑坡導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="948">
+      <short_text>山體滑坡</short_text>
+      <long_text>山體滑坡導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="949">
+      <short_text>封鎖</short_text>
+      <long_text>路面沉降導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="950">
+      <short_text>路面變窄</short_text>
+      <long_text>路面沉降導致交通阻塞，應急車道已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="951">
+      <short_text>路面變窄</short_text>
+      <long_text>路面沉降導致交通阻塞，路面縮至一條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="952">
+      <short_text>路面變窄</short_text>
+      <long_text>路面沉降導致交通阻塞，路面縮至兩條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="953">
+      <short_text>路面變窄</short_text>
+      <long_text>路面沉降導致交通阻塞，路面縮至三條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="955">
+      <short_text>交通阻塞</short_text>
+      <long_text>路面沉降導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="956">
+      <short_text>封鎖</short_text>
+      <long_text>路面沖蝕導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="957">
+      <short_text>封鎖</short_text>
+      <long_text>水管爆裂導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="958">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>水管爆裂導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="959">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>水管爆裂導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="960">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>水管爆裂導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="961">
+      <short_text>封鎖</short_text>
+      <long_text>天然氣泄漏導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="962">
+      <short_text>交通阻塞</short_text>
+      <long_text>天然氣泄漏導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="963">
+      <short_text>交通阻塞</short_text>
+      <long_text>天然氣泄漏導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="964">
+      <short_text>交通阻塞</short_text>
+      <long_text>天然氣泄漏導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="965">
+      <short_text>封鎖</short_text>
+      <long_text>火災導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="966">
+      <short_text>火災</short_text>
+      <long_text>火災導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="967">
+      <short_text>火災</short_text>
+      <long_text>火災導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="968">
+      <short_text>火災</short_text>
+      <long_text>火災導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="969">
+      <short_text>封鎖</short_text>
+      <long_text>清理工作導致交通阻塞，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="972">
+      <short_text>風暴災害</short_text>
+      <long_text>預計發生風暴災害</long_text>
+    </tmc_event>
+    <tmc_event event_code="973">
+      <short_text>交通阻塞</short_text>
+      <long_text>電纜垂下導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="974">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>排水道負擔過重導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>冰面光滑</short_text>
+      <long_text>冰面光滑</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>泥石流</short_text>
+      <long_text>泥石流導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="977">
+      <short_text>草地起火</short_text>
+      <long_text>草地起火導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="978">
+      <short_text>墜機</short_text>
+      <long_text>墜機</long_text>
+    </tmc_event>
+    <tmc_event event_code="979">
+      <short_text>火車事故</short_text>
+      <long_text>火車事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>封鎖</short_text>
+      <long_text>障礙物導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="981">
+      <short_text>交通阻塞</short_text>
+      <long_text>障礙物導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>封鎖</short_text>
+      <long_text>貨物丟失導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="983">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="984">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="985">
+      <short_text>風暴災害</short_text>
+      <long_text>風暴災害導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="986">
+      <short_text>風暴災害</short_text>
+      <long_text>風暴災害導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="987">
+      <short_text>封鎖</short_text>
+      <long_text>電纜垂下導致交通阻塞，道路已遭阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="988">
+      <short_text>交通阻塞</short_text>
+      <long_text>電纜垂下導致交通阻塞，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="989">
+      <short_text>交通阻塞</short_text>
+      <long_text>電纜垂下導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="990">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>排水道負擔過重導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="991">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>大水泛濫導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="992">
+      <short_text>雪崩危險</short_text>
+      <long_text>雪崩導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="993">
+      <short_text>封鎖</short_text>
+      <long_text>雪崩導致危險，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="994">
+      <short_text>雪崩危險</short_text>
+      <long_text>即將雪崩導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="995">
+      <short_text>封鎖</short_text>
+      <long_text>薄冰，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="996">
+      <short_text>薄冰危險</short_text>
+      <long_text>薄冰危險，道路使用受限</long_text>
+    </tmc_event>
+    <tmc_event event_code="997">
+      <short_text>路面變窄</short_text>
+      <long_text>結冰。兩個方向各僅有一條車道交替放行</long_text>
+    </tmc_event>
+    <tmc_event event_code="998">
+      <short_text>落石危險</short_text>
+      <long_text>落石導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="999">
+      <short_text>山體滑坡危險</short_text>
+      <long_text>山體滑坡導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1000">
+      <short_text>地震災害</short_text>
+      <long_text>地震災害導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>危險路面情況</short_text>
+      <long_text>危險路面情況</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>滑水危險</short_text>
+      <long_text>滑水危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>路面結冰</short_text>
+      <long_text>路面結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1004">
+      <short_text>路面受汙</short_text>
+      <long_text>路面受汙導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1005">
+      <short_text>打滑危險</short_text>
+      <long_text>樹葉導致打滑危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1006">
+      <short_text>薄冰危險</short_text>
+      <long_text>薄冰危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1007">
+      <short_text>薄冰</short_text>
+      <long_text>薄冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1008">
+      <short_text>路面結冰</short_text>
+      <long_text>積水結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1009">
+      <short_text>路面結冰</short_text>
+      <long_text>凍雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1010">
+      <short_text>薄冰</short_text>
+      <long_text>路面部分結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1011">
+      <short_text>雪水泥漿</short_text>
+      <long_text>雪水泥漿</long_text>
+    </tmc_event>
+    <tmc_event event_code="1012">
+      <short_text>積雪表面結冰</short_text>
+      <long_text>積雪表面結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>下雪</short_text>
+      <long_text>積雪層凍硬</long_text>
+    </tmc_event>
+    <tmc_event event_code="1014">
+      <short_text>新雪</short_text>
+      <long_text>新雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1015">
+      <short_text>厚積雪</short_text>
+      <long_text>厚積雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1016">
+      <short_text>風吹積起的雪堆</short_text>
+      <long_text>風吹積起的雪堆</long_text>
+    </tmc_event>
+    <tmc_event event_code="1017">
+      <short_text>貨物丟失</short_text>
+      <long_text>貨物丟失導致打滑危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>積雪表面結冰</short_text>
+      <long_text>積雪表面結冰導致打滑危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1019">
+      <short_text>霜凍</short_text>
+      <long_text>霜凍</long_text>
+    </tmc_event>
+    <tmc_event event_code="1020">
+      <short_text>封鎖</short_text>
+      <long_text>積雪表面結冰，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1021">
+      <short_text>路面變窄</short_text>
+      <long_text>積雪表面結冰，路面縮至一條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="1022">
+      <short_text>路面變窄</short_text>
+      <long_text>積雪表面結冰，路面縮至兩條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="1023">
+      <short_text>路面變窄</short_text>
+      <long_text>積雪表面結冰，路面縮至三條車道</long_text>
+    </tmc_event>
+    <tmc_event event_code="1026">
+      <short_text>交通阻塞</short_text>
+      <long_text>路面沉降導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1027">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>路面沖蝕導致交通阻塞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1028">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>路面沖蝕導致交通阻塞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1029">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>路面沖蝕導致交通阻塞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1030">
+      <short_text>交通阻塞</short_text>
+      <long_text>路面沖蝕導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1031">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>水管爆裂導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1032">
+      <short_text>交通阻塞</short_text>
+      <long_text>天然氣泄漏導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>大火</short_text>
+      <long_text>大火導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1034">
+      <short_text>清理工作</short_text>
+      <long_text>清理工作導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>無法通行</short_text>
+      <long_text>無法通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1036">
+      <short_text>幾乎無法通行</short_text>
+      <long_text>幾乎無法通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1037">
+      <short_text>危險路面情況</short_text>
+      <long_text>極危險路面情況</long_text>
+    </tmc_event>
+    <tmc_event event_code="1038">
+      <short_text>危險路面情況</short_text>
+      <long_text>行駛條件困難</long_text>
+    </tmc_event>
+    <tmc_event event_code="1041">
+      <short_text>大水泛濫危險</short_text>
+      <long_text>路面上有水</long_text>
+    </tmc_event>
+    <tmc_event event_code="1042">
+      <short_text>路面上有砂子</short_text>
+      <long_text>砂子導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>油跡</short_text>
+      <long_text>油跡導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1045">
+      <short_text>汽油溢出</short_text>
+      <long_text>汽油溢出導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1047">
+      <short_text>路面結冰</short_text>
+      <long_text>路面部分結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1048">
+      <short_text>路面結冰</short_text>
+      <long_text>路面結冰導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1050">
+      <short_text>路面結冰</short_text>
+      <long_text>積水結冰，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1054">
+      <short_text>路面上有砂子</short_text>
+      <long_text>路面上有砂子導致打滑危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1055">
+      <short_text>路面受汙</short_text>
+      <long_text>路面受汙導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>碎石飛濺</short_text>
+      <long_text>碎石飛濺導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1057">
+      <short_text>油跡</short_text>
+      <long_text>油跡導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1058">
+      <short_text>汽油溢出</short_text>
+      <long_text>汽油溢出導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1059">
+      <short_text>道路損傷</short_text>
+      <long_text>道路損傷導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1060">
+      <short_text>橋面薄冰</short_text>
+      <long_text>橋上路面部分結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1061">
+      <short_text>橋面薄冰</short_text>
+      <long_text>橋上路面結冰導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1062">
+      <short_text>薄冰危險</short_text>
+      <long_text>橋上路面部分結冰，位於森林地帶、陰影區和高速公路立體交叉口</long_text>
+    </tmc_event>
+    <tmc_event event_code="1064">
+      <short_text>無拖車</short_text>
+      <long_text>附掛拖車的汽車無法通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1066">
+      <short_text>救援工作</short_text>
+      <long_text>救援工作導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1067">
+      <short_text>路面動物</short_text>
+      <long_text>路面上有大型動物導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1068">
+      <short_text>路面動物</short_text>
+      <long_text>路面上有一群動物導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1073">
+      <short_text>危險路面情況</short_text>
+      <long_text>預計路面情況會極危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1074">
+      <short_text>路面結冰</short_text>
+      <long_text>預計會有凍雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1075">
+      <short_text>風吹積起的雪堆</short_text>
+      <long_text>預計風會吹積起雪堆</long_text>
+    </tmc_event>
+    <tmc_event event_code="1079">
+      <short_text>極寒</short_text>
+      <long_text>溫度驟降</long_text>
+    </tmc_event>
+    <tmc_event event_code="1080">
+      <short_text>極熱</short_text>
+      <long_text>極熱</long_text>
+    </tmc_event>
+    <tmc_event event_code="1081">
+      <short_text>極寒</short_text>
+      <long_text>極寒</long_text>
+    </tmc_event>
+    <tmc_event event_code="1083">
+      <short_text>極熱</short_text>
+      <long_text>（溫度）</long_text>
+    </tmc_event>
+    <tmc_event event_code="1084">
+      <short_text>火災</short_text>
+      <long_text>火災</long_text>
+    </tmc_event>
+    <tmc_event event_code="1086">
+      <short_text>事故</short_text>
+      <long_text>汽車卡在橋下</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>下大雪</short_text>
+      <long_text>下大雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1102">
+      <short_text>下大雪</short_text>
+      <long_text>下大雪，能見度低於30 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1103">
+      <short_text>下大雪</short_text>
+      <long_text>下大雪，能見度低於50 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>下雪</short_text>
+      <long_text>下雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1105">
+      <short_text>下雪</short_text>
+      <long_text>下雪導致視域受阻，能見度低於100 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>冰雹</short_text>
+      <long_text>冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1107">
+      <short_text>雨加雪</short_text>
+      <long_text>雨加雪導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>雷雨</short_text>
+      <long_text>雷雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>下大雨</short_text>
+      <long_text>下大雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1110">
+      <short_text>下大雨</short_text>
+      <long_text>下大雨導致視域受阻，能見度低於30 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1111">
+      <short_text>下大雨</short_text>
+      <long_text>下大雨導致視域受阻，能見度低於50 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>下雨</short_text>
+      <long_text>下雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1113">
+      <short_text>下大雨</short_text>
+      <long_text>下雨導致視域受阻，能見度低於100 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1114">
+      <short_text>暴雨</short_text>
+      <long_text>暴雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1115">
+      <short_text>嚴寒</short_text>
+      <long_text>嚴寒</long_text>
+    </tmc_event>
+    <tmc_event event_code="1116">
+      <short_text>下霜</short_text>
+      <long_text>下霜</long_text>
+    </tmc_event>
+    <tmc_event event_code="1118">
+      <short_text>多云</short_text>
+      <long_text>多云</long_text>
+    </tmc_event>
+    <tmc_event event_code="1119">
+      <short_text>少云</short_text>
+      <long_text>少云</long_text>
+    </tmc_event>
+    <tmc_event event_code="1128">
+      <short_text>暴風雪</short_text>
+      <long_text>暴風雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>暴風雪</short_text>
+      <long_text>暴風雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1131">
+      <short_text>暴風雪</short_text>
+      <long_text>暴風雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>強冰雹</short_text>
+      <long_text>強冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1133">
+      <short_text>強冰雹</short_text>
+      <long_text>強冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1134">
+      <short_text>下大雪</short_text>
+      <long_text>下大雪，視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1135">
+      <short_text>下雪</short_text>
+      <long_text>下雪導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1136">
+      <short_text>下大雨</short_text>
+      <long_text>下大雨導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1137">
+      <short_text>下雨</short_text>
+      <long_text>下雨導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1153">
+      <short_text>冰雹</short_text>
+      <long_text>冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1154">
+      <short_text>雨加雪</short_text>
+      <long_text>雨加雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1155">
+      <short_text>雷雨</short_text>
+      <long_text>雷雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>下大雨</short_text>
+      <long_text>下大雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1157">
+      <short_text>下雨</short_text>
+      <long_text>下雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1158">
+      <short_text>暴雨</short_text>
+      <long_text>暴雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1170">
+      <short_text>下大雪</short_text>
+      <long_text>預計會下大雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1171">
+      <short_text>下大雨</short_text>
+      <long_text>預計會下大雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1173">
+      <short_text>暴風雪</short_text>
+      <long_text>預計會有暴風雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1174">
+      <short_text>強冰雹</short_text>
+      <long_text>預計會有強冰雹</long_text>
+    </tmc_event>
+    <tmc_event event_code="1175">
+      <short_text>視域受阻</short_text>
+      <long_text>預計視域會受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1176">
+      <short_text>打滑危險</short_text>
+      <long_text>預計會有凍霧導致視域受阻。打滑危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1177">
+      <short_text>下霧</short_text>
+      <long_text>預計會有大霧導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1178">
+      <short_text>下霧</short_text>
+      <long_text>預計會有霧堤導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1190">
+      <short_text>霧霾警告</short_text>
+      <long_text>嚴重霧霾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1191">
+      <short_text>霧霾警告</short_text>
+      <long_text>嚴重空氣汙染</long_text>
+    </tmc_event>
+    <tmc_event event_code="1201">
+      <short_text>氣旋風暴</short_text>
+      <long_text>氣旋風暴</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>颶風</short_text>
+      <long_text>颶風</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>颶風</short_text>
+      <long_text>颶風暴</long_text>
+    </tmc_event>
+    <tmc_event event_code="1204">
+      <short_text>風暴</short_text>
+      <long_text>風暴</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>大風</short_text>
+      <long_text>大風</long_text>
+    </tmc_event>
+    <tmc_event event_code="1209">
+      <short_text>狂風</short_text>
+      <long_text>狂風</long_text>
+    </tmc_event>
+    <tmc_event event_code="1210">
+      <short_text>橫風</short_text>
+      <long_text>橫風</long_text>
+    </tmc_event>
+    <tmc_event event_code="1211">
+      <short_text>大風</short_text>
+      <long_text>大風，車身較高的汽車受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1300">
+      <short_text>雨雪</short_text>
+      <long_text>預計會下雪和下霧</long_text>
+    </tmc_event>
+    <tmc_event event_code="1301">
+      <short_text>下霧</short_text>
+      <long_text>大霧導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1302">
+      <short_text>下霧</short_text>
+      <long_text>大霧導致視域受阻，能見度低於30 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1303">
+      <short_text>下霧</short_text>
+      <long_text>大霧導致視域受阻，能見度低於50 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>下霧</short_text>
+      <long_text>下霧導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1305">
+      <short_text>下霧</short_text>
+      <long_text>下霧導致視域受阻，能見度低於100 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1307">
+      <short_text>下霧</short_text>
+      <long_text>霧堤導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1308">
+      <short_text>下霧</short_text>
+      <long_text>凍霧導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1309">
+      <short_text>煙霧</short_text>
+      <long_text>煙霧導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>灰塵</short_text>
+      <long_text>灰塵導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1312">
+      <short_text>下霧和下雪</short_text>
+      <long_text>下霧和下雪導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>視域受阻</short_text>
+      <long_text>視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1319">
+      <short_text>視域受阻</short_text>
+      <long_text>能見度低於30 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1320">
+      <short_text>視域受阻</short_text>
+      <long_text>能見度低於50 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1321">
+      <short_text>視域受阻</short_text>
+      <long_text>能見度低於100 m</long_text>
+    </tmc_event>
+    <tmc_event event_code="1322">
+      <short_text>下霧</short_text>
+      <long_text>下霧</long_text>
+    </tmc_event>
+    <tmc_event event_code="1323">
+      <short_text>吹雪</short_text>
+      <long_text>吹雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1324">
+      <short_text>水花飛濺</short_text>
+      <long_text>水花飛濺導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1325">
+      <short_text>落日</short_text>
+      <long_text>落日導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>沙塵暴</short_text>
+      <long_text>沙塵暴</long_text>
+    </tmc_event>
+    <tmc_event event_code="1327">
+      <short_text>沙塵暴</short_text>
+      <long_text>沙塵暴</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>霧霾警告</short_text>
+      <long_text>霧霾警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1337">
+      <short_text>下霧，路面結冰</short_text>
+      <long_text>下霧導致視域受阻，路面結冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="1338">
+      <short_text>霧霾警告</short_text>
+      <long_text>霧霾警報，禁止行駛</long_text>
+    </tmc_event>
+    <tmc_event event_code="1340">
+      <short_text>大群飛蟲</short_text>
+      <long_text>大群飛蟲導致視域受阻</long_text>
+    </tmc_event>
+    <tmc_event event_code="1450">
+      <short_text>體育比賽</short_text>
+      <long_text>國際體育比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1451">
+      <short_text>比賽</short_text>
+      <long_text>比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1452">
+      <short_text>競賽</short_text>
+      <long_text>競賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1453">
+      <short_text>體育比賽</short_text>
+      <long_text>田徑大會</long_text>
+    </tmc_event>
+    <tmc_event event_code="1454">
+      <short_text>球類比賽</short_text>
+      <long_text>球類比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1455">
+      <short_text>拳擊比賽</short_text>
+      <long_text>拳擊比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1456">
+      <short_text>鬥牛</short_text>
+      <long_text>鬥牛</long_text>
+    </tmc_event>
+    <tmc_event event_code="1457">
+      <short_text>板球比賽</short_text>
+      <long_text>板球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1458">
+      <short_text>自行車賽</short_text>
+      <long_text>自行車賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1459">
+      <short_text>足球比賽</short_text>
+      <long_text>足球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1460">
+      <short_text>高爾夫球賽</short_text>
+      <long_text>高爾夫球賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1461">
+      <short_text>馬拉松</short_text>
+      <long_text>馬拉松</long_text>
+    </tmc_event>
+    <tmc_event event_code="1462">
+      <short_text>賽馬</short_text>
+      <long_text>賽馬</long_text>
+    </tmc_event>
+    <tmc_event event_code="1463">
+      <short_text>橄欖球比賽</short_text>
+      <long_text>橄欖球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1464">
+      <short_text>跳水</short_text>
+      <long_text>跳水</long_text>
+    </tmc_event>
+    <tmc_event event_code="1465">
+      <short_text>網球比賽</short_text>
+      <long_text>網球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1466">
+      <short_text>體育比賽</short_text>
+      <long_text>水上運動比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1467">
+      <short_text>體育比賽</short_text>
+      <long_text>冬季運動比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1468">
+      <short_text>露天集市</short_text>
+      <long_text>露天集市</long_text>
+    </tmc_event>
+    <tmc_event event_code="1469">
+      <short_text>年集</short_text>
+      <long_text>年集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1470">
+      <short_text>宗教儀式行列</short_text>
+      <long_text>宗教儀式行列</long_text>
+    </tmc_event>
+    <tmc_event event_code="1471">
+      <short_text>圍觀人員</short_text>
+      <long_text>圍觀人員</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>路面人員</short_text>
+      <long_text>路面上有人員導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1473">
+      <short_text>路面兒童</short_text>
+      <long_text>路面上有兒童導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1474">
+      <short_text>騎車人</short_text>
+      <long_text>路面上有騎車人導致交通阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1475">
+      <short_text>罷工</short_text>
+      <long_text>罷工</long_text>
+    </tmc_event>
+    <tmc_event event_code="1476">
+      <short_text>安全突發事件</short_text>
+      <long_text>安全突發事件</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>警察控制</short_text>
+      <long_text>警察控制</long_text>
+    </tmc_event>
+    <tmc_event event_code="1478">
+      <short_text>恐怖襲擊</short_text>
+      <long_text>恐怖襲擊</long_text>
+    </tmc_event>
+    <tmc_event event_code="1479">
+      <short_text>交火</short_text>
+      <long_text>交火</long_text>
+    </tmc_event>
+    <tmc_event event_code="1480">
+      <short_text>災難警告</short_text>
+      <long_text>災難警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1481">
+      <short_text>空襲警告</short_text>
+      <long_text>空襲警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1482">
+      <short_text>路面人員</short_text>
+      <long_text>路面上有人員導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1483">
+      <short_text>路面兒童</short_text>
+      <long_text>路面上有兒童導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1484">
+      <short_text>騎車人</short_text>
+      <long_text>路面上有騎車人導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1485">
+      <short_text>封鎖</short_text>
+      <long_text>安全突發事件，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1486">
+      <short_text>安全突發事件</short_text>
+      <long_text>安全突發事件，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1487">
+      <short_text>安全突發事件</short_text>
+      <long_text>安全突發事件，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1488">
+      <short_text>安全突發事件</short_text>
+      <long_text>安全突發事件，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1489">
+      <short_text>警察控制</short_text>
+      <long_text>警察控制，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1490">
+      <short_text>警察控制</short_text>
+      <long_text>警察控制，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1491">
+      <short_text>警察控制</short_text>
+      <long_text>警察控制，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1494">
+      <short_text>撤離</short_text>
+      <long_text>撤離</long_text>
+    </tmc_event>
+    <tmc_event event_code="1495">
+      <short_text>%l車流密集</short_text>
+      <long_text>撤離，車流大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>活動</short_text>
+      <long_text>活動</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1503">
+      <short_text>演出</short_text>
+      <long_text>演出</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>節日文藝會演</short_text>
+      <long_text>節日文藝會演</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>展覽</short_text>
+      <long_text>展覽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>展會</short_text>
+      <long_text>展會</long_text>
+    </tmc_event>
+    <tmc_event event_code="1507">
+      <short_text>集市</short_text>
+      <long_text>集市</long_text>
+    </tmc_event>
+    <tmc_event event_code="1508">
+      <short_text>慶祝</short_text>
+      <long_text>慶祝活動</long_text>
+    </tmc_event>
+    <tmc_event event_code="1509">
+      <short_text>國事訪問</short_text>
+      <long_text>國事訪問</long_text>
+    </tmc_event>
+    <tmc_event event_code="1510">
+      <short_text>遊行</short_text>
+      <long_text>遊行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1511">
+      <short_text>集會</short_text>
+      <long_text>集會</long_text>
+    </tmc_event>
+    <tmc_event event_code="1512">
+      <short_text>節日遊行</short_text>
+      <long_text>節日遊行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1513">
+      <short_text>示威遊行</short_text>
+      <long_text>示威遊行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1514">
+      <short_text>活動</short_text>
+      <long_text>擾亂公共安全</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>安全突發事件</short_text>
+      <long_text>安全措施導致影響</long_text>
+    </tmc_event>
+    <tmc_event event_code="1516">
+      <short_text>炸彈警告</short_text>
+      <long_text>炸彈警告</long_text>
+    </tmc_event>
+    <tmc_event event_code="1517">
+      <short_text>%l塞車</short_text>
+      <long_text>活動，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1519">
+      <short_text>%l交通停滯</short_text>
+      <long_text>活動，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1521">
+      <short_text>%l車流密集</short_text>
+      <long_text>活動，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1523">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>活動，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1525">
+      <short_text>活動</short_text>
+      <long_text>活動，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1526">
+      <short_text>%l車流密集</short_text>
+      <long_text>活動，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1527">
+      <short_text>封鎖</short_text>
+      <long_text>活動，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1528">
+      <short_text>活動</short_text>
+      <long_text>活動，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1529">
+      <short_text>活動</short_text>
+      <long_text>活動，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1530">
+      <short_text>活動</short_text>
+      <long_text>活動，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1531">
+      <short_text>%l塞車</short_text>
+      <long_text>體育比賽，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1533">
+      <short_text>%l交通停滯</short_text>
+      <long_text>體育比賽，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1535">
+      <short_text>%l車流密集</short_text>
+      <long_text>體育比賽，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1537">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>體育比賽，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1539">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1540">
+      <short_text>%l車流密集</short_text>
+      <long_text>體育比賽，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1541">
+      <short_text>封鎖</short_text>
+      <long_text>體育比賽，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1542">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1543">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1544">
+      <short_text>體育比賽</short_text>
+      <long_text>體育比賽，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1545">
+      <short_text>%l塞車</short_text>
+      <long_text>展會，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1547">
+      <short_text>%l交通停滯</short_text>
+      <long_text>展會，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1549">
+      <short_text>%l車流密集</short_text>
+      <long_text>展會，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1551">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>展會，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1553">
+      <short_text>展會</short_text>
+      <long_text>展會，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1554">
+      <short_text>%l車流密集</short_text>
+      <long_text>展會，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1555">
+      <short_text>展會</short_text>
+      <long_text>展會，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1556">
+      <short_text>展會</short_text>
+      <long_text>展會，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1557">
+      <short_text>展會</short_text>
+      <long_text>展會，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1558">
+      <short_text>展會</short_text>
+      <long_text>展會，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1559">
+      <short_text>封鎖</short_text>
+      <long_text>遊行，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1560">
+      <short_text>遊行</short_text>
+      <long_text>遊行，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1561">
+      <short_text>遊行</short_text>
+      <long_text>遊行，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1562">
+      <short_text>遊行</short_text>
+      <long_text>遊行，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1563">
+      <short_text>封鎖</short_text>
+      <long_text>節日遊行，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1564">
+      <short_text>節日遊行</short_text>
+      <long_text>節日遊行，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1565">
+      <short_text>節日遊行</short_text>
+      <long_text>節日遊行，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1566">
+      <short_text>節日遊行</short_text>
+      <long_text>節日遊行，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1567">
+      <short_text>封鎖</short_text>
+      <long_text>示威遊行，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1568">
+      <short_text>示威遊行</short_text>
+      <long_text>示威遊行，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1569">
+      <short_text>示威遊行</short_text>
+      <long_text>示威遊行，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1570">
+      <short_text>示威遊行</short_text>
+      <long_text>示威遊行，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1571">
+      <short_text>%l塞車</short_text>
+      <long_text>安全措施導致影響，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1573">
+      <short_text>%l交通停滯</short_text>
+      <long_text>安全措施導致影響，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1575">
+      <short_text>%l車流密集</short_text>
+      <long_text>安全措施導致影響，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1577">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>安全措施導致影響，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1579">
+      <short_text>%l車流密集</short_text>
+      <long_text>安全措施導致影響，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1580">
+      <short_text>封鎖</short_text>
+      <long_text>安全措施導致影響，道路已遭封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="1581">
+      <short_text>安全措施</short_text>
+      <long_text>安全措施導致影響，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1582">
+      <short_text>安全措施</short_text>
+      <long_text>安全措施導致影響，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1583">
+      <short_text>安全措施</short_text>
+      <long_text>安全措施導致影響，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1586">
+      <short_text>安全措施</short_text>
+      <long_text>安全措施導致影響，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1590">
+      <short_text>活動</short_text>
+      <long_text>多項活動</long_text>
+    </tmc_event>
+    <tmc_event event_code="1591">
+      <short_text>活動</short_text>
+      <long_text>關於活動的資訊已取消</long_text>
+    </tmc_event>
+    <tmc_event event_code="1592">
+      <short_text>活動</short_text>
+      <long_text>賽車比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1593">
+      <short_text>棒球比賽</short_text>
+      <long_text>棒球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1594">
+      <short_text>籃球比賽</short_text>
+      <long_text>籃球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1595">
+      <short_text>划船比賽</short_text>
+      <long_text>划船比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>音樂會</short_text>
+      <long_text>音樂會活動</long_text>
+    </tmc_event>
+    <tmc_event event_code="1597">
+      <short_text>曲棍球比賽</short_text>
+      <long_text>曲棍球比賽</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失%s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1602">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多15分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1603">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多30分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1604">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多1小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1605">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多2小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1606">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失數小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1607">
+      <short_text>時間損失</short_text>
+      <long_text>預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1608">
+      <short_text>長時間等待</short_text>
+      <long_text>時間損失大%s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1615">
+      <short_text>已停止辦理</short_text>
+      <long_text>已停止辦理</long_text>
+    </tmc_event>
+    <tmc_event event_code="1616">
+      <short_text>不辦理</short_text>
+      <long_text>不辦理</long_text>
+    </tmc_event>
+    <tmc_event event_code="1617">
+      <short_text>已預訂完</short_text>
+      <long_text>已預訂完</long_text>
+    </tmc_event>
+    <tmc_event event_code="1621">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多5分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1622">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多10分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1623">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多20分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1624">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多25分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1625">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多40分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1626">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多50分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1627">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多90分鍾</long_text>
+    </tmc_event>
+    <tmc_event event_code="1628">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多3小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1629">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多4小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1630">
+      <short_text>時間損失</short_text>
+      <long_text>時間損失最多5小時</long_text>
+    </tmc_event>
+    <tmc_event event_code="1631">
+      <short_text>長時間等待</short_text>
+      <long_text>時間損失較大%s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1632">
+      <short_text>長時間等待</short_text>
+      <long_text>時間損失無法確定</long_text>
+    </tmc_event>
+    <tmc_event event_code="1633">
+      <short_text>無輪渡</short_text>
+      <long_text>輪渡暫時停航</long_text>
+    </tmc_event>
+    <tmc_event event_code="1634">
+      <short_text>停止運行</short_text>
+      <long_text>停止運行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1635">
+      <short_text>停車換乘未運營</short_text>
+      <long_text>停車換乘未運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1636">
+      <short_text>專線</short_text>
+      <long_text>已設立專線</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>無人員短途公共交通</short_text>
+      <long_text>人員短途公共交通已停運</long_text>
+    </tmc_event>
+    <tmc_event event_code="1638">
+      <short_text>無鐵路交通</short_text>
+      <long_text>鐵路交通未運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1639">
+      <short_text>無公共巴士</short_text>
+      <long_text>公共巴士未運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1640">
+      <short_text>通勤車</short_text>
+      <long_text>已設立通勤車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1641">
+      <short_text>通勤車</short_text>
+      <long_text>免費通勤車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1649">
+      <short_text>無有軌電車</short_text>
+      <long_text>有軌電車未運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1650">
+      <short_text>時間損失</short_text>
+      <long_text>可能導致延誤</long_text>
+    </tmc_event>
+    <tmc_event event_code="1651">
+      <short_text>無地鐵</short_text>
+      <long_text>地鐵未運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1652">
+      <short_text>停止運行</short_text>
+      <long_text>預計會停止運行</long_text>
+    </tmc_event>
+    <tmc_event event_code="1653">
+      <short_text>長時間等待</short_text>
+      <long_text>預計時間損失較大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1654">
+      <short_text>長時間等待</short_text>
+      <long_text>預計延誤較長時間</long_text>
+    </tmc_event>
+    <tmc_event event_code="1655">
+      <short_text>出發車次已預訂完</short_text>
+      <long_text>所有出發車次已預訂完</long_text>
+    </tmc_event>
+    <tmc_event event_code="1656">
+      <short_text>下一個抵達車次</short_text>
+      <long_text>下一個抵達車次</long_text>
+    </tmc_event>
+    <tmc_event event_code="1657">
+      <short_text>鐵路交通</short_text>
+      <long_text>鐵路交通故障。時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1658">
+      <short_text>公共巴士</short_text>
+      <long_text>公共巴士交通故障。時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1659">
+      <short_text>地鐵</short_text>
+      <long_text>地鐵運營故障</long_text>
+    </tmc_event>
+    <tmc_event event_code="1660">
+      <short_text>人員短途公共交通運營</short_text>
+      <long_text>人員短途公共交通重新運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1661">
+      <short_text>無輪渡</short_text>
+      <long_text>輪渡停止運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1662">
+      <short_text>行駛時間</short_text>
+      <long_text>行駛時間 </long_text>
+    </tmc_event>
+    <tmc_event event_code="1680">
+      <short_text>時間損失</short_text>
+      <long_text>必須預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1681">
+      <short_text>長時間等待</short_text>
+      <long_text>必須預計有數小時時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1683">
+      <short_text>工地</short_text>
+      <long_text>工地，必須預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1684">
+      <short_text>河水泛濫</short_text>
+      <long_text>河水泛濫，必須預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1685">
+      <short_text>活動</short_text>
+      <long_text>活動，必須預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1687">
+      <short_text>重型車</short_text>
+      <long_text>重型車必須預計有數小時時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1688">
+      <short_text>時間損失</short_text>
+      <long_text>必須預計有較大時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1689">
+      <short_text>時間損失</short_text>
+      <long_text>必須預計有極大時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1695">
+      <short_text>行駛時間</short_text>
+      <long_text>目前行駛時間</long_text>
+    </tmc_event>
+    <tmc_event event_code="1696">
+      <short_text>行駛時間</short_text>
+      <long_text>預計行駛時間</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>慢車</short_text>
+      <long_text>一輛汽車行駛緩慢導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>逆行車輛</short_text>
+      <long_text>請注意，有逆行車輛正向您駛來！不得超車！小心兩個方向的路面。</long_text>
+    </tmc_event>
+    <tmc_event event_code="1704">
+      <short_text>危險情況</short_text>
+      <long_text>粗暴駕駛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1705">
+      <short_text>慢車</short_text>
+      <long_text>一輛汽車行駛緩慢導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1706">
+      <short_text>救援車輛</short_text>
+      <long_text>救援車輛正在工作</long_text>
+    </tmc_event>
+    <tmc_event event_code="1707">
+      <short_text>救援車輛</short_text>
+      <long_text>請注意，迅速行駛的救援車輛正在工作</long_text>
+    </tmc_event>
+    <tmc_event event_code="1708">
+      <short_text>警察追捕</short_text>
+      <long_text>請注意，警察追捕導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>路面污物</short_text>
+      <long_text>一輛行駛的汽車產生污物導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1710">
+      <short_text>貨物丟失</short_text>
+      <long_text>汽車丟失貨物，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1720">
+      <short_text>鐵路交通</short_text>
+      <long_text>鐵路交通故障</long_text>
+    </tmc_event>
+    <tmc_event event_code="1721">
+      <short_text>無人員短途公共交通</short_text>
+      <long_text>人員短途公共交通停止運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1731">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1732">
+      <short_text>超寬車輛</short_text>
+      <long_text>超寬運輸車輛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1733">
+      <short_text>超長車輛</short_text>
+      <long_text>超長運輸車輛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1734">
+      <short_text>慢車</short_text>
+      <long_text>車輛緩慢導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1735">
+      <short_text>履帶式車輛</short_text>
+      <long_text>履帶式車輛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1736">
+      <short_text>危險品運輸</short_text>
+      <long_text>危險品車輛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1737">
+      <short_text>車隊行駛</short_text>
+      <long_text>車隊行駛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1738">
+      <short_text>軍車行駛</short_text>
+      <long_text>軍車行駛導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1739">
+      <short_text>超高運輸</short_text>
+      <long_text>超高運輸導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1740">
+      <short_text>%l車流密集</short_text>
+      <long_text>重載運輸導致車流密集。時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1741">
+      <short_text>%l車流密集</short_text>
+      <long_text>車隊行駛導致車流密集。時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1751">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸</long_text>
+    </tmc_event>
+    <tmc_event event_code="1752">
+      <short_text>超寬運輸</short_text>
+      <long_text>超寬運輸</long_text>
+    </tmc_event>
+    <tmc_event event_code="1753">
+      <short_text>超長運輸</short_text>
+      <long_text>超長運輸</long_text>
+    </tmc_event>
+    <tmc_event event_code="1754">
+      <short_text>慢車</short_text>
+      <long_text>慢車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1755">
+      <short_text>車隊行駛</short_text>
+      <long_text>車隊行駛</long_text>
+    </tmc_event>
+    <tmc_event event_code="1756">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1757">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1758">
+      <short_text>長時間等待</short_text>
+      <long_text>重載運輸，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1759">
+      <short_text>車隊行駛</short_text>
+      <long_text>車隊行駛，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1760">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1761">
+      <short_text>長時間等待</short_text>
+      <long_text>車隊行駛，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1764">
+      <short_text>履帶式車輛</short_text>
+      <long_text>履帶式車輛</long_text>
+    </tmc_event>
+    <tmc_event event_code="1765">
+      <short_text>危險品運輸</short_text>
+      <long_text>危險品運輸</long_text>
+    </tmc_event>
+    <tmc_event event_code="1766">
+      <short_text>軍車行駛</short_text>
+      <long_text>軍車行駛</long_text>
+    </tmc_event>
+    <tmc_event event_code="1767">
+      <short_text>重載運輸</short_text>
+      <long_text>重載運輸，無法超車。</long_text>
+    </tmc_event>
+    <tmc_event event_code="1768">
+      <short_text>危險品運輸</short_text>
+      <long_text>危險品運輸駛向下一個停車場</long_text>
+    </tmc_event>
+    <tmc_event event_code="1801">
+      <short_text>換道裝置失靈</short_text>
+      <long_text>換道裝置失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1802">
+      <short_text>緊急電話亭失靈</short_text>
+      <long_text>緊急電話亭失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1803">
+      <short_text>緊急電話失靈</short_text>
+      <long_text>緊急電話失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1804">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1805">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>紅綠燈裝置發生故障</long_text>
+    </tmc_event>
+    <tmc_event event_code="1806">
+      <short_text>鐵路道口</short_text>
+      <long_text>鐵路道口故障</long_text>
+    </tmc_event>
+    <tmc_event event_code="1807">
+      <short_text>%l塞車</short_text>
+      <long_text>紅綠燈失靈，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1809">
+      <short_text>%l交通停滯</short_text>
+      <long_text>紅綠燈失靈，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1811">
+      <short_text>%l車流密集</short_text>
+      <long_text>紅綠燈失靈，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1812">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1813">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>紅綠燈失靈，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1814">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1815">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1816">
+      <short_text>%l車流密集</short_text>
+      <long_text>紅綠燈失靈，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1817">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1818">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1819">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1820">
+      <short_text>%l塞車</short_text>
+      <long_text>鐵路道口故障，%l塞車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1822">
+      <short_text>%l交通停滯</short_text>
+      <long_text>鐵路道口故障，%l交通停滯</long_text>
+    </tmc_event>
+    <tmc_event event_code="1824">
+      <short_text>%l車流密集</short_text>
+      <long_text>鐵路道口故障，%l車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1825">
+      <short_text>鐵路道口故障</short_text>
+      <long_text>鐵路道口故障，預計車流密集</long_text>
+    </tmc_event>
+    <tmc_event event_code="1826">
+      <short_text>%l交通繁忙</short_text>
+      <long_text>鐵路道口故障，%l交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1827">
+      <short_text>鐵路道口故障</short_text>
+      <long_text>鐵路道口故障，預計交通繁忙</long_text>
+    </tmc_event>
+    <tmc_event event_code="1828">
+      <short_text>鐵路道口故障</short_text>
+      <long_text>鐵路道口故障，交通順暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1829">
+      <short_text>%l車流密集</short_text>
+      <long_text>鐵路道口故障，%l車流密集且不斷增加</long_text>
+    </tmc_event>
+    <tmc_event event_code="1830">
+      <short_text>鐵路道口故障</short_text>
+      <long_text>鐵路道口故障，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1831">
+      <short_text>鐵路道口故障</short_text>
+      <long_text>鐵路道口故障，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1832">
+      <short_text>長時間等待</short_text>
+      <long_text>鐵路道口故障，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1838">
+      <short_text>換道裝置損壞</short_text>
+      <long_text>換道裝置損壞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1840">
+      <short_text>可變交通號誌</short_text>
+      <long_text>可變交通號誌失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1841">
+      <short_text>可變交通號誌</short_text>
+      <long_text>可變交通號誌工作失誤</long_text>
+    </tmc_event>
+    <tmc_event event_code="1842">
+      <short_text>可變交通號誌</short_text>
+      <long_text>可變交通號誌重新運營</long_text>
+    </tmc_event>
+    <tmc_event event_code="1843">
+      <short_text>入口管制</short_text>
+      <long_text>入口管制失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1844">
+      <short_text>入口管制</short_text>
+      <long_text>入口管制工作失誤</long_text>
+    </tmc_event>
+    <tmc_event event_code="1845">
+      <short_text>紅綠燈裝置損壞</short_text>
+      <long_text>臨時紅綠燈裝置損壞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1846">
+      <short_text>紅綠燈裝置有故障</short_text>
+      <long_text>臨時紅綠燈裝置工作失誤</long_text>
+    </tmc_event>
+    <tmc_event event_code="1847">
+      <short_text>交通不暢</short_text>
+      <long_text>因交通監控計算機失靈導致交通運轉不暢</long_text>
+    </tmc_event>
+    <tmc_event event_code="1848">
+      <short_text>紅綠燈控制已變更</short_text>
+      <long_text>紅綠燈裝置控制已變更</long_text>
+    </tmc_event>
+    <tmc_event event_code="1849">
+      <short_text>隧道通風裝置失靈</short_text>
+      <long_text>隧道通風裝置失靈</long_text>
+    </tmc_event>
+    <tmc_event event_code="1850">
+      <short_text>換道裝置失靈</short_text>
+      <long_text>換道裝置失靈，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1853">
+      <short_text>危險地點</short_text>
+      <long_text>路面阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1864">
+      <short_text>換道裝置損壞</short_text>
+      <long_text>換道裝置損壞，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1865">
+      <short_text>緊急電話亭失靈</short_text>
+      <long_text>緊急電話亭失靈，警車行駛加強巡邏</long_text>
+    </tmc_event>
+    <tmc_event event_code="1866">
+      <short_text>緊急電話亭失靈</short_text>
+      <long_text>緊急電話亭失靈，緊急情況下請等待警察前來</long_text>
+    </tmc_event>
+    <tmc_event event_code="1867">
+      <short_text>紅綠燈失靈</short_text>
+      <long_text>紅綠燈失靈，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1868">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>紅綠燈裝置發生故障，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1869">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>紅綠燈裝置發生故障，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1870">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>紅綠燈裝置發生故障，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1875">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>紅綠燈裝置工作失誤導致危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1876">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>臨時紅綠燈裝置損壞，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1877">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>臨時紅綠燈裝置損壞，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1878">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>臨時紅綠燈裝置損壞，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1879">
+      <short_text>紅綠燈裝置發生故障</short_text>
+      <long_text>臨時紅綠燈裝置損壞，危險</long_text>
+    </tmc_event>
+    <tmc_event event_code="1880">
+      <short_text>交通不暢</short_text>
+      <long_text>因交通監控計算機失靈導致交通運轉不暢，時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1884">
+      <short_text>交通不暢</short_text>
+      <long_text>因交通監控計算機失靈導致交通運轉不暢，預計有時間損失</long_text>
+    </tmc_event>
+    <tmc_event event_code="1885">
+      <short_text>長時間等待</short_text>
+      <long_text>因交通監控計算機失靈導致交通運轉不暢，時間損失大</long_text>
+    </tmc_event>
+    <tmc_event event_code="1886">
+      <short_text>停車禁令已取消</short_text>
+      <long_text>一般停車禁令已取消</long_text>
+    </tmc_event>
+    <tmc_event event_code="1887">
+      <short_text>停車禁令</short_text>
+      <long_text>特殊停車禁令實施中</long_text>
+    </tmc_event>
+    <tmc_event event_code="1888">
+      <short_text>仍有充足停車位</short_text>
+      <long_text>10%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1889">
+      <short_text>仍有充足停車位</short_text>
+      <long_text>20%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1890">
+      <short_text>仍有充足停車位</short_text>
+      <long_text>30%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1891">
+      <short_text>仍有充足停車位</short_text>
+      <long_text>40%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1892">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>50%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1893">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>60%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1894">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>70%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1895">
+      <short_text>停車場已佔用</short_text>
+      <long_text>80%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1896">
+      <short_text>停車場已佔用</short_text>
+      <long_text>90%已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1897">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>仍空餘最多10個停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1898">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>仍空餘最多20個停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1899">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>仍空餘最多30個停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1900">
+      <short_text>僅有個別停車位</short_text>
+      <long_text>仍空餘最多40個停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1901">
+      <short_text>旅行資訊</short_text>
+      <long_text>下一個出發車次</long_text>
+    </tmc_event>
+    <tmc_event event_code="1903">
+      <short_text>停車場已佔用</short_text>
+      <long_text>停車場已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1904">
+      <short_text>停車位緊張</short_text>
+      <long_text>所有停車位基本已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1905">
+      <short_text>停車位空餘</short_text>
+      <long_text>仍空餘停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1906">
+      <short_text>停車換乘</short_text>
+      <long_text>停車換乘運營中</long_text>
+    </tmc_event>
+    <tmc_event event_code="1908">
+      <short_text>服務訊息</short_text>
+      <long_text>請開啟廣播節目</long_text>
+    </tmc_event>
+    <tmc_event event_code="1909">
+      <short_text>服務訊息</short_text>
+      <long_text>此頻道有警告訊息</long_text>
+    </tmc_event>
+    <tmc_event event_code="1910">
+      <short_text>服務訊息</short_text>
+      <long_text>規定時間內有新警告訊息</long_text>
+    </tmc_event>
+    <tmc_event event_code="1913">
+      <short_text>服務訊息</short_text>
+      <long_text>請開啟廣播節目</long_text>
+    </tmc_event>
+    <tmc_event event_code="1918">
+      <short_text>停車場已佔用</short_text>
+      <long_text>已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1920">
+      <short_text>停車位緊張</short_text>
+      <long_text>僅空餘個別停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1921">
+      <short_text>空餘停車位</short_text>
+      <long_text>仍有充足停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1922">
+      <short_text>停車場已佔用</short_text>
+      <long_text>停車場可能已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1923">
+      <short_text>停車場已佔用</short_text>
+      <long_text>可能沒有空餘停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1924">
+      <short_text>停車樓已佔用</short_text>
+      <long_text>停車樓已佔用</long_text>
+    </tmc_event>
+    <tmc_event event_code="1926">
+      <short_text>停車場已佔用</short_text>
+      <long_text>無空餘停車位</long_text>
+    </tmc_event>
+    <tmc_event event_code="1927">
+      <short_text>禁止停車</short_text>
+      <long_text>禁止停車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1928">
+      <short_text>無停車區域限制</short_text>
+      <long_text>停車區域限制已取消</long_text>
+    </tmc_event>
+    <tmc_event event_code="1930">
+      <short_text>服務訊息</short_text>
+      <long_text>目前無TMC服務</long_text>
+    </tmc_event>
+    <tmc_event event_code="1961">
+      <short_text>救援車輛</short_text>
+      <long_text>讓車隊車道上的救援車輛超車</long_text>
+    </tmc_event>
+    <tmc_event event_code="1962">
+      <short_text>車隊車道</short_text>
+      <long_text>車隊車道對所有汽車開放</long_text>
+    </tmc_event>
+    <tmc_event event_code="1963">
+      <short_text>車隊車道</short_text>
+      <long_text>警察透過車隊車道引導車流</long_text>
+    </tmc_event>
+    <tmc_event event_code="1974">
+      <short_text>救援車輛</short_text>
+      <long_text>開辟救援車輛通道</long_text>
+    </tmc_event>
+    <tmc_event event_code="1977">
+      <short_text>救援車輛</short_text>
+      <long_text>讓貨車道上的救援車輛超車</long_text>
+    </tmc_event>
+    <tmc_event event_code="2000">
+      <short_text>封鎖</short_text>
+      <long_text>因霧霾警告此地區交通已全部封鎖</long_text>
+    </tmc_event>
+    <tmc_event event_code="2013">
+      <short_text>休息區已滿</short_text>
+      <long_text>加油站和休息區已滿負荷</long_text>
+    </tmc_event>
+    <tmc_event event_code="2021">
+      <short_text>公共巴士替代</short_text>
+      <long_text>未運營，用公共巴士替代</long_text>
+    </tmc_event>
+    <tmc_event event_code="2022">
+      <short_text>因罷工取消</short_text>
+      <long_text>因罷工取消</long_text>
+    </tmc_event>
+  </locale>
+</TmcConfig>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZoomAssistantConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../../../xsd/nav/zoom/ZoomAssistantConfiguration.xsd " version="2">
+    <!--
+        Description:
+            .<functional_road_class> from NDS functional road class definition ( 1-5 )
+            .<value_distance> in centimeter
+            .<value_scale> Scale level value ( centimeter in reality per centimeter on display )
+
+        <ManeuverZoom mode="2d|birdview" default="<value_scale>" minimal="<value_scale>">
+            <ZoomConfig
+                functionalRoadClass="<functional_road_class>|<functional_road_class>|..."
+                urban="true|false">
+                    <value_distance>
+            </ZoomConfig>
+        </ManeuverZoom>
+
+        .Remark: "minimal" values not used at the moment.
+        <AutoZoom mode="2d|birdview" default="<value_scale" minimal="<value_scale>">
+            <ZoomConfig
+                functionalRoadClass="<functional_road_class>|<functional_road_class>|..."
+                urban="true|false">
+                    <value_scale>
+            </ZoomConfig>
+        </AutoZoom>
+
+    -->
+
+    <AutoZoom mode="birdview" default="7500" minimal="3000">
+        <ZoomConfig functionalRoadClass="1"   urban="true">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="true">30000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="true">20000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5|6|7|8"   urban="true">10000</ZoomConfig>
+
+        <ZoomConfig functionalRoadClass="1"   urban="false">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="false">100000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="false">50000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5|6|7|8"   urban="false">20000</ZoomConfig>
+    </AutoZoom>
+
+    <AutoZoom mode="2d" default="20000" minimal="3000">
+        <ZoomConfig functionalRoadClass="1"   urban="true">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="true">30000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="true">20000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5|6|7|8"   urban="true">10000</ZoomConfig>
+
+        <ZoomConfig functionalRoadClass="1"   urban="false">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="false">100000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="false">50000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5|6|7|8"   urban="false">20000</ZoomConfig>
+    </AutoZoom>
+
+
+    <ManeuverZoom mode="birdview" default="20000" minimal="3000">
+        <ZoomConfig functionalRoadClass="1"   urban="true">600000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="true">75000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="true">50000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5"   urban="true">30000</ZoomConfig>
+
+        <ZoomConfig functionalRoadClass="1"   urban="false">600000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="false">500000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="false">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5"   urban="false">75000</ZoomConfig>
+    </ManeuverZoom>
+
+    <ManeuverZoom mode="2d" default="20000" minimal="3000">
+        <ZoomConfig functionalRoadClass="1"   urban="true">600000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="true">75000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="true">50000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5"   urban="true">30000</ZoomConfig>
+
+        <ZoomConfig functionalRoadClass="1"   urban="false">600000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="2"   urban="false">500000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="3|4" urban="false">200000</ZoomConfig>
+        <ZoomConfig functionalRoadClass="5"   urban="false">75000</ZoomConfig>
+    </ManeuverZoom>
+
+</ZoomAssistantConfiguration>

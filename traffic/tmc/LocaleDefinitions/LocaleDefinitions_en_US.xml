@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locale_definitions>
+  <locale_definition code="en_US">
+    <locale_quantifier number="0" unit_system="UNITS_METRIC">
+    </locale_quantifier>
+    <locale_quantifier number="1" unit_system="UNITS_METRIC">
+    </locale_quantifier>
+    <locale_quantifier number="2" unit_system="UNITS_METRIC">m</locale_quantifier>
+    <locale_quantifier number="4" unit_system="UNITS_METRIC">km/h</locale_quantifier>
+    <locale_quantifier number="7" unit_system="UNITS_METRIC">
+    </locale_quantifier>
+    <locale_quantifier number="50" unit_system="UNITS_METRIC">hour</locale_quantifier>
+    <locale_quantifier number="51" unit_system="UNITS_METRIC">hours</locale_quantifier>
+    <locale_quantifier number="52" unit_system="UNITS_METRIC">minute</locale_quantifier>
+    <locale_quantifier number="53" unit_system="UNITS_METRIC">minutes</locale_quantifier>
+    <locale_quantifier number="9" unit_system="UNITS_METRIC">m</locale_quantifier>
+    <locale_quantifier number="100" unit_system="UNITS_METRIC">km</locale_quantifier>
+    <locale_quantifier number="0" unit_system="UNITS_IMPERIAL">
+    </locale_quantifier>
+    <locale_quantifier number="1" unit_system="UNITS_IMPERIAL">
+    </locale_quantifier>
+    <locale_quantifier number="2" unit_system="UNITS_IMPERIAL">m</locale_quantifier>
+    <locale_quantifier number="4" unit_system="UNITS_IMPERIAL">mph</locale_quantifier>
+    <locale_quantifier number="7" unit_system="UNITS_IMPERIAL">
+    </locale_quantifier>
+    <locale_quantifier number="50" unit_system="UNITS_IMPERIAL">hour</locale_quantifier>
+    <locale_quantifier number="51" unit_system="UNITS_IMPERIAL">hours</locale_quantifier>
+    <locale_quantifier number="52" unit_system="UNITS_IMPERIAL">minute</locale_quantifier>
+    <locale_quantifier number="53" unit_system="UNITS_IMPERIAL">minutes</locale_quantifier>
+    <locale_quantifier number="9" unit_system="UNITS_IMPERIAL">m</locale_quantifier>
+    <locale_quantifier number="100" unit_system="UNITS_IMPERIAL">mi</locale_quantifier>
+  </locale_definition>
+</locale_definitions>

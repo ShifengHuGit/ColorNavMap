@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+<DurationConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Delay.xsd">
+-->
+<DelayConfig version="1">
+   <!-- define maximum distance in meters for penalty calculation -->
+   <MaximumTrafficLength>10000</MaximumTrafficLength>
+   <!-- define maximum penalty (only for duration tag) in seconds for penalty calculation -->
+   <MaximumDuration>86400</MaximumDuration>
+   <!-- unknown tendency -->
+   <LevelOfService losCode="0">
+      <!-- unknown traffic flow -->
+      <Duration> <!--  0 min -->
+         <!-- zu rechnen, Gefahr, Wetter, sonstiges -->
+         <Point offset="0">0</Point>
+         <Event id="11" />
+         <Event id="201" />
+         <Event id="202" />
+         <Event id="207" />
+         <Event id="210" />
+         <Event id="409" />
+         <Event id="701" />
+         <Event id="702" />
+         <Event id="703" />
+         <Event id="707" />
+         <Event id="804" />
+         <Event id="806" />
+         <Event id="807" />
+         <Event id="907" />
+         <Event id="914" />
+         <Event id="915" />
+         <Event id="917" />
+         <Event id="920" />
+         <Event id="921" />
+         <Event id="922" />
+         <Event id="975" />
+         <Event id="1002" />
+         <Event id="1013" />
+         <Event id="1018" /> <!-- Glatteis -->
+         <Event id="1033" />
+         <Event id="1056" />
+         <Event id="1101" />
+         <Event id="1104" />
+         <Event id="1106" />
+         <Event id="1108" />
+         <Event id="1109" />
+         <Event id="1112" />
+         <Event id="1130" /> <!-- Wetter -->
+         <Event id="1132" /> <!-- Wetter -->
+         <Event id="1156" />
+         <Event id="1202" />
+         <Event id="1203" />
+         <Event id="1205" /> <!-- Wetter -->
+         <Event id="1304" />
+         <Event id="1310" />
+         <Event id="1318" /> <!-- Wetter -->
+         <Event id="1326" />
+         <Event id="1332" />
+         <Event id="1477" />
+         <Event id="1501" />
+         <Event id="1502" />
+         <Event id="1504" />
+         <Event id="1505" />
+         <Event id="1506" />
+         <Event id="1515" />
+         <Event id="1596" />
+         <Event id="1637" />
+         <Event id="1700" />
+         <Event id="1701" />
+         <Event id="1709" />
+      </Duration>
+      <Duration> <!--  5 min -->
+         <Point offset="0">300</Point>
+         <Event id="211" />
+         <Event id="213" />
+         <Event id="397" />
+         <Event id="493" />
+         <Event id="500" />
+         <Event id="501" />
+         <Event id="503" />
+         <Event id="505" />
+         <Event id="506" />
+         <Event id="517" />
+         <Event id="518" />
+         <Event id="641" />
+         <Event id="740" />
+         <Event id="913" />
+         <Event id="915" />
+         <Event id="917" />
+         <Event id="922" />
+         <Event id="976" />
+         <Event id="1001" />
+         <Event id="1003" />
+         <Event id="1044" />
+         <Event id="1472" />
+      </Duration>
+      <Duration> <!-- 10 min -->
+         <Point offset="0">600</Point>
+      </Duration>
+      <Duration> <!-- 15 min -->
+         <Point offset="0">900</Point>
+      </Duration>
+      <Duration> <!-- 20 min -->
+         <Point offset="0">1200</Point>
+      </Duration>
+      <Duration> <!-- 25 min -->
+         <Point offset="0">1500</Point>
+      </Duration>
+      <Duration> <!-- 30 min -->
+         <!-- Zeitverlust -->
+         <Point offset="0">1800</Point>
+         <Event id="1601" />
+      </Duration>
+      <Duration> <!-- 40 min -->
+         <Point offset="0">2400</Point>
+      </Duration>
+      <Duration> <!-- 50 min -->
+         <Point offset="0">3000</Point>
+      </Duration>
+      <Duration> <!-- 60 min -->
+         <!-- großer Zeitverlust -->
+         <Point offset="0">3600</Point>
+      </Duration>
+      <Duration> <!-- 75 min -->
+         <Point offset="0">4500</Point>
+      </Duration>
+      <Duration> <!-- 90 min -->
+         <Point offset="0">5400</Point>
+      </Duration>
+      <Duration> <!--  2 h -->
+         <Point offset="0">7200</Point>
+      </Duration>
+      <Duration> <!--  3 h -->
+         <Point offset="0">10800</Point>
+      </Duration>
+      <Duration> <!--  4 h -->
+         <Point offset="0">14400</Point>
+      </Duration>
+      <Duration> <!--  5 h -->
+         <Point offset="0">18000</Point>
+      </Duration>
+      <Speed> <!-- 10 km/h -->
+         <Point offset="0">10</Point>
+      </Speed>
+      <Speed> <!-- 20 km/h -->
+         <Point offset="0">20</Point>
+      </Speed>
+      <Speed> <!-- 30 km/h -->
+         <Point offset="0">30</Point>
+      </Speed>
+      <Speed> <!-- 40 km/h -->
+         <Point offset="0">40</Point>
+      </Speed>
+      <Speed> <!-- 50 km/h -->
+         <Point offset="0">50</Point>
+      </Speed>
+      <Speed> <!-- 60 km/h -->
+         <Point offset="0">60</Point>
+      </Speed>
+      <Speed>
+         <Point offset="0">70</Point>
+      </Speed>
+   </LevelOfService>
+
+   <LevelOfService losCode="1">
+      <!-- free traffic flow (100% - 90%) störungsfreier Verkehr -->
+      <Duration>
+         <Point offset="0">0</Point>
+         <Event id="124" />
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="2">
+      <!-- heavy traffic flow (90% - 75%) reger, starker Verkehr -->
+      <Percent>
+         <Point offset="0">80</Point>
+         <Event id="61" />
+         <Event id="62" />
+         <Event id="122" />
+      </Percent>
+   </LevelOfService>
+
+   <LevelOfService losCode="3">
+      <!-- slow traffic flow (75% - 45%) dichter Verkehr-->
+      <Percent>
+         <Point offset="0">60</Point>
+         <Event id="1" />
+         <Event id="115" />
+      </Percent>
+   </LevelOfService>
+
+   <LevelOfService losCode="4">
+      <!-- queuing traffic flow (45% - 20%) stockender Verkehr -->
+      <Percent>
+         <Point offset="0">40</Point>
+         <Event id="108" />
+      </Percent>
+   </LevelOfService>
+
+   <LevelOfService losCode="5">
+      <!-- stationary traffic flow (20% - 5%) Stau -->
+      <Percent>
+         <Point offset="0">15</Point>
+         <Event id="101" />
+         <Event id="138" />
+      </Percent>
+   </LevelOfService>
+
+   <LevelOfService losCode="6">
+      <!-- no traffic flow (5% - 0%) 86400 Gespert, blockiert -->
+      <Duration>
+         <Point offset="0">43200</Point>
+         <Event id="401" />
+         <Event id="406" />
+         <Event id="407" />
+         <Event id="492" />
+         <Event id="735" />
+         <Event id="938" />
+         <Event id="947" />
+         <Event id="980" />
+         <Event id="982" />
+         <Event id="1035" />
+      </Duration>
+   </LevelOfService>
+
+
+<!-- constant tendency -->
+   <LevelOfService losCode="9">
+      <!-- free traffic flow constant -->
+   </LevelOfService>
+
+   <LevelOfService losCode="10">
+      <!-- heavy traffic flow constant -->
+   </LevelOfService>
+
+   <LevelOfService losCode="11">
+      <!-- slow traffic flow constant -->
+   </LevelOfService>
+
+   <LevelOfService losCode="12">
+      <!-- queuing traffic flow constant -->
+   </LevelOfService>
+
+   <LevelOfService losCode="13">
+      <!-- stationary traffic flow constant -->
+   </LevelOfService>
+
+   <LevelOfService losCode="14">
+      <!-- no traffic flow constant -->
+   </LevelOfService>
+
+
+<!-- increasing (+1) tendency -->
+   <LevelOfService losCode="17">
+      <!-- free traffic flow increasing (+1) -->
+      <Duration>
+         <Point offset="0">0</Point>
+      </Duration>
+      <Duration>
+         <!-- frei -> reger Verkehr -->
+         <Point offset="0">360</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="18">
+      <!-- heavy traffic flow increasing (+1) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="19">
+      <!-- slow traffic flow increasing (+1) -->
+      <Duration>
+         <Point offset="0">150</Point>
+         <Point offset="1000">250</Point>
+         <Point offset="5000">500</Point>
+         <Point offset="10000">750</Point>
+         <Point offset="100000">7500</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="20">
+      <!-- queuing traffic flow increasing (+1) -->
+      <Duration>
+         <Point offset="0">200</Point>
+         <Point offset="1000">300</Point>
+         <Point offset="5000">750</Point>
+         <Point offset="10000">1100</Point>
+         <Point offset="100000">11000</Point>
+      </Duration>
+   </LevelOfService>
+
+
+<!-- decreasing (-1) tendency -->
+   <LevelOfService losCode="26">
+      <!-- heavy traffic flow decreasing (-1) -->
+      <Duration>
+         <Point offset="0">100</Point>
+         <Point offset="1000">150</Point>
+         <Point offset="5000">300</Point>
+         <Point offset="10000">600</Point>
+         <Point offset="100000">6000</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="27">
+      <!-- slow traffic flow decreasing (-1) -->
+      <Duration>
+         <Point offset="0">150</Point>
+         <Point offset="1000">250</Point>
+         <Point offset="5000">500</Point>
+         <Point offset="10000">750</Point>
+         <Point offset="100000">7500</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="28">
+      <!-- queuing traffic flow decreasing (-1) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="29">
+      <!-- stationary traffic flow decreasing (-1) -->
+      <Duration>
+         <Point offset="0">360</Point>
+         <Point offset="1000">600</Point>
+         <Point offset="5000">1800</Point>
+         <Point offset="10000">3500</Point>
+         <Point offset="100000">35000</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="30">
+      <!-- no traffic flow decreasing (-1) -->
+   </LevelOfService>
+
+
+<!-- increasing (+2) tendency -->
+   <LevelOfService losCode="33">
+      <!-- free traffic flow increasing (+2) -->
+      <Duration>
+         <Point offset="0">0</Point>
+      </Duration>
+      <Duration>
+         <!-- frei -> Staufefahr, stockender, dichter V. -->
+         <Point offset="0">420</Point>
+      </Duration>
+   </LevelOfService>
+
+   <LevelOfService losCode="34">
+      <!-- heavy traffic flow increasing (+2) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="35">
+      <!-- slow traffic flow increasing (+2) -->
+      <Duration>
+         <Point offset="0">150</Point>
+         <Point offset="1000">250</Point>
+         <Point offset="5000">500</Point>
+         <Point offset="10000">750</Point>
+         <Point offset="100000">7500</Point>
+      </Duration>
+   </LevelOfService>
+
+
+<!-- decreasing (-2) tendency -->
+   <LevelOfService losCode="43">
+      <!-- slow traffic flow decreasing (-2) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="44">
+      <!-- queuing traffic flow decreasing (-2) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="45">
+      <!-- stationary traffic flow decreasing (-2) -->
+   </LevelOfService>
+
+   <LevelOfService losCode="46">
+      <!-- no traffic flow decreasing (-3) -->
+   </LevelOfService>
+
+</DelayConfig>

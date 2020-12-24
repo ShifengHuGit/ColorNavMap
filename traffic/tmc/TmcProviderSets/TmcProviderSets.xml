@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file defines the different provider configurations, as specified 
+	by VW. One configuration is the active configuration. Configurations are 
+	selected by their id.
+	
+	Element tmc_provider_set: The attribute "use_free_tmc" 
+	can have a value of either "true" or "false". If it is set to "true", all 
+	free tmc tables are activated, except for countries where a provider in exclusive 
+	mode is referenced. If "use_free_tmc" is set to "false", no free tmc tables 
+	are activated, only the providers referenced in the provider set are used. 
+	The attribute "use_online_traffic" can be set to either "true" or "false". 
+	If set to "true", online traffic is activated and preferred. If set to "false", 
+	no online traffic is used. Each element tmc_provider_set can have zero or 
+	more child elements of type provider_ref. Each provider_ref element specifies 
+	a provider that is activated in that provider set.
+	
+	Element provider_ref: 
+	The attribute "id" references a provider defined in TmcProviders.xml. This 
+	provider is activated in the enclosing provider set. The attribute "mode" 
+	can have a value of "exclusive" or "non-exclusive". If mode is "exclusive", 
+	the free tmc tables for the country of the referenced provider are deactivated. 
+	In "non-exclusive" mode, the free tmc tables are activated. This attribute 
+	is optional, if it is omitted the mode is set to "non-exclusive". -->
+
+<tmc_provider_sets>
+
+	<!-- Only free TMC -->
+	<tmc_provider_set id="0" use_free_tmc="true"
+		use_online_traffic="false" />
+	
+	<!-- Cennavi -->
+	<tmc_provider_set id="1280" use_free_tmc="true"
+		use_online_traffic="false">
+		<provider_ref id="1001" mode="non-exclusive" />
+		<provider_ref id="1002" mode="non-exclusive" />
+		<provider_ref id="1003" mode="non-exclusive" />
+		<provider_ref id="1004" mode="non-exclusive" />
+		<provider_ref id="1005" mode="non-exclusive" />
+		<provider_ref id="1006" mode="non-exclusive" />
+		<provider_ref id="1007" mode="non-exclusive" />
+		<provider_ref id="1008" mode="non-exclusive" />
+		<provider_ref id="1009" mode="non-exclusive" />
+		<provider_ref id="1010" mode="non-exclusive" />
+		<provider_ref id="1011" mode="non-exclusive" />
+		<provider_ref id="1012" mode="non-exclusive" />
+		<provider_ref id="1013" mode="non-exclusive" />
+		<provider_ref id="1014" mode="non-exclusive" />
+		<provider_ref id="1015" mode="non-exclusive" />
+		<provider_ref id="1016" mode="non-exclusive" />
+		<provider_ref id="1017" mode="non-exclusive" />
+		<provider_ref id="1018" mode="non-exclusive" />
+		<provider_ref id="1019" mode="non-exclusive" />
+		<provider_ref id="1020" mode="non-exclusive" />
+		<provider_ref id="1021" mode="non-exclusive" />
+		<provider_ref id="1022" mode="non-exclusive" />
+		<provider_ref id="1023" mode="non-exclusive" />
+		<provider_ref id="1024" mode="non-exclusive" />
+		<provider_ref id="1025" mode="non-exclusive" />
+		<provider_ref id="1026" mode="non-exclusive" />
+		<provider_ref id="1027" mode="non-exclusive" />
+		<provider_ref id="1028" mode="non-exclusive" />
+		<provider_ref id="1029" mode="non-exclusive" />
+		<provider_ref id="1030" mode="non-exclusive" />
+		<provider_ref id="1031" mode="non-exclusive" />
+	</tmc_provider_set>
+
+	<!-- ------------- Online Traffic Provider Sets --------------- -->
+
+	<!-- Only free TMC -->
+	<!-- 32768 + 0 -->
+	<tmc_provider_set id="32768" use_free_tmc="true"
+		use_online_traffic="true" />
+	
+	<!-- Cennavi -->
+	<!-- 32768 + 1280 -->
+	<tmc_provider_set id="34048" use_free_tmc="true"
+		use_online_traffic="true">
+		<provider_ref id="1001" mode="non-exclusive" />
+		<provider_ref id="1002" mode="non-exclusive" />
+		<provider_ref id="1003" mode="non-exclusive" />
+		<provider_ref id="1004" mode="non-exclusive" />
+		<provider_ref id="1005" mode="non-exclusive" />
+		<provider_ref id="1006" mode="non-exclusive" />
+		<provider_ref id="1007" mode="non-exclusive" />
+		<provider_ref id="1008" mode="non-exclusive" />
+		<provider_ref id="1009" mode="non-exclusive" />
+		<provider_ref id="1010" mode="non-exclusive" />
+		<provider_ref id="1011" mode="non-exclusive" />
+		<provider_ref id="1012" mode="non-exclusive" />
+		<provider_ref id="1013" mode="non-exclusive" />
+		<provider_ref id="1014" mode="non-exclusive" />
+		<provider_ref id="1015" mode="non-exclusive" />
+		<provider_ref id="1016" mode="non-exclusive" />
+		<provider_ref id="1017" mode="non-exclusive" />
+		<provider_ref id="1018" mode="non-exclusive" />
+		<provider_ref id="1019" mode="non-exclusive" />
+		<provider_ref id="1020" mode="non-exclusive" />
+		<provider_ref id="1021" mode="non-exclusive" />
+		<provider_ref id="1022" mode="non-exclusive" />
+		<provider_ref id="1023" mode="non-exclusive" />
+		<provider_ref id="1024" mode="non-exclusive" />
+		<provider_ref id="1025" mode="non-exclusive" />
+		<provider_ref id="1026" mode="non-exclusive" />
+		<provider_ref id="1027" mode="non-exclusive" />
+		<provider_ref id="1028" mode="non-exclusive" />
+		<provider_ref id="1029" mode="non-exclusive" />
+		<provider_ref id="1030" mode="non-exclusive" />
+		<provider_ref id="1031" mode="non-exclusive" />
+	</tmc_provider_set>
+
+	<tmc_provider_set id="65534" use_free_tmc="false"
+		use_online_traffic="false" />
+	<tmc_provider_set id="65535" use_free_tmc="false"
+		use_online_traffic="false" />
+
+</tmc_provider_sets>

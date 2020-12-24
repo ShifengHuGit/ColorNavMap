@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<TurnListIconConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="21">
+  <IconType desc="destination" id="0">
+    <Icon id="0">icons_flags_HMI/Destination.png</Icon>
+    <Icon id="1">icons_flags_HMI/Stopover_1.png</Icon>
+    <Icon id="2">icons_flags_HMI/Stopover_2.png</Icon>
+    <Icon id="3">icons_flags_HMI/Stopover_3.png</Icon>
+    <Icon id="4">icons_flags_HMI/Stopover_4.png</Icon>
+    <Icon id="5">icons_flags_HMI/Stopover_5.png</Icon>
+    <Icon id="6">icons_flags_HMI/Stopover_6.png</Icon>
+    <Icon id="7">icons_flags_HMI/Stopover_7.png</Icon>
+    <Icon id="8">icons_flags_HMI/Stopover_8.png</Icon>
+    <Icon id="9">icons_flags_HMI/Stopover_9.png</Icon>
+    <Icon id="10">icons_flags_HMI/Stopover_10.png</Icon>
+    <Icon id="11">icons_flags_HMI/Stopover_11.png</Icon>
+    <Icon id="12">icons_flags_HMI/Stopover_12.png</Icon>
+    <Icon id="13">icons_flags_HMI/Stopover_13.png</Icon>
+    <Icon id="14">icons_flags_HMI/Stopover_14.png</Icon>
+    <Icon id="15">icons_flags_HMI/Stopover_15.png</Icon>
+    <Icon id="16">icons_flags_HMI/Stopover_16.png</Icon>
+    <Icon id="17">icons_flags_HMI/Stopover_17.png</Icon>
+    <Icon id="18">icons_flags_HMI/Stopover_18.png</Icon>
+    <Icon id="19">icons_flags_HMI/Stopover_19.png</Icon>
+    <Icon id="20">icons_flags_HMI/Stopover_20.png</Icon>
+  </IconType>
+  <IconType desc="ferry" id="1">
+    <Icon id="1">icons_poi/Ferry-terminal-HMI.png</Icon>
+  </IconType>
+  <IconType desc="maneuvermarker" id="2">
+    <Icon desc="1th"       id="1">icons_maneuvermaker/Maneuver_Marker_Blue.png</Icon>
+    <Icon desc="2nd"       id="2">icons_maneuvermaker/Maneuver_Marker_Green.png</Icon>
+    <Icon desc="3rd"       id="3">icons_maneuvermaker/Maneuver_Marker_Orange.png</Icon>
+    <Icon desc="4th"       id="4">icons_maneuvermaker/Maneuver_Marker_Skyblue.png</Icon>
+    <Icon desc="5th"       id="5">icons_maneuvermaker/Maneuver_Marker_Red.png</Icon>
+    <Icon desc="about 5th" id="0">icons_maneuvermaker/Maneuver_Marker_Transparent.png</Icon>
+  </IconType>
+  <IconType desc="tollgate" id="3">
+    <Icon desc="Tollgate" id="1">icons_poi/Toll-Station-HMI.png</Icon>
+  </IconType>
+  <IconType desc="tollgate_etc" id="4">
+    <Icon desc="Tollgate ETC" id="1">icons_poi/ETC-HMI.png</Icon>
+  </IconType>
+  <IconType desc="trafficlight" id="5">
+    <Icon desc="Traffic light" id="1">icons_trafficlight/Traffic_Light-06.png</Icon>
+  </IconType>
+  <IconType desc="tunnel" id="6">
+    <Icon desc="Tunnel" id="1">icons_poi/Tunnel-HMI.png</Icon>
+  </IconType>
+</TurnListIconConfig>

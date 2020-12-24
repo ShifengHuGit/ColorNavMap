@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<!-- 
+      Configuration of the elevation contour map.
+      Each elevation contour class is described by one <Elevation> tag.
+      
+      <Elevation>
+         The maxHeight attribute describes the maximum height in meters, for which this elevation class will be used.
+         All defined classes will be sorted by this attribute upon startup of the system. This makes the elevation classes
+         that can be specified independent of the concrete heights associated with the contour polygons in the database.
+         Example:
+            The contour polygon returned has a height attribute of 80m.
+            The system will use the first elevation style from the sorted list of available styles whose maxHeight attribute is
+            greater than 80m.
+      
+         <LayerSet> 
+            The <LayerSet> tag is used as described in AreaConfiguration.xml
+ -->
+<ElevationConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="10">
+  <Elevation maxHeight="0">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#EAFFD9FF</Color>
+        <Color mode="night">#1F1F1FFF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>0</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="40">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#D1E5C5FF</Color>
+        <Color mode="night">#262F24FF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>40</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="100">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#C7DBBCFF</Color>
+        <Color mode="night">#2F3A2DFF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>100</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="200">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#BBCEB0FF</Color>
+        <Color mode="night">#394338FF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>200</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="300">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#A8BC9EFF</Color>
+        <Color mode="night">#3B473BFF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>300</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="500">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#95AA8CFF</Color>
+        <Color mode="night">#404F41FF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>500</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="700">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#879B7DFF</Color>
+        <Color mode="night">#425145FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>700</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="1000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#7B9172FF</Color>
+        <Color mode="night">#48594BFF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>1000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="1500">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#667C67FF</Color>
+        <Color mode="night">#546853FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>1500</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="2000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#5D705FFF</Color>
+        <Color mode="night">#5F775EFF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>2000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="3000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#70755CFF</Color>
+        <Color mode="night">#6E876FFF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>3000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="4000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#868C6EFF</Color>
+        <Color mode="night">#789481FF</Color>
+        <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>4000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="5000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#9EA582FF</Color>
+        <Color mode="night">#8DA08EFF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>5000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="6000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#C1C6ABFF</Color>
+        <Color mode="night">#9EB4A3FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>6000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+  <Elevation maxHeight="10000">
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#C1C6ABFF</Color>
+        <Color mode="night">#9EB4A3FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>10000</Priority>
+      </LayerPattern>
+    </LayerSet>
+  </Elevation>
+</ElevationConfiguration>

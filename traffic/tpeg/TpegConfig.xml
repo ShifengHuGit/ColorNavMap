@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!--
+activatable applications: TEC_TMC, TFP
+activatable locations: TMCLoc, ETL, OLR
+
+<LocationDecoder priority="Value"> lower value = higher priority
+-->
+
+<TpegConfig>
+	<ApplicationDecoder>TEC_TMC</ApplicationDecoder>
+	<ApplicationDecoder>TFP</ApplicationDecoder>
+	<LocationDecoder priority="50">TMCLoc</LocationDecoder>
+	<LocationDecoder priority="60">ETL</LocationDecoder>
+</TpegConfig>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- the categories here are referenced in SrPsdV15TrafficCategoryMapping.xml (tsd.mibstd2.nav.config.data) -->
+
+<!--     AnnouncementId (Attention not everything is in every Language available) <announcement_id>...</announcement_id>
+
+ 		 NotUsed = 0,                 //! unspecified
+         StationaryTraffic = 1,       //! Stau
+         QueuingTraffic = 2,          //! Stockender Verkehr
+         SlowTraffic = 3,             //! Dichter Verkehr
+         Accidents = 4,               //! Unfall
+         ClosedRoad = 5,              //! Sperrung
+         ClosedExit = 6,              //! Beschraenkte Ausfahrt
+         ClosedEntry = 7,             //! Beschraenkte Einfahrt
+         RoadWorks = 8,               //! Baustelle
+         RoadReduced = 9,             //! Fahrbahnverengung
+         Disruptions = 10,            //! Stoerungen
+         ObstructionHazard = 11,      //! Behinderung auf der Fahrbahn
+         DangerousEvents = 12,        //! Gefaehrliche Situation
+         DangerousVehicles = 13,      //! Gefahrguttransporte
+         SecurityAlers = 14,          //! Sicherheitsvorfall
+         ExceptionalLoads = 15,       //! Aussergewoehnliche Ladungen und Fahrzeuge
+         SlipperyRoads = 16,          //! Strassenglaette
+         Flooding = 17,               //! Ueberschwemmungsgefahr
+         PoorRoad = 18,               //! Gefaehrliche Fahrbahnverhaeltnisse
+         RoadRestriction = 19,        //! Verkehrsbeschraenkungen
+         HeavyWinds = 20,             //! Starker Wind
+         Snowfall = 21,               //! Schneefall
+         Smog = 22,                   //! Smog-Alarm
+         HeavyRain = 23,              //! Starker Regen
+         VisibilityReduced = 24,      //! Sichtbehinderung
+         Fog = 25,                    //! Nebel
+         DangerousWetherCond = 26,    //! Gefaehrliche Wetterverhaeltnisse (not in ECL)
+         Ghostdriver = 27,            //! Falschfahrer
+         Delay = 28,                  //! Zeitverluste
+         AirAlert = 29,               //! Luftalarm (not in ECL)
+         ExchangeOfFire = 30,         //! Schusswechsel (not in ECL)
+         RescueVehicle = 31,          //! Rettungsfahrzeuge im Einsatz (not in ECL)
+         PoliceOperation = 32,        //! Gefahr durch Polizeieinsatz (not in ECL)
+         CarChasing = 33,             //! Gefahr durch Verfolgungsjagd (not in ECL)
+         AnimalsOnRoad = 34,          //! Verkehrsbehinderung durch Tiere auf der Fahrbahn
+         EarthquakeDamage = 35,       //! Verkehrsbehinderung durch Erdbebenschaeden
+         Landslips = 36,              //! Verkehrsbehinderung durch Erdrutsch
+         MajorEvent = 37,             //! Veranstaltung
+         PeopleOnRoad = 38            //! Verkehrsbehinderung durch Personen auf Fahrbahn
+-->
+
+<categories>
+	<category id="0" name="Default">
+		<icon_priority>99</icon_priority>
+		<icon_name>General Danger</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="1" name="Stationary Traffic">
+		<icon_priority>4</icon_priority>
+		<icon_name>Stationary Traffic/Jam</icon_name>
+		<icon_id>31</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="2" name="Slow Traffic">
+		<icon_priority>16</icon_priority>
+		<icon_name>Slow Traffic</icon_name>
+		<icon_id>28</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="3" name="Accidents">
+		<icon_priority>8</icon_priority>
+		<icon_name>Accidents</icon_name>
+		<icon_id>1</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="4" name="Closed Road">
+		<icon_priority>2</icon_priority>
+		<icon_name>Closed Road</icon_name>
+		<icon_id>6</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="5" name="Exit Closed">
+		<icon_priority>3</icon_priority>
+		<icon_name>Closed Road</icon_name>
+		<icon_id>6</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="6" name="Entry Closed">
+		<icon_priority>3</icon_priority>
+		<icon_name>Closed Road</icon_name>
+		<icon_id>6</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="7" name="Impassable Road">
+		<icon_priority>2</icon_priority>
+		<icon_name>Closed Road</icon_name>
+		<icon_id>6</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="8" name="Road Works">
+		<icon_priority>18</icon_priority>
+		<icon_name>Roadworks</icon_name>
+		<icon_id>25</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="9" name="Road Reduced">
+		<icon_priority>11</icon_priority>
+		<icon_name>Road reduced</icon_name>
+		<icon_id>19</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="10" name="Traffic prediction">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 1</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="11" name="Obstruction Hazard">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 2</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="12" name="Dangerous Events (Animals)">
+		<icon_priority>14</icon_priority>
+		<icon_name>Animals on Road</icon_name>
+		<icon_id>2</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="13" name="Dangerous Vehicles">
+		<icon_priority>8</icon_priority>
+		<icon_name>General Danger</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="14" name="Security Alerts">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 2</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="15" name="Exceptional loads/vehicles">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 2</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="16" name="Slippery Roads">
+		<icon_priority>9</icon_priority>
+		<icon_name>Slippery  Roads</icon_name>
+		<icon_id>27</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="17" name="Flooding">
+		<icon_priority>8</icon_priority>
+		<icon_name>Bad Road</icon_name>
+		<icon_id>3</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="18" name="Poor Road">
+		<icon_priority>8</icon_priority>
+		<icon_name>Bad Road</icon_name>
+		<icon_id>3</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="19" name="Temperature I">
+		<icon_priority>9</icon_priority>
+		<icon_name>Slippery  Roads</icon_name>
+		<icon_id>27</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="20" name="Heavy Winds">
+		<icon_priority>20</icon_priority>
+		<icon_name>Heavy Winds/Storm</icon_name>
+		<icon_id>33</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="21" name="Snowfall">
+		<icon_priority>19</icon_priority>
+		<icon_name>Snowfall</icon_name>
+		<icon_id>30</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="22" name="SMOG">
+		<icon_priority>24</icon_priority>
+		<icon_name>Bad Visibility</icon_name>
+		<icon_id>4</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="23" name="Temperature II">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="24" name="Heavy Rain">
+		<icon_priority>15</icon_priority>
+		<icon_name>Bad Visibility</icon_name>
+		<icon_id>4</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="25" name="Visibility Reduced">
+		<icon_priority>15</icon_priority>
+		<icon_name>Bad Visibility</icon_name>
+		<icon_id>4</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="26" name="Fog">
+		<icon_priority>15</icon_priority>
+		<icon_name>Bad Visibility</icon_name>
+		<icon_id>4</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="27" name="Forecast">
+		<icon_priority>26</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="28" name="Delays">
+		<icon_priority>22</icon_priority>
+		<icon_name>Delay</icon_name>
+		<icon_id>11</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="29" name="Long Delays">
+		<icon_priority>22</icon_priority>
+		<icon_name>Delay</icon_name>
+		<icon_id>11</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="30" name="Delays Expected">
+		<icon_priority>22</icon_priority>
+		<icon_name>Delay</icon_name>
+		<icon_id>11</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="31" name="Delay Restriction">
+		<icon_priority>22</icon_priority>
+		<icon_name>Delay</icon_name>
+		<icon_id>9</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="32" name="Empty">
+		<icon_priority>23</icon_priority>
+		<icon_name>parking</icon_name>
+		<icon_id>18</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="33" name="Almost Full">
+		<icon_priority>23</icon_priority>
+		<icon_name>parking</icon_name>
+		<icon_id>18</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="34" name="Full">
+		<icon_priority>23</icon_priority>
+		<icon_name>parking</icon_name>
+		<icon_id>18</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="35" name="Parking Info">
+		<icon_priority>23</icon_priority>
+		<icon_name>parking</icon_name>
+		<icon_id>18</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="36" name="Major Events">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="37" name="Travel Info">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="38" name="Traffic Equipment">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="39" name="Carpool">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="40" name="Service Message">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="41" name="Others">
+		<icon_priority>25</icon_priority>
+		<icon_name>Other</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="42" name="Dangerous Events (Biker)">
+		<icon_priority>13</icon_priority>
+		<icon_name>Biker on Road</icon_name>
+		<icon_id>5</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="43" name="Dangerous Events">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 1</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="44" name="Dangerous Events (People)">
+		<icon_priority>12</icon_priority>
+		<icon_name>People on Road</icon_name>
+		<icon_id>20</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="45" name="Road Restriction">
+		<icon_priority>8</icon_priority>
+		<icon_name>Bad Road</icon_name>
+		<icon_id>3</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="46" name="Dangerous Events (Rockfall)">
+		<icon_priority>10</icon_priority>
+		<icon_name>Rockfall, Landslip</icon_name>
+		<icon_id>26</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="47" name="Dangerous Vehicles (Gostdriver)">
+		<icon_priority>1</icon_priority>
+		<icon_name>Ghostdriver</icon_name>
+		<icon_id>14</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="48" name="Incidents">
+		<icon_priority>8</icon_priority>
+		<icon_name>Genaral Danger 1</icon_name>
+		<icon_id>7</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="49" name="Queuing Traffic">
+		<icon_priority>5</icon_priority>
+		<icon_name>Queuing Traffic/Jam</icon_name>
+		<icon_id>21</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>true</announcement_p1>
+		<announcement_p2>true</announcement_p2>
+	</category>
+	<category id="50" name="S&amp;F red">
+		<icon_priority>6</icon_priority>
+		<icon_name>S&amp;F red</icon_name>
+		<icon_id>21</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="51" name="S&amp;F orange">
+		<icon_priority>7</icon_priority>
+		<icon_name>S&amp;F orange</icon_name>
+		<icon_id>16</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="52" name="S&amp;F yellow">
+		<icon_priority>11</icon_priority>
+		<icon_name>S&amp;F yellow</icon_name>
+		<icon_id>28</icon_id>
+		<show_in_map>true</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+	<category id="53" name="S&amp;F green">
+		<icon_priority>21</icon_priority>
+		<icon_name>S&amp;F green</icon_name>
+		<icon_id>17</icon_id>
+		<show_in_map>false</show_in_map>
+		<announcement_p1>false</announcement_p1>
+		<announcement_p2>false</announcement_p2>
+	</category>
+</categories>

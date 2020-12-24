@@ -1,0 +1,78 @@
+<ManeuverConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1">
+    <!--
+        Description:
+
+           This configuration file defines maneuver geometry specific settings.
+           It is possible to adjust the maneuver geometry size and
+           the range of possible scale levels according the maneuver type and
+           the road class of the maneuver entry.
+
+           The different possibilities to specific maneuver related values are going to be merge for every specific maneuver situation.
+           First the "ScaleLevelValue" and "Length(Start|End)Section" the maximum range will be chosen.
+           Second the "Length(Start|End)SectionOffset" values will be added to the maximum determined range.
+
+           <ManeuverType>
+              name: Supports the following values:
+                    .Default
+                    .MT_StayStraight
+                    .MT_RightTurn
+                    .MT_LeftTurn
+                    .MT_SharpRightTurn
+                    .MT_SharpLeftTurn
+                    .MT_SlightRightTurn
+                    .MT_SlightLeftTurn
+                    .MT_KeepRight
+                    .MT_KeepLeft
+                    .MT_FollowParallelRoadRight
+                    .MT_FollowParallelRoadLeft
+                    .MT_UTurn
+                    .MT_UTurnMultiDig
+                    .MT_ExitRight
+                    .MT_FinalDestinationReached
+                    .MT_WayPointReached
+                    .MT_FinalDestinationStreetReached
+                    .MT_WayPointStreetReached
+                    .MT_FinalDestinationAreaReached
+                    .MT_WayPointAreaReached
+                    .MT_SmallRoundabout
+                    .MT_BigRoundabout
+                    .MT_ExitBigRoundaboutRight
+                    .MT_ExitBigRoundaboutLeft
+                    .MT_EnterFerry
+                    .MT_EnterRailFerry
+                    .MT_PassingPoint
+
+              supported subsections:
+                    .LengthStartSection
+                    .LengthEndSection
+                    .LengthStartSectionOffset
+                    .LengthEndSectionOffset
+                    .ScaleLevelValue
+
+s
+           <FunctionalRoadClassReference>
+              id: Supports all ids mentioned in RoadClassGroupConfig.xml
+
+              supported subsections:
+                    .LengthStartSectionOffset
+                    .LengthEndSectionOffset
+                    .ScaleLevelValue 1000 -> 10cm/m
+
+    -->
+    <!-- Maneuver type specific configuration -->
+    <ManeuverType name="Default">
+        <LengthStartSection unit="Meters">100</LengthStartSection>
+        <LengthEndSection unit="Meters">25</LengthEndSection>
+        <ScaleLevelValue type="min">2000</ScaleLevelValue>
+        <ScaleLevelValue type="max">30000</ScaleLevelValue>
+    </ManeuverType>
+
+    <!-- Highway -->
+    <FunctionalRoadClassReference id="0">
+        <LengthStartSectionOffset unit="Meters">20</LengthStartSectionOffset>
+        <LengthEndSectionOffset unit="Meters">120</LengthEndSectionOffset>
+        <ScaleLevelValue type="min">0</ScaleLevelValue>
+        <ScaleLevelValue type="max">100000</ScaleLevelValue>
+    </FunctionalRoadClassReference>
+
+</ManeuverConfig>

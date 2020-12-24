@@ -1,0 +1,8 @@
+﻿
+<ClickInMapConfig version="22">
+
+   <CatchUpRadius>
+      <ScreenSpace radius = "10" />    <!--  pixel radius around a touch position on the screen - all objects within the circle will be selected -->
+   </CatchUpRadius>
+
+</ClickInMapConfig>

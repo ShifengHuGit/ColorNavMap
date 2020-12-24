@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- appIds of Highway Exit, Highway intersection Pois -->
+<!-- appIds as in /nav/poi/PoiConfig.xml -->
+<!-- desc strings are not used -->
+<hwy_poi_app_id>
+   <hwy_exit_app_id desc="Freeway Exits/On-Ramps">203</hwy_exit_app_id>
+   <hwy_intersec_app_id desc="Freeway Interchanges">204</hwy_intersec_app_id>
+   <hwy_sapa_app_id desc="Rest Stops">202</hwy_sapa_app_id>
+   <toll_booth_app_id desc="TollBooth">205</toll_booth_app_id>
+</hwy_poi_app_id>

@@ -1,0 +1,833 @@
+<AreaConfiguration version="7">
+
+   <!--
+      Description:
+      
+      The area classes contained within the database will be groupable to visual identically
+      area classes. Each area class will be described by one <AreaClass> tag.
+      
+      <AreaClass>
+         The "desc" attribute is optional for better readablity.
+         !!!The "id" attribute is a mandatory/ unique id in B6 but will be removed in B7. Until then 
+         !!!make sure id is unique.
+      
+      
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>
+                  
+            The <ScaleLevelValue> sub tags describe the visibility of the AreaClass depending on the zoom level.
+            The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads 
+            "world centimeter per display centimeter". The "fade" value indicates the zoom level at which the
+            visual element starts to fade out until it is completely invisible at "max". To prevent an element
+            from fading set both to the same value.
+            
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <Color mode="day">#1372E3FF</Color>
+               <Color mode="night">#1372E3FF</Color>
+               
+               <Priority>50</Priority>
+                  This tag will set the priority of the layer on which the area class will be rendered
+                  in relation to all other area classes. It doesn't compete which line/road or poi priorities.
+            
+            </LayerPattern>
+         
+            An area polygon has always one layer which can be drawn as "uni-fill" pattern. So the
+            above structure is mandatory and the only modifyable values are the priority and the colors.
+            One for day and one for night color scheme.
+            
+         </LayerSet>
+         
+         <FontVariantRef>
+            This will reference to the FontConfiguration.xml later, when area polygons will be labled. 
+            Non-functional at the moment.
+         </FontVariantRef>
+         
+         <AreaTypeReferences>
+            This tag contains the identifiers of all database area types that were grouped into this area class.
+            See end of the file for a complete list of all database identifiers.
+         </AreaTypeReferences>
+      
+      <AreaClass>
+   -->
+   
+   <AreaClass desc="Water">
+   
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">#A4C8E6FF</Color>
+            <Color mode="night">#344467FF</Color>
+            <Thickness />
+            <Priority>15</Priority>
+         </LayerPattern>
+      </LayerSet>
+          
+      <LabelRef mode="day">23</LabelRef>
+      
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_WATER</AreaType>
+         <AreaType>AREATYPE_INLAND_WATER</AreaType>
+         <AreaType>AREATYPE_RIVER</AreaType>
+         <AreaType>AREATYPE_CANAL</AreaType>
+         <AreaType>AREATYPE_LAKE</AreaType>
+         <AreaType>AREATYPE_RESERVOIR</AreaType>
+         <AreaType>AREATYPE_BASIN</AreaType>
+         <AreaType>AREATYPE_MARINE_WATER</AreaType>
+         <AreaType>AREATYPE_SEA_OCEAN</AreaType>
+         <AreaType>AREATYPE_COASTAL_LAGOON</AreaType>
+         <AreaType>AREATYPE_ESTUARY</AreaType>
+     </AreaTypeReferences>
+   </AreaClass>
+
+   
+   
+   <AreaClass desc="Island">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      <!-- this should be set to the same color as the background color in MapGeneralConfiguration.xml -->
+      <!-- note if there are lakes on island, the above "water class" needs to be split up into "below islands and above" 
+            unless the islands have holes -->
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#EAFFD9FF</Color>
+        <Color mode="night">#2B2D2FFF</Color>
+            <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+            <Priority>20</Priority>
+         </LayerPattern>
+      </LayerSet>
+	  
+      <LabelRef mode="day">24</LabelRef>
+      
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_ISLAND</AreaType>
+     </AreaTypeReferences>
+   </AreaClass>
+   
+   <AreaClass desc="Open_Space">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      <!-- this should be set to the same color as the background color in MapGeneralConfiguration.xml -->
+      <!-- note if there are lakes on island, the above "water class" needs to be split up into "below islands and above" 
+            unless the islands have holes -->
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#EAFFD900</Color> <!--#EAFFD9FF-->
+        <Color mode="night">#2B2D2FFF</Color> <!--#1F1F1FFF-->
+            <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+            <Priority>20</Priority>
+         </LayerPattern>
+      </LayerSet>
+      
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_OPEN_SPACE</AreaType>
+     </AreaTypeReferences>
+   </AreaClass>
+   
+
+
+   <AreaClass desc="Wood">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">#ABD8B3FF</Color>
+            <Color mode="night">#0F3215FF</Color>
+            <Thickness />
+            <Priority>30</Priority>
+         </LayerPattern>
+      </LayerSet>
+
+
+
+
+      <AreaTypeReferences>
+
+         <AreaType>AREATYPE_VEGETATED</AreaType>
+         <AreaType>AREATYPE_AGRICULTURAL</AreaType>
+         <AreaType>AREATYPE_ARABLE</AreaType>
+         <AreaType>AREATYPE_NON_IRRIGATED</AreaType>
+         <AreaType>AREATYPE_PERMANENTLY_IRRIGATED</AreaType>
+         <AreaType>AREATYPE_RICE_FIELD</AreaType>
+         <AreaType>AREATYPE_PERMANENT_CROP</AreaType>
+         <AreaType>AREATYPE_TREE_BERRY_PLANTATION</AreaType>
+         <AreaType>AREATYPE_VINEYARD</AreaType>
+         <AreaType>AREATYPE_OLIVE_GROVES</AreaType>
+         <AreaType>AREATYPE_HETEROGENEOUS</AreaType>
+         <AreaType>AREATYPE_COMPLEX_CULTIVATION</AreaType>
+         <AreaType>AREATYPE_ANNUAL_PERMANENT</AreaType>
+         <AreaType>AREATYPE_AGRO_FORRESTRY</AreaType>
+         <AreaType>AREATYPE_AGRICULTURAL_AND_NATURAL</AreaType>
+         <AreaType>AREATYPE_PASTURE_RANGELAND</AreaType>
+         <AreaType>AREATYPE_PASTURE</AreaType>
+         <AreaType>AREATYPE_RANGELAND</AreaType>
+         <AreaType>AREATYPE_FOREST_SEMI_NATURAL</AreaType>
+         <AreaType>AREATYPE_FOREST</AreaType>
+         <AreaType>AREATYPE_LEAVED_FOREST</AreaType>
+         <AreaType>AREATYPE_CONIFEROUS</AreaType>
+         <AreaType>AREATYPE_MIXED_FORREST</AreaType>
+         <AreaType>AREATYPE_SCRUB</AreaType>
+         <AreaType>AREATYPE_GRASSLAND</AreaType>
+         <AreaType>AREATYPE_MOOR_HEATH</AreaType>
+         <AreaType>AREATYPE_SCLEROPHYLLOUS</AreaType>
+         <AreaType>AREATYPE_WOODLAND</AreaType>
+
+       
+      </AreaTypeReferences>
+   </AreaClass>
+
+   <AreaClass desc="Building">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  10000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 10000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">#F9F8F2E6</Color>
+            <Color mode="night">#343638E6</Color>
+            <Thickness />
+            <Priority>40</Priority>
+         </LayerPattern>
+      </LayerSet>
+
+
+   
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_BUILDING</AreaType>
+         <AreaType>AREATYPE_PRIVATE_HOME_RESIDENTIAL</AreaType>         
+         <AreaType>AREATYPE_CONVENTION_EXHIBITION_CENTRE</AreaType>
+         <AreaType>AREATYPE_RETAIL_BUILDING</AreaType>
+         <AreaType>AREATYPE_SHOPPING_CENTRE</AreaType>
+         <AreaType>AREATYPE_PETROL_STATION</AreaType>
+         <AreaType>AREATYPE_RESTAURANT</AreaType>
+         <AreaType>AREATYPE_HOTEL_OR_MOTEL</AreaType>
+         <AreaType>AREATYPE_DAM</AreaType>
+         <AreaType>AREATYPE_LIGHT_HOUSE</AreaType>
+         <AreaType>AREATYPE_NO_WALLS</AreaType>
+         <AreaType>AREATYPE_MULTI_STOREY</AreaType>
+         <AreaType>AREATYPE_OTHERS_FACILITY</AreaType>
+         <AreaType>AREATYPE_TOWER</AreaType>
+         <AreaType>AREATYPE_INDUSTRIAL_BUILDING</AreaType>
+         <AreaType>AREATYPE_TRANSPORTATION_BUILDING</AreaType>
+         <AreaType>AREATYPE_PUBLIC_BUILDING</AreaType>
+         <AreaType>AREATYPE_POLICE_OFFICE</AreaType>
+         <AreaType>AREATYPE_FIRE_DEPARTMENT</AreaType>
+         <AreaType>AREATYPE_POST_OFFICE</AreaType>
+         <AreaType>AREATYPE_THEATER</AreaType>
+         <AreaType>AREATYPE_MUSEUM</AreaType>
+         <AreaType>AREATYPE_LIBRARY</AreaType>
+         <AreaType>AREATYPE_INSTITUTION</AreaType>
+         <AreaType>AREATYPE_RELIGIOUS_BUILDING</AreaType>
+         <AreaType>AREATYPE_CHURCH</AreaType>
+         <AreaType>AREATYPE_SYNAGOGUE</AreaType>
+         <AreaType>AREATYPE_MOSQUE</AreaType>
+         <AreaType>AREATYPE_TEMPLE</AreaType>
+         <AreaType>AREATYPE_SHRINE</AreaType>
+         <AreaType>AREATYPE_ABBEY</AreaType>
+         <AreaType>AREATYPE_MONASTERY</AreaType>
+         <AreaType>AREATYPE_BUILDING_GROUNDS</AreaType>
+         <AreaType>AREATYPE_PAVED_AREA</AreaType>
+         <AreaType>AREATYPE_SAND_AREA</AreaType>
+         <AreaType>AREATYPE_GOUVERNMENT_OFFICE</AreaType>
+         <AreaType>AREATYPE_GOVERNMENT_BUILDING</AreaType>
+         <AreaType>AREATYPE_CITY_HALL</AreaType>
+         <AreaType>AREATYPE_CURTHOUSE</AreaType>
+         <AreaType>AREATYPE_PRISON</AreaType>
+         <AreaType>AREATYPE_SUBWAY_PLATFORM</AreaType>
+         <AreaType>AREATYPE_SUBWAY_STATION</AreaType>
+         <AreaType>AREATYPE_SCHEMATIC_BUILDING</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_BRIDGE</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_CARRIAGEWAY_DIVIDER</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_RAILWAY_BRIDGE</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_RAILWAY_CROSSING</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_TUNNEL</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC_WALKWAY</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   
+
+   <AreaClass desc="City">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">  #ECF9FFFF</Color>
+            <Color mode="night">#2B2D2FFF</Color>
+            <Thickness />
+            <Priority>10</Priority>
+         </LayerPattern>
+      </LayerSet>
+      
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_ARTIFICIAL</AreaType>
+         <AreaType>AREATYPE_URBAN_FABRIC</AreaType>
+         <AreaType>AREATYPE_CONTINUOUS_URBAN_FABRIC</AreaType>
+         <AreaType>AREATYPE_DISCONTINUOUS_URBAN_FABRIC</AreaType>
+         <AreaType>AREATYPE_TRAFFIC</AreaType>
+         <AreaType>AREATYPE_TRAFFIC_PEDESTRIAN</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+
+   <AreaClass desc="CityPlus">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#DCDCC8FF</Color>
+        <Color mode="night">#2B2D33FF</Color>
+            <Thickness />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+            <Priority>11</Priority>
+         </LayerPattern>
+      </LayerSet>
+      
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_SPORT_LEISURE</AreaType>
+         <AreaType>AREATYPE_SPORTS_COMPLEX</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+
+   <AreaClass desc="BuildingPlus">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  10000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 10000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">#F9F8F2E6</Color>
+            <Color mode="night">#343638E6</Color>
+            <Thickness />
+            <Priority>41</Priority>
+         </LayerPattern>
+      </LayerSet>
+   
+      <AreaTypeReferences>
+         <AreaType>AREATYPE_CULTURE_BUILDING</AreaType>
+         <AreaType>AREATYPE_HISTORICAL_BUILDING</AreaType>
+         <AreaType>AREATYPE_TOURIST_BUILDING</AreaType>
+         <AreaType>AREATYPE_MEDICAL_BUILDING</AreaType>
+         <AreaType>AREATYPE_LEISURE_BUILDING</AreaType>
+         <AreaType>AREATYPE_SPORT_BUILDING</AreaType>
+         <AreaType>AREATYPE_EDUCATION_BUILDING</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   
+   <AreaClass desc="Elevations">
+      <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">  1000000</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1500000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">  #CDB5A0FF</Color>
+            <Color mode="night">#151516FF</Color>
+            <Thickness />
+            <Priority>9</Priority>
+         </LayerPattern>
+      </LayerSet>
+      
+      
+      <AreaTypeReferences>
+          <AreaType>AREATYPE_CONTOUR</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   
+   
+    <AreaClass desc="Airport Runway">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#8B8F8FFF</Color>
+        <Color mode="night">#222224FF</Color>
+            <Thickness />
+            <Priority>36</Priority>
+         </LayerPattern>
+      </LayerSet>
+
+
+      <AreaTypeReferences>        
+         <AreaType>AREATYPE_AIRPORT_RUNWAY</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   
+    <AreaClass desc="Airport">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>  
+      </ScaleLevelVisibility>
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#717575FF</Color>
+        <Color mode="night">#31353DFF</Color>
+            <Thickness />
+            <Priority>35</Priority>
+         </LayerPattern>
+      </LayerSet>
+
+
+      <AreaTypeReferences>        
+         <AreaType>AREATYPE_AIRPORT</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   
+   
+   <!--
+   <AreaClass desc="Undefined yet and drawn in pink">
+      
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">         0</ScaleLevelValue>
+         <ScaleLevelValue type="max">  1100000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade"> 1100000000</ScaleLevelValue>   
+      </ScaleLevelVisibility>
+      
+      <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+            <Color mode="day">#FF00FFFF</Color>
+            <Color mode="night">#33312FFF</Color>
+            <Thickness />
+            <Priority>1</Priority>
+         </LayerPattern>
+      </LayerSet>
+      
+      <AreaTypeReferences>        
+         <AreaType>AREATYPE_TRAFFIC_ROAD</AreaType>
+         <AreaType>AREATYPE_TRAFFIC_RAILWAY</AreaType>
+         <AreaType>AREATYPE_CAR_RACETRACK</AreaType>
+         <AreaType>AREATYPE_UNDERPASS</AreaType>
+         <AreaType>AREATYPE_CENTER</AreaType>
+         <AreaType>AREATYPE_CITY_MAP_COVERAGE</AreaType>
+         <AreaType>AREATYPE_PERIPHERY</AreaType>
+         <AreaType>AREATYPE_POSTAL_DISTRICT</AreaType>
+         <AreaType>AREATYPE_TUNNEL_ICON</AreaType>
+         <AreaType>AREATYPE_GARDEN_PATH</AreaType>
+         <AreaType>AREATYPE_PORT_FACILITIES</AreaType>
+         <AreaType>AREATYPE_MINE_DUMP</AreaType>
+         <AreaType>AREATYPE_MINERAL_EXTRACTION_SITE</AreaType>
+         <AreaType>AREATYPE_DUMP</AreaType>
+         <AreaType>AREATYPE_CONSTRUCTION</AreaType>
+         <AreaType>AREATYPE_AMUSEMENT_PARK</AreaType>
+         <AreaType>AREATYPE_ARTS_CENTER</AreaType>
+         <AreaType>AREATYPE_CAMPING_SITE</AreaType>
+         <AreaType>AREATYPE_HIPPODROME</AreaType>
+         <AreaType>AREATYPE_HOLIDAY_AREA</AreaType>
+         <AreaType>AREATYPE_RECREATIONAL_AREA</AreaType>
+         <AreaType>AREATYPE_REST_AREA</AreaType>
+         <AreaType>AREATYPE_SPORTS_HALL</AreaType>
+         <AreaType>AREATYPE_STADIUM</AreaType>
+         <AreaType>AREATYPE_WALKING_TERRAIN</AreaType>
+         <AreaType>AREATYPE_ZOO</AreaType>
+         <AreaType>AREATYPE_SKI</AreaType>
+         <AreaType>AREATYPE_SWIMMING_POOL</AreaType>
+         <AreaType>AREATYPE_RAILWAY_STATION</AreaType>
+         <AreaType>AREATYPE_FERRY_TERMINAL</AreaType>
+         <AreaType>AREATYPE_BUS_STATION</AreaType>
+         <AreaType>AREATYPE_MARINA</AreaType>
+         <AreaType>AREATYPE_OPEN_SPACE</AreaType>
+         <AreaType>AREATYPE_ROCK</AreaType>
+         <AreaType>AREATYPE_BURNT</AreaType>
+         <AreaType>AREATYPE_SPARSELY_VEGETATED</AreaType>
+         <AreaType>AREATYPE_WETLAND</AreaType>
+         <AreaType>AREATYPE_INLAND_WETLAND</AreaType>
+         <AreaType>AREATYPE_INLAND_MARSH</AreaType>
+         <AreaType>AREATYPE_PEATBOG</AreaType>
+         <AreaType>AREATYPE_FORESTED_WETLAND</AreaType>
+         <AreaType>AREATYPE_COASTAL_WETLAND</AreaType>
+         <AreaType>AREATYPE_SALT_MARSH</AreaType>
+         <AreaType>AREATYPE_SALINE</AreaType>
+         <AreaType>AREATYPE_INTERTIDAL_FLAT</AreaType>
+         <AreaType>AREATYPE_ADMIN</AreaType>
+         <AreaType>AREATYPE_ORDER_0</AreaType>
+         <AreaType>AREATYPE_ORDER_1</AreaType>
+         <AreaType>AREATYPE_ORDER_2</AreaType>
+         <AreaType>AREATYPE_ORDER_3</AreaType>
+         <AreaType>AREATYPE_ORDER_4</AreaType>
+         <AreaType>AREATYPE_ORDER_5</AreaType>
+         <AreaType>AREATYPE_ORDER_6</AreaType>
+         <AreaType>AREATYPE_ORDER_7</AreaType>
+         <AreaType>AREATYPE_ORDER_8</AreaType>
+         <AreaType>AREATYPE_ORDER_9</AreaType>
+         <AreaType>AREATYPE_ADMIN_AUTONOMOUS</AreaType>
+         <AreaType>AREATYPE_NATIONAL_PARK</AreaType>
+         <AreaType>AREATYPE_TOLL_ZONE</AreaType>
+         <AreaType>AREATYPE_SCHOOL</AreaType>
+         <AreaType>AREATYPE_EMERGENCY_SERVICE</AreaType>
+         <AreaType>AREATYPE_CASTLE</AreaType>
+         <AreaType>AREATYPE_FORTRESS</AreaType>
+         <AreaType>AREATYPE_MONUMENT</AreaType>
+         <AreaType>AREATYPE_VIEW</AreaType>
+         <AreaType>AREATYPE_WATERMILL</AreaType>
+         <AreaType>AREATYPE_WINDMILL</AreaType>
+         <AreaType>AREATYPE_MEMORIAL_GROUND</AreaType>
+         <AreaType>AREATYPE_UNDEFINED</AreaType>
+      </AreaTypeReferences>
+   </AreaClass>
+   -->
+  <AreaClass desc="Park">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#ABD8B0FF</Color>
+        <Color mode="night">#224B32FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>-1</Priority>
+      </LayerPattern>
+    </LayerSet>
+    
+    <AreaTypeReferences>
+      <AreaType>AREATYPE_GOLF_COURSE</AreaType>
+      <AreaType>AREATYPE_GREEN_URBAN</AreaType>
+      <AreaType>AREATYPE_PARK</AreaType>
+    </AreaTypeReferences>
+  </AreaClass>
+  <AreaClass desc="Cemetery">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#829D84FF</Color>
+        <Color mode="night">#172219FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>-1</Priority>
+      </LayerPattern>
+    </LayerSet>
+    
+    <AreaTypeReferences>
+      <AreaType>AREATYPE_CEMETERY</AreaType>
+    </AreaTypeReferences>
+  </AreaClass>
+  <AreaClass desc="Industry">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#999B9BFF</Color>
+        <Color mode="night">#2A2A2AFF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>-1</Priority>
+      </LayerPattern>
+    </LayerSet>
+
+
+    <AreaTypeReferences>
+      <AreaType>AREATYPE_TRAFFIC_PARKING</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PARKING_GARAGE</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PARKING_LOT</AreaType>
+      <AreaType>AREATYPE_INDUSTRIAL_COMMERCIAL_TRANSPORT</AreaType>
+      <AreaType>AREATYPE_INDUSTRIAL_COMMERCIAL_UNITS</AreaType>
+    </AreaTypeReferences>
+  </AreaClass>
+  <AreaClass desc="Hospital">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#E3DDC6FF</Color>
+        <Color mode="night">#433133FF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>-1</Priority>
+      </LayerPattern>
+    </LayerSet>
+    
+    <AreaTypeReferences>
+      <AreaType>AREATYPE_HOSPITAL</AreaType>
+    </AreaTypeReferences>
+  </AreaClass>
+  
+  <AreaClass desc="Beach">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">  1500000</ScaleLevelValue>
+      <ScaleLevelValue type="fade"> 1000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+    <LayerSet>
+      <LayerPattern type="uni-fill" layer="0">
+        <Color mode="day">#EEF0BDFF</Color>
+        <Color mode="night">#2B2D2FFF</Color>
+        <Thickness func="100" unit="px" />
+        <Density />
+        <Aspect />
+        <SlashAngle />
+        <Priority>-1</Priority>
+      </LayerPattern>
+    </LayerSet>
+    <LabelRef />
+    <AreaTypeReferences>
+      <AreaType>AREATYPE_BEACH_DUNE</AreaType>
+    </AreaTypeReferences>
+  </AreaClass>
+
+   <!-- invisible 
+      <AreaType>AREATYPE_ENVIRONMENTAL_ZONE</AreaType>   
+      <AreaType>AREATYPE_NATIVE_TRIBE_RESERVATION</AreaType>
+      <AreaType>AREATYPE_MILITARY_BASE</AreaType>
+      <AreaType>AREATYPE_UNIVERSITY_OR_COLLEAGE</AreaType>
+      <AreaType>AREATYPE_GLACIER</AreaType> 
+   -->
+   
+   
+   
+   <!--
+      <AreaType>AREATYPE_BUILDING</AreaType>
+      <AreaType>AREATYPE_PRIVATE_HOME_RESIDENTIAL</AreaType>
+      <AreaType>AREATYPE_COMMERCIAL_BUILDING</AreaType>
+      <AreaType>AREATYPE_CONVENTION_EXHIBITION_CENTRE</AreaType>
+      <AreaType>AREATYPE_RETAIL_BUILDING</AreaType>
+      <AreaType>AREATYPE_SHOPPING_CENTRE</AreaType>
+      <AreaType>AREATYPE_PETROL_STATION</AreaType>
+      <AreaType>AREATYPE_RESTAURANT</AreaType>
+      <AreaType>AREATYPE_HOTEL_OR_MOTEL</AreaType>
+      <AreaType>AREATYPE_DAM</AreaType>
+      <AreaType>AREATYPE_LIGHT_HOUSE</AreaType>
+      <AreaType>AREATYPE_NO_WALLS</AreaType>
+      <AreaType>AREATYPE_MULTI_STOREY</AreaType>
+      <AreaType>AREATYPE_OTHERS_FACILITY</AreaType>
+      <AreaType>AREATYPE_TOWER</AreaType>
+      <AreaType>AREATYPE_INDUSTRIAL_BUILDING</AreaType>
+      <AreaType>AREATYPE_TRANSPORTATION_BUILDING</AreaType>
+      <AreaType>AREATYPE_PUBLIC_BUILDING</AreaType>
+      <AreaType>AREATYPE_POLICE_OFFICE</AreaType>
+      <AreaType>AREATYPE_FIRE_DEPARTMENT</AreaType>
+      <AreaType>AREATYPE_POST_OFFICE</AreaType>
+      <AreaType>AREATYPE_THEATER</AreaType>
+      <AreaType>AREATYPE_MUSEUM</AreaType>
+      <AreaType>AREATYPE_LIBRARY</AreaType>
+      <AreaType>AREATYPE_INSTITUTION</AreaType>
+      <AreaType>AREATYPE_RELIGIOUS_BUILDING</AreaType>
+      <AreaType>AREATYPE_CHURCH</AreaType>
+      <AreaType>AREATYPE_SYNAGOGUE</AreaType>
+      <AreaType>AREATYPE_MOSQUE</AreaType>
+      <AreaType>AREATYPE_TEMPLE</AreaType>
+      <AreaType>AREATYPE_SHRINE</AreaType>
+      <AreaType>AREATYPE_ABBEY</AreaType>
+      <AreaType>AREATYPE_MONASTERY</AreaType>
+      <AreaType>AREATYPE_BUILDING_GROUNDS</AreaType>
+      <AreaType>AREATYPE_PAVED_AREA</AreaType>
+      <AreaType>AREATYPE_SAND_AREA</AreaType>
+      <AreaType>AREATYPE_GOUVERNMENT_OFFICE</AreaType>
+      <AreaType>AREATYPE_GOVERNMENT_BUILDING</AreaType>
+      <AreaType>AREATYPE_CITY_HALL</AreaType>
+      <AreaType>AREATYPE_CURTHOUSE</AreaType>
+      <AreaType>AREATYPE_PRISON</AreaType>
+      <AreaType>AREATYPE_SUBWAY_PLATFORM</AreaType>
+      <AreaType>AREATYPE_SUBWAY_STATION</AreaType>
+      <AreaType>AREATYPE_SCHEMATIC_BUILDING</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_BRIDGE</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_CARRIAGEWAY_DIVIDER</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_RAILWAY_BRIDGE</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_RAILWAY_CROSSING</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_TUNNEL</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC_WALKWAY</AreaType>
+      <AreaType>AREATYPE_ARTIFICIAL</AreaType>
+      <AreaType>AREATYPE_URBAN_FABRIC</AreaType>
+      <AreaType>AREATYPE_CONTINUOUS_URBAN_FABRIC</AreaType>
+      <AreaType>AREATYPE_DISCONTINUOUS_URBAN_FABRIC</AreaType>
+      <AreaType>AREATYPE_INDUSTRIAL_COMMERCIAL_TRANSPORT</AreaType>
+      <AreaType>AREATYPE_INDUSTRIAL_COMMERCIAL_UNITS</AreaType>
+      <AreaType>AREATYPE_MILITARY_BASE</AreaType>
+      <AreaType>AREATYPE_TRAFFIC</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PEDESTRIAN</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_ROAD</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_RAILWAY</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PARKING</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PARKING_GARAGE</AreaType>
+      <AreaType>AREATYPE_TRAFFIC_PARKING_LOT</AreaType>
+      <AreaType>AREATYPE_CAR_RACETRACK</AreaType>
+      <AreaType>AREATYPE_UNDERPASS</AreaType>
+      <AreaType>AREATYPE_CENTER</AreaType>
+      <AreaType>AREATYPE_CITY_MAP_COVERAGE</AreaType>
+      <AreaType>AREATYPE_PERIPHERY</AreaType>
+      <AreaType>AREATYPE_POSTAL_DISTRICT</AreaType>
+      <AreaType>AREATYPE_TUNNEL_ICON</AreaType>
+      <AreaType>AREATYPE_GARDEN_PATH</AreaType>
+      <AreaType>AREATYPE_PORT_FACILITIES</AreaType>
+      <AreaType>AREATYPE_AIRPORT</AreaType>
+      <AreaType>AREATYPE_AIRPORT_RUNWAY</AreaType>
+      <AreaType>AREATYPE_MINE_DUMP</AreaType>
+      <AreaType>AREATYPE_MINERAL_EXTRACTION_SITE</AreaType>
+      <AreaType>AREATYPE_DUMP</AreaType>
+      <AreaType>AREATYPE_CONSTRUCTION</AreaType>
+      <AreaType>AREATYPE_VEGETATED</AreaType>
+      <AreaType>AREATYPE_GREEN_URBAN</AreaType>
+      <AreaType>AREATYPE_PARK</AreaType>
+      <AreaType>AREATYPE_CEMETERY</AreaType>
+      <AreaType>AREATYPE_SPORT_LEISURE</AreaType>
+      <AreaType>AREATYPE_SPORTS_COMPLEX</AreaType>
+      <AreaType>AREATYPE_AMUSEMENT_PARK</AreaType>
+      <AreaType>AREATYPE_ARTS_CENTER</AreaType>
+      <AreaType>AREATYPE_CAMPING_SITE</AreaType>
+      <AreaType>AREATYPE_GOLF_COURSE</AreaType>
+      <AreaType>AREATYPE_HIPPODROME</AreaType>
+      <AreaType>AREATYPE_HOLIDAY_AREA</AreaType>
+      <AreaType>AREATYPE_RECREATIONAL_AREA</AreaType>
+      <AreaType>AREATYPE_REST_AREA</AreaType>
+      <AreaType>AREATYPE_SPORTS_HALL</AreaType>
+      <AreaType>AREATYPE_STADIUM</AreaType>
+      <AreaType>AREATYPE_WALKING_TERRAIN</AreaType>
+      <AreaType>AREATYPE_ZOO</AreaType>
+      <AreaType>AREATYPE_SKI</AreaType>
+      <AreaType>AREATYPE_SWIMMING_POOL</AreaType>
+      <AreaType>AREATYPE_RAILWAY_STATION</AreaType>
+      <AreaType>AREATYPE_FERRY_TERMINAL</AreaType>
+      <AreaType>AREATYPE_BUS_STATION</AreaType>
+      <AreaType>AREATYPE_MARINA</AreaType>
+      <AreaType>AREATYPE_AGRICULTURAL</AreaType>
+      <AreaType>AREATYPE_ARABLE</AreaType>
+      <AreaType>AREATYPE_NON_IRRIGATED</AreaType>
+      <AreaType>AREATYPE_PERMANENTLY_IRRIGATED</AreaType>
+      <AreaType>AREATYPE_RICE_FIELD</AreaType>
+      <AreaType>AREATYPE_PERMANENT_CROP</AreaType>
+      <AreaType>AREATYPE_TREE_BERRY_PLANTATION</AreaType>
+      <AreaType>AREATYPE_VINEYARD</AreaType>
+      <AreaType>AREATYPE_OLIVE_GROVES</AreaType>
+      <AreaType>AREATYPE_HETEROGENEOUS</AreaType>
+      <AreaType>AREATYPE_COMPLEX_CULTIVATION</AreaType>
+      <AreaType>AREATYPE_ANNUAL_PERMANENT</AreaType>
+      <AreaType>AREATYPE_AGRO_FORRESTRY</AreaType>
+      <AreaType>AREATYPE_AGRICULTURAL_AND_NATURAL</AreaType>
+      <AreaType>AREATYPE_PASTURE_RANGELAND</AreaType>
+      <AreaType>AREATYPE_PASTURE</AreaType>
+      <AreaType>AREATYPE_RANGELAND</AreaType>
+      <AreaType>AREATYPE_FOREST_SEMI_NATURAL</AreaType>
+      <AreaType>AREATYPE_FOREST</AreaType>
+      <AreaType>AREATYPE_LEAVED_FOREST</AreaType>
+      <AreaType>AREATYPE_CONIFEROUS</AreaType>
+      <AreaType>AREATYPE_MIXED_FORREST</AreaType>
+      <AreaType>AREATYPE_SCRUB</AreaType>
+      <AreaType>AREATYPE_GRASSLAND</AreaType>
+      <AreaType>AREATYPE_MOOR_HEATH</AreaType>
+      <AreaType>AREATYPE_SCLEROPHYLLOUS</AreaType>
+      <AreaType>AREATYPE_WOODLAND</AreaType>
+      <AreaType>AREATYPE_OPEN_SPACE</AreaType>
+      <AreaType>AREATYPE_ROCK</AreaType>
+      <AreaType>AREATYPE_GLACIER</AreaType>
+      <AreaType>AREATYPE_BURNT</AreaType>
+      <AreaType>AREATYPE_SPARSELY_VEGETATED</AreaType>
+      <AreaType>AREATYPE_BEACH_DUNE</AreaType>
+      <AreaType>AREATYPE_WETLAND</AreaType>
+      <AreaType>AREATYPE_INLAND_WETLAND</AreaType>
+      <AreaType>AREATYPE_INLAND_MARSH</AreaType>
+      <AreaType>AREATYPE_PEATBOG</AreaType>
+      <AreaType>AREATYPE_FORESTED_WETLAND</AreaType>
+      <AreaType>AREATYPE_COASTAL_WETLAND</AreaType>
+      <AreaType>AREATYPE_SALT_MARSH</AreaType>
+      <AreaType>AREATYPE_SALINE</AreaType>
+      <AreaType>AREATYPE_INTERTIDAL_FLAT</AreaType>
+      <AreaType>AREATYPE_ISLAND</AreaType>
+      <AreaType>AREATYPE_WATER</AreaType>
+      <AreaType>AREATYPE_INLAND_WATER</AreaType>
+      <AreaType>AREATYPE_RIVER</AreaType>
+      <AreaType>AREATYPE_CANAL</AreaType>
+      <AreaType>AREATYPE_LAKE</AreaType>
+      <AreaType>AREATYPE_RESERVOIR</AreaType>
+      <AreaType>AREATYPE_BASIN</AreaType>
+      <AreaType>AREATYPE_MARINE_WATER</AreaType>
+      <AreaType>AREATYPE_SEA_OCEAN</AreaType>
+      <AreaType>AREATYPE_COASTAL_LAGOON</AreaType>
+      <AreaType>AREATYPE_ESTUARY</AreaType>
+      <AreaType>AREATYPE_ADMIN</AreaType>
+      <AreaType>AREATYPE_ORDER_0</AreaType>
+      <AreaType>AREATYPE_ORDER_1</AreaType>
+      <AreaType>AREATYPE_ORDER_2</AreaType>
+      <AreaType>AREATYPE_ORDER_3</AreaType>
+      <AreaType>AREATYPE_ORDER_4</AreaType>
+      <AreaType>AREATYPE_ORDER_5</AreaType>
+      <AreaType>AREATYPE_ORDER_6</AreaType>
+      <AreaType>AREATYPE_ORDER_7</AreaType>
+      <AreaType>AREATYPE_ORDER_8</AreaType>
+      <AreaType>AREATYPE_ORDER_9</AreaType>
+      <AreaType>AREATYPE_ADMIN_AUTONOMOUS</AreaType>
+      <AreaType>AREATYPE_NATIVE_TRIBE_RESERVATION</AreaType>
+      <AreaType>AREATYPE_CONTOUR</AreaType>
+      <AreaType>AREATYPE_NATIONAL_PARK</AreaType>
+      <AreaType>AREATYPE_ENVIRONMENTAL_ZONE</AreaType>
+      <AreaType>AREATYPE_TOLL_ZONE</AreaType>
+      <AreaType>AREATYPE_EDUCATION_BUILDING</AreaType>
+      <AreaType>AREATYPE_SCHOOL</AreaType>
+      <AreaType>AREATYPE_UNIVERSITY_OR_COLLEAGE</AreaType>
+      <AreaType>AREATYPE_MEDICAL_BUILDING</AreaType>
+      <AreaType>AREATYPE_HOSPITAL</AreaType>
+      <AreaType>AREATYPE_EMERGENCY_SERVICE</AreaType>
+      <AreaType>AREATYPE_CULTURE_BUILDING</AreaType>
+      <AreaType>AREATYPE_HISTORICAL_BUILDING</AreaType>
+      <AreaType>AREATYPE_TOURIST_BUILDING</AreaType>
+      <AreaType>AREATYPE_CASTLE</AreaType>
+      <AreaType>AREATYPE_FORTRESS</AreaType>
+      <AreaType>AREATYPE_MONUMENT</AreaType>
+      <AreaType>AREATYPE_VIEW</AreaType>
+      <AreaType>AREATYPE_WATERMILL</AreaType>
+      <AreaType>AREATYPE_WINDMILL</AreaType>
+      <AreaType>AREATYPE_MEMORIAL_GROUND</AreaType>
+      <AreaType>AREATYPE_LEISURE_BUILDING</AreaType>
+      <AreaType>AREATYPE_SPORT_BUILDING</AreaType>
+      <AreaType>AREATYPE_UNDEFINED</AreaType>
+   -->
+</AreaConfiguration>

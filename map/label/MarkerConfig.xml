@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<MarkerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1">
+<!--
+      Description:
+
+      The city centers contained within the database as points will be groupable to visual identically
+      city center classes. Each city center class will be described by one <CityCenterClass> tag.
+
+      <MarkerClass>
+         The "desc" attribute is optional for better readablity.
+         The "id" attribute is currently not evaluated.
+
+         TODO documentation
+         NOT USED at the moment
+         <FunctionalRoadClasses>0</FunctionalRoadClasses>
+         or
+         <FunctionalRoadClasses>1|2|3|4|5|6</FunctionalRoadClasses>
+
+         <Marker>
+
+            The marker section defines everything related to the marker icon of the city center class.
+
+            <ScaleLevelVisibility>
+
+            The <ScaleLevelValue> sub tags describe the visibility of the Markers depending on the zoom level.
+            The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads
+            "world centimeter per display centimeter". Currently, only the max value is evaluated.
+            The marker will be visible in all zoom levels < max.
+
+               <ScaleLevelValue type="min">10</ScaleLevelValue>
+               <ScaleLevelValue type="max">15000</ScaleLevelValue>
+               <ScaleLevelValue type="fade">10000</ScaleLevelValue>
+            </ScaleLevelVisibility>
+
+            The image tags define the available images for the marker of this class.
+
+            <Image usage="base">
+
+            The "usage" attribute defines the purpose of the image. Valid values are "base", "shadow2D" and "shadow3D".
+            Only the "base"-usage will be evaluated for now.
+            The <AssetRef> is the id of the asset which should be used.
+            The <Rect> defines the part of the asset that contains the image. This can be used to combine multiple images
+            into one big file. The syntax for this tag is "bottom.x|bottom.y|extent.x|extent.y".
+
+               <AssetRef>5</AssetRef>
+               <Rect>0|0|14|13</Rect>
+            </Image>
+
+            <Image usage="shadow2D">
+               <AssetRef>1</AssetRef>
+               <Rect>0|0|4|4</Rect>
+            </Image>
+
+            <Image usage="shadow3D">
+               <AssetRef>1</AssetRef>
+               <Rect>0|0|4|4</Rect>
+            </Image>
+         </Marker>
+
+         <ScaleLevelVisibility>
+
+         The <ScaleLevelValue> sub tags describe the visibility of the text depending on the zoom level.
+         The values for zoom level will be the same as in ZoomLevelConfiguration.xml and reads
+         "world centimeter per display centimeter". Currently, these values will not be evaluated.
+
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+      <MarkerClass>
+   -->
+
+  <MarkerClass desc="junction marker for all road classes" id="0">
+    <FunctionalRoadClasses>0</FunctionalRoadClasses>
+    <Marker>
+      <Image usage="base">icons_exitmarker/Exit_Marker.png</Image>
+      <Image usage="shadow2D">icons_citymarker/Shadow2D/City_Center_Small_Shadow2D.png</Image>
+      <Image usage="shadow3D">icons_citymarker/Shadow3D/City_Center_Small_Shadow3D.png</Image>
+    </Marker>
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">10</ScaleLevelValue>
+      <ScaleLevelValue type="max">75000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+  </MarkerClass>
+
+</MarkerConfig>

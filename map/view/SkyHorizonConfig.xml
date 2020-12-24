@@ -1,0 +1,62 @@
+<!--
+   Description:
+
+   The <SkyHorizonConfig> contains a description of images to be used for
+   displaying the sky and horizon on the map.
+
+   <SkyImages>
+      Images to be used for the sky background image.  The sky image scrolls
+      in the horizontal direction depending on the camera and north-up direction
+      angle.
+      Usually two <Image> nodes, with mode="day" and "mode"night" are specified.
+      If an image for one of the mode is not specified, no image will be
+      displayed in that mode.
+      Two pptional attributes are supported 'anchor_x' and 'anchor_y', which
+      allow the position of the image on the screen to be adjusted.  The units
+      for the anchor are pixels.  The default values are anchor_x="0" and
+      anchor_y="0".
+
+   <HorizonImages>
+      Images to be used for the horizon/fog background image, that is displayed
+      on top of the sky image.  The horizon image does not scroll in the
+      horizontal direction.
+      Usually two <Image> nodes, with mode="day" and "mode"night" are specified.
+      If an image for one of the mode is not specified, no image will be
+      displayed in that mode.
+      Two pptional attributes are supported 'anchor_x' and 'anchor_y', which
+      allow the position of the image on the screen to be adjusted.  The units
+      for the anchor are pixels.  The default values are anchor_x="0" and
+      anchor_y="88" (SOP1 compatibility value).
+
+   <SkyHeight>
+      A list of nodes that specify how many percent of the screen will be
+      covered by the sky images at which camera tilt angles.
+-->
+<SkyHorizonConfig version="22">
+
+   <SkyImages>
+      <Image mode="day">sky_horizon/Sky_Day.png</Image>
+      <Image mode="night">sky_horizon/Sky_Night.png</Image>
+   </SkyImages>
+  
+   <HorizonImages>
+      <Image mode="day">sky_horizon/Horizon_Day.png</Image>
+      <Image mode="night">sky_horizon/Horizon_Night.png</Image>
+   </HorizonImages>
+     
+   <SkyHeight>
+      <NodeVector interpolation="linear" desc="x=tilt angle of camera in degree y=resulting portion of the viewport that gets covert by the sky." >
+         <Node x = "22.00" y = "0.30" />
+         <Node x = "24.00" y = "0.25" />
+         <Node x = "26.00" y = "0.15" />
+         <Node x = "27.66" y = "0.087499954" />
+         <Node x = "28.75" y = "0.0" />
+         <Node x = "29.90" y = "0.20" />
+         <Node x = "30.00" y = "0.15" />
+         <Node x = "30.10" y = "-0.10" />
+         <Node x = "39.00" y = "-0.10" />
+         <Node x = "90.00" y = "-0.10" />
+      </NodeVector>
+   </SkyHeight>
+  
+</SkyHorizonConfig>

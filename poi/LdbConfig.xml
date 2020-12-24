@@ -1,0 +1,142 @@
+﻿<LdbConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/LdbConfiguration.xsd" version="1">
+	<LdbFileNameDefinition>
+		<CommonLdb>
+			<FileName>225_VW_ALDB_0971_GB18030.ldb</FileName>
+		</CommonLdb>
+		<CommonLdb>
+			<FileName>226_VW_CLDB_966_BIG5HKSCS.ldb</FileName>
+		</CommonLdb>
+		<Province name="河北省">	<!-- HEBEI - C1 -->
+			<Id>0x0002:0000:0400:E90F:00</Id>
+			<FileName>266_VW_CATDB_0013_HEBEI.ldb</FileName>
+		</Province> 
+		<Province name="黑龙江省">	<!-- HEILONGJIANG - C1 -->
+			<Id>0x0002:0000:0402:00FD:00</Id>
+			<FileName>267_VW_CATDB_0013_HEILONGJIANG.ldb</FileName>
+		</Province> 
+		<Province name="河南省">	<!-- HENAN - C1 -->
+			<Id>0x0002:0000:0402:5E33:00</Id>
+			<FileName>268_VW_CATDB_0013_HENAN.ldb</FileName>
+		</Province> 
+		<Province name="吉林省">	<!-- JILIN - C1 -->
+			<Id>0x0002:0000:0401:BCD4:00</Id>
+			<FileName>273_VW_CATDB_0013_JILIN.ldb</FileName>
+		</Province> 
+		<Province name="辽宁省">	<!-- LIAONING - C1 -->
+			<Id>0x0002:0000:0401:4A0E:00</Id>
+			<FileName>274_VW_CATDB_0013_LIAONING.ldb</FileName>
+		</Province> 
+		<Province name="内蒙古自治区">	<!-- NEI MONGOL AUT. REG. - C1 -->
+			<Id>0x0002:0000:0401:1FB8:00</Id>
+			<FileName>275_VW_CATDB_0013_NEIMENGGU.ldb</FileName>
+		</Province> 
+		<Province name="陕西省">	<!-- SHAANXI - C1 -->
+			<Id>0x0002:0000:0400:CA5E:00</Id>
+			<FileName>281_VW_CATDB_0013_SHANXIXIAN.ldb</FileName>
+		</Province> 
+		<Province name="山东省">	<!-- SHANDONG - C1 -->
+			<Id>0x0002:0000:0401:C470:00</Id>
+			<FileName>278_VW_CATDB_0013_SHANDONG.ldb</FileName>
+		</Province> 
+		<Province name="山西省">	<!-- SHANXI - C1 -->
+			<Id>0x0002:0000:0400:8339:00</Id>
+			<FileName>280_VW_CATDB_0013_SHANXITAIYUAN.ldb</FileName>
+		</Province> 
+		<Province name="天津市">	<!-- TIANJIN - C1 -->
+			<Id>0x0002:0000:0401:8799:00</Id>
+			<FileName>283_VW_CATDB_0013_TIANJIN.ldb</FileName>
+		</Province> 
+		<Province name="安徽省">	<!-- ANHUI - C2 -->
+			<Id>0x0002:0001:0402:597C:00</Id>
+			<FileName>257_VW_CATDB_0013_ANHUI.ldb</FileName>
+		</Province> 
+		<Province name="福建省">	<!-- FUJIAN - C2 -->
+			<Id>0x0002:0001:0403:AB35:00</Id>
+			<FileName>260_VW_CATDB_0013_FUJIAN.ldb</FileName>
+		</Province> 
+		<Province name="广西壮族自治区">	<!-- GUANGXI ZHUANGZU AUT. REG.- C2 -->
+			<Id>0x0002:0001:0402:3D5F:00</Id>
+			<FileName>263_VW_CATDB_0013_GUANGXI.ldb</FileName>
+		</Province> 
+		<Province name="海南省">	<!-- HAINAN - C2 -->
+			<Id>0x0002:0001:0400:3238:00</Id>
+			<FileName>265_VW_CATDB_0013_HAINAN.ldb</FileName>
+		</Province> 
+		<Province name="湖北省">	<!-- HUBEI - C2 -->
+			<Id>0x0002:0001:0403:9AA7:00</Id>
+			<FileName>269_VW_CATDB_0013_HUBEI.ldb</FileName>
+		</Province> 
+		<Province name="湖南省">	<!-- HUNAN - C2 -->
+			<Id>0x0002:0001:0401:4FFA:00</Id>
+			<FileName>270_VW_CATDB_0013_HUNAN.ldb</FileName>
+		</Province> 
+		<Province name="江苏省">	<!-- JIANGSU - C2 -->
+			<Id>0x0002:0001:0400:9DF9:00</Id>
+			<FileName>271_VW_CATDB_0013_JIANGSU.ldb</FileName>
+		</Province> 
+		<Province name="江西省">	<!-- JIANGXI - C2 -->
+			<Id>0x0002:0001:0402:D7E7:00</Id>
+			<FileName>272_VW_CATDB_0013_JIANGXI.ldb</FileName>
+		</Province> 
+		<Province name="浙江省">	<!-- ZHEJIANG - C2 -->
+			<Id>0x0002:0001:0400:6033:00</Id>
+			<FileName>287_VW_CATDB_0013_ZHEJIANG.ldb</FileName>
+		</Province> 
+		<Province name="重庆市">	<!-- CHONGQING - C3 -->
+			<Id>0x0002:0002:0400:8D3A:00</Id>
+			<FileName>259_VW_CATDB_0013_CHONGQING.ldb</FileName>
+		</Province> 
+		<Province name="甘肃省">	<!-- GANSU - C3 -->
+			<Id>0x0002:0002:0400:E340:00</Id>
+			<FileName>261_VW_CATDB_0013_GANSU.ldb</FileName>
+		</Province> 
+		<Province name="贵州省">	<!-- GUIZHOU - C3 -->
+			<Id>0x0002:0002:0401:25D8:00</Id>
+			<FileName>264_VW_CATDB_0013_GUIZHOU.ldb</FileName>
+		</Province> 
+		<Province name="宁夏回族自治区">	<!-- NINGXIA HUIZU AUT. REG. - C3 -->
+			<Id>0x0002:0002:0400:89BD:00</Id>
+			<FileName>276_VW_CATDB_0013_NINGXIA.ldb</FileName>
+		</Province> 
+		<Province name="青海省">	<!-- QINGHAI - C3 -->
+			<Id>0x0002:0002:0401:2C3A:00</Id>
+			<FileName>277_VW_CATDB_0013_QINGHAI.ldb</FileName>
+		</Province> 
+		<Province name="四川省">	<!-- SICHUAN - C3 -->
+			<Id>0x0002:0002:0400:7742:00</Id>
+			<FileName>282_VW_CATDB_0013_SICHUAN.ldb</FileName>
+		</Province> 
+		<Province name="新疆维吾尔自治区">	<!-- XINJIANG UYGUR AUT. REG. - C3 -->
+			<Id>0x0002:0002:0401:1FDE:00</Id>
+			<FileName>284_VW_CATDB_0013_XINJIANG.ldb</FileName>
+		</Province> 
+		<Province name="西藏自治区">	<!-- XIZANG AUT. REG. - C3 -->
+			<Id>0x0002:0002:0400:962E:00</Id>
+			<FileName>285_VW_CATDB_0013_XIZANG.ldb</FileName>
+		</Province> 	
+		<Province name="云南省">	<!-- YUNNAN - C3 -->
+			<Id>0x0002:0002:0400:A09B:00</Id>
+			<FileName>286_VW_CATDB_0013_YUNNAN.ldb</FileName>
+		</Province> 
+		<Province name="澳門特別行政區">	<!-- RAE DE MACAU - C4 - attention: traditional def off -->
+			<Id>0x0002:0003:0400:0BE9:00</Id>
+			<FileName>289_VW_CATDB_0014_MACAU.ldb</FileName>
+		</Province> 
+		<Province name="香港特別行政區">	<!-- HONG KONG SAR - C4 - attention: traditional def off -->
+			<Id>0x0002:0003:0400:3257:00</Id>
+			<FileName>288_VW_CATDB_0014_HONGKONG.ldb</FileName>
+		</Province> 
+		<Province name="上海市">	<!-- SHANGHAI - C5 -->
+			<Id>0x0002:0004:0400:B85D:00</Id>
+			<FileName>279_VW_CATDB_0013_SHANGHAI.ldb</FileName>
+		</Province> 
+		<Province name="广东省">	<!-- GUANGDONG - C6 -->
+			<Id>0x0002:0005:0400:282C:00</Id>
+			<FileName>262_VW_CATDB_0013_GUANGDONG.ldb</FileName>
+		</Province> 
+		<Province name="北京市">	<!-- BEI JING - C7 -->
+			<Id>0x0002:0006:0400:0808:00</Id>
+			<FileName>258_VW_CATDB_0013_BEIJING.ldb</FileName>
+		</Province> 
+	</LdbFileNameDefinition>
+</LdbConfiguration>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file defines all known tmc providers, both Pay-TMC and Free-TMC. 
+	Element tmc_provider: The attribute "name" specifies a human-readable identifier 
+	for the provider. This is only used for logging etc. The attribute "id" defines 
+	the identifier for this provider. This id is used to reference the provider 
+	in the provider set in TmcProviderSers.xml. Subelement encryption_method 
+	(mandatory): Can have the values "full", "light" and "free". Use "full" for 
+	Pay-TMC providers that use full encryption, "light" for Pay-TMC providers 
+	that use light (sometimes called interim) encryption. The value "free" is 
+	used to specify a free tmc table for a country. Subelement cc (mandatory): 
+	The 2 letter ISO country code of the country where the provider is located. 
+	Subelement sid (optional, defaults to 0): Specifies the service identifier 
+	for the Pay TMC provider. Can be omitted when defining a free TMC table. 
+	Subelement ltn_transmitted (mandatory): Defines the location table number 
+	that the provider transmits. For a provider with full encryption, set this 
+	to the LTNBE value transmitted in the RDS 8A Encryption Administration Group. 
+	For a provider with light or no encryption, set this to the value transmitted 
+	in RDS 3A LTN Group. Subelement ltn_used (optional, defaults to 0): Defines 
+	the location table number that is used to look up in the navigation database 
+	to decode the locations. This element can be omitted when encryption_method 
+	is set to "free". Subelement service_key (optional, defaults to 0): If a 
+	providers employs full encryption, this element specifies the service key 
+	that should be used to decrypt the location codes. Mandatory if encryption_method 
+	is set to "full". So, in summary, set the values as follows for different 
+	provider scenarios: Case 1: Provider with full encryption: - sid is set - 
+	ltn_transmitted and ltn_used are set to the same value, that is used by the 
+	provider - service_key is set to the service key that is used by the provider 
+	Case 2: Provider with light encryption using a private location table - sid 
+	is set - ltn_transmitted and ltn_used are set to the same value, the value 
+	used by the provider Case 3: Provider with light encryption using a mapping 
+	to a free tmc table - sid is set - ltn_transmitted is set to the value transmitted 
+	by the provider - ltn_used is set to the value the transmitted ltn should 
+	be mapped to Case 4: Define a free tmc table - omit sid or set it to 0 - 
+	set ltn_transmitted to the ltn of the table - ltn_used can be omitted -->
+
+<tmc_providers>
+
+	<!-- List of Pay TMC providers and their location tables -->
+	
+	<!-- Attention Service Keys are scrambled in TmcEncryptionManager -->
+	
+	<!-- Shanghai -->	
+	
+	<tmc_provider name="Cennavi" id="1001">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>1</ltn_transmitted>
+		<ltn_used>1</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>		
+	
+	<!-- Chongqing -->	
+	
+	<tmc_provider name="Cennavi" id="1002">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>3</ltn_transmitted>
+		<ltn_used>3</ltn_used>
+		<service_key>6</service_key>
+	</tmc_provider>		
+	
+	<!-- Hebei -->	
+	
+	<tmc_provider name="Cennavi" id="1003">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>4</ltn_transmitted>
+		<ltn_used>4</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>		
+	
+	<!-- Shanxi -->	
+	
+	<tmc_provider name="Cennavi" id="1004">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>5</ltn_transmitted>
+		<ltn_used>5</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+	
+	<!-- Guangzhou -->	
+	
+	<tmc_provider name="Cennavi" id="1005">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>6</ltn_transmitted>
+		<ltn_used>6</ltn_used>
+		<service_key>3</service_key>
+	</tmc_provider>
+	
+	<!-- Jilin -->	
+	
+	<tmc_provider name="Cennavi" id="1006">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>7</ltn_transmitted>
+		<ltn_used>7</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Heilongjiang -->	
+	
+	<tmc_provider name="Cennavi" id="1007">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>8</ltn_transmitted>
+		<ltn_used>8</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Jiangsu -->	
+	
+	<tmc_provider name="Cennavi" id="1008">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>9</ltn_transmitted>
+		<ltn_used>9</ltn_used>
+		<service_key>7</service_key>
+	</tmc_provider>
+
+	<!-- Zhejiang -->	
+	
+	<tmc_provider name="Cennavi" id="1009">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>10</ltn_transmitted>
+		<ltn_used>10</ltn_used>
+		<service_key>3</service_key>
+	</tmc_provider>
+
+	<!-- Anhui -->	
+	
+	<tmc_provider name="Cennavi" id="1010">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>11</ltn_transmitted>
+		<ltn_used>11</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Fujian -->	
+	
+	<tmc_provider name="Cennavi" id="1011">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>12</ltn_transmitted>
+		<ltn_used>12</ltn_used>
+		<service_key>2</service_key>
+	</tmc_provider>
+
+	<!-- Jiangxi -->	
+	
+	<tmc_provider name="Cennavi" id="1012">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>13</ltn_transmitted>
+		<ltn_used>13</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Henan -->	
+	
+	<tmc_provider name="Cennavi" id="1013">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>14</ltn_transmitted>
+		<ltn_used>14</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Hubei -->	
+	
+	<tmc_provider name="Cennavi" id="1014">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>15</ltn_transmitted>
+		<ltn_used>15</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Hunan -->	
+	
+	<tmc_provider name="Cennavi" id="1015">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>16</ltn_transmitted>
+		<ltn_used>16</ltn_used>
+		<service_key>6</service_key>
+	</tmc_provider>
+
+	<!-- Sichuan -->	
+	
+	<tmc_provider name="Cennavi" id="1016">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>17</ltn_transmitted>
+		<ltn_used>17</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Liaoning -->	
+	
+	<tmc_provider name="Cennavi" id="1017">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>18</ltn_transmitted>
+		<ltn_used>18</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Guizhou -->	
+	
+	<tmc_provider name="Cennavi" id="1018">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>19</ltn_transmitted>
+		<ltn_used>19</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Yunnan -->	
+	
+	<tmc_provider name="Cennavi" id="1019">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>20</ltn_transmitted>
+		<ltn_used>20</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Hainan -->	
+	
+	<tmc_provider name="Cennavi" id="1020">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>21</ltn_transmitted>
+		<ltn_used>21</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Shaanxi -->	
+	
+	<tmc_provider name="Cennavi" id="1021">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>22</ltn_transmitted>
+		<ltn_used>22</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Chengdu -->	
+	
+	<tmc_provider name="Cennavi" id="1022">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>23</ltn_transmitted>
+		<ltn_used>23</ltn_used>
+		<service_key>2</service_key>
+	</tmc_provider>
+
+	<!-- Shan Dong Sheng -->	
+	
+	<tmc_provider name="Cennavi" id="1023">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>24</ltn_transmitted>
+		<ltn_used>24</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Hang Zhou -->	
+	
+	<tmc_provider name="Cennavi" id="1024">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>25</ltn_transmitted>
+		<ltn_used>25</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Xian -->	
+	
+	<tmc_provider name="Cennavi" id="1025">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>26</ltn_transmitted>
+		<ltn_used>26</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Guangxi -->	
+	
+	<tmc_provider name="Cennavi" id="1026">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>27</ltn_transmitted>
+		<ltn_used>27</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Shenzhen -->	
+	
+	<tmc_provider name="Cennavi" id="1027">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>28</ltn_transmitted>
+		<ltn_used>28</ltn_used>
+		<service_key>5</service_key>
+	</tmc_provider>
+
+	<!-- Tianjin -->	
+	
+	<tmc_provider name="Cennavi" id="1028">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>29</ltn_transmitted>
+		<ltn_used>29</ltn_used>
+		<service_key>5</service_key>
+	</tmc_provider>
+
+	<!-- Xinjiang -->	
+	
+	<tmc_provider name="Cennavi" id="1029">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>30</ltn_transmitted>
+		<ltn_used>30</ltn_used>
+		<service_key>1</service_key>
+	</tmc_provider>
+
+	<!-- Guangdong -->	
+	
+	<tmc_provider name="Cennavi" id="1030">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>31</ltn_transmitted>
+		<ltn_used>31</ltn_used>
+		<service_key>7</service_key>
+	</tmc_provider>
+
+	<!-- Beijing -->	
+	
+	<tmc_provider name="Cennavi" id="1031">
+		<encryption_method>full</encryption_method>
+		<cc>CN</cc>
+		<sid>27</sid>
+		<ltn_transmitted>32</ltn_transmitted>
+		<ltn_used>32</ltn_used>
+		<service_key>2</service_key>
+	</tmc_provider>
+
+
+	<!-- List of free TMC location tables. This list is used to identify free 
+		TMC tables in the NDS database. The id attribute of the tmc_provider element 
+		is omitted because these providers are not referenced in provider sets, or 
+		anywhere else. The encryption method is set to "free" and the cc and ltn_transmitted 
+		elements are used to specify the cc/ltn combination used in the country. -->
+		
+</tmc_providers>

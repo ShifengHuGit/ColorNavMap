@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GeneralConfig>
+
+	<TmcPoolMgrConfig TimeToPayTmcMode="120" TimeToMixedTmcMode="300" MaxTimeBetweenPayTmcMessages="50" />
+	<MessagePoolMgrConfig PrepareTimeForPoolSwitch="60" />
+	
+	<!-- time in seconds (without new traffic msg reception for a country) after that country will be removed if there is reception of a 4th country (only 3 supported at a time) -->
+	<RemoveCountryTime>300</RemoveCountryTime>
+	
+	<PoolSizes>
+		<CurrentCountry>
+				<First>2200</First>
+				<Second>240</Second>
+				<Third>10</Third>
+		</CurrentCountry>
+		<OtherCountry>
+				<First>464</First>
+				<Second>52</Second>
+				<Third>10</Third>
+		</OtherCountry>
+		<OnlinePool>6000</OnlinePool>
+	</PoolSizes>
+	
+   <CountryMgrConfig>
+         <InitialCountry>CN</InitialCountry>
+         <CurrentCountrySearchRadius>100</CurrentCountrySearchRadius> <!-- in km -->
+         <NeighbourCountrySearchRadius>25</NeighbourCountrySearchRadius> <!-- in km -->
+         <MinDistBetweenNeighbourCountrySearch>12</MinDistBetweenNeighbourCountrySearch> <!-- in km -->
+         <NeighbourCountrySearchGranularity>8</NeighbourCountrySearchGranularity> <!-- number of points -->
+         <Decay>4</Decay> <!-- counts how many search attemts a previous found country will stay in list of neighbour countries -->
+   </CountryMgrConfig>
+	
+	<Horizon>200</Horizon> <!-- message filtering radius, negative values disable horizon filtering -->
+	
+	<!-- definition of distance based penalty factor -->
+	<DistancePenaltyFactor>
+		<Percent distance=  "0">100</Percent> <!--     0 km to   50 km: 100% -->
+		<Percent distance= "50"> 70</Percent> <!--    50 km to  100 km:  70% -->
+		<Percent distance="100"> 50</Percent> <!--   100 km to  200 km:  50% -->
+		<Percent distance="200"> 10</Percent> <!-- > 200 km           :  10% -->
+	</DistancePenaltyFactor>
+</GeneralConfig>

@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<ExitIconConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="21">
+  <IconSet desc="European" id="8756">
+    <Icon id="1">
+      <Map>
+        <Image usage="base">icons_road/_EUR/EUR_R1_S28_Y-01.png</Image>
+        <Image usage="shadow2D">icons_road/_EUR/EUR_R1_S28_Shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/_EUR/EUR_R1_S28_Shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/_EUR/EUR_R1_S32_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base">icons_road/_EUR/EUR_R1_M38_Y-01.png</Image>
+        <Image usage="shadow2D">icons_road/_EUR/EUR_R1_M38_Shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/_EUR/EUR_R1_M38_Shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/_EUR/EUR_R1_M46_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base">icons_road/_EUR/EUR_R1_L48_Y-01.png</Image>
+        <Image usage="shadow2D">icons_road/_EUR/EUR_R1_L48_Shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/_EUR/EUR_R1_L48_Shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/_EUR/EUR_R1_L54_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="4">
+      <Map>
+        <Image usage="base">icons_road/_EUR/EUR_R1_XL58_Y-01.png</Image>
+        <Image usage="shadow2D">icons_road/_EUR/EUR_R1_XL58_Shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/_EUR/EUR_R1_XL58_Shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>5</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/_EUR/EUR_R1_XL68_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>5</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="France Motorway (Autorutes)" id="8757">
+    <Icon id="1">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_s28_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_s28_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_s28_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R2_S34_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_m38_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_m38_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_m38_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R2_M48_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_l48_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_l48_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_l48_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R3_L66_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="4">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_l48_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_l48_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_l48_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>20</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R3_L66_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>20</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="Routes Nationales (France, Monaco Expressway)" id="8758">
+    <Icon id="1">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r3_s28_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r3_s28_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r3_s28_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R2_S34_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_m38_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_m38_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_m38_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R2_M48_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r3_l56_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r3_l56_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r3_l56_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R3_L66_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="4">
+      <Map>
+        <Image usage="base">icons_road/fra/fra_r2_l48_y-02.png</Image>
+        <Image usage="shadow2D">icons_road/fra/fra_r2_l48_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/fra/fra_r2_l48_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>20</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/fra/FRA_R3_XL78_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>20</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="Germany Motorway (Autobahn)" id="8759">
+    <Icon id="1">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r2_s18_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r2_s18_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r2_s18_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>1</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R2_S20_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>1</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r2_m28_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r2_m28_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r2_m28_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R2_M34_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r2_l38_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r2_l38_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r2_l38_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R2_M34_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="4">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r2_l38_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r2_l38_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r2_l38_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>10</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R2_L46_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>10</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+  <IconSet desc="Germany Expressway (Bundesstrasse)" id="8760">
+    <Icon id="1">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r3_s26_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r3_s26_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r3_s26_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R3_S32_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>2</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="2">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r3_m38_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r3_m38_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r3_m38_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R3_M46_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>3</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="3">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r3_l50_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r3_l50_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r3_l50_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R3_L58_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>4</TextCharacterSpace>
+      </HMI>
+    </Icon>
+    <Icon id="4">
+      <Map>
+        <Image usage="base">icons_road/deu/deu_r3_xl76_y-01.png</Image>
+        <Image usage="shadow2D">icons_road/deu/deu_r3_xl76_shadow2D.png</Image>
+        <Image usage="shadow3D">icons_road/deu/deu_r3_xl76_shadow3D.png</Image>
+        <IconFontVariantRef>7</IconFontVariantRef>
+        <TextCharacterSpace>10</TextCharacterSpace>
+      </Map>
+      <HMI>
+        <Image usage="hmi">icons_road/deu/DEU_R3_XL90_Y06-HMI.png</Image>
+        <DeltaX>0</DeltaX>
+        <DeltaY>0</DeltaY>
+        <FontColor>#000000ff</FontColor>
+        <FontReference>0</FontReference>
+        <FontSize>10</FontSize>
+        <TextCharacterSpace>10</TextCharacterSpace>
+      </HMI>
+    </Icon>
+  </IconSet>
+</ExitIconConfiguration>

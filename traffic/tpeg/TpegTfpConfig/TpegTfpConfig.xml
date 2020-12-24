@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<TpegTfpConfig>
+	<!-- enable vehicle types as defined in table tfp001 -->
+	<VehicleType id="1" name="car" />
+</TpegTfpConfig>

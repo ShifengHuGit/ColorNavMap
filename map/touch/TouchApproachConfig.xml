@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Description:
+
+      The <TouchApproachConfig> contains parameters, controlling the scaling behaviour of symbols.
+
+      <Duration>
+         Specifies the duration of symbol scaling, measured in ms.
+         
+      <Scaling>
+         Scaling factor for unaproached symbols.
+         1.0 = size of approached symbol.
+-->
+
+<TouchApproachConfig version="1">
+
+   <Duration>175</Duration>
+   
+   <Scaling>1.0</Scaling>
+   
+</TouchApproachConfig>

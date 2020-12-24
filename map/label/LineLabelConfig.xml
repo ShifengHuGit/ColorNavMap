@@ -1,0 +1,60 @@
+﻿<LineLabelConfig version="1">
+
+   <LineLabelStyle id="1">
+      <Priority>1</Priority>
+      <ScaleLevelVisibility>                                         <!-- The visibility bounds of this style. -->
+         <ScaleLevelValue type="min" >        0</ScaleLevelValue>
+         <ScaleLevelValue type="max" >600000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">600000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <Marker>                                                       <!-- @TODO how to represent day and night?? -->
+        <Image usage="base"    >         label_pins/Street_Pin.png</Image>
+        <Image usage="shadow2D">label_pins/Street_Pin_Shadow2D.png</Image>
+        <Image usage="shadow3D">label_pins/Street_Pin_Shadow3D.png</Image>
+      </Marker>
+      <TextOffset>2.0</TextOffset>                                   <!-- The offset between the pin and the base line of the text. -->
+      <BoundingVolumeInc type="normal"  > 0</BoundingVolumeInc>      <!-- The value that gets added to a tight bounding box.-->
+      <BoundingVolumeInc type="extended">15</BoundingVolumeInc>      <!-- The value that gets added to a extended bounding box.-->
+      <FontVariantRef mode="day"  >7</FontVariantRef>
+      <FontVariantRef mode="night">6</FontVariantRef>
+   </LineLabelStyle>
+
+   <LineLabelStyle id="84">
+      <Priority>10</Priority>
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min" >     0</ScaleLevelValue>
+         <ScaleLevelValue type="max" >100000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">100000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <Marker>
+        <Image usage="base"    >         label_pins/Street_Pin.png</Image>
+        <Image usage="shadow2D">label_pins/Street_Pin_Shadow2D.png</Image>
+        <Image usage="shadow3D">label_pins/Street_Pin_Shadow3D.png</Image>
+      </Marker>
+      <TextOffset>0.04</TextOffset>
+      <BoundingVolumeInc type="normal"  > 0</BoundingVolumeInc>
+      <BoundingVolumeInc type="extended">10</BoundingVolumeInc>
+      <FontVariantRef mode="day"  >7</FontVariantRef>
+      <FontVariantRef mode="night">6</FontVariantRef>
+   </LineLabelStyle>
+
+   <LineLabelStyle id="99">
+      <Priority>5</Priority>
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min" >    0</ScaleLevelValue>
+         <ScaleLevelValue type="max" >40000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">40000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <Marker>
+        <Image usage="base"    >         label_pins/Street_Pin.png</Image>
+        <Image usage="shadow2D">label_pins/Street_Pin_Shadow2D.png</Image>
+        <Image usage="shadow3D">label_pins/Street_Pin_Shadow3D.png</Image>
+      </Marker>
+      <TextOffset>0.08</TextOffset>
+      <BoundingVolumeInc type="normal"  > 0</BoundingVolumeInc>
+      <BoundingVolumeInc type="extended">10</BoundingVolumeInc>
+      <FontVariantRef mode="day"  >7</FontVariantRef>
+      <FontVariantRef mode="night">6</FontVariantRef>
+   </LineLabelStyle>
+
+</LineLabelConfig>

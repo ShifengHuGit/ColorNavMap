@@ -1,0 +1,67 @@
+<!--
+   Description:
+      The <ZoomInterpolationConfig> contains the configuration for the auto zoom behavior.
+
+      <ZoomIntervalMs>
+         This tag is used to define the basic zoom period. In case the user decides to trigger the zooming,
+         the following zoom process will take this time period to finish. There is an exception to this.
+         If the user changes the zoom level while the zoom process, then the zoom period will be extended
+         by the full value of the tag.
+         Zooming from one level to another is performed in three phases.
+         Default: 2000 ms.
+
+      <ZoomStartIntervalMs>
+         Time in milliseconds denoting how long the first zoom phase should last.
+         Default: 666 ms (i.e. one-third of the total zoom interval).
+         Range: (0; ZoomIntervalMs)
+
+      <ZoomEndIntervalMs>
+         Time in milliseconds denoting how long the last zoom phase should last.
+         Default: 666 ms (i.e. one-third of the total zoom interval).
+         Range: (0; ZoomIntervalMs)
+
+      <ZoomStartPercentage>
+         Percentage of the target zoom level which should be reached at the end of the first zoom phase
+         and at which the middle phase starts.
+         Default: 20%.
+
+      <ZoomEndPercentage>
+         Percentage of the target zoom level which is reached after the middle zoom phase and at which the
+         last phase starts.
+         Default: 80%.
+
+      <WaitingForInputIntervalMs>
+         This tag is used to define how many milliseconds the system will wait after each zoom command
+         before the actual zooming begins.
+         Default: 100 ms.
+
+      <DelayBetweenZoomUpdatesMs>
+         This tag is used to define how often the zoom recommendation is propagated to the HMI. The system
+         will wait at least this amount of time after each zoom recommendation before sending a new one.
+         Default: 500 ms.
+                 
+      <ZoomInHysteresis>
+         Increasing this value (in zoom levels) may result in map "resisting" zooming out during auto zoom
+         when it was automatically zooming in before. So if speed or maneuver based zoom was zooming in
+         and want to zoom out it must zoom out at least <ZoomInHysteresis> zoom levels before the zooming
+         takes any effect.
+
+      <ZoomOutHysteresis>
+         Similar to <ZoomInHysteresis>
+
+ -->
+<ZoomInterpolationConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="../../../../xsd/nav/asset/ZoomInterpolationConfig.xsd" version="2">
+   <ZoomIntervalMs>2000</ZoomIntervalMs>
+   <ZoomStartIntervalMs>666</ZoomStartIntervalMs>
+   <ZoomEndIntervalMs>666</ZoomEndIntervalMs>
+
+   <ZoomStartPercentage>20</ZoomStartPercentage>
+   <ZoomEndPercentage>80</ZoomEndPercentage>
+   
+   <WaitingForInputIntervalMs>100</WaitingForInputIntervalMs>
+   <DelayBetweenZoomUpdatesMs>500</DelayBetweenZoomUpdatesMs>
+   
+   <ZoomInHysteresis>2</ZoomInHysteresis>
+   <ZoomOutHysteresis>2</ZoomOutHysteresis>
+</ZoomInterpolationConfig>

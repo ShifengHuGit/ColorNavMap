@@ -1,0 +1,235 @@
+﻿<NonRoadLineConfiguration version="1">
+   <!--
+      Description:
+      
+      This file describes the appearance of line-shapes representing non navigational lines or non-roads or "noads".
+      Database-wise there are a lot of different line classes. Multiple database noad class can be combined to a
+      common visual style (RoadStyle) and wont be distingushable anymore. 
+      
+      To prevent confusion the configuration mechanism for Noads is the same as for Roads so we can use
+      the same <RoadStyle> tag which is described in detail in RoadConfiguration.xml. Only the self-explaining
+      <NonRoadLineTypeReferences> tag differs from the configuration of roads.
+      
+   -->   
+   
+   
+   
+   <RoadStyle id="0" desc="Water Ways">
+         <LineStyle type="normal">  <!--only choice for NonRoadLines-->
+
+            <ScaleLevelVisibility>
+               <ScaleLevelValue type="min">         0</ScaleLevelValue>
+               <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+               <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+            </ScaleLevelVisibility>  
+            
+            <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+                  <Color mode="day">#A4C8E6FF</Color>
+                  <Color mode="night">#22323DFF</Color>
+                  <Thickness func="151" unit="px">5</Thickness>
+                  <Priority>1</Priority>
+               </LayerPattern>
+           </LayerSet>
+           
+         </LineStyle>
+         
+         
+         <NonRoadLineTypeReferences>
+            <LineType>NONROAD_LINETYPE_RIVER</LineType>
+            <LineType>NONROAD_LINETYPE_WATER</LineType>
+            <LineType>NONROAD_LINETYPE_CREEK</LineType>
+            <LineType>NONROAD_LINETYPE_DRAIN</LineType>
+            <LineType>NONROAD_LINETYPE_WADI</LineType>
+            <LineType>NONROAD_LINETYPE_CANAL</LineType>
+         </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+  <RoadStyle desc="Rail Ways" id="1">
+    <LineStyle type="normal">
+            <ScaleLevelVisibility>
+               <ScaleLevelValue type="min">         0</ScaleLevelValue>
+        <ScaleLevelValue type="max">  220000</ScaleLevelValue>
+        <ScaleLevelValue type="fade"> 200000</ScaleLevelValue>
+            </ScaleLevelVisibility>  
+            
+            <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#8F8F8FFF</Color>
+          <Color mode="night">#4A4A4AFF</Color>
+          <Thickness func="100" unit="px">8</Thickness>
+                  <Priority>50</Priority>
+               </LayerPattern>
+        <LayerPattern type="dashed" layer="1">
+          <Color mode="day">#EBEBEBFF</Color>
+          <Color mode="night">#A9A9ABFF</Color>
+          <AlternateColor mode="day">#8F8F8FFF</AlternateColor>
+          <AlternateColor mode="night">#4A4A4AFF</AlternateColor>
+          <Thickness func="100" unit="px">5</Thickness>
+                  <Priority>55</Priority>
+               </LayerPattern>
+
+               
+           </LayerSet>
+           
+         </LineStyle>
+         
+         <NonRoadLineTypeReferences>
+            <LineType>NONROAD_LINETYPE_PUBLIC_TRANSPORT</LineType>
+            <LineType>NONROAD_LINETYPE_RAILWAY</LineType>
+            <LineType>NONROAD_LINETYPE_RAILWAY_LONG_DISTANCE</LineType>
+            <LineType>NONROAD_LINETYPE_RAILWAY_REGIONAL</LineType>
+            <LineType>NONROAD_LINETYPE_RAILWAY_LOCAL</LineType>
+            <LineType>NONROAD_LINETYPE_SUBWAY</LineType>
+            <LineType>NONROAD_LINETYPE_TRAM</LineType>
+            <LineType>NONROAD_LINETYPE_MONORAIL</LineType>
+            <LineType>NONROAD_LINETYPE_BUS</LineType>
+         </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+  <RoadStyle desc="Border_Typ1" id="100">
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">    1100000</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>  
+         
+         <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#FFFFFFFF</Color>
+          <Color mode="night">#808080FF</Color>
+          <Thickness func="150" unit="px">8</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+               <Priority>12</Priority>
+            </LayerPattern>
+        </LayerSet>
+      </LineStyle>
+      
+      
+      <NonRoadLineTypeReferences>
+         <LineType>NONROAD_LINETYPE_ROAD</LineType>
+         <LineType>NONROAD_LINETYPE_BLOCK_DETAIL</LineType>
+         <LineType>NONROAD_LINETYPE_BUILDING_DETAIL</LineType>
+         
+         <LineType>NONROAD_LINETYPE_BORDER</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_NON_ADMIN</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_PHONE</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_POSTAL</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_POLICE</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_SCHOOL</LineType>
+         <LineType>NONROAD_LINETYPE_TIME_ZONE</LineType>
+         <LineType>NONROAD_LINETYPE_CONTOUR</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_TREATY_LINE</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_TREATY_LINE_ORDER_0</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_TREATY_LINE_ORDER_1</LineType>
+         <LineType>NONROAD_LINETYPE_SEA_BORDER_ORDER_0</LineType>
+         <LineType>NONROAD_LINETYPE_SEA_BORDER_ORDER_1</LineType>
+      </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+  <RoadStyle desc="Border_Typ2" id="101">
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">    1100000</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>  
+         
+         <LayerSet>
+        <LayerPattern type="uni-fill" layer="0">
+          <Color mode="day">#FFFFFFFF</Color>
+          <Color mode="night">#808080FF</Color>
+          <Thickness func="150" unit="px">4</Thickness>
+          <Density />
+          <Aspect />
+          <SlashAngle />
+               <Priority>13</Priority>
+            </LayerPattern>
+        </LayerSet>
+      </LineStyle>
+      
+      
+      <NonRoadLineTypeReferences>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_0</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_1</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_2</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_3</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_4</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_5</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_6</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_7</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_8</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_ORDER_9</LineType>
+      </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+  <RoadStyle desc="Border_Typ3" id="102">
+    <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">    1100000</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>  
+         
+         <LayerSet>
+
+        <LayerPattern type="textured" layer="0">
+          <PatternTexture>line_pattern/dash_rect_64.png</PatternTexture>
+          <Color mode="day">#FFFFFFFF</Color>
+          <Color mode="night">#808080FF</Color>
+          <AlternateColor mode="day">#FFFFFF00</AlternateColor>
+          <AlternateColor mode="night">#80808000</AlternateColor>
+          <Thickness func="150" unit="px">8</Thickness>
+          <FitPatternToSegment>true</FitPatternToSegment>
+          <Density>40.0</Density>
+          <Priority>14</Priority>
+        </LayerPattern>
+        </LayerSet>
+      </LineStyle>
+      
+      
+      <NonRoadLineTypeReferences>
+	     <LineType>NONROAD_LINETYPE_BORDER_DISPUTED</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_DISPUTED_ORDER_0</LineType>
+         <LineType>NONROAD_LINETYPE_BORDER_DISPUTED_ORDER_1</LineType>
+      </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+  <RoadStyle desc="Border_Typ4" id="103">
+    <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">    1100000</ScaleLevelValue>
+            <ScaleLevelValue type="max">  110000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 110000000</ScaleLevelValue>   
+         </ScaleLevelVisibility>  
+         
+         <LayerSet>
+
+        <LayerPattern type="textured" layer="0">
+          <PatternTexture>line_pattern/dash_dash_64.png</PatternTexture>
+          <Color mode="day">#FFFFFFFF</Color>
+          <Color mode="night">#808080FF</Color>
+          <AlternateColor mode="day">#FFFFFF00</AlternateColor>
+          <AlternateColor mode="night">#80808000</AlternateColor>
+          <Thickness func="150" unit="px">8</Thickness>
+          <FitPatternToSegment>false</FitPatternToSegment>
+          <Density>40.0</Density>
+          <Priority>14</Priority>
+        </LayerPattern>
+        </LayerSet>
+      </LineStyle>
+      
+      
+      <NonRoadLineTypeReferences>
+	     <LineType>NONROAD_LINETYPE_BORDER_SPECIAL_ADMIN_REGION</LineType>	  
+      </NonRoadLineTypeReferences>
+         
+   </RoadStyle>
+   
+   
+</NonRoadLineConfiguration>
+   
+

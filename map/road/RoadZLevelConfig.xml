@@ -1,0 +1,9 @@
+<!-- 
+   Definition of the scale level in m/cm up to which the road z level will be taken into account for 
+   displaying roads.
+-->
+<RoadZLevelConfig version="22">
+   <RoadZLevel>
+      <ZoomLevel value = "0" />
+   </RoadZLevel>
+</RoadZLevelConfig>

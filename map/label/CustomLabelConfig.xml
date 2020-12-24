@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<CustomLabelConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1">
+  <!--
+    HMI is sending us commands to show or hide certain kinds of custom flags. These were
+    send with a style id and a geo position. An example would be the HOME destination. The easily
+    adopt to changes or additions in the HMI constants we provide an id to string mapping
+  -->
+
+  <CustomLabelIdMapping>
+    <CustomLabelId id="0">STYLETYPE_PERSONAL</CustomLabelId>
+    <CustomLabelId id="1">STYLETYPE_BUSINESS</CustomLabelId>
+    <CustomLabelId id="2">STYLETYPE_ONLINEPOI_GOOGLE</CustomLabelId>
+    <CustomLabelId id="3">STYLETYPE_ONLINEPOI_GOOGLE_A</CustomLabelId>
+    <CustomLabelId id="4">STYLETYPE_ONLINEPOI_GOOGLE_B</CustomLabelId>
+    <CustomLabelId id="5">STYLETYPE_ONLINEPOI_GOOGLE_C</CustomLabelId>
+    <CustomLabelId id="6">STYLETYPE_ONLINEPOI_GOOGLE_D</CustomLabelId>
+    <CustomLabelId id="7">STYLETYPE_ONLINEPOI_GOOGLE_E</CustomLabelId>
+    <CustomLabelId id="8">STYLETYPE_ONLINEPOI_GOOGLE_F</CustomLabelId>
+    <CustomLabelId id="9">STYLETYPE_ONLINEPOI_GOOGLE_G</CustomLabelId>
+    <CustomLabelId id="10">STYLETYPE_ONLINEPOI_GOOGLE_H</CustomLabelId>
+    <CustomLabelId id="11">STYLETYPE_ONLINEPOI_GOOGLE_I</CustomLabelId>
+    <CustomLabelId id="12">STYLETYPE_ONLINEPOI_GOOGLE_J</CustomLabelId>
+    <CustomLabelId id="13">STYLETYPE_ONLINEPOI_GOOGLE_A_SL</CustomLabelId>
+    <CustomLabelId id="14">STYLETYPE_ONLINEPOI_GOOGLE_B_SL</CustomLabelId>
+    <CustomLabelId id="15">STYLETYPE_ONLINEPOI_GOOGLE_C_SL</CustomLabelId>
+    <CustomLabelId id="16">STYLETYPE_ONLINEPOI_GOOGLE_D_SL</CustomLabelId>
+    <CustomLabelId id="17">STYLETYPE_ONLINEPOI_GOOGLE_E_SL</CustomLabelId>
+    <CustomLabelId id="18">STYLETYPE_ONLINEPOI_GOOGLE_F_SL</CustomLabelId>
+    <CustomLabelId id="19">STYLETYPE_ONLINEPOI_GOOGLE_G_SL</CustomLabelId>
+    <CustomLabelId id="20">STYLETYPE_ONLINEPOI_GOOGLE_H_SL</CustomLabelId>
+    <CustomLabelId id="21">STYLETYPE_ONLINEPOI_GOOGLE_I_SL</CustomLabelId>
+    <CustomLabelId id="22">STYLETYPE_ONLINEPOI_GOOGLE_J_SL</CustomLabelId>
+    <CustomLabelId id="23">STYLETYPE_HOME</CustomLabelId>
+    <CustomLabelId id="24">STYLETYPE_STOPOVER</CustomLabelId>
+    <CustomLabelId id="25">STYLETYPE_DESTINATION</CustomLabelId>
+    <CustomLabelId id="26">STYLETYPE_ATTRACTION</CustomLabelId>
+    <CustomLabelId id="27">STYLETYPE_FACILITIE</CustomLabelId>
+    <CustomLabelId id="28">STYLETYPE_MISCELLANEOUS</CustomLabelId>
+    <CustomLabelId id="29">STYLETYPE_NONE</CustomLabelId>
+    <CustomLabelId id="30">STYLETYPE_RECREATION</CustomLabelId>
+    <CustomLabelId id="31">STYLETYPE_RESTAURANT</CustomLabelId>
+    <CustomLabelId id="32">STYLETYPE_SHOPPING</CustomLabelId>
+    <CustomLabelId id="33">STYLETYPE_SPORT</CustomLabelId>
+    <CustomLabelId id="34">STYLETYPE_PRIVATE</CustomLabelId>
+    <CustomLabelId id="35">STYLETYPE_PICTURE_DESTINATION</CustomLabelId>
+    <CustomLabelId id="36">STYLETYPE_PICTURE_DESTINATION_STACK</CustomLabelId>
+    <CustomLabelId id="37">STYLETYPE_WEATHER_NOTAVAILABLE</CustomLabelId>
+    <CustomLabelId id="38">STYLETYPE_WEATHER_DAY_0</CustomLabelId>
+    <CustomLabelId id="39">STYLETYPE_WEATHER_DAY_1</CustomLabelId>
+    <CustomLabelId id="40">STYLETYPE_WEATHER_DAY_2</CustomLabelId>
+    <CustomLabelId id="41">STYLETYPE_WEATHER_DAY_3</CustomLabelId>
+    <CustomLabelId id="42">STYLETYPE_WEATHER_DAY_4</CustomLabelId>
+    <CustomLabelId id="43">STYLETYPE_WEATHER_DAY_5</CustomLabelId>
+    <CustomLabelId id="44">STYLETYPE_WEATHER_DAY_6</CustomLabelId>
+    <CustomLabelId id="45">STYLETYPE_WEATHER_DAY_7</CustomLabelId>
+    <CustomLabelId id="46">STYLETYPE_WEATHER_DAY_8</CustomLabelId>
+    <CustomLabelId id="47">STYLETYPE_WEATHER_DAY_9</CustomLabelId>
+    <CustomLabelId id="48">STYLETYPE_WEATHER_DAY_10</CustomLabelId>
+    <CustomLabelId id="49">STYLETYPE_WEATHER_DAY_11</CustomLabelId>
+    <CustomLabelId id="50">STYLETYPE_WEATHER_DAY_12</CustomLabelId>
+    <CustomLabelId id="51">STYLETYPE_WEATHER_NIGHT_0</CustomLabelId>
+    <CustomLabelId id="52">STYLETYPE_WEATHER_NIGHT_1</CustomLabelId>
+    <CustomLabelId id="53">STYLETYPE_WEATHER_NIGHT_2</CustomLabelId>
+    <CustomLabelId id="54">STYLETYPE_WEATHER_NIGHT_3</CustomLabelId>
+    <CustomLabelId id="55">STYLETYPE_WEATHER_NIGHT_4</CustomLabelId>
+    <CustomLabelId id="56">STYLETYPE_WEATHER_NIGHT_5</CustomLabelId>
+    <CustomLabelId id="57">STYLETYPE_WEATHER_NIGHT_6</CustomLabelId>
+    <CustomLabelId id="58">STYLETYPE_WEATHER_NIGHT_7</CustomLabelId>
+    <CustomLabelId id="59">STYLETYPE_WEATHER_NIGHT_8</CustomLabelId>
+    <CustomLabelId id="60">STYLETYPE_WEATHER_NIGHT_9</CustomLabelId>
+    <CustomLabelId id="61">STYLETYPE_WEATHER_NIGHT_10</CustomLabelId>
+    <CustomLabelId id="62">STYLETYPE_WEATHER_NIGHT_11</CustomLabelId>
+    <CustomLabelId id="71">STYLETYPE_NUMBERED_FLAG_1</CustomLabelId>
+    <CustomLabelId id="72">STYLETYPE_NUMBERED_FLAG_2</CustomLabelId>
+    <CustomLabelId id="73">STYLETYPE_NUMBERED_FLAG_3</CustomLabelId>
+    <CustomLabelId id="74">STYLETYPE_NUMBERED_FLAG_4</CustomLabelId>
+    <CustomLabelId id="75">STYLETYPE_NUMBERED_FLAG_5</CustomLabelId>
+    <CustomLabelId id="76">STYLETYPE_NUMBERED_FLAG_6</CustomLabelId>
+    <CustomLabelId id="77">STYLETYPE_NUMBERED_FLAG_7</CustomLabelId>
+    <CustomLabelId id="78">STYLETYPE_NUMBERED_FLAG_8</CustomLabelId>
+    <CustomLabelId id="79">STYLETYPE_NUMBERED_FLAG_9</CustomLabelId>
+    <CustomLabelId id="80">STYLETYPE_NUMBERED_FLAG_10</CustomLabelId>
+    <CustomLabelId id="81">STYLETYPE_NUMBERED_FLAG_11</CustomLabelId>
+    <CustomLabelId id="82">STYLETYPE_NUMBERED_FLAG_12</CustomLabelId>
+    <CustomLabelId id="83">STYLETYPE_NUMBERED_FLAG_13</CustomLabelId>
+    <CustomLabelId id="84">STYLETYPE_NUMBERED_FLAG_14</CustomLabelId>
+    <CustomLabelId id="85">STYLETYPE_NUMBERED_FLAG_15</CustomLabelId>
+    <CustomLabelId id="86">STYLETYPE_NUMBERED_FLAG_16</CustomLabelId>
+    <CustomLabelId id="87">STYLETYPE_NUMBERED_FLAG_17</CustomLabelId>
+    <CustomLabelId id="88">STYLETYPE_NUMBERED_FLAG_18</CustomLabelId>
+    <CustomLabelId id="89">STYLETYPE_NUMBERED_FLAG_19</CustomLabelId>
+    <CustomLabelId id="90">STYLETYPE_NUMBERED_FLAG_20</CustomLabelId>
+    <CustomLabelId id="111">STYLETYPE_CITYCENTER</CustomLabelId>
+    <CustomLabelId id="112">STYLETYPE_ADDRESS</CustomLabelId>
+    <CustomLabelId id="113">STYLETYPE_FAVOURITE</CustomLabelId>
+    <CustomLabelId id="114">STYLETYPE_HISTORYLOCATION</CustomLabelId>
+    <CustomLabelId id="115">STYLETYPE_ONLINELOCATION</CustomLabelId>
+    <CustomLabelId id="116">STYLETYPE_WEBPORTAL</CustomLabelId>
+    <CustomLabelId id="117">STYLETYPE_SDS1</CustomLabelId>
+    <CustomLabelId id="118">STYLETYPE_SDS2</CustomLabelId>
+    <CustomLabelId id="119">STYLETYPE_SDS3</CustomLabelId>
+    <CustomLabelId id="120">STYLETYPE_SDS4</CustomLabelId>
+    <CustomLabelId id="121">STYLETYPE_SDS5</CustomLabelId>
+    <CustomLabelId id="122">STYLETYPE_SDS6</CustomLabelId>
+    <CustomLabelId id="123">STYLETYPE_COLORED_DESTINATION_0</CustomLabelId>
+    <CustomLabelId id="124">STYLETYPE_COLORED_DESTINATION_1</CustomLabelId>
+    <CustomLabelId id="125">STYLETYPE_COLORED_DESTINATION_2</CustomLabelId>
+    <CustomLabelId id="126">STYLETYPE_COLORED_DESTINATION_3</CustomLabelId>
+    <CustomLabelId id="127">STYLETYPE_COLORED_DESTINATION_4</CustomLabelId>
+    <CustomLabelId id="128">STYLETYPE_COLORED_DESTINATION_5</CustomLabelId>
+    <CustomLabelId id="255">STYLETYPE_INVALID_STYLETYPE</CustomLabelId>
+  </CustomLabelIdMapping>
+
+
+   <!-- string constant reffering to the available hmi constants in CustomLabelIdMapping.xml-->
+  <CustomLabel id="STYLETYPE_HOME">
+    <!-- indicates how far the specific label shall be visible -->
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 14000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">12500000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!--
+         The well known image tag which allows to specify different usages and an anchor for each icon
+         The anchor will be in pixel and point to the location where the icon will be matched to the given geoposition.
+         The icon path will be relative to the main ressource dir.
+
+         @Gerd: The parser for the Image tag should already be existant. But it cannot handle both
+         anchor attributes, so it must be extended. Once done, please remove this comment.
+      -->
+      <!-- absolute anchors   base:24;52 shadow2d: 24;52 shadow3d: 24.0f/60.0f,52.0f/52.0f -->
+    <Image usage="base" anchor_x="0.5" anchor_y="0.673">icons_flags/Home_Destination.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.673">icons_flags/Shadow2D/Home_Destination_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.417" anchor_y="0.673">icons_flags/Shadow3D/Home_Destination_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_DESTINATION">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.292" anchor_y="0.666">icons_flags/Destination.png</Image>
+    <Image usage="shadow2D" anchor_x="0.292" anchor_y="0.666">icons_flags/Shadow2D/Destination_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.233" anchor_y="0.666">icons_flags/Shadow3D/Destination_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_0.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_A">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_A.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_B">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_B.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_C">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_C.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_D">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_D.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_E">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_E.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_ONLINEPOI_GOOGLE_F">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">        0</ScaleLevelValue>
+      <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow2d:   Vector2f(21.0f/72.0f,60.0f/90.0f)
+         shadow3d:   Vector2f(21.0f/90.0f,60.0f/90.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.533" anchor_y="0.850">icons_google/Pin_F.png</Image>
+    <Image usage="shadow2D" anchor_x="0.533" anchor_y="0.850">icons_google/Shadow2D/Pin_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.444" anchor_y="0.850">icons_google/Shadow3D/Pin_Shadow3D.png</Image>
+  </CustomLabel>
+
+
+  <CustomLabel id="STYLETYPE_MISCELLANEOUS">
+    <ScaleLevelVisibility>
+      <ScaleLevelValue type="min">0</ScaleLevelValue>
+      <ScaleLevelValue type="max">1000000</ScaleLevelValue>
+      <ScaleLevelValue type="fade">1500000</ScaleLevelValue>
+    </ScaleLevelVisibility>
+
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+
+    <Image usage="base" anchor_x="0.5" anchor_y="0.423">icons_flags/Misc.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.423">icons_flags/Shadow2D/Misc_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.4" anchor_y="0.423">icons_flags/Shadow3D/Misc_Shadow3D.png</Image>
+  </CustomLabel>
+
+  <CustomLabel id="STYLETYPE_NUMBERED_FLAG_1">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_A.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_2">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_B.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_3">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_C.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_4">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_D.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_5">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_E.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_6">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker_F.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_10">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_A.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_11">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_B.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_12">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_C.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_13">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_D.png</Image>
+   </CustomLabel>
+
+    <CustomLabel id="STYLETYPE_NUMBERED_FLAG_14">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_E.png</Image>
+   </CustomLabel>
+
+    <CustomLabel id="STYLETYPE_NUMBERED_FLAG_15">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_F.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_16">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_G.png</Image>
+   </CustomLabel>
+
+    <CustomLabel id="STYLETYPE_NUMBERED_FLAG_17">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker_H.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_18">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_19">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       Vector2f(35.0f/70.0f,37.0f/52.0f)
+         -->
+      <Image usage="base"     anchor_x="0.5" anchor_y="0.712">icons_trafficmarker/Map_List_Marker.png</Image>
+   </CustomLabel>
+
+   <CustomLabel id="STYLETYPE_NUMBERED_FLAG_20">
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">        0</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 120000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">120000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <!-- absolute anchors
+         base:       ?
+         shadow2d:   ?
+         shadow3d:   Vector2f(24.0f/60.0f,52.0f/52.0f)
+         -->
+    <Image usage="base"     anchor_x="0.5" anchor_y="0.75">icons_duallistview/Marker.png</Image>
+    <Image usage="shadow2D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_2D/Marker_Shadow2D.png</Image>
+    <Image usage="shadow3D" anchor_x="0.5" anchor_y="0.75">icons_duallistview/Shadow_3D/Marker_Shadow3D.png</Image>
+   </CustomLabel>
+
+</CustomLabelConfig>

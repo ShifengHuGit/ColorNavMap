@@ -1,0 +1,1795 @@
+<?xml version="1.0"?>
+<PoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1">
+  <PoiSearchDefinition>
+    <PoiSearch type="supraregional">
+      <Radius type="min">500</Radius>
+      <Radius type="max">1500000</Radius>
+      <Radius type="inc">2000</Radius>
+      <Corridor type="highway" />
+      <Corridor type="city" />
+      <ResultCount>200</ResultCount>
+    </PoiSearch>
+    <PoiSearch type="top">
+      <Radius type="min">500</Radius>
+      <Radius type="max">200000</Radius>
+      <Radius type="inc">2000</Radius>
+      <Corridor type="highway" />
+      <Corridor type="city" />
+      <ResultCount>200</ResultCount>
+    </PoiSearch>
+    <PoiSearch type="default">
+      <Radius type="min">500</Radius>
+      <Radius type="max">200000</Radius>
+      <Radius type="inc">2000</Radius>
+      <Corridor type="highway" />
+      <Corridor type="city" />
+      <ResultCount>200</ResultCount>
+    </PoiSearch>
+    <PoiSearch type="along_route">
+      <Radius type="min" />
+      <Radius type="max" />
+      <Radius type="inc" />
+      <Corridor type="highway">250</Corridor>
+      <Corridor type="city">80</Corridor>
+      <ResultCount>200</ResultCount>
+    </PoiSearch>
+    <PoiSearch type="top_along_route">
+      <Radius type="min" />
+      <Radius type="max" />
+      <Radius type="inc" />
+      <Corridor type="highway">250</Corridor>
+      <Corridor type="city">80</Corridor>
+      <ResultCount>200</ResultCount>
+    </PoiSearch>
+  </PoiSearchDefinition>
+  <PoiThesaurusDelimitersDefinition>
+    <Delimiter value=";" />
+    <Delimiter value="," />
+    <Delimiter value="-" />
+  </PoiThesaurusDelimitersDefinition>
+  <PoiSearchConstantDefinition>
+    <PoiCategoryRange type="local_poi">
+      <Start>0</Start>
+      <End>99999</End>
+    </PoiCategoryRange>
+    <PoiCategoryRange type="personal_poi">
+      <Start>100000</Start>
+      <End>499999</End>
+    </PoiCategoryRange>
+    <PoiCategoryRange type="travel_guide">
+      <Start>500000</Start>
+      <End>999999</End>
+    </PoiCategoryRange>
+  </PoiSearchConstantDefinition>
+  <HmiCriteriaMappingDefinition>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_MOTORWAYEXIT" id="1">
+      <PoiCategoryRef>203</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CLASS_PPOI" id="10" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CLASS_PARK_AND_REFUEL" id="41" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_PETROLSTATION" id="56">
+      <PoiCategoryRef>101</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_PETROLSTATION" id="101">
+      <PoiCategoryRef>101</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_PARKINGLOT" id="102">
+      <PoiCategoryRef>102</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_RESTSTOP" id="103">
+      <PoiCategoryRef>202</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_RESTAURANT" id="104">
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_HOTEL" id="105">
+      <PoiCategoryRef>505</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_AUDISERVICE" id="106" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_RAILROADSTATION" id="107">
+      <PoiCategoryRef>702</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_AIRPORT" id="108">
+      <PoiCategoryRef>701</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_HOSPITAL" id="109">
+      <PoiCategoryRef>804</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_VW-service" id="110">
+      <PoiCategoryRef>207</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_BENTLEY_SERVICE" id="111" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_PETROLSTATION_NAR" id="120">
+      <PoiCategoryRef>101</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_PETROLSTATION_DIESEL_NAR" id="121">
+      <PoiCategoryRef>121</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_PARKING_NAR" id="122">
+      <PoiCategoryRef>102</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_RESTAURANT_NAR" id="123">
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_ACCOMODATION_NAR" id="124">
+      <PoiCategoryRef>505</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_HOSPITAL_NAR" id="125">
+      <PoiCategoryRef>804</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_AUDIDEALER_NAR" id="126" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_POLICE_NAR" id="127">
+      <PoiCategoryRef>805</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_ATM_NAR" id="128">
+      <PoiCategoryRef>803</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_COFFEESHOP_NAR" id="129">
+      <PoiCategoryRef>408</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_SPEEDCAMERA" id="130">
+      <PoiCategoryRef>909</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_OTHERCAMERA" id="131" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_CHARGINGSTATION_FAST" id="132" >
+      <PoiCategoryRef>132</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_CHARGINGSTATION_NORMAL" id="133" >
+      <PoiCategoryRef>134</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_CHARGINGSTATION" id="134" >
+      <PoiCategoryRef>134</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_CNGSTATION" id="135">
+      <PoiCategoryRef>135</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_LPGSTATION" id="136">
+      <PoiCategoryRef>136</PoiCategoryRef>
+    </HmiCriteriaMapping>
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_HYDROGENSTATION" id="137" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_NEXT_E100ETHANOLSTATION" id="138" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_PPOI_CHARGINGSTATION_FAST" id="150" />
+    <HmiCriteriaMapping desc="CRITERIANUMBER_CATEGORY_PPOI_CHARGINGSTATION_NORMAL" id="151" />
+  </HmiCriteriaMappingDefinition>
+  <PoiSearchMappingDefinition>
+    <PoiCategoryMapping type="top" fueltype="default">
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="gasoline">
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="diesel">
+      <PoiCategoryRef>121</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="cng">
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="lpg">
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>136</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="bev">
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="top" fueltype="phev">
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>134</PoiCategoryRef>
+      <PoiCategoryRef>102</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="blacklist" fueltype="default" />
+    <PoiCategoryMapping type="blacklist" fueltype="gasoline" />
+    <PoiCategoryMapping type="blacklist" fueltype="diesel" />
+    <PoiCategoryMapping type="blacklist" fueltype="cng" />
+    <PoiCategoryMapping type="blacklist" fueltype="lpg" />
+    <PoiCategoryMapping type="blacklist" fueltype="bev" />
+    <PoiCategoryMapping type="blacklist" fueltype="phev" />
+    <PoiCategoryMapping type="supraregional" fueltype="default">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="gasoline">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="diesel">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="cng">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="lpg">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="bev">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="supraregional" fueltype="phev">
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>207</PoiCategoryRef>
+      <PoiCategoryRef>705</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="default">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="gasoline">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="diesel">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="cng">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="lpg">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="bev">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="setup_default_enable" fueltype="phev">
+      <PoiCategoryRef>205</PoiCategoryRef>
+      <PoiCategoryRef>701</PoiCategoryRef>
+      <PoiCategoryRef>702</PoiCategoryRef>
+      <PoiCategoryRef>503</PoiCategoryRef>
+      <PoiCategoryRef>101</PoiCategoryRef>
+      <PoiCategoryRef>206</PoiCategoryRef>
+      <!-- <PoiCategoryRef>208</PoiCategoryRef> -->
+      <!--<PoiCategoryRef>210</PoiCategoryRef> -->
+      <PoiCategoryRef>801</PoiCategoryRef>
+      <PoiCategoryRef>802</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping type="default" />
+  </PoiSearchMappingDefinition>
+  <PoiCategoryDefinition>
+    <PoiCategory desc_mct="Airports" id="701">
+      <Priority>1</Priority>
+      <Image usage="hmi">icons_poi/Airport-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Airport-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>2</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">2900000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">2100000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Gas Stations" id="101">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/Other-petrol-station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Other-petrol-station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>5</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!High Octane Gas Stations" id="302">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/High-Octane-Gas-Station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/High-Octane-Gas-Station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>119</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!Mixed Gas Stations" id="303">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/Mixed-Gas-Station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Mixed-Gas-Station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>120</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!Diesel Stations" id="121">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/Petrol-Gasoline-Station-Diesel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Petrol-Gasoline-Station-Diesel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>121</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!CNG Gas Stations" id="135">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/CNG-Gas-Station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/CNG-Gas-Station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>4</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!LPG Gas Stations" id="136">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/LPG-Gas-Station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/LPG-Gas-Station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>3</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!Charging Stations fast" id="132">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/Charging-Station-Fast-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Charging-Station-Fast-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>154</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="!Charging Stations" id="134">
+      <Priority>2</Priority>
+      <Image usage="hmi">icons_poi/Charging-Station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Charging-Station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>109</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="VW Dealers" id="206">
+      <Priority>3</Priority>
+      <Image usage="hmi">icons_poi/All-VW-facilities-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-VW-facilities-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/VW_Service_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/VW_Service_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.38" anchor_y="1">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>18</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <!-- <PoiCategory desc_mct="Shanghai Volkswagen Dealers" id="208">
+      <Priority>3</Priority>
+      <Image usage="hmi">icons_poi/All-VW-facilities-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-VW-facilities-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/VW_Service_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/VW_Service_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.38" anchor_y="1">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>111</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory> -->
+    <!--    <PoiCategory desc_mct="FAW-Volkswagen Dealers" id="210">
+      <Priority>3</Priority>
+      <Image usage="hmi">icons_poi/All-VW-facilities-HMI.png</Image>
+      <Image usage="base">icons_poi/All-VW-facilities-06.png</Image>
+      <Image usage="shadow2D">icons_poi/Shadow2D/VW_Service_Shadow2D-06.png</Image>
+      <Image usage="shadow3D">icons_poi/Shadow3D/VW_Service_Shadow3D-06.png</Image>
+      <Image usage="stack">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <Image usage="stack_shadow3D">icons_poi/Stacks/Trans-POI_Stack-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>113</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory> -->
+    <PoiCategory desc_mct="Freeway Exits/On-Ramps" id="203">
+      <Priority>4</Priority>
+      <Image usage="hmi">icons_poi/Motorway-exit-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Motorway-exit-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>20</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Rest Stops" id="202">
+      <Priority>5</Priority>
+      <Image usage="hmi">icons_poi/Other-Motorway-facilities-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Other-Motorway-facilities-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>9</CategoryDbId>
+        <CategoryDbId>10</CategoryDbId>
+        <CategoryDbId>11</CategoryDbId>
+        <CategoryDbId>12</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="VW-service" id="207">
+      <Priority>6</Priority>
+      <Image usage="hmi">icons_poi/VW-service-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/VW-service-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>17</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <!-- <PoiCategory desc_mct="Shanghai Volkswagen Service" id="209">
+      <Priority>6</Priority>
+      <Image usage="hmi">icons_poi/VW-service-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/VW-service-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>110</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory> -->
+    <!--    <PoiCategory desc_mct="FAW-Volkswagen Service" id="211">
+      <Priority>6</Priority>
+      <Image usage="hmi">icons_poi/VW-service-HMI.png</Image>
+      <Image usage="base">icons_poi/VW-service-06.png</Image>
+      <Image usage="shadow2D">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>112</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory> -->
+    <PoiCategory desc_mct="Tollgates" id="205">
+      <Priority>7</Priority>
+      <Image usage="hmi">icons_poi/Toll-gate-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Toll-gate-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>118</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">290000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">210000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Freeway Interchanges" id="204">
+      <Priority>8</Priority>
+      <Image usage="hmi">icons_poi/Junction-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Junction-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>21</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Cars POIs" id="212">
+      <Priority>77</Priority>
+      <Image usage="hmi">icons_poi/All-car-poi-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-car-poi-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>146</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Hospitals" id="804">
+      <Priority>9</Priority>
+      <Image usage="hmi">icons_poi/Community-hospital-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Community-hospital-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>31</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Landmarks" id="906">
+      <Priority>10</Priority>
+      <Image usage="hmi">icons_poi/National-importance-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/National-importance-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>144</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Buildings" id="802">
+      <Priority>11</Priority>
+      <Image usage="hmi">icons_poi/Office-building-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Office-building-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>137</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Train Stations" id="702">
+      <Priority>12</Priority>
+      <Image usage="hmi">icons_poi/Railway-station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Railway-station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>25</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Public Transit" id="704">
+      <Priority>13</Priority>
+      <Image usage="hmi">icons_poi/Subway-station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Subway-station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>24</CategoryDbId>
+        <CategoryDbId>26</CategoryDbId>
+        <CategoryDbId>27</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Shopping Centers" id="601">
+      <Priority>14</Priority>
+      <Image usage="hmi">icons_poi/Shopping-center-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Shopping-center-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>39</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="4 Star Hotels" id="502">
+      <Priority>15</Priority>
+      <Image usage="hmi">icons_poi/4-star-hotel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/4-star-hotel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>141</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="5 Star Hotels" id="503">
+      <Priority>15</Priority>
+      <Image usage="hmi">icons_poi/5-star-hotel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/5-star-hotel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>142</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Parking" id="102">
+      <Priority>16</Priority>
+      <Image usage="hmi">icons_poi/All-parking-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-parking-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>6</CategoryDbId>
+        <CategoryDbId>8</CategoryDbId>
+        <CategoryDbId>7</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Economy Motels" id="501">
+      <Priority>17</Priority>
+      <Image usage="hmi">icons_poi/Economy-hotel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Economy-hotel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>13</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Chinese Restaurants" id="104">
+      <Priority>18</Priority>
+      <Image usage="hmi">icons_poi/All-food-beverage-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-food-beverage-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>122</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Restaurants" id="410">
+      <Priority>18</Priority>
+      <Image usage="hmi">icons_poi/All-food-beverage-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-food-beverage-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>34</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Residential Areas" id="801">
+      <Priority>19</Priority>
+      <Image usage="hmi">icons_poi/Apartment-Housing-area-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Apartment-Housing-area-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>140</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Points of Interest" id="905">
+      <Priority>21</Priority>
+      <Image usage="hmi">icons_poi/All-tourist-attraction-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-tourist-attraction-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>53</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Banks and ATMs" id="803">
+      <Priority>22</Priority>
+      <Image usage="hmi">icons_poi/All-bank-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-bank-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>35</CategoryDbId>
+        <CategoryDbId>70</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Police" id="805">
+      <Priority>23</Priority>
+      <Image usage="hmi">icons_poi/Police-station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Police-station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>30</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Universities and institutes" id="807">
+      <Priority>24</Priority>
+      <Image usage="hmi">icons_poi/University-and-institutes-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/University-and-institutes-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>83</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Government and Administration" id="809">
+      <Priority>25</Priority>
+      <Image usage="hmi">icons_poi/Representative-office-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Representative-office-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>75</CategoryDbId>
+        <CategoryDbId>76</CategoryDbId>
+        <CategoryDbId>78</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Mail and Logistics" id="810">
+      <Priority>26</Priority>
+      <Image usage="hmi">icons_poi/Post-office-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Post-office-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>71</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Resort Hotels" id="504">
+      <Priority>27</Priority>
+      <Image usage="hmi">icons_poi/Resort-hotel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Resort-hotel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>129</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Fondue" id="404">
+      <Priority>28</Priority>
+      <Image usage="hmi">icons_poi/Chinese-hotpot-rest-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Chinese-hotpot-rest-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>125</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Barbecue" id="407">
+      <Priority>29</Priority>
+      <Image usage="hmi">icons_poi/Barbecue-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Barbecue-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>128</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Seafood" id="405">
+      <Priority>30</Priority>
+      <Image usage="hmi">icons_poi/Seafood-restaurant-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Seafood-restaurant-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>126</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Western Food" id="403">
+      <Priority>31</Priority>
+      <Image usage="hmi">icons_poi/Western-style-rest-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Western-style-rest-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>124</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Dessert and Bread" id="409">
+      <Priority>31</Priority>
+      <Image usage="hmi">icons_poi/Sweets-shop-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Sweets-shop-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>136</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Museums" id="907">
+      <Priority>32</Priority>
+      <Image usage="hmi">icons_poi/Museum-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Museum-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>57</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Fast Food" id="402">
+      <Priority>33</Priority>
+      <Image usage="hmi">icons_poi/All-fast-food-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-fast-food-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>123</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Coffee and Tea" id="408">
+      <Priority>34</Priority>
+      <Image usage="hmi">icons_poi/All-coffee-tea-shop-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-coffee-tea-shop-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>36</CategoryDbId>
+        <CategoryDbId>147</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Harbors and Ferries" id="705">
+      <Priority>35</Priority>
+      <Image usage="hmi">icons_poi/Ferry-terminal-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Ferry-terminal-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>15</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Supermarkets" id="602">
+      <Priority>36</Priority>
+      <Image usage="hmi">icons_poi/All-supermarket-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-supermarket-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>37</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Computers and Electronics" id="603">
+      <Priority>37</Priority>
+      <Image usage="hmi">icons_poi/All-electronic-store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-electronic-store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>48</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Drugstores and Pharmacies" id="604">
+      <Priority>38</Priority>
+      <Image usage="hmi">icons_poi/All-pharmacy-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-pharmacy-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>33</CategoryDbId>
+        <CategoryDbId>38</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Delis and Markets" id="605">
+      <Priority>39</Priority>
+      <Image usage="hmi">icons_poi/Delis-and-markets-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Delis-and-markets-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>135</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Asian Food" id="406">
+      <Priority>40</Priority>
+      <Image usage="hmi">icons_poi/Food-asia-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Food-asia-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>127</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Optical" id="607">
+      <Priority>41</Priority>
+      <Image usage="hmi">icons_poi/Eyeware-store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Eyeware-store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>131</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Furniture Stores" id="608">
+      <Priority>42</Priority>
+      <Image usage="hmi">icons_poi/Furniture-store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Furniture-store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>41</CategoryDbId>
+        <CategoryDbId>42</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Alcohol and Tobacco" id="609">
+      <Priority>43</Priority>
+      <Image usage="hmi">icons_poi/Cigarette-Liquor-shop-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Cigarette-Liquor-shop-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>132</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Music Stores" id="610">
+      <Priority>44</Priority>
+      <Image usage="hmi">icons_poi/Music-store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Music-store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>133</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Laundromats" id="611">
+      <Priority>45</Priority>
+      <Image usage="hmi">icons_poi/Laundry-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Laundry-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>134</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Sports" id="904">
+      <Priority>46</Priority>
+      <Image usage="hmi">icons_poi/Football-ground-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Football-ground-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>59</CategoryDbId>
+        <CategoryDbId>60</CategoryDbId>
+        <CategoryDbId>61</CategoryDbId>
+        <CategoryDbId>62</CategoryDbId>
+        <CategoryDbId>63</CategoryDbId>
+        <CategoryDbId>64</CategoryDbId>
+        <CategoryDbId>66</CategoryDbId>
+        <CategoryDbId>68</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Movies and Theater" id="902">
+      <Priority>47</Priority>
+      <Image usage="hmi">icons_poi/Cinema-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Cinema-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>54</CategoryDbId>
+        <CategoryDbId>56</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Nightlife and Bars" id="903">
+      <Priority>48</Priority>
+      <Image usage="hmi">icons_poi/Disco-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Disco-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>50</CategoryDbId>
+        <CategoryDbId>51</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Zoos and Parks" id="901">
+      <Priority>49</Priority>
+      <Image usage="hmi">icons_poi/Park-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Park-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>52</CategoryDbId>
+        <CategoryDbId>69</CategoryDbId>
+        <CategoryDbId>116</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Bookstores" id="606">
+      <Priority>50</Priority>
+      <Image usage="hmi">icons_poi/Book-store-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Book-store-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>130</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Bus Stations" id="703">
+      <Priority>52</Priority>
+      <Image usage="hmi">icons_poi/Coach-station-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Coach-station-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>28</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Travel Agencies and Ticket Offices" id="706">
+      <Priority>53</Priority>
+      <Image usage="hmi">icons_poi/Travel-agency-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Travel-agency-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>29</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Car Rentals" id="707">
+      <Priority>54</Priority>
+      <Image usage="hmi">icons_poi/Car-rental-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Car-rental-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>22</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Park and Ride" id="708">
+      <Priority>55</Priority>
+      <Image usage="hmi">icons_poi/Park-and-ride-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Park-and-ride-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>7</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Business facilities" id="806">
+      <Priority>56</Priority>
+      <Image usage="hmi">icons_poi/Business-Facility-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Business-Facility-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>72</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Schools and All-school-educations" id="808">
+      <Priority>57</Priority>
+      <Image usage="hmi">icons_poi/All-school-education-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-school-education-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>82</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Salon and Spa" id="811">
+      <Priority>58</Priority>
+      <Image usage="hmi">icons_poi/All-cosmetics-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-cosmetics-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>138</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Hotels" id="505">
+      <Priority>59</Priority>
+      <Image usage="hmi">icons_poi/All-hotel-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-hotel-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>14</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">49000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">41000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="Public Restrooms" id="812">
+      <Priority>60</Priority>
+      <Image usage="hmi">icons_poi/Public-toilet-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Public-toilet-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>143</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Shopping POIs" id="612">
+      <Priority>62</Priority>
+      <Image usage="hmi">icons_poi/All-shopping-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-shopping-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>40</CategoryDbId>
+        <CategoryDbId>43</CategoryDbId>
+        <CategoryDbId>44</CategoryDbId>
+        <CategoryDbId>46</CategoryDbId>
+        <CategoryDbId>47</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Public Facilities" id="813">
+      <Priority>63</Priority>
+      <Image usage="hmi">icons_poi/Office-building-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Office-building-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>32</CategoryDbId>
+        <CategoryDbId>73</CategoryDbId>
+        <CategoryDbId>74</CategoryDbId>
+        <CategoryDbId>79</CategoryDbId>
+        <CategoryDbId>81</CategoryDbId>
+        <CategoryDbId>84</CategoryDbId>
+        <CategoryDbId>85</CategoryDbId>
+        <CategoryDbId>86</CategoryDbId>
+        <CategoryDbId>88</CategoryDbId>
+        <CategoryDbId>89</CategoryDbId>
+        <CategoryDbId>152</CategoryDbId>
+        <CategoryDbId>153</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="More Entertainment and Sports" id="908">
+      <Priority>64</Priority>
+      <Image usage="hmi">icons_poi/All-entertainment-and-sports-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/All-entertainment-and-sports-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>55</CategoryDbId>
+        <CategoryDbId>80</CategoryDbId>
+        <CategoryDbId>145</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="SpeedCameras" id="909">
+      <Priority>100</Priority>
+      <Image usage="hmi">icons_poi/Speed-camera-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Speed-camera-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>108</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+      <PoiWarn tDelay="20000">
+        <WarnDist type="0" desc="non-controlled-access">100</WarnDist>
+        <WarnDist type="1" desc="motorway">300</WarnDist>
+      </PoiWarn>
+    </PoiCategory>
+    <PoiCategory desc_mct="TrafficLight" id="999">
+      <Priority>100</Priority>
+      <Image usage="hmi">icons_trafficlight/Traffic_Light-06.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_trafficlight/Traffic_Light-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_trafficlight/Traffic_Light_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_trafficlight/Traffic_Light_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.5" anchor_y="1">icons_trafficlight/Traffic_Light-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_trafficlight/Traffic_Light_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_trafficlight/Traffic_Light_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>0</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">29000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">21000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+    <PoiCategory desc_mct="SpeedCamerasOther" id="910">
+      <Priority>101</Priority>
+      <Image usage="hmi">icons_poi/Traffic-camera-HMI.png</Image>
+      <Image usage="base" anchor_x="0.5" anchor_y="1">icons_poi/Traffic-camera-06.png</Image>
+      <Image usage="shadow2D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow2D/POI_Shadow2D-06.png</Image>
+      <Image usage="shadow3D" anchor_x="0.452381" anchor_y="0.904762">icons_poi/Shadow3D/POI_Shadow3D-06.png</Image>
+      <Image usage="stack" anchor_x="0.431818" anchor_y="0.956522">icons_poi/Stacks/POI_Stack-06.png</Image>
+      <Image usage="stack_shadow2D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow2D-06.png</Image>
+      <Image usage="stack_shadow3D" anchor_x="0.395833" anchor_y="0.88">icons_poi/Stacks/POI_Stack_Shadow3D-06.png</Image>
+      <DatabaseMapping>
+        <CategoryDbId>117</CategoryDbId>
+      </DatabaseMapping>
+      <ScaleLevelVisibility>
+        <ScaleLevelValue type="min">10</ScaleLevelValue>
+        <ScaleLevelValue type="max">59000</ScaleLevelValue>
+        <ScaleLevelValue type="fade">51000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+    </PoiCategory>
+  </PoiCategoryDefinition>
+  <PersonalPoiCategoryDefinition />
+</PoiConfiguration>

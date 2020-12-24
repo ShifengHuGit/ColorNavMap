@@ -1,0 +1,66 @@
+<!--
+   Description:
+
+      The <MapGeneralConfiguration> contains different parameters that are essential for the map display.
+
+      <BackgroundColor>
+         With this tag is possible to configure the background color of the map display.
+         Each color is represented within a <Color> tag.
+
+            <Color>
+               The "mode" attribute specifies in which cases the color should be used. Possible values are "day" and "night".
+               The value within the <Color> tag represents the color in the format #RRGGBBAA.
+
+      <View>
+         The view tag configures the behavior of the bird view. Hence, "bird" is the only valid value for the "type" attribute.
+         The <CameraTiltAngleSLF> tag contains the reference number to the scale level function defined within the
+         /zoom/ScaleLevelFunctionConfiguration.xml file. This scale level funtion describes the change of the camera tilt angle
+         during zoom.
+
+       <Viewport>
+           Coordinates of the lower left corner of the viewport and the corresponding width and height. All values default to zero.
+           If width or height is set to zero, it will be set to width or height of the containing window (display).
+
+      <Viewpadding>
+         Sets a pixel offset around the view border.
+         Currently used to allow a spacing between the maneuver arrow and the detail view window.
+
+         Possible children: left, right, top, bottom
+
+      <CarsorSize>
+         Carsor size on the screen in pixel.
+
+-->
+
+<MapGeneralConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="../../../../xsd/nav/map/ViewConfiguration.xsd" version="2">
+
+
+   <BackgroundColor>
+      <Color mode="day">#424242F5</Color>
+      <Color mode="night">#424242F5</Color>
+   </BackgroundColor>
+
+
+   <View type="bird">
+      <CameraTiltAngleSLF>1</CameraTiltAngleSLF>
+   </View>
+
+   <Viewport>
+      <x>0</x>
+      <y>0</y>
+      <width>320</width>
+      <height>275</height>
+   </Viewport>
+
+   <Viewpadding>
+      <!-- units: pixel -->
+      <left>20</left>
+      <right>20</right>
+      <top>50</top>
+      <bottom>40</bottom>
+   </Viewpadding>
+
+   <CarsorSize>5.0</CarsorSize>
+
+</MapGeneralConfiguration>

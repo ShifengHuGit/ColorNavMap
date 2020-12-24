@@ -1,0 +1,37 @@
+<IslandConfig version="1">
+   <Island id="1">
+
+<!-- scale level visibility control.
+     currently, island points are stored as BMD_POINT in the map.   however,
+     there are many more other point types which are stored as BMD_POINT types
+     at details levels higher than 5.  thus, do not display island points at
+     levels higher than 5. -->
+      <ScaleLevelVisibility>
+         <ScaleLevelValue type="min">  3000000</ScaleLevelValue>
+         <ScaleLevelValue type="max"> 60000000</ScaleLevelValue>
+         <ScaleLevelValue type="fade">60000000</ScaleLevelValue>
+      </ScaleLevelVisibility>
+
+<!-- the anchor defines the point at which
+     the label will be placed.  a value of 0 means left/bottom of the text,
+     a value of 1 means right/top of the text.  0.5|0.5 means center of the text
+     the default value is 0.0|0.0.
+-->
+      <Anchor>0.5|0.5</Anchor>
+
+<!-- vertical placement offset by which the text will be moved relative to the
+     positioning point.  the default value is 0.0. -->
+      <TextOffset>0.0</TextOffset>
+
+<!-- optional image to be displayed at the island point.
+     if no image is specified only the text label will be displayed.  this is
+     the default behavior.
+      <Image usage="base"     anchor_x="0.0" anchor_y="0.0">icons_islands/island_img.png</Image>
+-->
+
+<!-- the fonts to be used for island name text display -->
+       <FontVariantRef mode="day">7</FontVariantRef>
+       <FontVariantRef mode="night">6</FontVariantRef>
+
+   </Island>
+</IslandConfig>

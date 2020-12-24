@@ -1,0 +1,50 @@
+<DatabaseLanguageMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/DatabaseLanguageMapping.xsd" version="1">
+   <!-- HMI Sprache zu DB Sprache Mapping, jeder HMI Sprache kann eine oder mehrere DB Sprachen zugeordnet werden -->
+   <!-- Dabei kann zu jeder DB Sprache auch ein Fallback definiert werden -->
+   <!-- Jeder HMI Sprache kann hier auch ein  Thesaurus Mapping Sprache zugeordnet werden, diese Thesaurussprache dient zur vervollstaendigung des Thesaurus Pfades -->
+   <!-- Es duerfen NUR Sprachen definiert werden, zu denen auch eine POI-Sprache-Konfiguration (LangPoiConfig.xml) existiert!!!! -->
+   <HmiLanguageMappingDefinitions>
+      <!-- Default language definition must be presented! -->
+      <LanguageDefinition id="default">
+         <!-- Hmi language Id -->
+         <HmiLanguageId>en_US</HmiLanguageId>
+         <!-- mapping to a db language/-s -->
+         <DbLanguageIds>
+            <DbLanguageId>en_US</DbLanguageId>
+         </DbLanguageIds>
+         <!-- the config sub-folder contains LangPoiConfig.xml -->
+         <ThesaurusLanguageId>en_US</ThesaurusLanguageId>
+         <!-- a db lang code and its fall back. ATTENTION the fallback must exist !!-->
+         <FallbackLanguageId>en_US</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="en_us">
+         <!-- Hmi language Id -->
+         <HmiLanguageId>en_US</HmiLanguageId>
+         <!-- mapping to a db language/-s -->
+         <DbLanguageIds>
+            <DbLanguageId>en_US</DbLanguageId>
+         </DbLanguageIds>
+         <!-- the config sub-folder contains LangPoiConfig.xml -->
+         <ThesaurusLanguageId>en_US</ThesaurusLanguageId>
+         <!-- a db lang code and its fall back. ATTENTION the fallback must exist !!-->
+         <FallbackLanguageId>en_US</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="cn">
+         <HmiLanguageId>zh_CN</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>zh_Hans_CN</DbLanguageId>
+            <!-- DbCode:31 - simple chinese - Han (Simplified variant) -->
+         </DbLanguageIds>
+         <ThesaurusLanguageId>zh_CN</ThesaurusLanguageId>
+         <FallbackLanguageId>en_US</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="hk">
+         <HmiLanguageId>zh_HK</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>yue_Hant_CHN</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>zh_HK</ThesaurusLanguageId>
+         <FallbackLanguageId>en_US</FallbackLanguageId>
+      </LanguageDefinition>
+   </HmiLanguageMappingDefinitions>
+</DatabaseLanguageMapping>

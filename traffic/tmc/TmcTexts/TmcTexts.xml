@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TmcConfig>
+  <locale code="en_US" unit_system="UNITS_METRIC">
+    <tmc_event event_code="101">
+      <short_text>%l stationary traffic</short_text>
+      <long_text>%l stationary traffic</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%s queuing traffic</short_text>
+      <long_text>queuing traffic (with average speeds %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>traffic flowing freely</short_text>
+      <long_text>traffic flowing freely (with average speeds %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>%s accident(s)</short_text>
+      <long_text>%s accident(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>chemical spillage</short_text>
+      <long_text>%s chemical spillage accident(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>vehicle fire(s)</short_text>
+      <long_text>%s vehicle fire(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>entry restriction</short_text>
+      <long_text>(%s th) entry slip road closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>exit restriction</short_text>
+      <long_text>(%s th) exit slip road closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>slip road restrictions</short_text>
+      <long_text>slip road restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>no motor vehicles</short_text>
+      <long_text>no motor vehicles</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>restrictions</short_text>
+      <long_text>restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>two lanes closed</short_text>
+      <long_text>two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>narrow lanes</short_text>
+      <long_text>three lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>one lane closed</short_text>
+      <long_text>one lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) roadworks</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) maintenance work </long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>bridge maintenance work</short_text>
+      <long_text>bridge maintenance work (at %s bridges)</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>closures</short_text>
+      <long_text>closed due to (%s sets of) roadworks</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>narrow lanes</short_text>
+      <long_text>(%s sets of) roadworks. Two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) water main work</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>gas main work</short_text>
+      <long_text>(%s sets of) gas main work </long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>flooding</short_text>
+      <long_text>flooding</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>landslips</short_text>
+      <long_text>landslips</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>earthquake damage </short_text>
+      <long_text>earthquake damage </long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>subsidence</short_text>
+      <long_text>subsidence</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>gas leak</short_text>
+      <long_text>gas leak</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>serious fire</short_text>
+      <long_text>serious fire</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>animals on roadway</short_text>
+      <long_text>animals on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>ice build-up</short_text>
+      <long_text>ice build-up</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>mud slide</short_text>
+      <long_text>mud slide</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>blocked by obstruction(s)</short_text>
+      <long_text>blocked by %s obstruction(s) on the road</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>blocked due to spillage</short_text>
+      <long_text>blocked due to spillage on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>snowfall</short_text>
+      <long_text>packed snow (above Q hundred metres)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>oil on road</short_text>
+      <long_text>oil on road</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>snowfall</short_text>
+      <long_text>heavy snowfall %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>snowfall</short_text>
+      <long_text>snowfall %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>snowfall</short_text>
+      <long_text>hail (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>visibility reduced</short_text>
+      <long_text>thunderstorms (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>heavy rain %s</short_text>
+      <long_text>heavy rain %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>rain %s</short_text>
+      <long_text>rain %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>heavy rain</short_text>
+      <long_text>(%s probability of) heavy rain</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>strong winds</short_text>
+      <long_text>hurricane force winds %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>gales %s</short_text>
+      <long_text>gales %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>fog</short_text>
+      <long_text>fog (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>visibility reduced</short_text>
+      <long_text>blowing dust (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>visibility reduced</short_text>
+      <long_text>sandstorms (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>dangerous situation</short_text>
+      <long_text>people on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>major event</short_text>
+      <long_text>major event</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>festival</short_text>
+      <long_text>festival</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>exhibition</short_text>
+      <long_text>exhibition</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>obstruction hazard</short_text>
+      <long_text>spillage occurring from moving vehicle</long_text>
+    </tmc_event>
+    <tmc_event event_code="1">
+      <short_text>1</short_text>
+      <long_text>1</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>11</short_text>
+      <long_text>11</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>61</short_text>
+      <long_text>61</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>62</short_text>
+      <long_text>62</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>138</short_text>
+      <long_text>138</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>202</short_text>
+      <long_text>202</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>210</short_text>
+      <long_text>210</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>211</short_text>
+      <long_text>211</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>397</short_text>
+      <long_text>397</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>500</short_text>
+      <long_text>500</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>501</short_text>
+      <long_text>501</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>503</short_text>
+      <long_text>503</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>517</short_text>
+      <long_text>517</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>518</short_text>
+      <long_text>518</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>702</short_text>
+      <long_text>702</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>804</short_text>
+      <long_text>804</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>913</short_text>
+      <long_text>913</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>938</short_text>
+      <long_text>938</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>947</short_text>
+      <long_text>947</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>1001</short_text>
+      <long_text>1001</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>1002</short_text>
+      <long_text>1002</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>1003</short_text>
+      <long_text>1003</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>1018</short_text>
+      <long_text>1018</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>1033</short_text>
+      <long_text>1033</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>1035</short_text>
+      <long_text>1035</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>1056</short_text>
+      <long_text>1056</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>1130</short_text>
+      <long_text>1130</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>1132</short_text>
+      <long_text>1132</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>1205</short_text>
+      <long_text>1205</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>1318</short_text>
+      <long_text>1318</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>1332</short_text>
+      <long_text>1332</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>1477</short_text>
+      <long_text>1477</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>1502</short_text>
+      <long_text>1502</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>1506</short_text>
+      <long_text>1506</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>1515</short_text>
+      <long_text>1515</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>1596</short_text>
+      <long_text>1596</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>1601</short_text>
+      <long_text>1601</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>1637</short_text>
+      <long_text>1637</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>1700</short_text>
+      <long_text>1700</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>1701</short_text>
+      <long_text>1701</long_text>
+    </tmc_event>
+  </locale>
+  <locale code="en_US" unit_system="UNITS_IMPERIAL">
+    <tmc_event event_code="101">
+      <short_text>%l stationary traffic</short_text>
+      <long_text>%l stationary traffic</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%s queuing traffic</short_text>
+      <long_text>queuing traffic (with average speeds %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>traffic flowing freely</short_text>
+      <long_text>traffic flowing freely (with average speeds %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>%s accident(s)</short_text>
+      <long_text>%s accident(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>accident</short_text>
+      <long_text>%s chemical spillage accident(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>accident</short_text>
+      <long_text>%s vehicle fire(s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>entry restriction</short_text>
+      <long_text>(%s th) entry slip road closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>exit restriction</short_text>
+      <long_text>(%s th) exit slip road closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>slip road restrictions</short_text>
+      <long_text>slip road restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>no motor vehicles</short_text>
+      <long_text>no motor vehicles</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>restrictions</short_text>
+      <long_text>restrictions</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>two lanes closed</short_text>
+      <long_text>two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>narrow lanes</short_text>
+      <long_text>three lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>one lane closed</short_text>
+      <long_text>one lane closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) roadworks</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) maintenance work </long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>roadworks</short_text>
+      <long_text>bridge maintenance work (at %s bridges)</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>closures</short_text>
+      <long_text>closed due to (%s sets of) roadworks</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>narrow lanes</short_text>
+      <long_text>(%s sets of) roadworks. Two lanes closed</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>roadworks</short_text>
+      <long_text>(%s sets of) water main work</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>gas main work</short_text>
+      <long_text>(%s sets of) gas main work </long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>flooding</short_text>
+      <long_text>flooding</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>landslips</short_text>
+      <long_text>landslips</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>earthquake damage </short_text>
+      <long_text>earthquake damage </long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>subsidence</short_text>
+      <long_text>subsidence</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>gas leak</short_text>
+      <long_text>gas leak</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>serious fire</short_text>
+      <long_text>serious fire</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>dangerous situation</short_text>
+      <long_text>animals on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>ice build-up</short_text>
+      <long_text>ice build-up</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>mud slide</short_text>
+      <long_text>mud slide</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>closures</short_text>
+      <long_text>blocked by %s obstruction(s) on the road</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>closures</short_text>
+      <long_text>blocked due to spillage on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>snowfall</short_text>
+      <long_text>packed snow (above %s hundred metres)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>oil on road</short_text>
+      <long_text>oil on road</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>snowfall</short_text>
+      <long_text>heavy snowfall %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>snowfall</short_text>
+      <long_text>snowfall %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>snowfall</short_text>
+      <long_text>hail (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>visibility reduced</short_text>
+      <long_text>thunderstorms (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>heavy rain %s</short_text>
+      <long_text>heavy rain %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>rain %s</short_text>
+      <long_text>rain %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>heavy rain</short_text>
+      <long_text>(%s probability of) heavy rain</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>strong winds</short_text>
+      <long_text>hurricane force winds %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>gales %s</short_text>
+      <long_text>gales %s</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>fog</short_text>
+      <long_text>fog (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>visibility reduced</short_text>
+      <long_text>blowing dust (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>visibility reduced</short_text>
+      <long_text>sandstorms (visibility reduced to %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>dangerous situation</short_text>
+      <long_text>people on roadway</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>major event</short_text>
+      <long_text>major event</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>festival</short_text>
+      <long_text>festival</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>exhibition</short_text>
+      <long_text>exhibition</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>obstruction hazard</short_text>
+      <long_text>spillage occurring from moving vehicle</long_text>
+    </tmc_event>
+    <tmc_event event_code="1">
+      <short_text>1</short_text>
+      <long_text>1</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>11</short_text>
+      <long_text>11</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>61</short_text>
+      <long_text>61</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>62</short_text>
+      <long_text>62</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>138</short_text>
+      <long_text>138</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>202</short_text>
+      <long_text>202</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>210</short_text>
+      <long_text>210</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>211</short_text>
+      <long_text>211</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>397</short_text>
+      <long_text>397</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>500</short_text>
+      <long_text>500</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>501</short_text>
+      <long_text>501</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>503</short_text>
+      <long_text>503</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>517</short_text>
+      <long_text>517</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>518</short_text>
+      <long_text>518</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>702</short_text>
+      <long_text>702</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>804</short_text>
+      <long_text>804</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>913</short_text>
+      <long_text>913</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>938</short_text>
+      <long_text>938</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>947</short_text>
+      <long_text>947</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>1001</short_text>
+      <long_text>1001</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>1002</short_text>
+      <long_text>1002</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>1003</short_text>
+      <long_text>1003</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>1018</short_text>
+      <long_text>1018</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>1033</short_text>
+      <long_text>1033</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>1035</short_text>
+      <long_text>1035</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>1056</short_text>
+      <long_text>1056</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>1130</short_text>
+      <long_text>1130</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>1132</short_text>
+      <long_text>1132</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>1205</short_text>
+      <long_text>1205</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>1318</short_text>
+      <long_text>1318</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>1332</short_text>
+      <long_text>1332</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>1477</short_text>
+      <long_text>1477</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>1502</short_text>
+      <long_text>1502</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>1506</short_text>
+      <long_text>1506</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>1515</short_text>
+      <long_text>1515</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>1596</short_text>
+      <long_text>1596</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>1601</short_text>
+      <long_text>1601</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>1637</short_text>
+      <long_text>1637</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>1700</short_text>
+      <long_text>1700</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>1701</short_text>
+      <long_text>1701</long_text>
+    </tmc_event>
+  </locale>
+  <locale code="zh_CN" unit_system="UNITS_METRIC">
+    <tmc_event event_code="101">
+      <short_text>%l 交通拥堵</short_text>
+      <long_text>%l 交通拥堵</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%s 交通缓慢</short_text>
+      <long_text>%s 交通缓慢</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>交通畅通</short_text>
+      <long_text>交通畅通</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>事故</short_text>
+      <long_text>(%s 起)事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>化学品溢出</short_text>
+      <long_text>(%s 起)化学制品溢出事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>车辆着火</short_text>
+      <long_text>(%s 起)车辆着火</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>入口限制</short_text>
+      <long_text>(%s 第)入口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>出口限制</short_text>
+      <long_text>(%s 第)出口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>匝道限制</short_text>
+      <long_text>匝道限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>无机动车</short_text>
+      <long_text>禁止机动车通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>限制</short_text>
+      <long_text>限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>车道限制</short_text>
+      <long_text>2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>车道限制</short_text>
+      <long_text>3 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>车道限制</short_text>
+      <long_text>1 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路养护</long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>桥梁养护施工</short_text>
+      <long_text>(%s 座)桥梁养护施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>道路施工关闭</short_text>
+      <long_text>因(%s 起)道路施工关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路施工。2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)总水管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)煤气总管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>洪水</short_text>
+      <long_text>洪水</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>山体滑坡</short_text>
+      <long_text>塌方</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>地震破坏</short_text>
+      <long_text>地震破坏</long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>沉陷</short_text>
+      <long_text>沉陷</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>煤气泄漏</short_text>
+      <long_text>煤气泄漏</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>严重火灾</short_text>
+      <long_text>严重火灾</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>车行道上有动物</short_text>
+      <long_text>车行道上有动物</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>积冰</short_text>
+      <long_text>积冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>泥石流</short_text>
+      <long_text>泥石流</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>路障阻塞</short_text>
+      <long_text>受道路上障碍物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>散落物阻塞</short_text>
+      <long_text>受道路上散落物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>积雪</short_text>
+      <long_text>积雪(%s 百米以上)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>路上有机油</short_text>
+      <long_text>路上有机油</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>强降雪</short_text>
+      <long_text>强降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>降雪</short_text>
+      <long_text>降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>冰雹</short_text>
+      <long_text>冰雹(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>雷雨</short_text>
+      <long_text>雷雨(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>强降雨</short_text>
+      <long_text>强降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>降雨</short_text>
+      <long_text>降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>大雨</short_text>
+      <long_text>大雨(可能性 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>飓风</short_text>
+      <long_text>飓风(%s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>大风</short_text>
+      <long_text>大风(%s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>雾</short_text>
+      <long_text>雾(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>风尘</short_text>
+      <long_text>风尘(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>沙暴</short_text>
+      <long_text>沙暴(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>车道有人</short_text>
+      <long_text>车道上有人</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>重大事件</short_text>
+      <long_text>重大事件</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>节日</short_text>
+      <long_text>节日</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>展览</short_text>
+      <long_text>展览</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>散落物</short_text>
+      <long_text>从行驶车辆上泄漏散落物</long_text>
+    </tmc_event>
+    <tmc_event event_code="1">
+      <short_text>1</short_text>
+      <long_text>1</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>11</short_text>
+      <long_text>11</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>61</short_text>
+      <long_text>61</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>62</short_text>
+      <long_text>62</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>138</short_text>
+      <long_text>138</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>202</short_text>
+      <long_text>202</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>210</short_text>
+      <long_text>210</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>211</short_text>
+      <long_text>211</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>397</short_text>
+      <long_text>397</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>500</short_text>
+      <long_text>500</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>501</short_text>
+      <long_text>501</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>503</short_text>
+      <long_text>503</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>517</short_text>
+      <long_text>517</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>518</short_text>
+      <long_text>518</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>702</short_text>
+      <long_text>702</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>804</short_text>
+      <long_text>804</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>913</short_text>
+      <long_text>913</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>938</short_text>
+      <long_text>938</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>947</short_text>
+      <long_text>947</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>1001</short_text>
+      <long_text>1001</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>1002</short_text>
+      <long_text>1002</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>1003</short_text>
+      <long_text>1003</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>1018</short_text>
+      <long_text>1018</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>1033</short_text>
+      <long_text>1033</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>1035</short_text>
+      <long_text>1035</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>1056</short_text>
+      <long_text>1056</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>1130</short_text>
+      <long_text>1130</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>1132</short_text>
+      <long_text>1132</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>1205</short_text>
+      <long_text>1205</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>1318</short_text>
+      <long_text>1318</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>1332</short_text>
+      <long_text>1332</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>1477</short_text>
+      <long_text>1477</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>1502</short_text>
+      <long_text>1502</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>1506</short_text>
+      <long_text>1506</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>1515</short_text>
+      <long_text>1515</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>1596</short_text>
+      <long_text>1596</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>1601</short_text>
+      <long_text>1601</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>1637</short_text>
+      <long_text>1637</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>1700</short_text>
+      <long_text>1700</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>1701</short_text>
+      <long_text>1701</long_text>
+    </tmc_event>
+  </locale>
+  <locale code="zh_CN" unit_system="UNITS_IMPERIAL">
+    <tmc_event event_code="101">
+      <short_text>%l 交通拥堵</short_text>
+      <long_text>%l 交通拥堵</long_text>
+    </tmc_event>
+    <tmc_event event_code="108">
+      <short_text>%s 交通缓慢</short_text>
+      <long_text>%s 交通缓慢</long_text>
+    </tmc_event>
+    <tmc_event event_code="124">
+      <short_text>交通畅通</short_text>
+      <long_text>交通畅通</long_text>
+    </tmc_event>
+    <tmc_event event_code="201">
+      <short_text>事故</short_text>
+      <long_text>(%s 起)事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="207">
+      <short_text>化学品溢出</short_text>
+      <long_text>(%s 起)化学制品溢出事故</long_text>
+    </tmc_event>
+    <tmc_event event_code="213">
+      <short_text>车辆着火</short_text>
+      <long_text>(%s 起)车辆着火</long_text>
+    </tmc_event>
+    <tmc_event event_code="406">
+      <short_text>入口限制</short_text>
+      <long_text>(%s 第)入口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="407">
+      <short_text>出口限制</short_text>
+      <long_text>(%s 第)出口匝道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="409">
+      <short_text>匝道限制</short_text>
+      <long_text>匝道限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="492">
+      <short_text>无机动车</short_text>
+      <long_text>禁止机动车通行</long_text>
+    </tmc_event>
+    <tmc_event event_code="493">
+      <short_text>限制</short_text>
+      <long_text>限制</long_text>
+    </tmc_event>
+    <tmc_event event_code="505">
+      <short_text>车道限制</short_text>
+      <long_text>2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="506">
+      <short_text>车道限制</short_text>
+      <long_text>3 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="641">
+      <short_text>车道限制</short_text>
+      <long_text>1 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="701">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="703">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路养护</long_text>
+    </tmc_event>
+    <tmc_event event_code="707">
+      <short_text>桥梁养护施工</short_text>
+      <long_text>(%s 座)桥梁养护施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="735">
+      <short_text>道路施工关闭</short_text>
+      <long_text>因(%s 起)道路施工关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="740">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)道路施工。2 条车道关闭</long_text>
+    </tmc_event>
+    <tmc_event event_code="806">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)总水管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="807">
+      <short_text>道路施工</short_text>
+      <long_text>(%s 组)煤气总管施工</long_text>
+    </tmc_event>
+    <tmc_event event_code="907">
+      <short_text>洪水</short_text>
+      <long_text>洪水</long_text>
+    </tmc_event>
+    <tmc_event event_code="914">
+      <short_text>山体滑坡</short_text>
+      <long_text>塌方</long_text>
+    </tmc_event>
+    <tmc_event event_code="915">
+      <short_text>地震破坏</short_text>
+      <long_text>地震破坏</long_text>
+    </tmc_event>
+    <tmc_event event_code="917">
+      <short_text>沉陷</short_text>
+      <long_text>沉陷</long_text>
+    </tmc_event>
+    <tmc_event event_code="920">
+      <short_text>煤气泄漏</short_text>
+      <long_text>煤气泄漏</long_text>
+    </tmc_event>
+    <tmc_event event_code="921">
+      <short_text>严重火灾</short_text>
+      <long_text>严重火灾</long_text>
+    </tmc_event>
+    <tmc_event event_code="922">
+      <short_text>车行道上有动物</short_text>
+      <long_text>车行道上有动物</long_text>
+    </tmc_event>
+    <tmc_event event_code="975">
+      <short_text>积冰</short_text>
+      <long_text>积冰</long_text>
+    </tmc_event>
+    <tmc_event event_code="976">
+      <short_text>泥石流</short_text>
+      <long_text>泥石流</long_text>
+    </tmc_event>
+    <tmc_event event_code="980">
+      <short_text>路障阻塞</short_text>
+      <long_text>受道路上障碍物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="982">
+      <short_text>散落物阻塞</short_text>
+      <long_text>受道路上散落物阻塞</long_text>
+    </tmc_event>
+    <tmc_event event_code="1013">
+      <short_text>积雪</short_text>
+      <long_text>积雪(%s 百米以上)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1044">
+      <short_text>路上有机油</short_text>
+      <long_text>路上有机油</long_text>
+    </tmc_event>
+    <tmc_event event_code="1101">
+      <short_text>强降雪</short_text>
+      <long_text>强降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1104">
+      <short_text>降雪</short_text>
+      <long_text>降雪</long_text>
+    </tmc_event>
+    <tmc_event event_code="1106">
+      <short_text>冰雹</short_text>
+      <long_text>冰雹(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1108">
+      <short_text>雷雨</short_text>
+      <long_text>雷雨(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1109">
+      <short_text>强降雨</short_text>
+      <long_text>强降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1112">
+      <short_text>降雨</short_text>
+      <long_text>降雨</long_text>
+    </tmc_event>
+    <tmc_event event_code="1156">
+      <short_text>大雨</short_text>
+      <long_text>大雨(可能性 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1202">
+      <short_text>飓风</short_text>
+      <long_text>飓风(%s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1203">
+      <short_text>大风</short_text>
+      <long_text>大风(%s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1304">
+      <short_text>雾</short_text>
+      <long_text>雾(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1310">
+      <short_text>风尘</short_text>
+      <long_text>风尘(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1326">
+      <short_text>沙暴</short_text>
+      <long_text>沙暴(能见度减至 %s)</long_text>
+    </tmc_event>
+    <tmc_event event_code="1472">
+      <short_text>车道有人</short_text>
+      <long_text>车道上有人</long_text>
+    </tmc_event>
+    <tmc_event event_code="1501">
+      <short_text>重大事件</short_text>
+      <long_text>重大事件</long_text>
+    </tmc_event>
+    <tmc_event event_code="1504">
+      <short_text>节日</short_text>
+      <long_text>节日</long_text>
+    </tmc_event>
+    <tmc_event event_code="1505">
+      <short_text>展览</short_text>
+      <long_text>展览</long_text>
+    </tmc_event>
+    <tmc_event event_code="1709">
+      <short_text>散落物</short_text>
+      <long_text>从行驶车辆上泄漏散落物</long_text>
+    </tmc_event>
+    <tmc_event event_code="1">
+      <short_text>1</short_text>
+      <long_text>1</long_text>
+    </tmc_event>
+    <tmc_event event_code="11">
+      <short_text>11</short_text>
+      <long_text>11</long_text>
+    </tmc_event>
+    <tmc_event event_code="61">
+      <short_text>61</short_text>
+      <long_text>61</long_text>
+    </tmc_event>
+    <tmc_event event_code="62">
+      <short_text>62</short_text>
+      <long_text>62</long_text>
+    </tmc_event>
+    <tmc_event event_code="138">
+      <short_text>138</short_text>
+      <long_text>138</long_text>
+    </tmc_event>
+    <tmc_event event_code="202">
+      <short_text>202</short_text>
+      <long_text>202</long_text>
+    </tmc_event>
+    <tmc_event event_code="210">
+      <short_text>210</short_text>
+      <long_text>210</long_text>
+    </tmc_event>
+    <tmc_event event_code="211">
+      <short_text>211</short_text>
+      <long_text>211</long_text>
+    </tmc_event>
+    <tmc_event event_code="397">
+      <short_text>397</short_text>
+      <long_text>397</long_text>
+    </tmc_event>
+    <tmc_event event_code="500">
+      <short_text>500</short_text>
+      <long_text>500</long_text>
+    </tmc_event>
+    <tmc_event event_code="501">
+      <short_text>501</short_text>
+      <long_text>501</long_text>
+    </tmc_event>
+    <tmc_event event_code="503">
+      <short_text>503</short_text>
+      <long_text>503</long_text>
+    </tmc_event>
+    <tmc_event event_code="517">
+      <short_text>517</short_text>
+      <long_text>517</long_text>
+    </tmc_event>
+    <tmc_event event_code="518">
+      <short_text>518</short_text>
+      <long_text>518</long_text>
+    </tmc_event>
+    <tmc_event event_code="702">
+      <short_text>702</short_text>
+      <long_text>702</long_text>
+    </tmc_event>
+    <tmc_event event_code="804">
+      <short_text>804</short_text>
+      <long_text>804</long_text>
+    </tmc_event>
+    <tmc_event event_code="913">
+      <short_text>913</short_text>
+      <long_text>913</long_text>
+    </tmc_event>
+    <tmc_event event_code="938">
+      <short_text>938</short_text>
+      <long_text>938</long_text>
+    </tmc_event>
+    <tmc_event event_code="947">
+      <short_text>947</short_text>
+      <long_text>947</long_text>
+    </tmc_event>
+    <tmc_event event_code="1001">
+      <short_text>1001</short_text>
+      <long_text>1001</long_text>
+    </tmc_event>
+    <tmc_event event_code="1002">
+      <short_text>1002</short_text>
+      <long_text>1002</long_text>
+    </tmc_event>
+    <tmc_event event_code="1003">
+      <short_text>1003</short_text>
+      <long_text>1003</long_text>
+    </tmc_event>
+    <tmc_event event_code="1018">
+      <short_text>1018</short_text>
+      <long_text>1018</long_text>
+    </tmc_event>
+    <tmc_event event_code="1033">
+      <short_text>1033</short_text>
+      <long_text>1033</long_text>
+    </tmc_event>
+    <tmc_event event_code="1035">
+      <short_text>1035</short_text>
+      <long_text>1035</long_text>
+    </tmc_event>
+    <tmc_event event_code="1056">
+      <short_text>1056</short_text>
+      <long_text>1056</long_text>
+    </tmc_event>
+    <tmc_event event_code="1130">
+      <short_text>1130</short_text>
+      <long_text>1130</long_text>
+    </tmc_event>
+    <tmc_event event_code="1132">
+      <short_text>1132</short_text>
+      <long_text>1132</long_text>
+    </tmc_event>
+    <tmc_event event_code="1205">
+      <short_text>1205</short_text>
+      <long_text>1205</long_text>
+    </tmc_event>
+    <tmc_event event_code="1318">
+      <short_text>1318</short_text>
+      <long_text>1318</long_text>
+    </tmc_event>
+    <tmc_event event_code="1332">
+      <short_text>1332</short_text>
+      <long_text>1332</long_text>
+    </tmc_event>
+    <tmc_event event_code="1477">
+      <short_text>1477</short_text>
+      <long_text>1477</long_text>
+    </tmc_event>
+    <tmc_event event_code="1502">
+      <short_text>1502</short_text>
+      <long_text>1502</long_text>
+    </tmc_event>
+    <tmc_event event_code="1506">
+      <short_text>1506</short_text>
+      <long_text>1506</long_text>
+    </tmc_event>
+    <tmc_event event_code="1515">
+      <short_text>1515</short_text>
+      <long_text>1515</long_text>
+    </tmc_event>
+    <tmc_event event_code="1596">
+      <short_text>1596</short_text>
+      <long_text>1596</long_text>
+    </tmc_event>
+    <tmc_event event_code="1601">
+      <short_text>1601</short_text>
+      <long_text>1601</long_text>
+    </tmc_event>
+    <tmc_event event_code="1637">
+      <short_text>1637</short_text>
+      <long_text>1637</long_text>
+    </tmc_event>
+    <tmc_event event_code="1700">
+      <short_text>1700</short_text>
+      <long_text>1700</long_text>
+    </tmc_event>
+    <tmc_event event_code="1701">
+      <short_text>1701</short_text>
+      <long_text>1701</long_text>
+    </tmc_event>
+  </locale>
+</TmcConfig>

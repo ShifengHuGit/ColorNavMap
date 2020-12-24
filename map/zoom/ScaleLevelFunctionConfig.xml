@@ -1,0 +1,133 @@
+<ScaleLevelFunctionConfiguration version="8">
+   <!--
+      Description:
+         Many parts of the map display component are allowed to change their appearence
+         depending on the current selected scale level. For example, the width of the drawn
+         lines or the tilt angle of the bird view camera.
+
+         For such cases a function can be defined slf(x) where x is the scale level.
+
+         The system will read all of this SLF's and keep them in memory. Other configuration
+         parts need to reference these scale level functions over their "id" attribute. Whenever
+         no reference id is given a constant value of 1 will be assumed.
+
+         When the scale level in the application changes (abrupt or smooth) the SLF will automatically
+         interpolate between the specified values. For scale levels out of the specified values, the minimum
+         or maximum will be used.
+
+         <ScaleLevelFunction>
+            attribute "id" :             identifies the scale level function system wide
+            attribute "interpolation" :  set the method which shall be used for interpolation. until date
+                                         only "linear" for linear interpolation is supported.
+            attribute "desc" :           a short description show the usage of the slf
+
+            <Node>
+               Defines a supporting point for the function where the attribute "scaleLevelValue" refers
+               to the values configurated in the ZoomLevelConfiguration. The value of each <Node> tag will
+               used for interpolation.
+            </Node>
+
+         </ScaleLevelFunction>
+   -->
+   <ScaleLevelFunction id="0" interpolation="linear" desc="constant">
+      <Node scaleLevelValue =   "1"> 1 </Node>
+   </ScaleLevelFunction>
+
+   <ScaleLevelFunction id="1" interpolation="linear" desc="bird view camera tilt angle in degree">
+      <Node scaleLevelValue =   "1000">  59.9 </Node><!--59.9-->
+      <Node scaleLevelValue =  "50000">  59.9 </Node><!--59.9-->
+      <Node scaleLevelValue =  "75000">  60 </Node><!--60-->
+      <Node scaleLevelValue = "100000">  60.1 </Node><!--60.1-->
+   </ScaleLevelFunction>
+
+   <ScaleLevelFunction id="100" interpolation="linear" desc="sample street thickness scaling will be multiplied with the configurated line thickness (in pixels).">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "50000"> 0.30 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+
+   <ScaleLevelFunction id="101" interpolation="linear" desc="Will be used for ISM road width configuration">
+      <Node scaleLevelValue =     "3000"> 4.00 </Node>
+      <Node scaleLevelValue =    "20000"> 2.00 </Node>
+      <Node scaleLevelValue =    "50000"> 1.20 </Node>
+      <Node scaleLevelValue = "60000000"> 0.20 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="102" interpolation="linear" desc="Minor roads street thickness">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =     "5000"> 0.90 </Node>
+      <Node scaleLevelValue =     "7500"> 0.70 </Node>
+      <Node scaleLevelValue =    "10000"> 0.60 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "40000"> 0.30 </Node>
+      <Node scaleLevelValue =    "50000"> 0.25 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="103" interpolation="linear" desc="Major roads street thickness">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =     "5000"> 0.90 </Node>
+      <Node scaleLevelValue =     "7500"> 0.70 </Node>
+      <Node scaleLevelValue =    "10000"> 0.60 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "40000"> 0.40 </Node>
+      <Node scaleLevelValue =    "50000"> 0.40 </Node>
+      <Node scaleLevelValue =   "400000"> 0.25 </Node>
+      <Node scaleLevelValue =   "500000"> 0.24 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="104" interpolation="linear" desc="Motorway roads street thickness">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =     "5000"> 0.90 </Node>
+      <Node scaleLevelValue =     "7500"> 0.75 </Node>
+      <Node scaleLevelValue =    "10000"> 0.65 </Node>
+      <Node scaleLevelValue =    "20000"> 0.55 </Node>
+      <Node scaleLevelValue =    "40000"> 0.45 </Node>
+      <Node scaleLevelValue =    "50000"> 0.45 </Node>
+      <Node scaleLevelValue =   "400000"> 0.28 </Node>
+      <Node scaleLevelValue =   "500000"> 0.26 </Node>
+      <Node scaleLevelValue = "10000000"> 0.24 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="105" interpolation="linear" desc="Highway roads street thickness">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =     "5000"> 0.90 </Node>
+      <Node scaleLevelValue =     "7500"> 0.60 </Node>
+      <Node scaleLevelValue =    "10000"> 0.50 </Node>
+      <Node scaleLevelValue =    "20000"> 0.55 </Node>
+      <Node scaleLevelValue =    "40000"> 0.45 </Node>
+      <Node scaleLevelValue =    "50000"> 0.45 </Node>
+      <Node scaleLevelValue =   "400000"> 0.28 </Node>
+      <Node scaleLevelValue =   "500000"> 0.26 </Node>
+      <Node scaleLevelValue = "10000000"> 0.24 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="133" interpolation="linear" desc="road test">
+      <Node scaleLevelValue =     "2000"> 0.64 </Node>
+      <Node scaleLevelValue =     "3000"> 0.64 </Node>
+      <Node scaleLevelValue =     "7500"> 0.33 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "50000"> 0.30 </Node>
+      <Node scaleLevelValue = "60000000"> 0.05 </Node>
+   </ScaleLevelFunction>
+
+   <ScaleLevelFunction id="150" interpolation="linear" desc="Border">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "50000"> 0.30 </Node>
+      <Node scaleLevelValue = "60000000"> 0.20 </Node>
+   </ScaleLevelFunction>
+   
+   <ScaleLevelFunction id="151" interpolation="linear" desc="Water">
+      <Node scaleLevelValue =     "3000"> 1.00 </Node>
+      <Node scaleLevelValue =    "20000"> 0.50 </Node>
+      <Node scaleLevelValue =    "50000"> 0.30 </Node>
+      <Node scaleLevelValue = "60000000"> 0.20 </Node>
+   </ScaleLevelFunction>  
+   
+</ScaleLevelFunctionConfiguration>
+

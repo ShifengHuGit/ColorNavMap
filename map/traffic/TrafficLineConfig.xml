@@ -1,0 +1,273 @@
+<TrafficLineConfig version="1" >
+
+   <!--
+        Typically you will find the TrafficLineStyle (0) on the TMC events.
+        The currently configured semantice will leave the red background of the red-black-centipede pattern on the lowest
+        layer. Then the speed and flow layers will be rendered. On top of all the black stripes of the red-black-centipede
+        appear.
+
+        id 0 - incident              - black slash       - 20
+        id 5 - speed&flow (los 5,6)  - red unifill       - 19
+        id 4 - speed&flow (los 4)    - orange unifill    - 18
+        id 3 - speed&flow (los 2,3)  - yellow unifill    - 17
+        id 2 - speed&flow (los 1)    - green unifill     - 16
+        id 1 - speed&flow (unused)   - grey unifill      - 15
+        id 0 - incident              - red unifill       - 10
+
+        Sooner or later these semantics will not be hard coded but configurable through the TrafficLineMapping.xml
+   -->
+
+
+
+   <TrafficLineStyle id="0"> <!-- red-back centipede / incidents-->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#CD0F0FCC</Color>
+               <Color mode="night">#CD0F0FCC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>10</Priority>
+            </LayerPattern>
+
+            <!-- <LayerPattern layer="1" type="slashed">-->
+               <!-- slashed pattern -->
+               <!--<Color mode="day"  >#00000000</Color>
+               <Color mode="night">#00000000</Color>
+               <AlternateColor mode="day"  >#1F1F1FE5</AlternateColor>
+               <AlternateColor mode="night">#1F1F1FE5</AlternateColor>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Density>0.1</Density>
+               <Aspect>2.0</Aspect>
+               <SlashAngle>-1.0</SlashAngle>
+               <Priority>21</Priority>
+            </LayerPattern> -->
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > true  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > false </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> false </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+   
+   <TrafficLineStyle id="33"> <!-- Black-grey centipede / incidents-->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#7A7A7ACC</Color>
+               <Color mode="night">#7A7A7ACC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>9</Priority>
+            </LayerPattern>
+
+            <!--<LayerPattern layer="1" type="slashed">-->
+               <!-- slashed pattern -->
+               <!--<Color mode="day"  >#00000000</Color>
+               <Color mode="night">#00000000</Color>
+               <AlternateColor mode="day"  >#1F1F1FE5</AlternateColor>
+               <AlternateColor mode="night">#1F1F1FE5</AlternateColor>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Density>0.1</Density>
+               <Aspect>2.0</Aspect>
+               <SlashAngle>-1.0</SlashAngle>
+               <Priority>20</Priority>
+            </LayerPattern>-->
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > true  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > false </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> false </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+
+   <TrafficLineStyle id="1">   <!-- speed and flow, with Level Of Service 0 -> grey -->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#7A7A7AAF</Color>
+               <Color mode="night">#7A7A7AAF</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>15</Priority>
+            </LayerPattern>
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > false  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > true </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> false </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+
+   <TrafficLineStyle id="2"> <!-- speed and flow, with Level Of Service 1 -> green -->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#14A600CC</Color>
+               <Color mode="night">#468C46CC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>16</Priority>
+            </LayerPattern>
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > false  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > true </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> false </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+
+   <TrafficLineStyle id="3"> <!-- yellow -->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#FFE032CC</Color>
+               <Color mode="night">#C3B301CC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>17</Priority>
+            </LayerPattern>
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > false  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > false </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> true </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+
+   <TrafficLineStyle id="4"> <!-- orange -->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+
+         <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#FC8E02CC</Color>
+               <Color mode="night">#F18800CC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>18</Priority>
+            </LayerPattern>
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > false  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > false </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> true </ReactOnEventVisibilityOption>
+
+   </TrafficLineStyle>
+
+   <TrafficLineStyle id="5"> <!-- red -->
+
+      <LineStyle type="normal">
+         <ScaleLevelVisibility>
+            <ScaleLevelValue type="min">         0</ScaleLevelValue>
+            <ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+            <ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+         </ScaleLevelVisibility>
+
+         <LayerSet>
+
+            <LayerPattern layer="0" type="uni-fill">
+               <!-- background -->
+               <Color mode="day"  >#CD0F0FCC</Color>
+               <Color mode="night">#CD0F0FCC</Color>
+               <Thickness func="0" unit="px">2.3</Thickness>
+               <Priority>19</Priority>
+            </LayerPattern>
+
+         </LayerSet>
+      </LineStyle>
+
+      <!-- below_road;above_road-->
+      <DrawingLevel>below_road</DrawingLevel>
+      <!-- absolute; relative_to_roadstyle_layer_0; relative_to_roadstyle_layer_1 -->
+      <LineWidthRelation>relative_to_roadstyle_layer_1</LineWidthRelation>
+
+      <ReactOnEventVisibilityOption type="incident"       > false  </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="free_flow"      > false </ReactOnEventVisibilityOption>
+      <ReactOnEventVisibilityOption type="congestion_flow"> true </ReactOnEventVisibilityOption>
+   </TrafficLineStyle>
+ </TrafficLineConfig>

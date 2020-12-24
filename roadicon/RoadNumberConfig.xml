@@ -1,0 +1,1340 @@
+<?xml version="1.0"?>
+<RoadNumberConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="21">
+  <Country desc="CHN" isocode="CHN">
+    <RoadNumberType desc="G" prefixid="149">
+      <Priority>1</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>90</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="S" prefixid="151">
+      <Priority>2</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>90</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="" prefixid="147">
+      <Priority>3</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>90</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="G|Warning double!!!" prefixid="150">
+      <Priority>5</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>91</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="S|Warning double!!!" prefixid="152">
+      <Priority>6</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>92</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="S|Warning double!!!" prefixid="1647">
+      <Priority>7</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>92</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="SL|Warning double!!!" prefixid="1648">
+      <Priority>8</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>92</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="ST|Warning double!!!" prefixid="1649">
+      <Priority>9</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>92</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="X" prefixid="153">
+      <Priority>10</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XA" prefixid="154">
+      <Priority>11</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XB" prefixid="155">
+      <Priority>12</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XC" prefixid="156">
+      <Priority>13</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XD" prefixid="157">
+      <Priority>14</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XE" prefixid="158">
+      <Priority>15</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XF" prefixid="159">
+      <Priority>16</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XFG" prefixid="160">
+      <Priority>17</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XG" prefixid="161">
+      <Priority>18</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XH" prefixid="162">
+      <Priority>19</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XJ" prefixid="163">
+      <Priority>20</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XJA" prefixid="164">
+      <Priority>21</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XK" prefixid="165">
+      <Priority>22</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XL" prefixid="166">
+      <Priority>23</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XM" prefixid="167">
+      <Priority>24</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XN" prefixid="168">
+      <Priority>25</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XO" prefixid="169">
+      <Priority>26</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XQ" prefixid="170">
+      <Priority>27</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XQG" prefixid="171">
+      <Priority>28</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XR" prefixid="172">
+      <Priority>29</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XS" prefixid="173">
+      <Priority>30</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XT" prefixid="174">
+      <Priority>31</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XU" prefixid="175">
+      <Priority>32</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XV" prefixid="176">
+      <Priority>33</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XW" prefixid="177">
+      <Priority>34</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XX" prefixid="178">
+      <Priority>35</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XY" prefixid="179">
+      <Priority>36</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="XZ" prefixid="180">
+      <Priority>37</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xa" prefixid="181">
+      <Priority>38</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xb" prefixid="182">
+      <Priority>39</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xc" prefixid="183">
+      <Priority>40</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xd" prefixid="184">
+      <Priority>41</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xe" prefixid="185">
+      <Priority>42</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xf" prefixid="186">
+      <Priority>43</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xfg" prefixid="187">
+      <Priority>44</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xg" prefixid="188">
+      <Priority>45</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xh" prefixid="189">
+      <Priority>46</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xj" prefixid="190">
+      <Priority>47</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xja" prefixid="191">
+      <Priority>48</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xk" prefixid="192">
+      <Priority>49</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xl" prefixid="193">
+      <Priority>50</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xm" prefixid="194">
+      <Priority>51</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xn" prefixid="195">
+      <Priority>52</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xo" prefixid="196">
+      <Priority>53</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xq" prefixid="197">
+      <Priority>54</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xqg" prefixid="198">
+      <Priority>55</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xr" prefixid="199">
+      <Priority>56</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xs" prefixid="200">
+      <Priority>57</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xt" prefixid="201">
+      <Priority>58</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xu" prefixid="202">
+      <Priority>59</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xv" prefixid="203">
+      <Priority>60</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xw" prefixid="204">
+      <Priority>61</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xx" prefixid="205">
+      <Priority>62</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xy" prefixid="206">
+      <Priority>63</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Xz" prefixid="207">
+      <Priority>64</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>93</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Y" prefixid="208">
+      <Priority>65</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YA" prefixid="209">
+      <Priority>66</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YAE" prefixid="210">
+      <Priority>67</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YAJ" prefixid="211">
+      <Priority>68</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YB" prefixid="212">
+      <Priority>69</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YC" prefixid="213">
+      <Priority>70</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YD" prefixid="214">
+      <Priority>71</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YE" prefixid="215">
+      <Priority>72</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YF" prefixid="216">
+      <Priority>73</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YG" prefixid="217">
+      <Priority>74</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YGV" prefixid="218">
+      <Priority>75</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YGW" prefixid="219">
+      <Priority>76</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YGX" prefixid="220">
+      <Priority>77</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YH" prefixid="221">
+      <Priority>78</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YJ" prefixid="222">
+      <Priority>79</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YK" prefixid="223">
+      <Priority>80</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YLC" prefixid="224">
+      <Priority>81</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YM" prefixid="225">
+      <Priority>82</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YMA" prefixid="226">
+      <Priority>83</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YN" prefixid="227">
+      <Priority>84</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YO" prefixid="228">
+      <Priority>85</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YV" prefixid="229">
+      <Priority>86</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YZ" prefixid="230">
+      <Priority>87</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ya" prefixid="231">
+      <Priority>88</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yae" prefixid="232">
+      <Priority>89</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yaj" prefixid="233">
+      <Priority>90</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yb" prefixid="234">
+      <Priority>91</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yc" prefixid="235">
+      <Priority>92</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yd" prefixid="236">
+      <Priority>93</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ye" prefixid="237">
+      <Priority>94</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yf" prefixid="238">
+      <Priority>95</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yg" prefixid="239">
+      <Priority>96</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ygv" prefixid="240">
+      <Priority>97</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ygw" prefixid="241">
+      <Priority>98</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ygx" prefixid="242">
+      <Priority>99</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yh" prefixid="243">
+      <Priority>100</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yj" prefixid="244">
+      <Priority>101</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yk" prefixid="245">
+      <Priority>102</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ylc" prefixid="246">
+      <Priority>103</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Ym" prefixid="247">
+      <Priority>104</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yma" prefixid="248">
+      <Priority>105</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yn" prefixid="249">
+      <Priority>106</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yo" prefixid="250">
+      <Priority>107</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yv" prefixid="251">
+      <Priority>108</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Yz" prefixid="252">
+      <Priority>109</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="|Warning double!!!" prefixid="148">
+      <Priority>110</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="YI|Warning double!!!" prefixid="1650">
+      <Priority>111</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Z|Warning double!!!" prefixid="1651">
+      <Priority>112</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Z|Warning double!!!" prefixid="1652">
+      <Priority>113</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="ZG|Warning double!!!" prefixid="1653">
+      <Priority>114</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="S|Warning double!!!" prefixid="1850">
+      <Priority>4</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId>180</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Z|Warning double!!!" prefixid="1851">
+      <Priority>115</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="Z|Warning double!!!" prefixid="1852">
+      <Priority>116</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="ZG|Warning double!!!" prefixid="1853">
+      <Priority>117</Priority>
+      <PrefixProperties>
+        <AcusticOutput>true</AcusticOutput>
+        <IconOutput>true</IconOutput>
+        <TextOutput>true</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+  </Country>
+  <Country desc="HKG" isocode="HKG">
+    <RoadNumberType desc="'' (Highway)" prefixid="423">
+      <Priority>1</Priority>
+      <PrefixProperties>
+        <AcusticOutput>false</AcusticOutput>
+        <IconOutput>false</IconOutput>
+        <TextOutput>false</TextOutput>
+      </PrefixProperties>
+      <IconRefId>181</IconRefId>
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="'ROUTE ' (Signpost)" prefixid="425">
+      <Priority>2</Priority>
+      <PrefixProperties>
+        <AcusticOutput>false</AcusticOutput>
+        <IconOutput>false</IconOutput>
+        <TextOutput>false</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+    <RoadNumberType desc="'ROUTE' (Signpost)" prefixid="424">
+      <Priority>3</Priority>
+      <PrefixProperties>
+        <AcusticOutput>false</AcusticOutput>
+        <IconOutput>false</IconOutput>
+        <TextOutput>false</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+  </Country>
+  <Country desc="MAC" isocode="MAC">
+    <RoadNumberType desc="'' (Signpost)" prefixid="587">
+      <Priority>1000</Priority>
+      <PrefixProperties>
+        <AcusticOutput>false</AcusticOutput>
+        <IconOutput>false</IconOutput>
+        <TextOutput>false</TextOutput>
+      </PrefixProperties>
+      <IconRefId />
+      <ExitIconRefId />
+      <PreferNumbersOfExits>false</PreferNumbersOfExits>
+    </RoadNumberType>
+  </Country>
+</RoadNumberConfiguration>

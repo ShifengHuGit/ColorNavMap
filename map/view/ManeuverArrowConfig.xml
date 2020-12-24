@@ -1,0 +1,26 @@
+<ManeuverArrowConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1">
+   <!--
+       Description:
+          Settings for the maneuver arrow.
+
+          <Arrow>
+             Configures size of the arrow relative to the road.
+
+          <ArrowHead>
+             Configures size of the arrow head relative to the arrow.
+
+          <Shadow>
+             Configures size of the shadow relative to the arrow.
+   -->
+
+  <Arrow>
+      <Scale x="1.0" y="1.0"/>
+  </Arrow>
+  <ArrowHead>
+      <Scale x="1.0" y="2.0"/>
+  </ArrowHead>
+  <Shadow>
+      <Scale x="1.0" y="1.1"/>
+  </Shadow>
+
+</ManeuverArrowConfig>

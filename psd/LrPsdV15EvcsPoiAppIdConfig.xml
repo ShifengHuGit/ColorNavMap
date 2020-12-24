@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- appIds of Electric Charging Station Pois -->
+<!-- appIds as in default_new/nav/poi/PoiConfig.xml -->
+<!-- desc strings are not used -->
+<psd_evcs_poi_app_id>
+   <app_id desc="!Charging Stations">134</app_id>
+   <!-- <app_id desc="!Charging Stations, fast">132</app_id> -->
+</psd_evcs_poi_app_id>
